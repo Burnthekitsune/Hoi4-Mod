@@ -1,0 +1,24 @@
+state = {
+	id = 803
+	name = "STATE_803"
+	manpower = 48882
+
+	state_category = rural
+
+	history = {
+		owner = NVJ
+		victory_points = {
+			3834 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = NVJ
+	}
+
+	provinces = {
+		853 3834 8115 10783 
+	}
+}

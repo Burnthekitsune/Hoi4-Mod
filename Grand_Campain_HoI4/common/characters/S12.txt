@@ -1,0 +1,134 @@
+characters = {
+	S12_83887267 = {
+		name = Pitseolak_Tullaugaq
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	S12_50331678 = {
+		name = Steve_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_50331678
+			cost = 150
+		}
+	}
+	S12_50334131 = {
+		name = David_Enuaraq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334131
+			cost = 150
+		}
+	}
+	S12_67109681 = {
+		name = David_Paniloo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67109681
+			cost = 150
+		}
+	}
+	S12_83888058 = {
+		name = Pitseolak_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83888058
+			cost = 150
+		}
+	}
+	S12_83889506 = {
+		name = Jose_2_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83889506
+			cost = 150
+		}
+	}
+	S12_83890737 = {
+		name = Markoosie_Enuaraq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_83890737
+			cost = 150
+		}
+	}
+	S12_100664268 = {
+		name = Jose_2_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	S12_100664989 = {
+		name = Titus_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_100664989
+			cost = 150
+		}
+	}
+	S12_167773548 = {
+		name = Simeonie_Kusugak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_167773548
+			cost = 150
+		}
+	}
+}

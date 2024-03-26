@@ -1,0 +1,494 @@
+characters = {
+	V27_1010 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	V27_33554952 = {
+		name = Shukri_ibn_Abd_Allah
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		field_marshal = {
+			traits = { career_officer engineer_officer guerilla_fighter naval_invader trickster war_hero }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 3
+		}
+	}
+	V27_33556997 = {
+		name = Ishaq_Benaissa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_33556997
+			cost = 150
+		}
+	}
+	V27_50331664 = {
+		name = Yahya_ibn_Ahmad
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { brilliant_strategist engineer_officer naval_invader organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	V27_50332100 = {
+		name = Fawzi_ibn_Mustafa
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer organizer trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	V27_50332571 = {
+		name = Khalid_Djellouli
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_2
+				small = GFX_Portrait_Arabia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	V27_67109349 = {
+		name = Iskandar_ibn_Abd_Allah
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert bold chief_engineer media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	V27_67109510 = {
+		name = Abd_al-Karim_ben_Gana
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader infantry_officer old_guard }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	V27_67110601 = {
+		name = Abd_al-Qadir_al-Miknasi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer engineer_officer naval_invader ranger }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	V27_67111722 = {
+		name = Mahmud_ibm_Kamil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67111722
+			cost = 150
+		}
+	}
+	V27_83886104 = {
+		name = Abd_Allah_al-Fasi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_83886104
+			cost = 150
+		}
+	}
+	V27_83886367 = {
+		name = Iskandar_al-Alawi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		field_marshal = {
+			traits = { desert_fox naval_invader politically_connected trait_reckless }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+	V27_83887302 = {
+		name = Fuad_ibn_Abd_Allah
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer desert_fox engineer_officer guerilla_fighter naval_invader trickster }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 3
+		}
+	}
+	V27_83890825 = {
+		name = Jamal_ibn_Uthman
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer cavalry_officer naval_invader organizer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	V27_83891754 = {
+		name = Ishaq_al-Qabisi
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_1
+				small = GFX_Portrait_Arabia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert caustic_personality old_guard_navy seawolf }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	V27_83892149 = {
+		name = Ibrahim_al-Tilimsani
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer engineer_officer old_guard trait_cautious }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	V27_83892413 = {
+		name = Abd_al-Karim_al-Wahrani
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer naval_invader old_guard organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	V27_100663374 = {
+		name = Uthman_El_Djezairi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer naval_invader trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	V27_100663635 = {
+		name = Sa_d_al-Din_El_Djezairi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist naval_invader organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	V27_100664067 = {
+		name = Ibrahim_Djellouli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_100664067
+			cost = 150
+		}
+	}
+	V27_100664312 = {
+		name = Fuad_ibn_Ahmad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100664312
+			cost = 150
+		}
+	}
+	V27_100668602 = {
+		name = Fuad_al-Tatwani
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer old_guard organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	V27_117440938 = {
+		name = Hasan_al-Araishi
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_2
+				small = GFX_Portrait_Arabia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality old_guard_navy seawolf }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	V27_117441550 = {
+		name = Abd_al-Karim_ibm_Kamil
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert bold media_personality }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	V27_117446723 = {
+		name = Zafir_El_Djezairi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist naval_invader old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	V27_134218077 = {
+		name = Salim_al-Alawi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard ranger trait_reckless }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	V27_134218141 = {
+		name = Mahmud_ben_Gana
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_134218141
+			cost = 150
+		}
+	}
+	V27_134219273 = {
+		name = Hasan_Benaissa
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox naval_invader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	V27_167772886 = {
+		name = Zafir_Benaissa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_167772886
+			cost = 150
+		}
+	}
+	V27_167774883 = {
+		name = Nur_al-Din_al-Asfawi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer engineer_officer fortress_buster inflexible_strategist organizer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_167774883
+			cost = 150
+		}
+	}
+}

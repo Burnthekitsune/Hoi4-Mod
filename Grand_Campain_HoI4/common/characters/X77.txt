@@ -1,0 +1,178 @@
+characters = {
+	X77_1021 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	X77_33557953 = {
+		name = eu4_Ismail_eu4_Elfael
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer inflexible_strategist naval_invader organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	X77_50336510 = {
+		name = Bong-haek_Si
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_50336510
+			cost = 150
+		}
+	}
+	X77_67109504 = {
+		name = Bak_Moon
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert cuts_corners old_guard_navy }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	X77_67110204 = {
+		name = Gu_Hu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { naval_invader old_guard ranger }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	X77_67113486 = {
+		name = eu4_Gamila_eu4_Ari
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67113486
+			cost = 150
+		}
+	}
+	X77_83889197 = {
+		name = Ok_Han
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83889197
+			cost = 150
+		}
+	}
+	X77_83890287 = {
+		name = Heong-gyo_Yong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_83890287
+			cost = 150
+		}
+	}
+	X77_100663484 = {
+		name = eu4_Musa_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100663484
+			cost = 150
+		}
+	}
+	X77_100664688 = {
+		name = Yi_Mok
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100664688
+			cost = 150
+		}
+	}
+	X77_134219219 = {
+		name = eu4_Ayyub_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134219219
+			cost = 150
+		}
+	}
+	X77_184549525 = {
+		name = Gu_Namgung
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_184549525
+			cost = 150
+		}
+	}
+}

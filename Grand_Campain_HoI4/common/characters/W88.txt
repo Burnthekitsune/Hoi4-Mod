@@ -1,0 +1,188 @@
+characters = {
+	W88_1011 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	W88_50332747 = {
+		name = eu4_Mubashir_eu4_Hammelburg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50332747
+			cost = 150
+		}
+	}
+	W88_67113499 = {
+		name = eu4_Khaliq_eu4_Ari
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert gentlemanly old_guard_navy }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	W88_83887710 = {
+		name = eu4_Fath_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_83887710
+			cost = 150
+		}
+	}
+	W88_83888439 = {
+		name = eu4_Moses_eu4_Ari
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer guerilla_fighter harsh_leader organizer trait_mountaineer trickster }
+			skill = 4
+			attack_skill = 1
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { fortification_engineer }
+			slot = political_advisor
+			idea_token = i_83888439
+			cost = 150
+		}
+	}
+	W88_83891101 = {
+		name = eu4_Abbad_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83891101
+			cost = 150
+		}
+	}
+	W88_83892105 = {
+		name = eu4_Utman_eu4_Hammelburg
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer engineer_officer guerilla_fighter inflexible_strategist organizer trickster }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	W88_117440808 = {
+		name = eu4_Fath_eu4_Haesteining
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	W88_117446368 = {
+		name = eu4_Malik_eu4_Haesteining
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_117446368
+			cost = 150
+		}
+	}
+	W88_134217886 = {
+		name = eu4_Joseph_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_134217886
+			cost = 150
+		}
+	}
+	W88_134218987 = {
+		name = eu4_al-Karim_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_134218987
+			cost = 150
+		}
+	}
+	W88_150996571 = {
+		name = eu4_Abdul-Razzaq_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_150996571
+			cost = 150
+		}
+	}
+}

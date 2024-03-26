@@ -1,0 +1,168 @@
+characters = {
+	V21_67109863 = {
+		name = Ferencz_Unruochinger-Tolna
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	V21_50332291 = {
+		name = el_Harrys_dyn_el_Zomopoulos
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage seawolf }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { submarine_specialist }
+			slot = political_advisor
+			idea_token = i_50332291
+			cost = 150
+		}
+	}
+	V21_50333181 = {
+		name = el_Zaharias_dyn_el_Katsantonis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_50333181
+			cost = 150
+		}
+	}
+	V21_50333467 = {
+		name = el_Markos_dyn_el_Grammatakakis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50333467
+			cost = 150
+		}
+	}
+	V21_50336752 = {
+		name = el_Vardis_dyn_el_Ypsilantis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50336752
+			cost = 150
+		}
+	}
+	V21_83887439 = {
+		name = el_Iason_dyn_el_Gavril
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83887439
+			cost = 150
+		}
+	}
+	V21_83888693 = {
+		name = el_Constantinos_dyn_el_Yanakakis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_83888693
+			cost = 150
+		}
+	}
+	V21_83892009 = {
+		name = el_Efthimios_dyn_el_Cantakis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_83892009
+			cost = 150
+		}
+	}
+	V21_100667971 = {
+		name = el_Carolos_dyn_el_Andreoulakis
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer naval_invader trait_mountaineer trickster }
+			skill = 4
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	V21_100669471 = {
+		name = David_2_Unruochinger-Tolna
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100669471
+			cost = 150
+		}
+	}
+	V21_117442464 = {
+		name = el_Leonidas_dyn_el_Stylianopoulos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_117442464
+			cost = 150
+		}
+	}
+}

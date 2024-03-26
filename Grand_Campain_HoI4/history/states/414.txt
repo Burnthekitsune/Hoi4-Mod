@@ -1,0 +1,25 @@
+state = {
+	id = 414
+	name = "STATE_414"
+	manpower = 824720
+	resources = {
+		aluminium = 0
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = HNA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = HNA
+	}
+
+	provinces = {
+		4130 
+	}
+}

@@ -1,0 +1,152 @@
+characters = {
+	X69_83886978 = {
+		name = Al-Mukammal_Bendahara
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	X69_16783198 = {
+		name = Shahabuddin_Jambi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16783198
+			cost = 150
+		}
+	}
+	X69_50335155 = {
+		name = Muhammad_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_50335155
+			cost = 150
+		}
+	}
+	X69_67109875 = {
+		name = Safiuddin_Murshidul
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67109875
+			cost = 150
+		}
+	}
+	X69_67110735 = {
+		name = Jaafar_Jambi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67110735
+			cost = 150
+		}
+	}
+	X69_67111016 = {
+		name = Zaharah_Jamalullail
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67111016
+			cost = 150
+		}
+	}
+	X69_67111685 = {
+		name = Idris_Bendahara
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando infantry_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67111685
+			cost = 150
+		}
+	}
+	X69_100665082 = {
+		name = Ali_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_100665082
+			cost = 150
+		}
+	}
+	X69_134220830 = {
+		name = Safiuddin_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_134220830
+			cost = 150
+		}
+	}
+	X69_134223585 = {
+		name = Isandar_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_134223585
+			cost = 150
+		}
+	}
+}

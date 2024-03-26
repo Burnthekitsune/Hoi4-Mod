@@ -1,0 +1,32 @@
+state = {
+	id = 60
+	name = "STATE_60"
+	manpower = 4299594
+	resources = {
+		tungsten = 11
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = W93
+		victory_points = {
+			12589 6
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 3
+			12547 = {
+				naval_base = 3
+			}
+			air_base = 3
+		}
+		add_core_of = W93
+	}
+
+	provinces = {
+		4528 10415 10442 12547 12589 
+	}
+}

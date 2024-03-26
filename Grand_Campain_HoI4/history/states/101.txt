@@ -1,0 +1,32 @@
+state = {
+	id = 101
+	name = "STATE_101"
+	manpower = 5265731
+	resources = {
+		oil = 23
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = V27
+		victory_points = {
+			1149 6
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			1149 = {
+				naval_base = 10
+			}
+			air_base = 4
+		}
+		add_core_of = V27
+	}
+
+	provinces = {
+		1041 1062 1118 1127 1149 1174 1186 1189 1198 4047 4051 4057 4060 4117 4120 4133 4176 4194 4200 7063 7066 7076 7136 7154 7194 7206 8069 9977 10037 10046 10067 10117 11940 12009 12039 12079 12088 13073 13078 
+	}
+}

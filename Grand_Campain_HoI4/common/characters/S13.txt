@@ -1,0 +1,140 @@
+characters = {
+	S13_16777819 = {
+		name = Kenojuak_Atagotaaluk
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_9
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	S13_50334062 = {
+		name = Steve_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_50334062
+			cost = 150
+		}
+	}
+	S13_50337810 = {
+		name = Naalak_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50337810
+			cost = 150
+		}
+	}
+	S13_67113291 = {
+		name = Jack_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67113291
+			cost = 150
+		}
+	}
+	S13_83886395 = {
+		name = James_Pudluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886395
+			cost = 150
+		}
+	}
+	S13_83887115 = {
+		name = Peter_Maksagak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83887115
+			cost = 150
+		}
+	}
+	S13_83888015 = {
+		name = Kenojuak_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83888015
+			cost = 150
+		}
+	}
+	S13_83891042 = {
+		name = Steve_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83891042
+			cost = 150
+		}
+	}
+	S13_117443760 = {
+		name = Steve_Piugattuk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_117443760
+			cost = 150
+		}
+	}
+	S13_150999956 = {
+		name = Kenojuak_Quissa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_150999956
+			cost = 150
+		}
+	}
+}

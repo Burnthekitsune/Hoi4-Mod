@@ -1,0 +1,23 @@
+state = {
+	id = 377
+	name = "STATE_377"
+	manpower = 2011208
+
+	state_category = town
+
+	history = {
+		owner = UPU
+		victory_points = {
+			3544 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		524 3544 6567 9290 9316 11274 11329 11385 12562 
+	}
+}

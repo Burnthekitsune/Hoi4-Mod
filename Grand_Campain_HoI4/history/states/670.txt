@@ -1,0 +1,25 @@
+state = {
+	id = 670
+	name = "STATE_670"
+	manpower = 1733405
+
+	state_category = rural
+
+	history = {
+		owner = LAT
+		victory_points = {
+			9340 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = LAT
+	}
+
+	provinces = {
+		222 265 310 319 341 3194 3255 3296 3298 3319 3388 3525 6222 6322 6342 6459 7482 9240 9262 9275 9317 9340 9501 10323 10493 11222 11246 11302 
+	}
+}

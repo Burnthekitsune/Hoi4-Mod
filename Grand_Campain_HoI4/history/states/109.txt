@@ -1,0 +1,25 @@
+state = {
+	id = 109
+	name = "STATE_109"
+	manpower = 4802546
+
+	state_category = megalopolis
+
+	history = {
+		owner = W40
+		victory_points = {
+			121 6
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 4
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		2 62 121 129 231 252 2996 3175 3220 3323 6056 6097 6101 6143 6167 6245 9046 9102 9122 9131 9144 9188 9256 11039 11099 11107 11143 11166 11189 11205 11213 
+	}
+}

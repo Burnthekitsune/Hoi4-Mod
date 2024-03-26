@@ -1,0 +1,28 @@
+state = {
+	id = 409
+	name = "STATE_409"
+	manpower = 20570266
+	resources = {
+		tungsten = 0
+	}
+
+	state_category = town
+
+	history = {
+		owner = YUE
+		victory_points = {
+			7137 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = YUE
+	}
+
+	provinces = {
+		1023 1469 1597 1625 4028 4077 4085 4121 4125 4134 4152 4177 4628 4656 7044 7095 7128 7137 7159 7168 7192 7210 7502 7650 9982 10039 10050 10121 10404 10431 10459 11918 11983 12023 12350 12378 12407 12436 
+	}
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 601
+	name = "STATE_601"
+	manpower = 2231920
+	resources = {
+		oil = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = BRA
+		victory_points = {
+			12306 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		2169 2199 5173 8161 8176 8192 10953 10981 11005 12306 12349 12946 12952 12982 13296 13305 13306 13307 
+	}
+}

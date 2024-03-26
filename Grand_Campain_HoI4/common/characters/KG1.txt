@@ -1,0 +1,140 @@
+characters = {
+	KG1_33556214 = {
+		name = Germaine_Tullaugaq
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_7
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	KG1_67111547 = {
+		name = Jack_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67111547
+			cost = 150
+		}
+	}
+	KG1_83886426 = {
+		name = Titus_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886426
+			cost = 150
+		}
+	}
+	KG1_83887417 = {
+		name = Jose_2_Ungallaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83887417
+			cost = 150
+		}
+	}
+	KG1_83891305 = {
+		name = Ernie_Paniloo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83891305
+			cost = 150
+		}
+	}
+	KG1_100664992 = {
+		name = Pitseolak_Ungallaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_100664992
+			cost = 150
+		}
+	}
+	KG1_117441181 = {
+		name = Naalak_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_117441181
+			cost = 150
+		}
+	}
+	KG1_134218038 = {
+		name = James_Ungallaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_134218038
+			cost = 150
+		}
+	}
+	KG1_134219984 = {
+		name = Germaine_Ipeelee
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_134219984
+			cost = 150
+		}
+	}
+	KG1_134221312 = {
+		name = Peter_Ungallaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134221312
+			cost = 150
+		}
+	}
+}

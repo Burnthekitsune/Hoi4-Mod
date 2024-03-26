@@ -1,0 +1,25 @@
+state = {
+	id = 233
+	name = "STATE_233"
+	manpower = 2250631
+
+	state_category = city
+
+	history = {
+		owner = PER
+		victory_points = {
+			12717 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		1978 4558 4998 12717 12763 
+	}
+}

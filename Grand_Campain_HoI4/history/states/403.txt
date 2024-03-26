@@ -1,0 +1,21 @@
+state = {
+	id = 403
+	name = "STATE_403"
+	manpower = 1213049
+
+	state_category = town
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		1576 
+	}
+}

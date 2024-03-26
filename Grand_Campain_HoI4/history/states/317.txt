@@ -1,0 +1,28 @@
+state = {
+	id = 317
+	name = "STATE_317"
+	manpower = 2316770
+
+	state_category = town
+
+	history = {
+		owner = W40
+		victory_points = {
+			4728 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			10540 = {
+				naval_base = 3
+			}
+			air_base = 1
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		1823 1839 1863 4728 7878 10540 12207 12522 
+	}
+}

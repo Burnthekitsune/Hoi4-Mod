@@ -1,0 +1,168 @@
+characters = {
+	X72_50337573 = {
+		name = el_Iakovos_Philokales
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	X72_50332296 = {
+		name = Filippo_Solaro_della_Margarita
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50332296
+			cost = 150
+		}
+	}
+	X72_50332790 = {
+		name = Roberto_Solari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_50332790
+			cost = 150
+		}
+	}
+	X72_67108973 = {
+		name = Marco_Mossi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67108973
+			cost = 150
+		}
+	}
+	X72_67109170 = {
+		name = Fiorenzo_Santa_Croce_Villahermosa
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_4
+				small = GFX_Portrait_Italy_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	X72_67114502 = {
+		name = Giacomo_Cialdini
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_2
+				small = GFX_Portrait_Italy_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	X72_83888299 = {
+		name = Antonio_Gerbore
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83888299
+			cost = 150
+		}
+	}
+	X72_83889602 = {
+		name = Felice_Pacoret_de_Saint_Bon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83889602
+			cost = 150
+		}
+	}
+	X72_83891343 = {
+		name = el_Evangelos_Philokales
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	X72_100663665 = {
+		name = Fiorenzo_Tegas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100663665
+			cost = 150
+		}
+	}
+	X72_134219891 = {
+		name = Angelo_Moffa_di_Lisio_Gribaldi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_134219891
+			cost = 150
+		}
+	}
+	X72_167772260 = {
+		name = Ferdinando_Buraggi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_167772260
+			cost = 150
+		}
+	}
+}

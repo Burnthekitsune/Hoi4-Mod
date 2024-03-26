@@ -1,0 +1,33 @@
+state = {
+	id = 215
+	name = "STATE_215"
+	manpower = 3726297
+	resources = {
+		chromium = 20
+		tungsten = 2
+	}
+
+	state_category = city
+
+	history = {
+		owner = X10
+		victory_points = {
+			9764 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			6812 = {
+				naval_base = 10
+			}
+			air_base = 2
+		}
+		add_core_of = X10
+	}
+
+	provinces = {
+		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 
+	}
+}

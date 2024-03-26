@@ -1,0 +1,129 @@
+characters = {
+	SRB_167773186 = {
+		name = cs_Antonin_dyn_cs_Divis
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_5
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	SRB_83886254 = {
+		name = Korla_Sturm
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886254
+			cost = 150
+		}
+	}
+	SRB_83890864 = {
+		name = Awgust_z_Barenstamma
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer commando old_guard trait_cautious }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	SRB_100663364 = {
+		name = Bogumil_Witkojc
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100663364
+			cost = 150
+		}
+	}
+	SRB_100664588 = {
+		name = cs_Albert_dyn_cs_Kopecky
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100664588
+			cost = 150
+		}
+	}
+	SRB_100664970 = {
+		name = cs_Petr_dyn_cs_Stanek
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_100664970
+			cost = 150
+		}
+	}
+	SRB_100665912 = {
+		name = cs_Hubert_dyn_cs_Slotnick
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100665912
+			cost = 150
+		}
+	}
+	SRB_117441448 = {
+		name = Matej_Krawc
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117441448
+			cost = 150
+		}
+	}
+	SRB_117442437 = {
+		name = Matej_Bart-Cisinski
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_117442437
+			cost = 150
+		}
+	}
+}

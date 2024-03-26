@@ -1,0 +1,160 @@
+characters = {
+	X44_1055 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	X44_67110049 = {
+		name = ne_Ganesh_dyn_ne_Khanal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67110049
+			cost = 150
+		}
+	}
+	X44_67110069 = {
+		name = ne_Deepson_dyn_ne_Rosyara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_67110069
+			cost = 150
+		}
+	}
+	X44_67110089 = {
+		name = ne_Puru_dyn_ne_Bakhrel
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist naval_invader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	X44_67110613 = {
+		name = ne_Bappa_dyn_ne_Tamang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67110613
+			cost = 150
+		}
+	}
+	X44_67111141 = {
+		name = ne_Girish_dyn_ne_Siwakoti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67111141
+			cost = 150
+		}
+	}
+	X44_100664491 = {
+		name = ne_Maansa_dyn_ne_Katuwal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100664491
+			cost = 150
+		}
+	}
+	X44_100664520 = {
+		name = ne_Kamal_dyn_ne_Niraula
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100664520
+			cost = 150
+		}
+	}
+	X44_134218918 = {
+		name = ne_Jeevan_dyn_ne_Sthapit
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_134218918
+			cost = 150
+		}
+	}
+	X44_134218946 = {
+		name = ne_Meera_dyn_ne_Mainali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_134218946
+			cost = 150
+		}
+	}
+	X44_134218979 = {
+		name = ne_Sabir_dyn_ne_Pun
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+}

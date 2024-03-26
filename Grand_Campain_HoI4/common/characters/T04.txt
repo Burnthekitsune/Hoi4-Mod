@@ -1,0 +1,140 @@
+characters = {
+	T04_100665354 = {
+		name = Naalak_Tullaugaq
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_7
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	T04_33555403 = {
+		name = Kenojuak_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33555403
+			cost = 150
+		}
+	}
+	T04_50334122 = {
+		name = Jack_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50334122
+			cost = 150
+		}
+	}
+	T04_67111233 = {
+		name = Peter_Piugattuk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67111233
+			cost = 150
+		}
+	}
+	T04_83891645 = {
+		name = Naalak_Kusugak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83891645
+			cost = 150
+		}
+	}
+	T04_100664447 = {
+		name = Naalak_Ashoona
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_100664447
+			cost = 150
+		}
+	}
+	T04_100667346 = {
+		name = Pitseolak_Pudluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100667346
+			cost = 150
+		}
+	}
+	T04_117446631 = {
+		name = Simeonie_Kusugak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_117446631
+			cost = 150
+		}
+	}
+	T04_150995965 = {
+		name = James_Arreak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_150995965
+			cost = 150
+		}
+	}
+	T04_150998540 = {
+		name = Caubvick_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_150998540
+			cost = 150
+		}
+	}
+}

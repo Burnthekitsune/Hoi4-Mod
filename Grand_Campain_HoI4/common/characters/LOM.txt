@@ -1,0 +1,146 @@
+characters = {
+	LOM_1069 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	LOM_67110656 = {
+		name = Federico_De_Ferrari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67110656
+			cost = 150
+		}
+	}
+	LOM_67110791 = {
+		name = Giulio_Valerio
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67110791
+			cost = 150
+		}
+	}
+	LOM_83886220 = {
+		name = Francesco_Bianchi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_1
+				small = GFX_Portrait_Italy_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer organizer trait_cautious }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	LOM_83887914 = {
+		name = Teresa_Martelli
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83887914
+			cost = 150
+		}
+	}
+	LOM_100669411 = {
+		name = Ugo_Boyl_di_Putifigari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100669411
+			cost = 150
+		}
+	}
+	LOM_117442826 = {
+		name = Innocenzo_Annoni_di_Cerro
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117442826
+			cost = 150
+		}
+	}
+	LOM_134219560 = {
+		name = Cassandra_Correnti
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_134219560
+			cost = 150
+		}
+	}
+	LOM_150996271 = {
+		name = Francesco_Colonna
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_150996271
+			cost = 150
+		}
+	}
+	LOM_268441546 = {
+		name = Metilde_Mautino
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_268441546
+			cost = 150
+		}
+	}
+}

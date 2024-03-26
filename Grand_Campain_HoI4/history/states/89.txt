@@ -1,0 +1,29 @@
+state = {
+	id = 89
+	name = "STATE_89"
+	manpower = 4271600
+
+	state_category = megalopolis
+
+	history = {
+		owner = ENG
+		victory_points = {
+			3379 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			3329 = {
+				naval_base = 10
+			}
+			air_base = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces = {
+		276 337 385 3242 3329 3379 11257 
+	}
+}

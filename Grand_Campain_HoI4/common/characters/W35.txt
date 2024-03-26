@@ -1,0 +1,134 @@
+characters = {
+	W35_33560497 = {
+		name = Hkun_Sao
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	W35_50338056 = {
+		name = Hpa_Mong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50338056
+			cost = 150
+		}
+	}
+	W35_67110811 = {
+		name = Hpa_Mong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67110811
+			cost = 150
+		}
+	}
+	W35_67112886 = {
+		name = Than_Hung
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67112886
+			cost = 150
+		}
+	}
+	W35_67113779 = {
+		name = Than_Sao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	W35_83886909 = {
+		name = Hkam_Pak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83886909
+			cost = 150
+		}
+	}
+	W35_83887033 = {
+		name = Hseng_Cheng
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83887033
+			cost = 150
+		}
+	}
+	W35_100664807 = {
+		name = Hpo_Mong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100664807
+			cost = 150
+		}
+	}
+	W35_117442433 = {
+		name = Hswe_Mong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_117442433
+			cost = 150
+		}
+	}
+	W35_184550709 = {
+		name = Hpo_Sao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_184550709
+			cost = 150
+		}
+	}
+}

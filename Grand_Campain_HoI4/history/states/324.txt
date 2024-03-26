@@ -1,0 +1,29 @@
+state = {
+	id = 324
+	name = "STATE_324"
+	manpower = 1598816
+	resources = {
+		chromium = 13
+		steel = 10
+		tungsten = 4
+	}
+
+	state_category = town
+
+	history = {
+		owner = PER
+		victory_points = {
+			12309 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		1530 1599 4534 4605 6436 6669 6671 9702 12309 
+	}
+}

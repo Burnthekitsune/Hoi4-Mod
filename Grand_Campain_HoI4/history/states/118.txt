@@ -1,0 +1,30 @@
+state = {
+	id = 118
+	name = "STATE_118"
+	manpower = 4060730
+	resources = {
+		chromium = 41
+		steel = 25
+		tungsten = 3
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = PER
+		victory_points = {
+			11853 6
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 4
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		652 789 864 4583 6919 6935 6991 7470 9858 9868 9954 10399 11853 11880 12318 12376 
+	}
+}

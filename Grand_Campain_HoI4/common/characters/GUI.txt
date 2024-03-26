@@ -1,0 +1,145 @@
+characters = {
+	GUI_1030 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  }
+		}
+	}
+	GUI_50336200 = {
+		name = Gao_Li
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50336200
+			cost = 150
+		}
+	}
+	GUI_67109485 = {
+		name = Hu_Shen
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_mountaineer trickster war_hero }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	GUI_67110535 = {
+		name = Hsia_Jin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67110535
+			cost = 150
+		}
+	}
+	GUI_83886717 = {
+		name = Taiqing_Nie
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886717
+			cost = 150
+		}
+	}
+	GUI_83887126 = {
+		name = Kwong_Hu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83887126
+			cost = 150
+		}
+	}
+	GUI_83888601 = {
+		name = Xie_Li
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83888601
+			cost = 150
+		}
+	}
+	GUI_83891979 = {
+		name = Liang_Hu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83891979
+			cost = 150
+		}
+	}
+	GUI_100663964 = {
+		name = Shih_Sun
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100663964
+			cost = 150
+		}
+	}
+	GUI_117446217 = {
+		name = Hu_Tian
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117446217
+			cost = 150
+		}
+	}
+}

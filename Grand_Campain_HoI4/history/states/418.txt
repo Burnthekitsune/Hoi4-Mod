@@ -1,0 +1,28 @@
+state = {
+	id = 418
+	name = "STATE_418"
+	manpower = 2797832
+	resources = {
+		chromium = 10
+		rubber = 5
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = BRA
+		victory_points = {
+			10946 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		4617 5174 5194 5218 8129 8177 8184 8197 8242 10392 10419 10926 10946 11002 12422 
+	}
+}

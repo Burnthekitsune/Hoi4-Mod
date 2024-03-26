@@ -1,0 +1,28 @@
+state = {
+	id = 508
+	name = "STATE_508"
+	manpower = 2213115
+
+	state_category = town
+
+	history = {
+		owner = HOL
+		victory_points = {
+			3314 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			3211 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = HOL
+	}
+
+	provinces = {
+		68 391 480 3211 3314 9431 9498 
+	}
+}

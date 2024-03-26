@@ -1,0 +1,23 @@
+state = {
+	id = 794
+	name = "STATE_794"
+	manpower = 63915
+
+	state_category = rural
+
+	history = {
+		owner = CAL
+		victory_points = {
+			4607 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		4521 4607 4736 10422 12134 12425 
+	}
+}

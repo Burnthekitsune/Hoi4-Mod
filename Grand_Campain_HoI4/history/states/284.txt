@@ -1,0 +1,33 @@
+state = {
+	id = 284
+	name = "STATE_284"
+	manpower = 3774256
+	resources = {
+		chromium = 8
+		oil = 7
+		tungsten = 7
+	}
+
+	state_category = large_town
+
+	history = {
+		owner = ARA
+		victory_points = {
+			5074 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			10840 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ARA
+	}
+
+	provinces = {
+		1920 1973 2029 4924 4976 5074 8000 10752 10840 12821 12894 13079 
+	}
+}

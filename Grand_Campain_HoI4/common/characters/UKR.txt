@@ -1,0 +1,202 @@
+characters = {
+	UKR_67114161 = {
+		name = Mullanur_Isskalvia
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	UKR_67109586 = {
+		name = Rizaeddin_Gizzat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67109586
+			cost = 150
+		}
+	}
+	UKR_83886242 = {
+		name = Rizaeddin_Mamleeva
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer war_hero }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { mastermind_code_cracker }
+			slot = political_advisor
+			idea_token = i_83886242
+			cost = 150
+		}
+	}
+	UKR_83886635 = {
+		name = Rustam_Tinchurin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83886635
+			cost = 150
+		}
+	}
+	UKR_83888684 = {
+		name = Mullanur_Gizzat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83888684
+			cost = 150
+		}
+	}
+	UKR_83889721 = {
+		name = Bekbulat_Mamleeva
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist desert_fox infantry_officer naval_invader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	UKR_83891143 = {
+		name = Rizaeddin_Faysi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83891143
+			cost = 150
+		}
+	}
+	UKR_83892253 = {
+		name = Asaf_Borhan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83892253
+			cost = 150
+		}
+	}
+	UKR_100663977 = {
+		name = Rustam_Mamleeva
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { commando naval_invader politically_connected trait_cautious }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	UKR_100664711 = {
+		name = Xosayen_Khusainov
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_100664711
+			cost = 150
+		}
+	}
+	UKR_100669353 = {
+		name = Mullanur_Isskalvia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100669353
+			cost = 150
+		}
+	}
+	UKR_117445425 = {
+		name = Yadegar_Tinchurin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117445425
+			cost = 150
+		}
+	}
+	UKR_134220389 = {
+		name = Bekbulat_Faysi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+}

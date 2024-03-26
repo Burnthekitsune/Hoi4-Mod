@@ -1,0 +1,21 @@
+state = {
+	id = 444
+	name = "STATE_444"
+	manpower = 1083859
+
+	state_category = town
+
+	history = {
+		owner = W40
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		226 3215 9343 11250 11326 
+	}
+}

@@ -1,0 +1,236 @@
+characters = {
+	ORI_16783097 = {
+		name = Dibvyasimhadeva_Sankara
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	ORI_16778754 = {
+		name = Dibvyasimhadeva_Mohaptra
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ORI_50333016 = {
+		name = Mukundadeva_Choudhury
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50333016
+			cost = 150
+		}
+	}
+	ORI_67110057 = {
+		name = Padmanavadeva_Deva
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando infantry_officer ranger trait_reckless }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_67110057
+			cost = 150
+		}
+	}
+	ORI_67113957 = {
+		name = Harekrushnadeva_Choudhury
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67113957
+			cost = 150
+		}
+	}
+	ORI_83886112 = {
+		name = Padmanavadeva_Sankara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83886112
+			cost = 150
+		}
+	}
+	ORI_83886926 = {
+		name = Birakishoredeva_Das
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer naval_invader politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	ORI_83889441 = {
+		name = Ramachandradeva_Debi
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer harsh_leader infantry_officer trait_mountaineer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	ORI_100663704 = {
+		name = Padmanavadeva_Deva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100663704
+			cost = 150
+		}
+	}
+	ORI_100666089 = {
+		name = Dibvyasimhadeva_Das
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_100666089
+			cost = 150
+		}
+	}
+	ORI_100666452 = {
+		name = Ramachandradeva_Mohaptra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_100666452
+			cost = 150
+		}
+	}
+	ORI_117440761 = {
+		name = Mukundadeva_Choudhury
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117440761
+			cost = 150
+		}
+	}
+	ORI_117443397 = {
+		name = Dibvyasimhadeva_Choudhury
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	ORI_117445645 = {
+		name = Gopinathdeva_Rao
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer naval_invader organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	ORI_134220443 = {
+		name = Dibvyasimhadeva_Mohaptra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_134220443
+			cost = 150
+		}
+	}
+}

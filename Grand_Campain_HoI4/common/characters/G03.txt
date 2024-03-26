@@ -1,0 +1,140 @@
+characters = {
+	G03_50331710 = {
+		name = David_Tullaugaq
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_8
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	G03_33559924 = {
+		name = James_Irgittuq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_33559924
+			cost = 150
+		}
+	}
+	G03_50332254 = {
+		name = David_Pudluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50332254
+			cost = 150
+		}
+	}
+	G03_50332357 = {
+		name = Jack_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_50332357
+			cost = 150
+		}
+	}
+	G03_50333599 = {
+		name = Jose_2_Piugattuk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50333599
+			cost = 150
+		}
+	}
+	G03_67109648 = {
+		name = Peter_Tiktaalaaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67109648
+			cost = 150
+		}
+	}
+	G03_67114135 = {
+		name = Markoosie_Kunuk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67114135
+			cost = 150
+		}
+	}
+	G03_100664332 = {
+		name = Pitseolak_Nutarak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100664332
+			cost = 150
+		}
+	}
+	G03_100668350 = {
+		name = David_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100668350
+			cost = 150
+		}
+	}
+	G03_134218911 = {
+		name = Simeonie_Ipeelee
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_134218911
+			cost = 150
+		}
+	}
+}

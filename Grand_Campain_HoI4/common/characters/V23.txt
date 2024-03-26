@@ -1,0 +1,179 @@
+characters = {
+	V23_16777454 = {
+		name = eu4_Ali_di_Avula
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	V23_16778744 = {
+		name = Ernesto_Colonna
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_16778744
+			cost = 150
+		}
+	}
+	V23_50331884 = {
+		name = eu4_Abdul-Rahman_di_Avula
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_50331884
+			cost = 150
+		}
+	}
+	V23_50331891 = {
+		name = Serafino_Marassi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50331891
+			cost = 150
+		}
+	}
+	V23_50332093 = {
+		name = Ambrogio_Odescalchi
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_1
+				small = GFX_Portrait_Italy_Generic_navy_1_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { battleship_adherent chief_engineer media_personality }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+		advisor = {
+			traits = { naval_theorist }
+			slot = political_advisor
+			idea_token = i_50332093
+			cost = 150
+		}
+	}
+	V23_67110706 = {
+		name = Oreste_de_Foresta
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_8
+				small = GFX_Portrait_Italy_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox old_guard trait_reckless }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	V23_67111445 = {
+		name = Paolo_Gallisai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_67111445
+			cost = 150
+		}
+	}
+	V23_83887421 = {
+		name = Cesare_Spano
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83887421
+			cost = 150
+		}
+	}
+	V23_117441347 = {
+		name = Giulio_Santa_Croce_Villahermosa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117441347
+			cost = 150
+		}
+	}
+	V23_117444218 = {
+		name = Filiberto_Marongiu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_117444218
+			cost = 150
+		}
+	}
+	V23_150996167 = {
+		name = Davide_Colli_di_Felizzano
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_6
+				small = GFX_Portrait_Italy_Generic_land_6_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer brilliant_strategist engineer_officer naval_invader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_150996167
+			cost = 150
+		}
+	}
+}

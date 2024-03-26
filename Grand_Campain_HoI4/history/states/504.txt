@@ -1,0 +1,29 @@
+state = {
+	id = 504
+	name = "STATE_504"
+	manpower = 1051296
+
+	state_category = town
+
+	history = {
+		owner = MEK
+		victory_points = {
+			6390 15
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			9388 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = MEK
+	}
+
+	provinces = {
+		349 537 3340 6282 6309 6334 6390 9277 9306 9334 9361 9388 11316 11343 11372 13257 
+	}
+}

@@ -1,0 +1,144 @@
+characters = {
+	W92_1014 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  }
+		}
+	}
+	W92_50331889 = {
+		name = eu4_Najib_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_50331889
+			cost = 150
+		}
+	}
+	W92_50332570 = {
+		name = eu4_Qusay_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50332570
+			cost = 150
+		}
+	}
+	W92_67109576 = {
+		name = eu4_Fahriya_eu4_Ari
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67109576
+			cost = 150
+		}
+	}
+	W92_67110175 = {
+		name = eu4_Tifilwit_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67110175
+			cost = 150
+		}
+	}
+	W92_67113561 = {
+		name = eu4_Sancho_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67113561
+			cost = 150
+		}
+	}
+	W92_83886343 = {
+		name = eu4_Haidar_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_83886343
+			cost = 150
+		}
+	}
+	W92_83887208 = {
+		name = eu4_Suleyman_eu4_Haesteining
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83887208
+			cost = 150
+		}
+	}
+	W92_100666712 = {
+		name = eu4_Ya_far_eu4_Hammelburg
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist naval_invader organizer politically_connected }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	W92_117443213 = {
+		name = eu4_Fahd_eu4_Qutamid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117443213
+			cost = 150
+		}
+	}
+}

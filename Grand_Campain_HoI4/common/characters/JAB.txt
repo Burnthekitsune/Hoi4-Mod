@@ -1,0 +1,127 @@
+characters = {
+	JAB_1033 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	JAB_83887628 = {
+		name = ar_Badr_dyn_ar_bin_Yamil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83887628
+			cost = 150
+		}
+	}
+	JAB_83888288 = {
+		name = ar_Salman_dyn_ar_bin_Omar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83888288
+			cost = 150
+		}
+	}
+	JAB_83890550 = {
+		name = Yusuf_ibn_Umar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83890550
+			cost = 150
+		}
+	}
+	JAB_100666174 = {
+		name = Sa_ud_ibn_Abu_Bakr
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_100666174
+			cost = 150
+		}
+	}
+	JAB_117440627 = {
+		name = ar_Salman_dyn_ar_bin_Abdullah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_117440627
+			cost = 150
+		}
+	}
+	JAB_117441200 = {
+		name = ar_Aza_dyn_ar_bin_Sherin
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_117441200
+			cost = 150
+		}
+	}
+	JAB_117441844 = {
+		name = Abd_al-Rahman_al_Qasimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_117441844
+			cost = 150
+		}
+	}
+	JAB_134218451 = {
+		name = ar_Karim_dyn_ar_bin_Numar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_134218451
+			cost = 150
+		}
+	}
+}

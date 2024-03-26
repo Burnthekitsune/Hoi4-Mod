@@ -1,0 +1,25 @@
+state = {
+	id = 815
+	name = "STATE_815"
+	manpower = 49780
+
+	state_category = rural
+
+	history = {
+		owner = STG
+		victory_points = {
+			4335 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = STG
+	}
+
+	provinces = {
+		2170 2222 4335 
+	}
+}

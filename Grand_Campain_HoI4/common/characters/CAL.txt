@@ -1,0 +1,131 @@
+characters = {
+	CAL_83887198 = {
+		name = fa_Farshid_dyn_fa_Rezaei
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	CAL_67109265 = {
+		name = fa_Roozbeh_dyn_fa_Khadim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67109265
+			cost = 150
+		}
+	}
+	CAL_67110501 = {
+		name = fa_Key-ghobad_dyn_fa_Rajabi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader infantry_officer organizer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CAL_67113618 = {
+		name = fa_Fardad_dyn_fa_Malaki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67113618
+			cost = 150
+		}
+	}
+	CAL_67114401 = {
+		name = fa_Gordia_dyn_fa_Bihmardi
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67114401
+			cost = 150
+		}
+	}
+	CAL_67114599 = {
+		name = fa_Ghobad_dyn_fa_Kassaian
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67114599
+			cost = 150
+		}
+	}
+	CAL_83891231 = {
+		name = fa_Haleh_dyn_fa_Zarei
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83891231
+			cost = 150
+		}
+	}
+	CAL_100666307 = {
+		name = fa_Gazsi_dyn_fa_Ghurani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_100666307
+			cost = 150
+		}
+	}
+	CAL_117443567 = {
+		name = fa_Maziar_dyn_fa_Ghafari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117443567
+			cost = 150
+		}
+	}
+}

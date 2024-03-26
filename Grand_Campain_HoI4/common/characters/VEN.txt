@@ -1,0 +1,129 @@
+characters = {
+	VEN_50335779 = {
+		name = Ilario_Correnti
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	VEN_33557537 = {
+		name = Alfonso_Vicari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33557537
+			cost = 150
+		}
+	}
+	VEN_50336088 = {
+		name = Sebastiano_di_Robilant
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_50336088
+			cost = 150
+		}
+	}
+	VEN_67109571 = {
+		name = Bonaventura_Acton
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109571
+			cost = 150
+		}
+	}
+	VEN_83886920 = {
+		name = Felice_d_Ittiri_LedA_
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83886920
+			cost = 150
+		}
+	}
+	VEN_83887310 = {
+		name = Gennaro_Costa_della_Torre
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_83887310
+			cost = 150
+		}
+	}
+	VEN_83892039 = {
+		name = Ferdinando_Sanguineti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83892039
+			cost = 150
+		}
+	}
+	VEN_117445001 = {
+		name = Oreste_Fanti
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_3
+				small = GFX_Portrait_Italy_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer trait_cautious trickster }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	VEN_151000811 = {
+		name = Nicola_Presbitero
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_151000811
+			cost = 150
+		}
+	}
+}

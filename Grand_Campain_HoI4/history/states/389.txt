@@ -1,0 +1,35 @@
+state = {
+	id = 389
+	name = "STATE_389"
+	manpower = 2813648
+	resources = {
+		aluminium = 4
+		chromium = 3
+		steel = 2
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = AIN
+		victory_points = {
+			10444 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			3962 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = AIN
+	}
+
+	provinces = {
+		1512 1515 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 13037 
+	}
+}

@@ -1,0 +1,144 @@
+characters = {
+	MLT_1058 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	MLT_67109424 = {
+		name = eu4_Husam_eu4_Hammelburg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67109424
+			cost = 150
+		}
+	}
+	MLT_67109791 = {
+		name = eu4_Najib_eu4_Qutamid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67109791
+			cost = 150
+		}
+	}
+	MLT_67110528 = {
+		name = eu4_Fahd_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67110528
+			cost = 150
+		}
+	}
+	MLT_100664031 = {
+		name = eu4_Ja_far_eu4_Haesteining
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	MLT_117441959 = {
+		name = eu4_Skuld_eu4_Qutamid
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_117441959
+			cost = 150
+		}
+	}
+	MLT_117446147 = {
+		name = eu4_Solomon_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117446147
+			cost = 150
+		}
+	}
+	MLT_150996699 = {
+		name = eu4_Abdul-Hakam_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_150996699
+			cost = 150
+		}
+	}
+	MLT_151000365 = {
+		name = eu4_Khaliq_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_151000365
+			cost = 150
+		}
+	}
+	MLT_184550999 = {
+		name = eu4_Yusuf_eu4_Qutamid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_184550999
+			cost = 150
+		}
+	}
+}

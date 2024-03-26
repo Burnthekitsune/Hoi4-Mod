@@ -1,0 +1,194 @@
+characters = {
+	HYD_1051 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	HYD_16778755 = {
+		name = mr_Pushpraj_dyn_mr_Ratnaparakhi
+		portraits = {
+			navy = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert bold }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	HYD_16778757 = {
+		name = mr_Prithujay_dyn_mr_Kapse
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	HYD_16779236 = {
+		name = mr_Pratipan_dyn_mr_Divekar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_16779236
+			cost = 150
+		}
+	}
+	HYD_33560726 = {
+		name = mr_Aakhya_dyn_mr_Gawali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33560726
+			cost = 150
+		}
+	}
+	HYD_83889071 = {
+		name = mr_Pruthviraj_dyn_mr_Patil
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	HYD_100664472 = {
+		name = mr_Preman_dyn_mr_Sahasrabuddhe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100664472
+			cost = 150
+		}
+	}
+	HYD_100665315 = {
+		name = mr_Pravek_dyn_mr_Raaje
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_100665315
+			cost = 150
+		}
+	}
+	HYD_117440602 = {
+		name = mr_Prasan_dyn_mr_Tipnis
+		portraits = {
+			navy = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	HYD_117441026 = {
+		name = mr_Pushpin_dyn_mr_Nene
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_117441026
+			cost = 150
+		}
+	}
+	HYD_117442979 = {
+		name = mr_Prateem_dyn_mr_Kharche
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_117442979
+			cost = 150
+		}
+	}
+	HYD_150999475 = {
+		name = mr_Prajnan_dyn_mr_Ambedkar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_150999475
+			cost = 150
+		}
+	}
+	HYD_201328613 = {
+		name = mr_Prasan_dyn_mr_Sonar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_201328613
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,129 @@
+characters = {
+	X15_50333315 = {
+		name = it_Gaspare_dyn_it_d_Agostino
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_5
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	X15_67114368 = {
+		name = it_Salvatore_dyn_it_Conti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67114368
+			cost = 150
+		}
+	}
+	X15_83887018 = {
+		name = it_Paolo_dyn_it_d_Amico
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83887018
+			cost = 150
+		}
+	}
+	X15_83889248 = {
+		name = it_Gianluigi_dyn_it_Mancini
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83889248
+			cost = 150
+		}
+	}
+	X15_83889249 = {
+		name = it_Valentino_dyn_it_Esposito
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83889249
+			cost = 150
+		}
+	}
+	X15_100667983 = {
+		name = it_Gaspare_dyn_it_Esposito
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_100667983
+			cost = 150
+		}
+	}
+	X15_100668501 = {
+		name = it_Giovanni_dyn_it_Greco
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100668501
+			cost = 150
+		}
+	}
+	X15_117442438 = {
+		name = it_Ezio_dyn_it_Mannino
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { commando old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	X15_134221471 = {
+		name = it_Luca_dyn_it_Pellegrino
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_134221471
+			cost = 150
+		}
+	}
+}

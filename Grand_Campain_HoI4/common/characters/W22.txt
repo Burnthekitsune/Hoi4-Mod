@@ -1,0 +1,151 @@
+characters = {
+	W22_67110117 = {
+		name = Muhammad_Cakraningrat
+		portraits = {
+			civilian = {
+				large = GFX_portrait_asia_generic_4
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	W22_16783144 = {
+		name = Sugandi_Rajasanagara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_16783144
+			cost = 150
+		}
+	}
+	W22_50332165 = {
+		name = Soegija_Sastrowardoyo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50332165
+			cost = 150
+		}
+	}
+	W22_67108965 = {
+		name = Panembahan_Pakualaman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67108965
+			cost = 150
+		}
+	}
+	W22_67109016 = {
+		name = Solikin_Pakualaman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67109016
+			cost = 150
+		}
+	}
+	W22_67109608 = {
+		name = Panembahan_Hamengkubuwono
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_67109608
+			cost = 150
+		}
+	}
+	W22_67113003 = {
+		name = Anom_Mufakhir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_67113003
+			cost = 150
+		}
+	}
+	W22_100663605 = {
+		name = Muhammad_Sastrowardoyo
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox naval_invader politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	W22_100668994 = {
+		name = Abdurrahman_Pakualaman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_100668994
+			cost = 150
+		}
+	}
+	W22_117440540 = {
+		name = Malikis_Solikin_Rajasanagara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	W22_150999050 = {
+		name = Soeharto_Djojohadikusumo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_150999050
+			cost = 150
+		}
+	}
+}

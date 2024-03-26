@@ -1,0 +1,157 @@
+characters = {
+	X59_50334333 = {
+		name = ne_Rabin_Yangwarok
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	X59_50331892 = {
+		name = ne_Gagan_Yangwarok
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50331892
+			cost = 150
+		}
+	}
+	X59_50335872 = {
+		name = yue_2545_dyn_yue_5174
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_50335872
+			cost = 150
+		}
+	}
+	X59_67109240 = {
+		name = yue_0336_dyn_yue_6175
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67109240
+			cost = 150
+		}
+	}
+	X59_67110415 = {
+		name = yue_1395_dyn_yue_6688
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67110415
+			cost = 150
+		}
+	}
+	X59_83886084 = {
+		name = yue_0418_dyn_yue_3088
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886084
+			cost = 150
+		}
+	}
+	X59_83888181 = {
+		name = yue_4101_dyn_yue_1429
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83888181
+			cost = 150
+		}
+	}
+	X59_83891115 = {
+		name = yue_7893_dyn_yue_2837
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83891115
+			cost = 150
+		}
+	}
+	X59_83891677 = {
+		name = yue_5816_dyn_yue_2518
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83891677
+			cost = 150
+		}
+	}
+	X59_100668257 = {
+		name = yue_2514_dyn_yue_0112
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer naval_invader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	X59_117440968 = {
+		name = yue_1565_dyn_yue_0112
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_117440968
+			cost = 150
+		}
+	}
+}

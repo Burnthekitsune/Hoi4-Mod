@@ -1,0 +1,165 @@
+characters = {
+	COG_1041 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	COG_16778936 = {
+		name = Nteve_Mvemba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_16778936
+			cost = 150
+		}
+	}
+	COG_16778937 = {
+		name = Poaty_Mpanzu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_16778937
+			cost = 150
+		}
+	}
+	COG_16778940 = {
+		name = Kivuzi_Ma_Nombo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16778940
+			cost = 150
+		}
+	}
+	COG_33556160 = {
+		name = Garcia_Nobrega
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_4
+				small = GFX_Portrait_Africa_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556160
+			cost = 150
+		}
+	}
+	COG_33556168 = {
+		name = N_Gangue_Nsindi
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_2
+				small = GFX_Portrait_Africa_Generic_navy_2_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert bold }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33556168
+			cost = 150
+		}
+	}
+	COG_50333366 = {
+		name = Poaty_Kimpanzu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50333366
+			cost = 150
+		}
+	}
+	COG_83887458 = {
+		name = M_voumbe_Mpanzu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83887458
+			cost = 150
+		}
+	}
+	COG_117442312 = {
+		name = Garcia_Lukeni
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_1
+				small = GFX_Portrait_Africa_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist naval_invader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	COG_218105530 = {
+		name = M_voumbe_Mankala
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_218105530
+			cost = 150
+		}
+	}
+}

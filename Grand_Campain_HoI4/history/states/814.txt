@@ -1,0 +1,24 @@
+state = {
+	id = 814
+	name = "STATE_814"
+	manpower = 23923
+	resources = {
+		steel = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = NVJ
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = NVJ
+	}
+
+	provinces = {
+		2069 10848 
+	}
+}

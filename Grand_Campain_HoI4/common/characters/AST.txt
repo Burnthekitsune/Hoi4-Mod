@@ -1,0 +1,152 @@
+characters = {
+	AST_117442254 = {
+		name = Maryam_Bakhtiari
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	AST_50338048 = {
+		name = Ebrahim_Jahanbani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_50338048
+			cost = 150
+		}
+	}
+	AST_67109654 = {
+		name = Fath_Ali_Ashtiani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67109654
+			cost = 150
+		}
+	}
+	AST_67109970 = {
+		name = Fazlollah_Airom
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_2
+				small = GFX_Portrait_Arabia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	AST_67110092 = {
+		name = Mohammad_Ali_Bakhtiari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	AST_67110928 = {
+		name = Naser_ed-Din_Alamir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67110928
+			cost = 150
+		}
+	}
+	AST_83886873 = {
+		name = Abdolsamad_Khalatbari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_83886873
+			cost = 150
+		}
+	}
+	AST_100663668 = {
+		name = Nosret_Khuzai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_100663668
+			cost = 150
+		}
+	}
+	AST_100664400 = {
+		name = Abdolazim_Sadegh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_100664400
+			cost = 150
+		}
+	}
+	AST_100665219 = {
+		name = Naser_ed-Din_Tabrizi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100665219
+			cost = 150
+		}
+	}
+	AST_117443436 = {
+		name = Lotf_Ali_Buzarjomehri
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117443436
+			cost = 150
+		}
+	}
+}

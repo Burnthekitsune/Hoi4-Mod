@@ -1,0 +1,140 @@
+characters = {
+	L04_16781371 = {
+		name = Ernie_Tullaugaq
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_8
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	L04_33555248 = {
+		name = Markoosie_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33555248
+			cost = 150
+		}
+	}
+	L04_33557198 = {
+		name = Germaine_Irgittuq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33557198
+			cost = 150
+		}
+	}
+	L04_67111676 = {
+		name = Pitseolak_Nutarak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67111676
+			cost = 150
+		}
+	}
+	L04_83887963 = {
+		name = Kenojuak_Tiktaalaaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_83887963
+			cost = 150
+		}
+	}
+	L04_83888476 = {
+		name = David_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_83888476
+			cost = 150
+		}
+	}
+	L04_100665492 = {
+		name = Jack_Paniloo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_100665492
+			cost = 150
+		}
+	}
+	L04_100666509 = {
+		name = Pitseolak_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100666509
+			cost = 150
+		}
+	}
+	L04_117446399 = {
+		name = Caubvick_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_117446399
+			cost = 150
+		}
+	}
+	L04_134222272 = {
+		name = Markoosie_Nutarak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_134222272
+			cost = 150
+		}
+	}
+}

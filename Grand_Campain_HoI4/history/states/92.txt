@@ -1,0 +1,33 @@
+state = {
+	id = 92
+	name = "STATE_92"
+	manpower = 3416636
+	resources = {
+		chromium = 23
+		steel = 49
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = ENG
+		victory_points = {
+			9269 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			351 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces = {
+		219 351 6268 9269 9285 9315 9332 9379 9397 11270 11297 11299 11317 11382 
+	}
+}

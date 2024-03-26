@@ -1,0 +1,28 @@
+state = {
+	id = 570
+	name = "STATE_570"
+	manpower = 2511147
+	resources = {
+		steel = 0
+	}
+
+	state_category = town
+
+	history = {
+		owner = X14
+		victory_points = {
+			1492 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = X14
+	}
+
+	provinces = {
+		1333 1492 1650 4019 4059 4202 4626 7034 7469 10344 10386 12404 12449 12492 
+	}
+}

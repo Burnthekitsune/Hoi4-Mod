@@ -1,0 +1,22 @@
+state = {
+	id = 208
+	name = "STATE_208"
+	manpower = 2055949
+
+	state_category = megalopolis
+
+	history = {
+		owner = UPU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 11
+			arms_factory = 1
+			air_base = 4
+		}
+		add_core_of = UPU
+	}
+
+	provinces = {
+		11663 
+	}
+}

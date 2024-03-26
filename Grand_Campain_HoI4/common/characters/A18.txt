@@ -1,0 +1,160 @@
+characters = {
+	A18_1049 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism
+			traits = {  }
+		}
+	}
+	A18_50332171 = {
+		name = norm_Aslanbek_norm_Pliyeva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50332171
+			cost = 150
+		}
+	}
+	A18_50332202 = {
+		name = norm_Taymuraz_norm_Zazirov
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50332202
+			cost = 150
+		}
+	}
+	A18_50332621 = {
+		name = norm_Jasz_norm_Guriev
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	A18_67109454 = {
+		name = norm_Georgy_norm_Dzhanayev
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67109454
+			cost = 150
+		}
+	}
+	A18_83886763 = {
+		name = norm_Khasan_norm_Pagayev
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83886763
+			cost = 150
+		}
+	}
+	A18_83886777 = {
+		name = norm_Arsen_norm_Nyxas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_83886777
+			cost = 150
+		}
+	}
+	A18_100663657 = {
+		name = norm_Aslanbek_norm_Toshinori
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_100663657
+			cost = 150
+		}
+	}
+	A18_117441445 = {
+		name = norm_Ruslan_norm_Kokoity
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_117441445
+			cost = 150
+		}
+	}
+	A18_134223801 = {
+		name = norm_Trialeti_norm_Ashuraliyev
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_134223801
+			cost = 150
+		}
+	}
+	A18_150995968 = {
+		name = norm_Leri_norm_Gabulov
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+}

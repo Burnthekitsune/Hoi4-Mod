@@ -1,0 +1,29 @@
+state = {
+	id = 448
+	name = "STATE_448"
+	manpower = 2690219
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = YCM
+		victory_points = {
+			12715 20
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 5
+		}
+		add_core_of = YCM
+	}
+
+	provinces = {
+		4904 4965 12715 
+	}
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 750
+	name = "STATE_750"
+	manpower = 205160
+	resources = {
+		aluminium = 0
+		steel = 0
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = ACE
+		victory_points = {
+			12488 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = ACE
+	}
+
+	provinces = {
+		12488 
+	}
+}

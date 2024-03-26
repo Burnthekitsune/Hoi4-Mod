@@ -1,0 +1,168 @@
+characters = {
+	V24_67109218 = {
+		name = Frangiskos_Karakalos
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	V24_67110100 = {
+		name = Konstantinos_Benizelos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	V24_83886172 = {
+		name = Evangelos_Kaskaris
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83886172
+			cost = 150
+		}
+	}
+	V24_83886345 = {
+		name = Christodoulos_Golemis
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	V24_83887606 = {
+		name = Sokratis_Tzoris
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_83887606
+			cost = 150
+		}
+	}
+	V24_83890152 = {
+		name = Germanos_Gennimatas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83890152
+			cost = 150
+		}
+	}
+	V24_83892238 = {
+		name = Alexandros_Boutzias
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83892238
+			cost = 150
+		}
+	}
+	V24_100664473 = {
+		name = Konstantinos_Papaioannou
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100664473
+			cost = 150
+		}
+	}
+	V24_100665712 = {
+		name = Nikolaos_Benizelos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100665712
+			cost = 150
+		}
+	}
+	V24_100666893 = {
+		name = Epameinontas_Theofilakis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100666893
+			cost = 150
+		}
+	}
+	V24_134222775 = {
+		name = Aristidis_Koukoudakis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_134222775
+			cost = 150
+		}
+	}
+	V24_167776155 = {
+		name = Xenon_Vourakis
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer naval_invader organizer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+}

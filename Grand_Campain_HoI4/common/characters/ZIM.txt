@@ -1,0 +1,161 @@
+characters = {
+	ZIM_1036 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	ZIM_33556016 = {
+		name = Runako_Hungwe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33556016
+			cost = 150
+		}
+	}
+	ZIM_50333233 = {
+		name = Matodzi_Mbano
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50333233
+			cost = 150
+		}
+	}
+	ZIM_50333235 = {
+		name = Mashama_Rozwi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50333235
+			cost = 150
+		}
+	}
+	ZIM_50333240 = {
+		name = Mboro_Kwenda
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ZIM_50333250 = {
+		name = Pepukayi_Hungwe
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_1
+				small = GFX_Portrait_Africa_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert bold }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	ZIM_83887668 = {
+		name = Nyakambira_Torwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83887668
+			cost = 150
+		}
+	}
+	ZIM_100664354 = {
+		name = Wasesse_Chimai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100664354
+			cost = 150
+		}
+	}
+	ZIM_100664782 = {
+		name = Tshilidzi_kaJama
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100664782
+			cost = 150
+		}
+	}
+	ZIM_100664858 = {
+		name = Sundai_Soshangane
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100664858
+			cost = 150
+		}
+	}
+	ZIM_117442102 = {
+		name = Mwanyisa_Hungwe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117442102
+			cost = 150
+		}
+	}
+}

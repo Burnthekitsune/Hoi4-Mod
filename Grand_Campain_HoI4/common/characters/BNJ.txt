@@ -1,0 +1,140 @@
+characters = {
+	BNJ_134223146 = {
+		name = Aziz_Bendahara
+		portraits = {
+			civilian = {
+				large = GFX_portrait_asia_generic_4
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BNJ_50332739 = {
+		name = Safiuddin_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50332739
+			cost = 150
+		}
+	}
+	BNJ_83886518 = {
+		name = Muhammad_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83886518
+			cost = 150
+		}
+	}
+	BNJ_83887605 = {
+		name = Riayat_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83887605
+			cost = 150
+		}
+	}
+	BNJ_83888238 = {
+		name = Jaafar_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83888238
+			cost = 150
+		}
+	}
+	BNJ_83891503 = {
+		name = Shahabuddin_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83891503
+			cost = 150
+		}
+	}
+	BNJ_83892348 = {
+		name = Tuanku_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_83892348
+			cost = 150
+		}
+	}
+	BNJ_100664891 = {
+		name = Tuanku_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_100664891
+			cost = 150
+		}
+	}
+	BNJ_100665123 = {
+		name = Safiuddin_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_100665123
+			cost = 150
+		}
+	}
+	BNJ_100666277 = {
+		name = Safiuddin_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_100666277
+			cost = 150
+		}
+	}
+}

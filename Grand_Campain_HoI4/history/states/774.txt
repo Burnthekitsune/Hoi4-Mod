@@ -1,0 +1,23 @@
+state = {
+	id = 774
+	name = "STATE_774"
+	manpower = 653092
+
+	state_category = rural
+
+	history = {
+		owner = BRA
+		victory_points = {
+			12987 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		2168 5115 5151 5208 8140 12959 12987 13281 13282 
+	}
+}

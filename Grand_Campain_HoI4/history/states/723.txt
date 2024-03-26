@@ -1,0 +1,24 @@
+state = {
+	id = 723
+	name = "STATE_723"
+	manpower = 956446
+	resources = {
+		aluminium = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = V46
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = V46
+	}
+
+	provinces = {
+		4115 
+	}
+}

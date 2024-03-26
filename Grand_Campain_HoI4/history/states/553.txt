@@ -1,0 +1,26 @@
+state = {
+	id = 553
+	name = "STATE_553"
+	manpower = 673075
+	resources = {
+		steel = 3
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = VIE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = VIE
+	}
+
+	provinces = {
+		1362 1390 10326 12332 
+	}
+}

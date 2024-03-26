@@ -1,0 +1,147 @@
+characters = {
+	CC1_100668982 = {
+		name = ha_Danlami_dyn_ha_Yakubu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	CC1_50332205 = {
+		name = ha_Yakubu_dyn_ha_Burja
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50332205
+			cost = 150
+		}
+	}
+	CC1_50337626 = {
+		name = ha_Juji_dyn_ha_Shehu
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_1
+				small = GFX_Portrait_Arabia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer old_guard_navy }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	CC1_83888456 = {
+		name = ha_Zaki_dyn_ha_Yahaya
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer ranger }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	CC1_100667589 = {
+		name = ha_Hassan_dyn_ha_Aliyu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100667589
+			cost = 150
+		}
+	}
+	CC1_117441063 = {
+		name = ha_Tatau_dyn_ha_Alkali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_117441063
+			cost = 150
+		}
+	}
+	CC1_117442396 = {
+		name = ha_Gaddo_dyn_ha_Madaki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_117442396
+			cost = 150
+		}
+	}
+	CC1_117442440 = {
+		name = ha_Rabo_dyn_ha_Madaki
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_117442440
+			cost = 150
+		}
+	}
+	CC1_117444920 = {
+		name = ha_Husseini_dyn_ha_Garba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_117444920
+			cost = 150
+		}
+	}
+	CC1_134221399 = {
+		name = ha_Juji_dyn_ha_Junaidu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134221399
+			cost = 150
+		}
+	}
+}

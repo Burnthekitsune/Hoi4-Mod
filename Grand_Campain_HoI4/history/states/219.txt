@@ -1,0 +1,34 @@
+state = {
+	id = 219
+	name = "STATE_219"
+	manpower = 3885693
+	resources = {
+		aluminium = 21
+		rubber = 5
+		tungsten = 2
+	}
+
+	state_category = city
+
+	history = {
+		owner = BRA
+		victory_points = {
+			10855 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			1944 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		add_core_of = BRA
+	}
+
+	provinces = {
+		1944 1997 2052 4526 5088 10855 12772 
+	}
+}

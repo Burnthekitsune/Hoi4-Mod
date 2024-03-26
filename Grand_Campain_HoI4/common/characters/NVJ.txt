@@ -1,0 +1,134 @@
+characters = {
+	NVJ_100668055 = {
+		name = Ganado_Hastiin_Dagha
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	NVJ_33556443 = {
+		name = Digul_Chee_Dodge
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33556443
+			cost = 150
+		}
+	}
+	NVJ_33556444 = {
+		name = Manuelito_Ch_ilhanjini
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_33556444
+			cost = 150
+		}
+	}
+	NVJ_33556459 = {
+		name = Digul_Chee_Hastiin_Dagha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_33556459
+			cost = 150
+		}
+	}
+	NVJ_67109344 = {
+		name = Jeremiah_Hastiin_Dagha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	NVJ_67111821 = {
+		name = Jeremiah_Dodge
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67111821
+			cost = 150
+		}
+	}
+	NVJ_83888105 = {
+		name = Ganado_Delagado
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_83888105
+			cost = 150
+		}
+	}
+	NVJ_117442518 = {
+		name = Jeremiah_Largos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117442518
+			cost = 150
+		}
+	}
+	NVJ_117442534 = {
+		name = Narbona_Largos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117442534
+			cost = 150
+		}
+	}
+	NVJ_201328610 = {
+		name = Mariano_Delagado
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_201328610
+			cost = 150
+		}
+	}
+}

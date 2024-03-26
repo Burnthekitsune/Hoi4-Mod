@@ -1,0 +1,28 @@
+state = {
+	id = 432
+	name = "STATE_432"
+	manpower = 748818
+	resources = {
+		chromium = 8
+		steel = 7
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = UPU
+		victory_points = {
+			1570 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		1514 1570 2221 4481 4502 4530 4546 7522 7535 7592 10445 12308 12451 
+	}
+}

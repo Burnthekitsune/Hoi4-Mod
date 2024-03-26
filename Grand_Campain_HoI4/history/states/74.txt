@@ -1,0 +1,22 @@
+state = {
+	id = 74
+	name = "STATE_74"
+	manpower = 316139
+
+	state_category = town
+
+	history = {
+		owner = X10
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = X10
+	}
+
+	provinces = {
+		3626 
+	}
+}

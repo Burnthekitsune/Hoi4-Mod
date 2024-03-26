@@ -1,0 +1,126 @@
+characters = {
+	W82_33557322 = {
+		name = Auha_Raouparah
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	W82_67110248 = {
+		name = Te_Rata_Ngapora
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67110248
+			cost = 150
+		}
+	}
+	W82_67110729 = {
+		name = Koroki_Te_Wherowhero
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67110729
+			cost = 150
+		}
+	}
+	W82_67112403 = {
+		name = Pokaia_Herangi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_67112403
+			cost = 150
+		}
+	}
+	W82_83886213 = {
+		name = Auha_Kenena
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83886213
+			cost = 150
+		}
+	}
+	W82_83888046 = {
+		name = Rangi-Kahu_Wherowhero
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83888046
+			cost = 150
+		}
+	}
+	W82_100665525 = {
+		name = Auha_Te_Wherowhero
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100665525
+			cost = 150
+		}
+	}
+	W82_100669208 = {
+		name = Te_Rata_Hongi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_100669208
+			cost = 150
+		}
+	}
+	W82_134218404 = {
+		name = Pokaia_Ngapora
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_134218404
+			cost = 150
+		}
+	}
+}

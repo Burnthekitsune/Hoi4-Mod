@@ -1,0 +1,63 @@
+# Naval non-MTG OOB
+units = {
+	fleet = {
+		name = "1. Fleet"
+		naval_base = 10912
+		task_force = {
+			name = "1. Fleet"
+			location = 10912
+			ship = { name = "Heavy Cruiser 1" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = BRA  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Destroyer 1" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 2" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 3" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 4" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 5" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 6" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 7" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Submarine 1" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 2" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 3" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 4" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "2. Fleet"
+		naval_base = 8047
+		task_force = {
+			name = "2. Fleet"
+			location = 8047
+			ship = { name = "Heavy Cruiser 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = BRA  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Destroyer 8" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 9" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 10" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 11" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 12" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 13" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 14" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Submarine 5" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 6" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 7" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 8" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "3. Fleet"
+		naval_base = 7968
+		task_force = {
+			name = "3. Fleet"
+			location = 7968
+			ship = { name = "Heavy Cruiser 3" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = BRA  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Destroyer 15" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 16" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 17" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 18" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 19" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 20" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 21" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = BRA  version_name = "Early Destroyer" } } }
+			ship = { name = "Submarine 9" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 10" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 11" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 12" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = BRA  version_name = "Early Submarine" } } }
+		}
+	}
+}

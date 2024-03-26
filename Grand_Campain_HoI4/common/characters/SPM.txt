@@ -1,0 +1,157 @@
+characters = {
+	SPM_100663632 = {
+		name = Romualdo_de_Launay
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	SPM_50332982 = {
+		name = Raffaele_Costa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50332982
+			cost = 150
+		}
+	}
+	SPM_50333707 = {
+		name = Pietro_di_Savoia-Aosta
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_50333707
+			cost = 150
+		}
+	}
+	SPM_67109997 = {
+		name = Bartolomeo_Carrascosa
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_3
+				small = GFX_Portrait_Italy_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_67109997
+			cost = 150
+		}
+	}
+	SPM_83890461 = {
+		name = Domenico_Saracco
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83890461
+			cost = 150
+		}
+	}
+	SPM_83890549 = {
+		name = Fabio_Vernazza
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83890549
+			cost = 150
+		}
+	}
+	SPM_100664327 = {
+		name = eu4_Mustafa_eu4_Qutamid
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist engineer_officer naval_invader organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	SPM_100665570 = {
+		name = sc_Jerone_dyn_sc_Serrau
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer inflexible_strategist organizer trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	SPM_100669642 = {
+		name = sc_Adamu_dyn_sc_Pittau
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100669642
+			cost = 150
+		}
+	}
+	SPM_134224069 = {
+		name = Fausto_Oliva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_134224069
+			cost = 150
+		}
+	}
+}

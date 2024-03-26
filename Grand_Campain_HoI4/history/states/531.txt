@@ -1,0 +1,27 @@
+state = {
+	id = 531
+	name = "STATE_531"
+	manpower = 1225924
+	resources = {
+		aluminium = 5
+	}
+
+	state_category = town
+
+	history = {
+		owner = V23
+		victory_points = {
+			11833 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = V23
+	}
+
+	provinces = {
+		6875 9750 11833 
+	}
+}

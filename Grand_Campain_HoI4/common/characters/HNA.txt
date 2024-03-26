@@ -1,0 +1,138 @@
+characters = {
+	HNA_1026 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  }
+		}
+	}
+	HNA_16778716 = {
+		name = Junying_Lyfoung
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_16778716
+			cost = 150
+		}
+	}
+	HNA_33556178 = {
+		name = Zoua_Congwen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_33556178
+			cost = 150
+		}
+	}
+	HNA_50332344 = {
+		name = Zoua_Nie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50332344
+			cost = 150
+		}
+	}
+	HNA_83888120 = {
+		name = Zhu_Sun
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_83888120
+			cost = 150
+		}
+	}
+	HNA_100664335 = {
+		name = Ka_Pao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_100664335
+			cost = 150
+		}
+	}
+	HNA_117441653 = {
+		name = Wong_Cui
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_117441653
+			cost = 150
+		}
+	}
+	HNA_117442417 = {
+		name = Yu_Lu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer career_officer infantry_officer trait_mountaineer }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { grand_battle_plan_expert }
+			slot = political_advisor
+			idea_token = i_117442417
+			cost = 150
+		}
+	}
+	HNA_134217898 = {
+		name = Tan_Li
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_134217898
+			cost = 150
+		}
+	}
+}

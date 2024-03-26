@@ -1,0 +1,24 @@
+state = {
+	id = 640
+	name = "STATE_640"
+	manpower = 561151
+	resources = {
+		steel = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = W40
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		1791 4882 12579 
+	}
+}

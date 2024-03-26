@@ -1,0 +1,151 @@
+characters = {
+	BHT_67111431 = {
+		name = bo_Jampa_dyn_bo_Depa_Tonpo
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	BHT_83887107 = {
+		name = Fateh_Jethwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83887107
+			cost = 150
+		}
+	}
+	BHT_83887191 = {
+		name = Narayan_Bhave
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	BHT_83888595 = {
+		name = Abd_al-Quddus_Jan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83888595
+			cost = 150
+		}
+	}
+	BHT_100663823 = {
+		name = bo_Palchen_dyn_bo_Depa_Tonpo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BHT_100666167 = {
+		name = Padmanavadeva_Das
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100666167
+			cost = 150
+		}
+	}
+	BHT_117440847 = {
+		name = ne_Bhupal_dyn_ne_Nemwang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117440847
+			cost = 150
+		}
+	}
+	BHT_117442719 = {
+		name = Chabildas_Pansara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117442719
+			cost = 150
+		}
+	}
+	BHT_117446712 = {
+		name = fa_Kayan_dyn_fa_Davoodzadeh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117446712
+			cost = 150
+		}
+	}
+	BHT_117446907 = {
+		name = Udayanacharaya_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_117446907
+			cost = 150
+		}
+	}
+	BHT_134218124 = {
+		name = kn_Jeeva_dyn_kn_Nayak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_134218124
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 688
+	name = "STATE_688"
+	manpower = 332439
+	resources = {
+		aluminium = 0
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = UPU
+		victory_points = {
+			7798 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		1759 2130 2155 4763 4776 4791 7755 7798 7811 10553 10581 10622 10637 12576 12932 
+	}
+}

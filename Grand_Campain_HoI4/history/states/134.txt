@@ -1,0 +1,29 @@
+state = {
+	id = 134
+	name = "STATE_134"
+	manpower = 1935382
+	resources = {
+		aluminium = 48
+	}
+
+	state_category = metropolis
+
+	history = {
+		owner = ENG
+		victory_points = {
+			3369 4
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces = {
+		540 3369 6351 6378 6526 9484 9562 11406 11471 
+	}
+}

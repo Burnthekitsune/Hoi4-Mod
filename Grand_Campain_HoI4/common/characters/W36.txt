@@ -1,0 +1,127 @@
+characters = {
+	W36_100665349 = {
+		name = Manthaturath_Luang_Phrabang
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	W36_33556404 = {
+		name = Chantha_Ong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_33556404
+			cost = 150
+		}
+	}
+	W36_33557508 = {
+		name = Sakkarin_Anuvong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_33557508
+			cost = 150
+		}
+	}
+	W36_50332177 = {
+		name = Phraya_Intharavong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332177
+			cost = 150
+		}
+	}
+	W36_67109991 = {
+		name = Kham-Oun_Supho
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67109991
+			cost = 150
+		}
+	}
+	W36_67114999 = {
+		name = Unkham_Luang_Phrabang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67114999
+			cost = 150
+		}
+	}
+	W36_83886791 = {
+		name = Sisavang_Kuman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886791
+			cost = 150
+		}
+	}
+	W36_83887745 = {
+		name = Phraya_Luang_Phrabang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83887745
+			cost = 150
+		}
+	}
+	W36_184550194 = {
+		name = Setthathirath_Kuman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_184550194
+			cost = 150
+		}
+	}
+}

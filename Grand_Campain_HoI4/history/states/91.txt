@@ -1,0 +1,34 @@
+state = {
+	id = 91
+	name = "STATE_91"
+	manpower = 3159528
+	resources = {
+		chromium = 43
+		oil = 3
+		steel = 43
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = ENG
+		victory_points = {
+			6318 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			6384 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces = {
+		3205 3311 6318 6335 6384 6399 11332 
+	}
+}

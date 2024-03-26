@@ -1,0 +1,23 @@
+state = {
+	id = 787
+	name = "STATE_787"
+	manpower = 231416
+
+	state_category = town
+
+	history = {
+		owner = BRA
+		victory_points = {
+			13279 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		13278 13279 13280 
+	}
+}

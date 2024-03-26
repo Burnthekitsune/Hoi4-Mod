@@ -1,0 +1,27 @@
+state = {
+	id = 651
+	name = "STATE_651"
+	manpower = 28823
+	resources = {
+		tungsten = 0
+	}
+
+	state_category = town
+
+	history = {
+		owner = W91
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			1351 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = W91
+	}
+
+	provinces = {
+		1351 
+	}
+}

@@ -1,0 +1,143 @@
+characters = {
+	X82_1024 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	X82_67109566 = {
+		name = Badamdorj_Togs-Ochiryn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_67109566
+			cost = 150
+		}
+	}
+	X82_67111298 = {
+		name = eu4_Abdul-Aziz_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67111298
+			cost = 150
+		}
+	}
+	X82_67114414 = {
+		name = Damdin_Amar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67114414
+			cost = 150
+		}
+	}
+	X82_83886639 = {
+		name = eu4_Tifilwit_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83886639
+			cost = 150
+		}
+	}
+	X82_83886982 = {
+		name = Dambyan_Togs-Ochiryn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83886982
+			cost = 150
+		}
+	}
+	X82_83888612 = {
+		name = eu4_Rognvaldr_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83888612
+			cost = 150
+		}
+	}
+	X82_83891860 = {
+		name = eu4_Khaliq_eu4_Qutamid
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist old_guard organizer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 6
+			planning_skill = 1
+			logistics_skill = 5
+		}
+	}
+	X82_117441299 = {
+		name = Sodnomyn_Choibalsan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117441299
+			cost = 150
+		}
+	}
+	X82_150997112 = {
+		name = eu4_Ahmad_eu4_Qutamid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_150997112
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 48
+	name = "STATE_48"
+	manpower = 4180504
+	resources = {
+		steel = 19
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = W40
+		victory_points = {
+			12536 6
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		1297 1369 1685 1702 1718 1777 1779 1794 1797 1816 1850 1876 4665 4681 4690 4711 4724 4734 4781 4789 4793 4800 4803 4818 4853 4866 7274 7680 7713 7744 7757 7789 7815 7822 7886 10531 10537 10546 10562 10580 10613 10639 10649 10652 10686 10712 10713 11410 12174 12509 12515 12528 12536 12563 12613 12621 12628 12631 12666 12691 
+	}
+}

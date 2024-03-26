@@ -1,0 +1,29 @@
+state = {
+	id = 240
+	name = "STATE_240"
+	manpower = 3846299
+	resources = {
+		aluminium = 16
+	}
+
+	state_category = city
+
+	history = {
+		owner = X72
+		victory_points = {
+			11584 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+		}
+		add_core_of = X72
+	}
+
+	provinces = {
+		628 3604 3657 6656 9582 9613 11584 
+	}
+}

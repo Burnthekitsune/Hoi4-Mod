@@ -1,0 +1,32 @@
+state = {
+	id = 155
+	name = "STATE_155"
+	manpower = 35095365
+	resources = {
+		tungsten = 25
+	}
+
+	state_category = large_city
+
+	history = {
+		owner = SHX
+		victory_points = {
+			12076 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			12052 = {
+				naval_base = 1
+			}
+			air_base = 7
+		}
+		add_core_of = SHX
+	}
+
+	provinces = {
+		996 1089 4091 7014 10034 10076 11928 11982 12052 12076 
+	}
+}

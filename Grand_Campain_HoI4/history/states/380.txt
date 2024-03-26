@@ -1,0 +1,33 @@
+state = {
+	id = 380
+	name = "STATE_380"
+	manpower = 3597770
+	resources = {
+		rubber = 19
+		tungsten = 8
+	}
+
+	state_category = town
+
+	history = {
+		owner = DLA
+		victory_points = {
+			5036 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			5036 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = DLA
+	}
+
+	provinces = {
+		1903 2080 5036 5054 
+	}
+}

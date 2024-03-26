@@ -1,0 +1,29 @@
+state = {
+	id = 75
+	name = "STATE_75"
+	manpower = 5768329
+	resources = {
+		rubber = 16
+		tungsten = 8
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = V27
+		victory_points = {
+			12731 6
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+		}
+		add_core_of = V27
+	}
+
+	provinces = {
+		12731 
+	}
+}

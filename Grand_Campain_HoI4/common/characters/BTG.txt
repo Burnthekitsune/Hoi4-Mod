@@ -1,0 +1,126 @@
+characters = {
+	BTG_1066 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	BTG_33556050 = {
+		name = Reth_Kayuni
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556050
+			cost = 150
+		}
+	}
+	BTG_33556180 = {
+		name = Musawenkosi_Sibale
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_33556180
+			cost = 150
+		}
+	}
+	BTG_83887810 = {
+		name = Gamba_Chisakamzondi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83887810
+			cost = 150
+		}
+	}
+	BTG_100665192 = {
+		name = Kasim_Panja
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100665192
+			cost = 150
+		}
+	}
+	BTG_117442362 = {
+		name = Mansa_Panja
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117442362
+			cost = 150
+		}
+	}
+	BTG_117442387 = {
+		name = Kabili_Chizimu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_117442387
+			cost = 150
+		}
+	}
+	BTG_134219373 = {
+		name = Reth_Kalonga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_134219373
+			cost = 150
+		}
+	}
+	BTG_134219504 = {
+		name = Kabili_Banda
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_134219504
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,174 @@
+characters = {
+	X08_83886862 = {
+		name = fa_Shahram_dyn_fa_Ahmadian
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	X08_33555033 = {
+		name = fa_Forouq_dyn_fa_Naseri
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33555033
+			cost = 150
+		}
+	}
+	X08_50332050 = {
+		name = fa_Esmail_dyn_fa_Armanjani
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_2
+				small = GFX_Portrait_Arabia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert caustic_personality chief_engineer old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	X08_67110182 = {
+		name = fa_Faghani_dyn_fa_Hami
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer cavalry_officer engineer_officer guerilla_fighter old_guard trickster }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+	X08_83886809 = {
+		name = fa_Peyvand_dyn_fa_Kamkar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886809
+			cost = 150
+		}
+	}
+	X08_100666410 = {
+		name = fa_Peyvand_dyn_fa_Ghanbari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100666410
+			cost = 150
+		}
+	}
+	X08_117441272 = {
+		name = fa_Tabriz_dyn_fa_Pakravan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117441272
+			cost = 150
+		}
+	}
+	X08_117444943 = {
+		name = fa_Kamyar_dyn_fa_Bakhtiari
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer organizer trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	X08_150996853 = {
+		name = fa_Haider_dyn_fa_Namazian
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer gentlemanly media_personality }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_150996853
+			cost = 150
+		}
+	}
+	X08_150999898 = {
+		name = fa_Farjad_dyn_fa_Panahi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_150999898
+			cost = 150
+		}
+	}
+	X08_167772483 = {
+		name = fa_Kasra_dyn_fa_Mahmoudi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_167772483
+			cost = 150
+		}
+	}
+}

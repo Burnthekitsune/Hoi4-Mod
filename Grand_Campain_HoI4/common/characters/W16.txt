@@ -1,0 +1,143 @@
+characters = {
+	W16_1062 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  }
+		}
+	}
+	W16_50332103 = {
+		name = Liao_Li
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50332103
+			cost = 150
+		}
+	}
+	W16_67109167 = {
+		name = Deng_Cui
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67109167
+			cost = 150
+		}
+	}
+	W16_67109852 = {
+		name = Hsia_Hu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109852
+			cost = 150
+		}
+	}
+	W16_83888048 = {
+		name = Yang_Ting
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer ranger }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	W16_83892213 = {
+		name = Huang_Cui
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83892213
+			cost = 150
+		}
+	}
+	W16_117446017 = {
+		name = Kwong_Jiang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_117446017
+			cost = 150
+		}
+	}
+	W16_117446466 = {
+		name = Deng_Wu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_117446466
+			cost = 150
+		}
+	}
+	W16_134218679 = {
+		name = Liao_Cui
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_134218679
+			cost = 150
+		}
+	}
+	W16_167772659 = {
+		name = Liao_Jin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_167772659
+			cost = 150
+		}
+	}
+}

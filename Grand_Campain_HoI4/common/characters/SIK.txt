@@ -1,0 +1,151 @@
+characters = {
+	SIK_33556412 = {
+		name = ne_Nirav_dyn_ne_Siwakoti
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	SIK_67111361 = {
+		name = ne_Haridas_dyn_ne_Kansakar
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer brilliant_strategist commando naval_invader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67111361
+			cost = 150
+		}
+	}
+	SIK_67114097 = {
+		name = ne_Kumar_dyn_ne_Siwakoti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67114097
+			cost = 150
+		}
+	}
+	SIK_83886168 = {
+		name = Namgang_Ngapoi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83886168
+			cost = 150
+		}
+	}
+	SIK_83886443 = {
+		name = ne_Jagadish_dyn_ne_Maharjan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886443
+			cost = 150
+		}
+	}
+	SIK_100663492 = {
+		name = Penor_Ngapoi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100663492
+			cost = 150
+		}
+	}
+	SIK_100669616 = {
+		name = Jamphel_Chophel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100669616
+			cost = 150
+		}
+	}
+	SIK_134217795 = {
+		name = ne_Pratik_dyn_ne_Sitaula
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_134217795
+			cost = 150
+		}
+	}
+	SIK_151000995 = {
+		name = ne_Fanindra_dyn_ne_Joshi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_151000995
+			cost = 150
+		}
+	}
+	SIK_167773342 = {
+		name = Tsepon_Lhalu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_167773342
+			cost = 150
+		}
+	}
+}

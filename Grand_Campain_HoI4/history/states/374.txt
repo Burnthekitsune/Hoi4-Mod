@@ -1,0 +1,28 @@
+state = {
+	id = 374
+	name = "STATE_374"
+	manpower = 1360012
+	resources = {
+		rubber = 28
+		tungsten = 4
+	}
+
+	state_category = town
+
+	history = {
+		owner = DLA
+		victory_points = {
+			12830 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = DLA
+	}
+
+	provinces = {
+		1974 3165 5084 8078 11012 11108 12830 
+	}
+}

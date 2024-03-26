@@ -1,0 +1,25 @@
+state = {
+	id = 478
+	name = "STATE_478"
+	manpower = 5016098
+
+	state_category = town
+
+	history = {
+		owner = UKR
+		victory_points = {
+			525 20
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = UKR
+	}
+
+	provinces = {
+		434 441 476 488 489 504 525 550 3494 3543 3570 6455 6480 6497 6556 6593 9423 9435 9451 9465 9466 9481 9493 9568 11409 11424 11438 11454 11464 11477 11490 11514 11557 
+	}
+}

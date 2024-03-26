@@ -1,0 +1,28 @@
+state = {
+	id = 179
+	name = "STATE_179"
+	manpower = 3124782
+	resources = {
+		tungsten = 6
+	}
+
+	state_category = large_city
+
+	history = {
+		owner = PER
+		victory_points = {
+			1919 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		1919 4542 8027 10187 10417 12250 12430 12581 12805 
+	}
+}

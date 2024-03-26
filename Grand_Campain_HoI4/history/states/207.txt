@@ -1,0 +1,29 @@
+state = {
+	id = 207
+	name = "STATE_207"
+	manpower = 3755732
+
+	state_category = city
+
+	history = {
+		owner = BEL
+		victory_points = {
+			13068 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+			6446 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = BEL
+	}
+
+	provinces = {
+		516 3576 6446 6560 6598 9574 11419 13068 
+	}
+}

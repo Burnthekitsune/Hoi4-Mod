@@ -1,0 +1,168 @@
+characters = {
+	X74_1056 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	X74_67110930 = {
+		name = Xasan_Doreh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67110930
+			cost = 150
+		}
+	}
+	X74_83887493 = {
+		name = Aamir_Gobroon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83887493
+			cost = 150
+		}
+	}
+	X74_83888753 = {
+		name = Maxamuud_Dhoobow
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_83888753
+			cost = 150
+		}
+	}
+	X74_83892272 = {
+		name = Aamir_Doreh
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_2
+				small = GFX_Portrait_Africa_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	X74_100663441 = {
+		name = Maxamuud_Qaalib
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100663441
+			cost = 150
+		}
+	}
+	X74_100664706 = {
+		name = Yuusuf_Gobroon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100664706
+			cost = 150
+		}
+	}
+	X74_100668654 = {
+		name = Cusmaan_Hirsi
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100668654
+			cost = 150
+		}
+	}
+	X74_117446491 = {
+		name = Ismaaciil_Buqul
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_117446491
+			cost = 150
+		}
+	}
+	X74_150995251 = {
+		name = Naleye_Yabarow
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_150995251
+			cost = 150
+		}
+	}
+	X74_151000708 = {
+		name = Cusmaan_Walashma
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_151000708
+			cost = 150
+		}
+	}
+}

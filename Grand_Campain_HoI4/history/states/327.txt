@@ -1,0 +1,30 @@
+state = {
+	id = 327
+	name = "STATE_327"
+	manpower = 15474611
+	resources = {
+		chromium = 1
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = V13
+		victory_points = {
+			4140 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 5
+		}
+		add_core_of = V13
+	}
+
+	provinces = {
+		814 828 881 900 934 952 972 1052 1137 1590 3814 3828 3830 3881 3900 3955 3978 4140 4514 6852 6898 6904 6937 6969 7575 7633 9768 9776 9788 9843 9873 9905 9927 10068 10397 10426 11761 11801 11815 11822 11855 12026 12043 
+	}
+}

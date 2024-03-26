@@ -1,0 +1,27 @@
+state = {
+	id = 500
+	name = "STATE_500"
+	manpower = 1034695
+	resources = {
+		chromium = 7
+		steel = 6
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = V27
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+		}
+		add_core_of = V27
+	}
+
+	provinces = {
+		1472 4505 4520 4560 7506 7538 7666 10350 10365 10378 10460 10475 10487 12411 12424 
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 441
+	name = "STATE_441"
+	manpower = 2699188
+	resources = {
+		rubber = 11
+		tungsten = 5
+	}
+
+	state_category = town
+
+	history = {
+		owner = ANK
+		victory_points = {
+			5196 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = ANK
+	}
+
+	provinces = {
+		1939 2066 5079 5196 6020 10761 10962 12927 
+	}
+}

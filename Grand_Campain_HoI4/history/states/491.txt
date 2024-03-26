@@ -1,0 +1,25 @@
+state = {
+	id = 491
+	name = "STATE_491"
+	manpower = 104665
+
+	state_category = town
+
+	history = {
+		owner = W92
+		victory_points = {
+			4357 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+		}
+		add_core_of = W92
+	}
+
+	provinces = {
+		4357 12103 
+	}
+}

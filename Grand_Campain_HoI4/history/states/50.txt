@@ -1,0 +1,29 @@
+state = {
+	id = 50
+	name = "STATE_50"
+	manpower = 8203711
+
+	state_category = megalopolis
+
+	history = {
+		owner = FRA
+		victory_points = {
+			629 6
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 3
+			485 = {
+				naval_base = 10
+			}
+			air_base = 3
+		}
+		add_core_of = FRA
+	}
+
+	provinces = {
+		485 595 629 655 6657 9597 9631 11582 11596 11600 
+	}
+}

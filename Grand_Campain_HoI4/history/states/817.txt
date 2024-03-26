@@ -1,0 +1,22 @@
+state = {
+	id = 817
+	name = "STATE_817"
+	manpower = 28319
+
+	state_category = rural
+
+	history = {
+		owner = SG1
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = SG1
+	}
+
+	provinces = {
+		10703 
+	}
+}

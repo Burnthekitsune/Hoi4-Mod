@@ -1,0 +1,27 @@
+state = {
+	id = 355
+	name = "STATE_355"
+	manpower = 24294092
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = W34
+		victory_points = {
+			4141 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+		}
+		add_core_of = W34
+	}
+
+	provinces = {
+		1367 1893 2030 2091 4041 4141 4431 5048 6999 7240 7256 7948 8026 10144 10304 10822 11865 12274 12767 
+	}
+}

@@ -1,0 +1,127 @@
+characters = {
+	V51_1061 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	V51_67109525 = {
+		name = Haruni_Mutiwapangome
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109525
+			cost = 150
+		}
+	}
+	V51_83887313 = {
+		name = Kasim_Mutiwapangome
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83887313
+			cost = 150
+		}
+	}
+	V51_100663408 = {
+		name = Khairi_Cimininyambo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100663408
+			cost = 150
+		}
+	}
+	V51_117442758 = {
+		name = Temwa_Cimininyambo
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117442758
+			cost = 150
+		}
+	}
+	V51_117446636 = {
+		name = Musawenkosi_Mutiwapangome
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_117446636
+			cost = 150
+		}
+	}
+	V51_117446662 = {
+		name = Davu_Cimininyambo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_117446662
+			cost = 150
+		}
+	}
+	V51_134219761 = {
+		name = Guban_Kalonga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_134219761
+			cost = 150
+		}
+	}
+	V51_150996999 = {
+		name = Dume_Banda
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_150996999
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 452
+	name = "STATE_452"
+	manpower = 1977953
+	resources = {
+		rubber = 3
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = SIA
+		victory_points = {
+			12264 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			4433 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SIA
+	}
+
+	provinces = {
+		1244 1535 1548 4433 4511 4582 7225 7292 7516 7601 10293 10425 10438 12195 12224 12264 12360 12373 12388 12402 12417 12431 
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 123
+	name = "STATE_123"
+	manpower = 3917946
+	resources = {
+		rubber = 23
+		tungsten = 2
+	}
+
+	state_category = metropolis
+
+	history = {
+		owner = V27
+		victory_points = {
+			7912 4
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 3
+		}
+		add_core_of = V27
+	}
+
+	provinces = {
+		2009 7912 8019 8062 12856 13243 13244 13245 13246 13247 
+	}
+}

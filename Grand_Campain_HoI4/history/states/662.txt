@@ -1,0 +1,21 @@
+state = {
+	id = 662
+	name = "STATE_662"
+	manpower = 144540
+
+	state_category = town
+
+	history = {
+		owner = V26
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = V26
+	}
+
+	provinces = {
+		462 
+	}
+}

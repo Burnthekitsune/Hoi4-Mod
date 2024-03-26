@@ -1,0 +1,160 @@
+characters = {
+	RAJ_1065 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	RAJ_50331945 = {
+		name = bo_Tsangchung_dyn_bo_Sharkhapa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_50331945
+			cost = 150
+		}
+	}
+	RAJ_50333933 = {
+		name = Bhagwant_Raksel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_50333933
+			cost = 150
+		}
+	}
+	RAJ_50337707 = {
+		name = Chithira_Kesavadas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50337707
+			cost = 150
+		}
+	}
+	RAJ_67110609 = {
+		name = Narayan_Kalash
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67110609
+			cost = 150
+		}
+	}
+	RAJ_67111619 = {
+		name = Muhammad_Raksel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67111619
+			cost = 150
+		}
+	}
+	RAJ_83887359 = {
+		name = Sirajuddaula_Ali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83887359
+			cost = 150
+		}
+	}
+	RAJ_100664094 = {
+		name = gu_Abhishek_dyn_gu_Shah
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RAJ_100665027 = {
+		name = Balwantry_Mangeshkar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_100665027
+			cost = 150
+		}
+	}
+	RAJ_134219623 = {
+		name = kn_Aakaar_dyn_kn_Prem
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	RAJ_150995454 = {
+		name = Zaman_Taunsvi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_150995454
+			cost = 150
+		}
+	}
+}

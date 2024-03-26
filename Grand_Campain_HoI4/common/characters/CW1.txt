@@ -1,0 +1,147 @@
+characters = {
+	CW1_117446668 = {
+		name = ug_Erkin_dyn_ug_Laylinaman
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+			civilian = {
+				large = GFX_Portrait_asia_generic_land_5
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { commando inflexible_strategist naval_invader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	CW1_33556026 = {
+		name = ug_Alim_dyn_ug_Alptekin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_33556026
+			cost = 150
+		}
+	}
+	CW1_83886722 = {
+		name = ug_Mominjan_dyn_ug_Hisamudin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	CW1_100663742 = {
+		name = ug_Ehmet_dyn_ug_Hisamudin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100663742
+			cost = 150
+		}
+	}
+	CW1_100664206 = {
+		name = ug_Ilham_dyn_ug_Abdulrixit
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100664206
+			cost = 150
+		}
+	}
+	CW1_100665989 = {
+		name = ug_Alimjan_dyn_ug_Azizi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100665989
+			cost = 150
+		}
+	}
+	CW1_117445841 = {
+		name = ug_Yusup_dyn_ug_Sabri
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_117445841
+			cost = 150
+		}
+	}
+	CW1_117446081 = {
+		name = ug_Adil_dyn_ug_Azizi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117446081
+			cost = 150
+		}
+	}
+	CW1_134217771 = {
+		name = ug_Aygul_dyn_ug_Akhun
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_134217771
+			cost = 150
+		}
+	}
+	CW1_150999363 = {
+		name = ug_Yusup_dyn_ug_Muhiti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_150999363
+			cost = 150
+		}
+	}
+}

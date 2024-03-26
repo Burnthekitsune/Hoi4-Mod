@@ -1,0 +1,137 @@
+characters = {
+	X19_1018 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  }
+		}
+	}
+	X19_16779204 = {
+		name = Wilhelm_Siegwart-Muller
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_16779204
+			cost = 150
+		}
+	}
+	X19_16779207 = {
+		name = Guillaume_von_Steiger
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_16779207
+			cost = 150
+		}
+	}
+	X19_50333047 = {
+		name = Marc_von_Wattenwyl
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist naval_invader organizer politically_connected }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_50333047
+			cost = 150
+		}
+	}
+	X19_50333634 = {
+		name = Adolf_Herzog
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50333634
+			cost = 150
+		}
+	}
+	X19_83886127 = {
+		name = Josef_Wille
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83886127
+			cost = 150
+		}
+	}
+	X19_83890728 = {
+		name = Hans_Fogliardi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_83890728
+			cost = 150
+		}
+	}
+	X19_117442496 = {
+		name = Daniel_de_Broglie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_117442496
+			cost = 150
+		}
+	}
+	X19_184550732 = {
+		name = Gaston_Dhers
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_184550732
+			cost = 150
+		}
+	}
+}

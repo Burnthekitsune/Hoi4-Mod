@@ -1,0 +1,127 @@
+characters = {
+	ICE_1032 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	ICE_33554932 = {
+		name = eu4_Barakat_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33554932
+			cost = 150
+		}
+	}
+	ICE_50337177 = {
+		name = eu4_Yahaff_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50337177
+			cost = 150
+		}
+	}
+	ICE_67110280 = {
+		name = eu4_Faruq_eu4_Hammelburg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67110280
+			cost = 150
+		}
+	}
+	ICE_83887024 = {
+		name = eu4_Nasr_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83887024
+			cost = 150
+		}
+	}
+	ICE_83892257 = {
+		name = eu4_Ibrahim_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83892257
+			cost = 150
+		}
+	}
+	ICE_100665717 = {
+		name = eu4_Nasr_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100665717
+			cost = 150
+		}
+	}
+	ICE_117440832 = {
+		name = eu4_Iqbal_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_117440832
+			cost = 150
+		}
+	}
+	ICE_117442238 = {
+		name = eu4_Salma_eu4_Snjalli
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117442238
+			cost = 150
+		}
+	}
+}

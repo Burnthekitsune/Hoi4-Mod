@@ -1,0 +1,143 @@
+characters = {
+	V25_1009 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	V25_50334073 = {
+		name = Ahmad_Zahedi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50334073
+			cost = 150
+		}
+	}
+	V25_50337930 = {
+		name = Sadegh_Pirnia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50337930
+			cost = 150
+		}
+	}
+	V25_67109010 = {
+		name = Fazlollah_Ashtiani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67109010
+			cost = 150
+		}
+	}
+	V25_83886244 = {
+		name = Naser_ed-Din_Alamir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83886244
+			cost = 150
+		}
+	}
+	V25_83887134 = {
+		name = Mahmoud_Khuzai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83887134
+			cost = 150
+		}
+	}
+	V25_100668496 = {
+		name = Lotf_Ali_Ashtiani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_100668496
+			cost = 150
+		}
+	}
+	V25_117442591 = {
+		name = Muhsin_Sadegh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_117442591
+			cost = 150
+		}
+	}
+	V25_134219644 = {
+		name = Abdolsamad_Farmanfarma
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_134219644
+			cost = 150
+		}
+	}
+	V25_134223767 = {
+		name = Hasan_al-Saltaneh
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer fortress_buster inflexible_strategist organizer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+}

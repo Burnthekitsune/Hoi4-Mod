@@ -1,0 +1,27 @@
+state = {
+	id = 279
+	name = "STATE_279"
+	manpower = 1851716
+	resources = {
+		aluminium = 45
+	}
+
+	state_category = large_town
+
+	history = {
+		owner = BRA
+		victory_points = {
+			10992 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+	}
+
+	provinces = {
+		2149 2215 7550 8215 10935 10992 11021 12321 12998 
+	}
+}

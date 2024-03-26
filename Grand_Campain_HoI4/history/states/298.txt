@@ -1,0 +1,27 @@
+state = {
+	id = 298
+	name = "STATE_298"
+	manpower = 19482396
+	resources = {
+		tungsten = 9
+	}
+
+	state_category = town
+
+	history = {
+		owner = ORI
+		victory_points = {
+			4516 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = ORI
+	}
+
+	provinces = {
+		1059 1444 1541 1569 1637 4459 4516 4544 4571 7475 7537 7593 10358 10361 10471 10878 12035 12307 12452 
+	}
+}

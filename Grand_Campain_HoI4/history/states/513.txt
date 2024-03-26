@@ -1,0 +1,32 @@
+state = {
+	id = 513
+	name = "STATE_513"
+	manpower = 1823524
+	resources = {
+		rubber = 10
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = SIA
+		victory_points = {
+			1427 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			1427 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = SIA
+	}
+
+	provinces = {
+		1427 4319 4566 7338 7367 7408 7572 10221 10250 10398 10411 12173 
+	}
+}

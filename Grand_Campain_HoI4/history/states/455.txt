@@ -1,0 +1,25 @@
+state = {
+	id = 455
+	name = "STATE_455"
+	manpower = 1236858
+	resources = {
+		oil = 1
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		1450 3711 9645 
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 373
+	name = "STATE_373"
+	manpower = 2137058
+	resources = {
+		steel = 11
+		tungsten = 9
+	}
+
+	state_category = town
+
+	history = {
+		owner = COG
+		victory_points = {
+			2024 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = COG
+	}
+
+	provinces = {
+		1731 2024 4128 7716 8016 9986 12775 
+	}
+}

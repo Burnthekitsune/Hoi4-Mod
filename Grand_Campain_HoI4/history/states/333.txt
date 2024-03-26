@@ -1,0 +1,31 @@
+state = {
+	id = 333
+	name = "STATE_333"
+	manpower = 2947169
+	resources = {
+		aluminium = 17
+	}
+
+	state_category = town
+
+	history = {
+		owner = IRE
+		victory_points = {
+			9303 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			11371 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = IRE
+	}
+
+	provinces = {
+		3396 9255 9303 9321 9369 11238 11287 11371 
+	}
+}

@@ -1,0 +1,144 @@
+characters = {
+	CC2_1059 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism
+			traits = {  }
+		}
+	}
+	CC2_50332318 = {
+		name = ha_Duka_dyn_ha_Mustapha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50332318
+			cost = 150
+		}
+	}
+	CC2_67109679 = {
+		name = ha_Shuka_dyn_ha_Muhktar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67109679
+			cost = 150
+		}
+	}
+	CC2_67110271 = {
+		name = ha_Zaki_dyn_ha_Burja
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67110271
+			cost = 150
+		}
+	}
+	CC2_67110607 = {
+		name = ha_Danasabe_dyn_ha_Habe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_67110607
+			cost = 150
+		}
+	}
+	CC2_83889935 = {
+		name = ha_Mai-Zaria_dyn_ha_Shehu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83889935
+			cost = 150
+		}
+	}
+	CC2_100664882 = {
+		name = ha_Auta_dyn_ha_Abu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100664882
+			cost = 150
+		}
+	}
+	CC2_117442494 = {
+		name = ha_Zaila_dyn_ha_Abdullahi
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_117442494
+			cost = 150
+		}
+	}
+	CC2_134218968 = {
+		name = ha_Danladi_dyn_ha_Audu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer engineer_officer guerilla_fighter old_guard trait_mountaineer trickster }
+			skill = 4
+			attack_skill = 1
+			defense_skill = 6
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	CC2_134219176 = {
+		name = ha_Laraba_dyn_ha_Raji
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_134219176
+			cost = 150
+		}
+	}
+}

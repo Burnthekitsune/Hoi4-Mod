@@ -1,0 +1,160 @@
+characters = {
+	ARA_1003 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	ARA_33555452 = {
+		name = Ali_al-Zaydani
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer gentlemanly }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	ARA_50331651 = {
+		name = Khalid_al-Ghani_al-Nabulsi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50331651
+			cost = 150
+		}
+	}
+	ARA_50332214 = {
+		name = Abd_al-Karim_al-Baghdadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50332214
+			cost = 150
+		}
+	}
+	ARA_50332649 = {
+		name = Halil_al-Askari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50332649
+			cost = 150
+		}
+	}
+	ARA_50333739 = {
+		name = Halil_Nuseibeh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50333739
+			cost = 150
+		}
+	}
+	ARA_67109636 = {
+		name = Fuad_ibn_Yusuf
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67109636
+			cost = 150
+		}
+	}
+	ARA_67110381 = {
+		name = Uthman_ibn_Muhammad
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer inflexible_strategist organizer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	ARA_67112442 = {
+		name = Iskandar_ibn_Abu_Bakr
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67112442
+			cost = 150
+		}
+	}
+	ARA_83892259 = {
+		name = Iskandar_al-Atassi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_83892259
+			cost = 150
+		}
+	}
+	ARA_150995738 = {
+		name = Khalid_al-Azma
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_150995738
+			cost = 150
+		}
+	}
+}

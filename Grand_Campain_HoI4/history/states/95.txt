@@ -1,0 +1,29 @@
+state = {
+	id = 95
+	name = "STATE_95"
+	manpower = 3900802
+	resources = {
+		steel = 22
+		tungsten = 6
+	}
+
+	state_category = metropolis
+
+	history = {
+		owner = W93
+		victory_points = {
+			12419 4
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+		}
+		add_core_of = W93
+	}
+
+	provinces = {
+		1509 4822 5203 10668 10697 12419 12692 
+	}
+}

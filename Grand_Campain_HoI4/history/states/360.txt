@@ -1,0 +1,26 @@
+state = {
+	id = 360
+	name = "STATE_360"
+	manpower = 2141448
+	resources = {
+		rubber = 1
+		steel = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		5023 
+	}
+}

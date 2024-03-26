@@ -1,0 +1,143 @@
+characters = {
+	V46_1034 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	V46_16779314 = {
+		name = ar_Ramzi_dyn_ar_bin_Dawud
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_16779314
+			cost = 150
+		}
+	}
+	V46_50333697 = {
+		name = ar_Abdulrahman_dyn_ar_bin_Marwan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50333697
+			cost = 150
+		}
+	}
+	V46_67110210 = {
+		name = ar_Adad_dyn_ar_bin_Sadik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67110210
+			cost = 150
+		}
+	}
+	V46_67110250 = {
+		name = ar_Tamer_dyn_ar_bin_Haidar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67110250
+			cost = 150
+		}
+	}
+	V46_67110254 = {
+		name = ar_Syed_dyn_ar_bin_Hameed
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67110254
+			cost = 150
+		}
+	}
+	V46_83887434 = {
+		name = ar_Abdulrahman_dyn_ar_bin_Najib
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_83887434
+			cost = 150
+		}
+	}
+	V46_83887473 = {
+		name = ar_Shereef_dyn_ar_bin_Zayn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_83887473
+			cost = 150
+		}
+	}
+	V46_83887515 = {
+		name = ar_Khayrat_dyn_ar_bin_Naji
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist naval_invader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	V46_184551475 = {
+		name = ar_Dekel_dyn_ar_bin_Hammad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_184551475
+			cost = 150
+		}
+	}
+}

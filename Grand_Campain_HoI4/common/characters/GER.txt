@@ -1,0 +1,310 @@
+characters = {
+	GER_117443374 = {
+		name = Kasimir_von_Hartmann
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_6
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	GER_50332950 = {
+		name = Friedrich_von_Baligand
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_3
+				small = GFX_Portrait_Germany_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	GER_50333324 = {
+		name = Bjarnat_z_Barenstamma
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50333324
+			cost = 150
+		}
+	}
+	GER_50334776 = {
+		name = dw_Wincat_dw_ze_Slupska
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer naval_invader organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	GER_67115061 = {
+		name = Rudolf_Zulauf
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67115061
+			cost = 150
+		}
+	}
+	GER_83886106 = {
+		name = Bjarnat_Ducman
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer career_officer infantry_officer trait_mountaineer }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 6
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	GER_83886237 = {
+		name = Alfons_Mack
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_9
+				small = GFX_Portrait_Germany_Generic_land_9_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox naval_invader organizer trait_cautious }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	GER_83886325 = {
+		name = Werner_von_Struve
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_1
+				small = GFX_Portrait_Germany_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer trait_mountaineer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	GER_83887386 = {
+		name = Theodor_von_Binder
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_1
+				small = GFX_Portrait_Germany_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	GER_83891010 = {
+		name = dw_Arturk_dw_Pellowski
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer defensive_doctrine harsh_leader infantry_officer trait_mountaineer }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	GER_100663661 = {
+		name = Stefan_Hildebrand
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100663661
+			cost = 150
+		}
+	}
+	GER_100664577 = {
+		name = dw_Chock_dw_Byzewski
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100664577
+			cost = 150
+		}
+	}
+	GER_100664632 = {
+		name = Oskar_von_Gagern
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100664632
+			cost = 150
+		}
+	}
+	GER_100665209 = {
+		name = Julius_Sailer
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_7
+				small = GFX_Portrait_Germany_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	GER_100665444 = {
+		name = Miklaws_Kilian
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer infantry_officer naval_invader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	GER_100665491 = {
+		name = Lorenz_von_Endres
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_2
+				small = GFX_Portrait_Germany_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { desert_fox harsh_leader infantry_officer ranger }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	GER_100665732 = {
+		name = Heinrich_Woehlert
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_6
+				small = GFX_Portrait_Germany_Generic_land_6_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist commando naval_invader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_100665732
+			cost = 150
+		}
+	}
+	GER_117444692 = {
+		name = Bjarnat_z_Friedenfelsa
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert battleship_adherent media_personality }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	GER_134218757 = {
+		name = Edwin_MU_lhens
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134218757
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 375
+	name = "STATE_375"
+	manpower = 28496142
+
+	state_category = town
+
+	history = {
+		owner = AHU
+		victory_points = {
+			7222 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = AHU
+	}
+
+	provinces = {
+		1083 1125 1171 4105 4173 4203 7035 7104 7222 10017 10044 10064 11937 11994 12019 12061 
+	}
+}

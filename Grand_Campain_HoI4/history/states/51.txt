@@ -1,0 +1,29 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	manpower = 5097098
+	resources = {
+		steel = 18
+		tungsten = 7
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = PER
+		victory_points = {
+			10737 6
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		5082 8090 10737 10781 10789 10826 12314 12653 12769 12831 
+	}
+}

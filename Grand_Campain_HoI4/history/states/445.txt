@@ -1,0 +1,27 @@
+state = {
+	id = 445
+	name = "STATE_445"
+	manpower = 778690
+
+	state_category = town
+
+	history = {
+		owner = SCA
+		victory_points = {
+			6345 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			9279 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SCA
+	}
+
+	provinces = {
+		3307 6120 6345 6412 9279 9300 9362 11160 11215 11327 11376 
+	}
+}

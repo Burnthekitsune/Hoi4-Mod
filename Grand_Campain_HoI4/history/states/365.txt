@@ -1,0 +1,29 @@
+state = {
+	id = 365
+	name = "STATE_365"
+	manpower = 3914170
+	resources = {
+		oil = 3
+		rubber = 37
+	}
+
+	state_category = town
+
+	history = {
+		owner = COG
+		victory_points = {
+			8193 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = COG
+	}
+
+	provinces = {
+		2115 2192 3109 6008 8193 12975 
+	}
+}

@@ -1,0 +1,168 @@
+characters = {
+	MCH_100663560 = {
+		name = Tong_Heng
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	MCH_50332315 = {
+		name = Hesehn_Linge
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50332315
+			cost = 150
+		}
+	}
+	MCH_50333042 = {
+		name = Changlin_Heng
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	MCH_50333050 = {
+		name = Hesehn_Kang_an
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50333050
+			cost = 150
+		}
+	}
+	MCH_50337837 = {
+		name = Mingzhu_Cheng
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer old_guard_navy spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	MCH_67111272 = {
+		name = Zhao_Tiemei
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_67111272
+			cost = 150
+		}
+	}
+	MCH_83886483 = {
+		name = Suksaha_Rui
+		portraits = {
+			army = {
+				large = GFX_portrait_man_zhang_haipeng
+				small = GFX_portrait_man_zhang_haipeng_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer commando trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	MCH_83887178 = {
+		name = Oboi_Linge
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83887178
+			cost = 150
+		}
+	}
+	MCH_83892354 = {
+		name = Oboi_He
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83892354
+			cost = 150
+		}
+	}
+	MCH_100663903 = {
+		name = Suksaha_Zhon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100663903
+			cost = 150
+		}
+	}
+	MCH_117440520 = {
+		name = Sonin_Su
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117440520
+			cost = 150
+		}
+	}
+	MCH_167777127 = {
+		name = Sonin_Kang_an
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_167777127
+			cost = 150
+		}
+	}
+}

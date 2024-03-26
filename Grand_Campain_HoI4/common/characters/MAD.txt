@@ -1,0 +1,161 @@
+characters = {
+	MAD_1035 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	MAD_16778771 = {
+		name = Rainilaiarivony_Razafindramary
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_16778771
+			cost = 150
+		}
+	}
+	MAD_67110441 = {
+		name = Ratsimivila_Hova
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	MAD_67110463 = {
+		name = Ndriantompoinairivo_Razafindramary
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67110463
+			cost = 150
+		}
+	}
+	MAD_83887636 = {
+		name = Rainilaiarivony_Ramavo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83887636
+			cost = 150
+		}
+	}
+	MAD_100663835 = {
+		name = Ratsimivila_Ratsiraka
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100663835
+			cost = 150
+		}
+	}
+	MAD_100664866 = {
+		name = Tsialana_Bemihisatra
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	MAD_117442070 = {
+		name = Binao_Hova
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117442070
+			cost = 150
+		}
+	}
+	MAD_117444023 = {
+		name = Tsimiharo_Ratsimandrava
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117444023
+			cost = 150
+		}
+	}
+	MAD_134219289 = {
+		name = Radama_Ramavo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_134219289
+			cost = 150
+		}
+	}
+	MAD_134219296 = {
+		name = Rabiby_Hova
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_134219296
+			cost = 150
+		}
+	}
+}

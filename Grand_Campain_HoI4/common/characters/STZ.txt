@@ -1,0 +1,126 @@
+characters = {
+	STZ_1025 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	STZ_50336910 = {
+		name = ha_Ajuji_dyn_ha_Abu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50336910
+			cost = 150
+		}
+	}
+	STZ_67109429 = {
+		name = ha_Danjuma_dyn_ha_Dauda
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67109429
+			cost = 150
+		}
+	}
+	STZ_83886961 = {
+		name = ha_Yohance_dyn_ha_Abdullahi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83886961
+			cost = 150
+		}
+	}
+	STZ_83891556 = {
+		name = ha_Gaddo_dyn_ha_Yahaya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83891556
+			cost = 150
+		}
+	}
+	STZ_100663787 = {
+		name = ha_Jirgi_dyn_ha_Shehu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100663787
+			cost = 150
+		}
+	}
+	STZ_134218458 = {
+		name = ha_Yakubu_dyn_ha_Bature
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_134218458
+			cost = 150
+		}
+	}
+	STZ_151001104 = {
+		name = ha_Yaro_dyn_ha_Rumfa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_151001104
+			cost = 150
+		}
+	}
+	STZ_167774841 = {
+		name = ha_Tatau_dyn_ha_Habe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_167774841
+			cost = 150
+		}
+	}
+}

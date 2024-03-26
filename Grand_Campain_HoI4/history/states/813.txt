@@ -1,0 +1,22 @@
+state = {
+	id = 813
+	name = "STATE_813"
+	manpower = 41549
+
+	state_category = rural
+
+	history = {
+		owner = BNJ
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BNJ
+	}
+
+	provinces = {
+		5176 
+	}
+}

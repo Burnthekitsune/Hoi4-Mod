@@ -1,0 +1,28 @@
+state = {
+	id = 85
+	name = "STATE_85"
+	manpower = 4120080
+	resources = {
+		steel = 11
+	}
+
+	state_category = metropolis
+
+	history = {
+		owner = FRA
+		victory_points = {
+			3652 4
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+		}
+		add_core_of = FRA
+	}
+
+	provinces = {
+		641 648 667 680 817 3506 3650 3652 3669 3681 6668 9625 9644 11628 11794 
+	}
+}

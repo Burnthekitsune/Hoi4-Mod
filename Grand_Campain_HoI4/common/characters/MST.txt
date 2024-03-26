@@ -1,0 +1,137 @@
+characters = {
+	MST_1044 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism
+			traits = {  }
+		}
+	}
+	MST_50332241 = {
+		name = Manfred_GU_lich
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50332241
+			cost = 150
+		}
+	}
+	MST_67111707 = {
+		name = Reinhard_Volhard
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67111707
+			cost = 150
+		}
+	}
+	MST_67111980 = {
+		name = Nikolaus_Mohr
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67111980
+			cost = 150
+		}
+	}
+	MST_83886700 = {
+		name = Dieter_von_PlO_nnies
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886700
+			cost = 150
+		}
+	}
+	MST_83887340 = {
+		name = Fritz_MU_ller_von_KO_nigswinter
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_8
+				small = GFX_Portrait_Germany_Generic_land_8_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer ranger }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_83887340
+			cost = 150
+		}
+	}
+	MST_100664030 = {
+		name = Pascal_Eisenstuck
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_100664030
+			cost = 150
+		}
+	}
+	MST_100664164 = {
+		name = Lukas_Leistikow
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100664164
+			cost = 150
+		}
+	}
+	MST_100664370 = {
+		name = Giesebert_Detering
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100664370
+			cost = 150
+		}
+	}
+}

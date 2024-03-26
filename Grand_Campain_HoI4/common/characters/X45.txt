@@ -1,0 +1,112 @@
+characters = {
+	X45_100663839 = {
+		name = Aziz_Bendahara
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	X45_33556431 = {
+		name = Muhammad_al-Marhum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556431
+			cost = 150
+		}
+	}
+	X45_33556436 = {
+		name = Shahabuddin_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33556436
+			cost = 150
+		}
+	}
+	X45_83887369 = {
+		name = Muhammad_al-Marhum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83887369
+			cost = 150
+		}
+	}
+	X45_117441406 = {
+		name = Yusuf_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_117441406
+			cost = 150
+		}
+	}
+	X45_134218072 = {
+		name = Shahabuddin_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_134218072
+			cost = 150
+		}
+	}
+	X45_151001338 = {
+		name = Riayat_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_151001338
+			cost = 150
+		}
+	}
+	X45_184553467 = {
+		name = Ali_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_184553467
+			cost = 150
+		}
+	}
+}

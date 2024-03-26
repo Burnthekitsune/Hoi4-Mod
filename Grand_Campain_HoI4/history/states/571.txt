@@ -1,0 +1,24 @@
+state = {
+	id = 571
+	name = "STATE_571"
+	manpower = 5120452
+
+	state_category = rural
+
+	history = {
+		owner = Z03
+		victory_points = {
+			1595 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = Z03
+	}
+
+	provinces = {
+		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437 
+	}
+}

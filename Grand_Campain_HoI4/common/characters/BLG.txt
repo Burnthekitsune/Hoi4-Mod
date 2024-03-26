@@ -1,0 +1,126 @@
+characters = {
+	BLG_117441366 = {
+		name = Shahabuddin_Jamalullail
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BLG_67109509 = {
+		name = Jalil_Aadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109509
+			cost = 150
+		}
+	}
+	BLG_67109843 = {
+		name = Muhammad_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_67109843
+			cost = 150
+		}
+	}
+	BLG_83886587 = {
+		name = Muhammad_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83886587
+			cost = 150
+		}
+	}
+	BLG_100666878 = {
+		name = Ali_Murshidul
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100666878
+			cost = 150
+		}
+	}
+	BLG_117441100 = {
+		name = Muabidin_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117441100
+			cost = 150
+		}
+	}
+	BLG_117446642 = {
+		name = Ismail_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_117446642
+			cost = 150
+		}
+	}
+	BLG_134218095 = {
+		name = Yusuf_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_134218095
+			cost = 150
+		}
+	}
+	BLG_150995942 = {
+		name = Shahabuddin_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_150995942
+			cost = 150
+		}
+	}
+}

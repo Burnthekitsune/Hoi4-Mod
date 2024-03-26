@@ -1,0 +1,151 @@
+characters = {
+	V50_67114020 = {
+		name = Nazario_Ngolbex_An
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	V50_50333672 = {
+		name = Rufino_Rojas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50333672
+			cost = 150
+		}
+	}
+	V50_67109629 = {
+		name = Gabriel_Vichido
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67109629
+			cost = 150
+		}
+	}
+	V50_67110268 = {
+		name = Miguel_Alonso
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67110268
+			cost = 150
+		}
+	}
+	V50_83886374 = {
+		name = Jose_Suarez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83886374
+			cost = 150
+		}
+	}
+	V50_83886743 = {
+		name = Rodolfo_Gonzalez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83886743
+			cost = 150
+		}
+	}
+	V50_100664024 = {
+		name = Rufino_Guzman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_100664024
+			cost = 150
+		}
+	}
+	V50_100664569 = {
+		name = Alfredo_Cortes
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_100664569
+			cost = 150
+		}
+	}
+	V50_100665242 = {
+		name = Eduardo_Tamayo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100665242
+			cost = 150
+		}
+	}
+	V50_100665583 = {
+		name = Eugenio_2_Pineda
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	V50_150994971 = {
+		name = Jose_Ngolbex_An
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+}

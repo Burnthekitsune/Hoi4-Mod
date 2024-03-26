@@ -1,0 +1,31 @@
+state = {
+	id = 627
+	name = "STATE_627"
+	manpower = 1223568
+	resources = {
+		aluminium = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = X72
+		victory_points = {
+			6985 20
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			6793 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = X72
+	}
+
+	provinces = {
+		782 6606 6793 6985 9924 11889 
+	}
+}

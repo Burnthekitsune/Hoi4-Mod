@@ -1,0 +1,27 @@
+state = {
+	id = 719
+	name = "STATE_719"
+	manpower = 589160
+	resources = {
+		chromium = 1
+		tungsten = 0
+	}
+
+	state_category = town
+
+	history = {
+		owner = BRA
+		victory_points = {
+			12930 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		2174 12917 12930 
+	}
+}

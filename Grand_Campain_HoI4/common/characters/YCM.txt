@@ -1,0 +1,140 @@
+characters = {
+	YCM_33559099 = {
+		name = Pacal_Xiu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	YCM_16778770 = {
+		name = Nohochacyum_Cal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_16778770
+			cost = 150
+		}
+	}
+	YCM_33555037 = {
+		name = Zotz_Chacmultun
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_33555037
+			cost = 150
+		}
+	}
+	YCM_50336976 = {
+		name = Balam_Quitze_Ixquiac
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_50336976
+			cost = 150
+		}
+	}
+	YCM_67114725 = {
+		name = Kan_Bahlun_Mo_Pat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67114725
+			cost = 150
+		}
+	}
+	YCM_67115059 = {
+		name = Zotz_Chacmultun
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67115059
+			cost = 150
+		}
+	}
+	YCM_83886326 = {
+		name = Kukumatz_Chacmultun
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83886326
+			cost = 150
+		}
+	}
+	YCM_100663481 = {
+		name = Zotz_Ceel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100663481
+			cost = 150
+		}
+	}
+	YCM_100663584 = {
+		name = Arana_Chi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_100663584
+			cost = 150
+		}
+	}
+	YCM_201329517 = {
+		name = Pacal_Balam_Xiu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_201329517
+			cost = 150
+		}
+	}
+}

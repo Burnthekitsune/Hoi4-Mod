@@ -1,0 +1,151 @@
+characters = {
+	NEP_117442033 = {
+		name = yue_5364_dyn_yue_0265
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	NEP_67109212 = {
+		name = yue_7234_dyn_yue_6614
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109212
+			cost = 150
+		}
+	}
+	NEP_67109513 = {
+		name = yue_3940_dyn_yue_6768
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	NEP_67110297 = {
+		name = yue_2638_dyn_yue_3450
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67110297
+			cost = 150
+		}
+	}
+	NEP_83890229 = {
+		name = yue_2639_dyn_yue_6768
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_83890229
+			cost = 150
+		}
+	}
+	NEP_83891842 = {
+		name = yue_7122_dyn_yue_1455
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83891842
+			cost = 150
+		}
+	}
+	NEP_83891903 = {
+		name = yue_0500_dyn_yue_2710
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer ranger trait_reckless }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	NEP_100666001 = {
+		name = yue_0320_dyn_yue_6508
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100666001
+			cost = 150
+		}
+	}
+	NEP_134218084 = {
+		name = yue_0193_dyn_yue_1322
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_134218084
+			cost = 150
+		}
+	}
+	NEP_134223159 = {
+		name = yue_1172_dyn_yue_0657
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_134223159
+			cost = 150
+		}
+	}
+	NEP_167775130 = {
+		name = yue_2837_dyn_yue_0397
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_167775130
+			cost = 150
+		}
+	}
+}

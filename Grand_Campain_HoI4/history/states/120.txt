@@ -1,0 +1,28 @@
+state = {
+	id = 120
+	name = "STATE_120"
+	manpower = 5295229
+	resources = {
+		steel = 13
+	}
+
+	state_category = metropolis
+
+	history = {
+		owner = FRA
+		victory_points = {
+			6613 4
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+		}
+		add_core_of = FRA
+	}
+
+	provinces = {
+		752 762 780 3589 3594 3764 3770 6613 6639 6784 6786 6962 9590 11593 11709 11713 
+	}
+}

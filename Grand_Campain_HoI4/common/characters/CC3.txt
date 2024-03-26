@@ -1,0 +1,113 @@
+characters = {
+	CC3_83886650 = {
+		name = ha_Lantana_dyn_ha_Madaki
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	CC3_33557129 = {
+		name = ha_Tatau_dyn_ha_Audu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33557129
+			cost = 150
+		}
+	}
+	CC3_50332349 = {
+		name = ha_Daren_dyn_ha_Rumfa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_50332349
+			cost = 150
+		}
+	}
+	CC3_50332490 = {
+		name = ha_Bakano_dyn_ha_Abdullahi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50332490
+			cost = 150
+		}
+	}
+	CC3_67109273 = {
+		name = ha_Fodio_dyn_ha_Madaki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109273
+			cost = 150
+		}
+	}
+	CC3_100663636 = {
+		name = ha_Gaddo_dyn_ha_Adamu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100663636
+			cost = 150
+		}
+	}
+	CC3_100664161 = {
+		name = ha_Barmani_dyn_ha_Garba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100664161
+			cost = 150
+		}
+	}
+	CC3_167772278 = {
+		name = ha_Dikko_dyn_ha_Alkali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_167772278
+			cost = 150
+		}
+	}
+}

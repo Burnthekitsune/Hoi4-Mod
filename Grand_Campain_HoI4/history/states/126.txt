@@ -1,0 +1,32 @@
+state = {
+	id = 126
+	name = "STATE_126"
+	manpower = 4264350
+	resources = {
+		steel = 8
+	}
+
+	state_category = metropolis
+
+	history = {
+		owner = X10
+		victory_points = {
+			11710 4
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+			758 = {
+				naval_base = 10
+			}
+			air_base = 2
+		}
+		add_core_of = X10
+	}
+
+	provinces = {
+		729 758 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840 
+	}
+}

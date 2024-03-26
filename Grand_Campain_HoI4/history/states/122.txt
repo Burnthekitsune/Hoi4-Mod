@@ -1,0 +1,32 @@
+state = {
+	id = 122
+	name = "STATE_122"
+	manpower = 4662846
+	resources = {
+		aluminium = 42
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = UPU
+		victory_points = {
+			389 6
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 9
+			arms_factory = 2
+			dockyard = 1
+			9263 = {
+				naval_base = 10
+			}
+			air_base = 4
+		}
+		add_core_of = UPU
+	}
+
+	provinces = {
+		243 334 362 389 3295 3324 3351 3380 6347 6402 9263 11260 11288 
+	}
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 329
+	name = "STATE_329"
+	manpower = 1534372
+	resources = {
+		aluminium = 7
+		rubber = 4
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = PER
+		victory_points = {
+			1373 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			7463 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		1332 1345 1373 1460 1533 7327 7368 7463 12181 12212 12302 12343 
+	}
+}

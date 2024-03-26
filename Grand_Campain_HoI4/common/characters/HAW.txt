@@ -1,0 +1,161 @@
+characters = {
+	HAW_1060 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  }
+		}
+	}
+	HAW_33555132 = {
+		name = Kimo_Kekumano
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer trait_mountaineer trickster }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	HAW_33555417 = {
+		name = Mareko_Maheha
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	HAW_67109054 = {
+		name = Ehu_Piianaia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_67109054
+			cost = 150
+		}
+	}
+	HAW_67110774 = {
+		name = Pilipo_Kekuku
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67110774
+			cost = 150
+		}
+	}
+	HAW_83886289 = {
+		name = Hekekia_Nahaolelua
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886289
+			cost = 150
+		}
+	}
+	HAW_83887017 = {
+		name = Lakalo_Koahou
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83887017
+			cost = 150
+		}
+	}
+	HAW_83890599 = {
+		name = Kekelaokalani_Ho_opi_i
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83890599
+			cost = 150
+		}
+	}
+	HAW_83891567 = {
+		name = Keoki_Kanehoa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83891567
+			cost = 150
+		}
+	}
+	HAW_117441789 = {
+		name = Iona_Nahakuelua
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117441789
+			cost = 150
+		}
+	}
+	HAW_184553902 = {
+		name = Zakaria_Piianaia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_184553902
+			cost = 150
+		}
+	}
+}

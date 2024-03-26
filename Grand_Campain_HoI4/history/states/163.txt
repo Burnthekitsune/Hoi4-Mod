@@ -1,0 +1,29 @@
+state = {
+	id = 163
+	name = "STATE_163"
+	manpower = 3370250
+	resources = {
+		rubber = 19
+		steel = 19
+		tungsten = 4
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = W40
+		victory_points = {
+			2220 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 8
+			arms_factory = 1
+			air_base = 3
+		}
+	}
+
+	provinces = {
+		2176 2220 5180 8144 
+	}
+}

@@ -1,0 +1,168 @@
+characters = {
+	Z02_134217922 = {
+		name = Jamphel_Ngapoi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	Z02_33554608 = {
+		name = Penor_Shakabpa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33554608
+			cost = 150
+		}
+	}
+	Z02_50331779 = {
+		name = Trimon_Ngapoi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	Z02_67111600 = {
+		name = Andruk_Lungshar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67111600
+			cost = 150
+		}
+	}
+	Z02_83886155 = {
+		name = Gendun_Lhalu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83886155
+			cost = 150
+		}
+	}
+	Z02_83886159 = {
+		name = Andruk_Dzasa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83886159
+			cost = 150
+		}
+	}
+	Z02_83886186 = {
+		name = Tsepon_Lhalu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83886186
+			cost = 150
+		}
+	}
+	Z02_100663336 = {
+		name = Trimon_Ngapoi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100663336
+			cost = 150
+		}
+	}
+	Z02_100663524 = {
+		name = Tsepon_Dzasa
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	Z02_100663628 = {
+		name = Norbhu_Dzasa
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	Z02_117440695 = {
+		name = Gendun_Rinpoche
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117440695
+			cost = 150
+		}
+	}
+	Z02_134217763 = {
+		name = Mipham_Wangyal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_134217763
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,129 @@
+characters = {
+	CHP_83888597 = {
+		name = Sukha_Bun
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	CHP_16779715 = {
+		name = Sukha_Kuman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_16779715
+			cost = 150
+		}
+	}
+	CHP_83886710 = {
+		name = Unkeo_Long
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83886710
+			cost = 150
+		}
+	}
+	CHP_100664124 = {
+		name = Unkeo_Anuvong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_100664124
+			cost = 150
+		}
+	}
+	CHP_100665975 = {
+		name = Ong_Bun
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_100665975
+			cost = 150
+		}
+	}
+	CHP_100668318 = {
+		name = Sakkarin_Bun
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100668318
+			cost = 150
+		}
+	}
+	CHP_117440798 = {
+		name = Phraya_Kuman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117440798
+			cost = 150
+		}
+	}
+	CHP_117440999 = {
+		name = Unkham_Ong
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer cavalry_officer infantry_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	CHP_150995368 = {
+		name = Sukha_Luang_Phrabang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_150995368
+			cost = 150
+		}
+	}
+}

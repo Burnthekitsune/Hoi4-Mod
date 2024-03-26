@@ -1,0 +1,21 @@
+state = {
+	id = 802
+	name = "STATE_802"
+	manpower = 27992
+
+	state_category = rural
+
+	history = {
+		owner = ARA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = ARA
+	}
+
+	provinces = {
+		5099 7970 
+	}
+}

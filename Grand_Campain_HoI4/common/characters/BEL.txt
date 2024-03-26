@@ -1,0 +1,194 @@
+characters = {
+	BEL_1057 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism
+			traits = {  }
+		}
+	}
+	BEL_33554829 = {
+		name = Maximilien_du_Bois
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_33554829
+			cost = 150
+		}
+	}
+	BEL_50331854 = {
+		name = Werner_de_Coppin_de_Falaen
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer desert_fox organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	BEL_67109463 = {
+		name = Frederic_Davignon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_67109463
+			cost = 150
+		}
+	}
+	BEL_67113540 = {
+		name = Jean-Louis_de_Foere
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert caustic_personality chief_engineer seawolf }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	BEL_83886539 = {
+		name = Isidore_de_Merode
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer ranger trait_mountaineer trait_reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	BEL_83892359 = {
+		name = Frans_de_Watervliet
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83892359
+			cost = 150
+		}
+	}
+	BEL_100663526 = {
+		name = Hercule_Raikem
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	BEL_100664656 = {
+		name = Werner_Meeus
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_100664656
+			cost = 150
+		}
+	}
+	BEL_100669322 = {
+		name = Fernand_Picquet
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100669322
+			cost = 150
+		}
+	}
+	BEL_134224015 = {
+		name = Jean-Jacques_du_Bois_de_Vroylande
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_134224015
+			cost = 150
+		}
+	}
+	BEL_150997984 = {
+		name = Maximilien_Tiberghien
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_150997984
+			cost = 150
+		}
+	}
+	BEL_167772418 = {
+		name = Albert_Goubau
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_167772418
+			cost = 150
+		}
+	}
+}

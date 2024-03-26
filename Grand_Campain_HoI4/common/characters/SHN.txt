@@ -1,0 +1,128 @@
+characters = {
+	SHN_1067 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	SHN_16778973 = {
+		name = Li_Jin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_16778973
+			cost = 150
+		}
+	}
+	SHN_83886984 = {
+		name = eu4_Zahir_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83886984
+			cost = 150
+		}
+	}
+	SHN_83892321 = {
+		name = eu4_Butayna_eu4_Haesteining
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_83892321
+			cost = 150
+		}
+	}
+	SHN_100664665 = {
+		name = Hu_Nie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100664665
+			cost = 150
+		}
+	}
+	SHN_117446803 = {
+		name = eu4_Rahim_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117446803
+			cost = 150
+		}
+	}
+	SHN_134218363 = {
+		name = eu4_Isma_il_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_134218363
+			cost = 150
+		}
+	}
+	SHN_134218957 = {
+		name = Yunmei_Sun
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_134218957
+			cost = 150
+		}
+	}
+	SHN_150994983 = {
+		name = Tan_Dong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_150994983
+			cost = 150
+		}
+	}
+}

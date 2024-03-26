@@ -1,0 +1,178 @@
+characters = {
+	X81_1023 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	X81_33557884 = {
+		name = Shoin_Dewa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33557884
+			cost = 150
+		}
+	}
+	X81_50332520 = {
+		name = eu4_Rafiqa_eu4_Ari
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_50332520
+			cost = 150
+		}
+	}
+	X81_50334503 = {
+		name = Kiyotaka_Nabeshima
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50334503
+			cost = 150
+		}
+	}
+	X81_67110181 = {
+		name = eu4_Ayman_eu4_Qutamid
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer seawolf }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	X81_83886907 = {
+		name = eu4_Musa_eu4_Haesteining
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer naval_invader trait_mountaineer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	X81_100663303 = {
+		name = eu4_Mubashir_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100663303
+			cost = 150
+		}
+	}
+	X81_100663346 = {
+		name = Jiro_Suzuki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100663346
+			cost = 150
+		}
+	}
+	X81_100664713 = {
+		name = eu4_Mubashir_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100664713
+			cost = 150
+		}
+	}
+	X81_117440557 = {
+		name = Kuranosuke_Nogi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Japan_Generic_land_8
+				small = GFX_Portrait_Japan_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer desert_fox naval_invader organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 6
+			logistics_skill = 2
+		}
+	}
+	X81_134217827 = {
+		name = Yoshimichi_Kato
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_134217827
+			cost = 150
+		}
+	}
+	X81_184549376 = {
+		name = eu4_Tariq_eu4_Snjalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_184549376
+			cost = 150
+		}
+	}
+}

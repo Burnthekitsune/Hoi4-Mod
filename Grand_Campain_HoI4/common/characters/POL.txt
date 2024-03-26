@@ -1,0 +1,129 @@
+characters = {
+	POL_83888203 = {
+		name = pl_Jacenty_dyn_pl_Grabowski
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_8
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	POL_33555927 = {
+		name = pl_Aleksander_dyn_pl_Walczak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33555927
+			cost = 150
+		}
+	}
+	POL_50331972 = {
+		name = Zygmunt_Plater
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer desert_fox infantry_officer trait_cautious }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	POL_67110244 = {
+		name = pl_Lukasz_dyn_pl_Kowalczyk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67110244
+			cost = 150
+		}
+	}
+	POL_83887778 = {
+		name = Ludwik_Wybicki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83887778
+			cost = 150
+		}
+	}
+	POL_100665939 = {
+		name = Jozef_2_Sanguszko
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100665939
+			cost = 150
+		}
+	}
+	POL_117440974 = {
+		name = Edward_Wieniawa-Dlugoszowski
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_117440974
+			cost = 150
+		}
+	}
+	POL_117441534 = {
+		name = pl_Przemek_dyn_pl_Olszewski
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117441534
+			cost = 150
+		}
+	}
+	POL_134218393 = {
+		name = Juliusz_Bukowicz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_134218393
+			cost = 150
+		}
+	}
+}

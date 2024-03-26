@@ -1,0 +1,31 @@
+state = {
+	id = 485
+	name = "STATE_485"
+	manpower = 1287719
+	resources = {
+		rubber = 7
+		tungsten = 3
+	}
+
+	state_category = town
+
+	history = {
+		owner = W40
+		victory_points = {
+			2196 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			2196 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		2196 
+	}
+}

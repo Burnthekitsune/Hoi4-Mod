@@ -1,0 +1,205 @@
+characters = {
+	X42_67111554 = {
+		name = Klaesh_Banyacya
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	X42_50331783 = {
+		name = nah_Chimalli_dyn_nah_Xicotencatl
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer ranger war_hero }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	X42_50331858 = {
+		name = Rodolfo_Pineda
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	X42_50331967 = {
+		name = eu4_Mansur_eu4_Qutamid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50331967
+			cost = 150
+		}
+	}
+	X42_50333921 = {
+		name = Ignacio_Box
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	X42_50334687 = {
+		name = eu4_Abbad_eu4_Hammelburg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50334687
+			cost = 150
+		}
+	}
+	X42_50337563 = {
+		name = norm_Watskalahtchie_norm_Siletz
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer career_officer infantry_officer trait_mountaineer trickster }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { fortification_engineer }
+			slot = political_advisor
+			idea_token = i_50337563
+			cost = 150
+		}
+	}
+	X42_83887433 = {
+		name = norm_Xihuitl_norm_Atl
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_83887433
+			cost = 150
+		}
+	}
+	X42_83890946 = {
+		name = norm_Sdzomathl_norm_Katzie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83890946
+			cost = 150
+		}
+	}
+	X42_83891362 = {
+		name = Yukiuma_Lomayesva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83891362
+			cost = 150
+		}
+	}
+	X42_100663538 = {
+		name = Apuckshunubbee_Folsom
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100663538
+			cost = 150
+		}
+	}
+	X42_100664605 = {
+		name = norm_Zolin_norm_Otli
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer naval_invader trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	X42_100665019 = {
+		name = norm_Klehkentsoot_norm_Calapooya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100665019
+			cost = 150
+		}
+	}
+}

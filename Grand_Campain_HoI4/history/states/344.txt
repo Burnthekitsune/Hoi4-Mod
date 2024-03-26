@@ -1,0 +1,24 @@
+state = {
+	id = 344
+	name = "STATE_344"
+	manpower = 1816790
+
+	state_category = town
+
+	history = {
+		owner = W40
+		victory_points = {
+			7711 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		1591 1840 4651 4773 4845 7711 7795 7856 10146 10547 10550 10619 
+	}
+}

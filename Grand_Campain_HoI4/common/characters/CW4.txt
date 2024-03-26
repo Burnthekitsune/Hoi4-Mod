@@ -1,0 +1,126 @@
+characters = {
+	CW4_117445945 = {
+		name = Sakkarin_Anuvong
+		portraits = {
+			civilian = {
+				large = GFX_portrait_asia_generic_4
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	CW4_33556021 = {
+		name = Phraya_Ong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33556021
+			cost = 150
+		}
+	}
+	CW4_33556812 = {
+		name = Anurutha_Ong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_33556812
+			cost = 150
+		}
+	}
+	CW4_67113555 = {
+		name = Unkeo_Luang_Phrabang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67113555
+			cost = 150
+		}
+	}
+	CW4_117440752 = {
+		name = Chantha_Som
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117440752
+			cost = 150
+		}
+	}
+	CW4_117441753 = {
+		name = Unkeo_Intharavong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117441753
+			cost = 150
+		}
+	}
+	CW4_117444787 = {
+		name = Unkham_Som
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_117444787
+			cost = 150
+		}
+	}
+	CW4_134219040 = {
+		name = Unkeo_Luang_Phrabang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_134219040
+			cost = 150
+		}
+	}
+	CW4_167772520 = {
+		name = Unkeo_Luang_Phrabang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_167772520
+			cost = 150
+		}
+	}
+}

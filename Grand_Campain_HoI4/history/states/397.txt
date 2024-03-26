@@ -1,0 +1,32 @@
+state = {
+	id = 397
+	name = "STATE_397"
+	manpower = 3341398
+	resources = {
+		steel = 4
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = DAI
+		victory_points = {
+			12297 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			12297 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DAI
+	}
+
+	provinces = {
+		1302 4397 7280 9988 10016 11909 11936 12297 
+	}
+}

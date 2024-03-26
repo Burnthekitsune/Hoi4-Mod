@@ -1,0 +1,129 @@
+characters = {
+	CZ3_117443055 = {
+		name = tgc_5121_tgc_0283
+		portraits = {
+			civilian = {
+				large = GFX_portrait_asia_generic_4
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	CZ3_33557384 = {
+		name = tgc_2937_tgt_Gwe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33557384
+			cost = 150
+		}
+	}
+	CZ3_67111954 = {
+		name = tgt_Butsji_tgt_Miyao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67111954
+			cost = 150
+		}
+	}
+	CZ3_67113105 = {
+		name = tgc_5351_tgc_0387
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_67113105
+			cost = 150
+		}
+	}
+	CZ3_100664589 = {
+		name = tgz_Kairen_tgz_Cui
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_100664589
+			cost = 150
+		}
+	}
+	CZ3_100666890 = {
+		name = tgz_Qi_tgc_0357
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100666890
+			cost = 150
+		}
+	}
+	CZ3_100667182 = {
+		name = tgz_Bin_tgc_3424
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_100667182
+			cost = 150
+		}
+	}
+	CZ3_117441433 = {
+		name = tgc_51215414_tgc_3424
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CZ3_134223355 = {
+		name = tgt_Butsji_tgt_Liej
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_134223355
+			cost = 150
+		}
+	}
+}

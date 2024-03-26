@@ -1,0 +1,28 @@
+state = {
+	id = 597
+	name = "STATE_597"
+	manpower = 4039448
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = BHT
+		victory_points = {
+			10090 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BHT
+	}
+
+	provinces = {
+		997 1075 1116 1497 1525 1553 1581 7455 7634 10090 10349 10416 10514 10810 12322 12366 12395 12423 12730 13208 
+	}
+}

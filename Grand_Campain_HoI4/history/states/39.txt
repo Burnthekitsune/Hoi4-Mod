@@ -1,0 +1,28 @@
+state = {
+	id = 39
+	name = "STATE_39"
+	manpower = 32846948
+	resources = {
+		tungsten = 18
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = SHX
+		victory_points = {
+			11913 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 9
+		}
+		add_core_of = SHX
+	}
+
+	provinces = {
+		1001 1099 1146 4148 10008 11913 
+	}
+}

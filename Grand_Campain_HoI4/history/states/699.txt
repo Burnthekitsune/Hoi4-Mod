@@ -1,0 +1,24 @@
+state = {
+	id = 699
+	name = "STATE_699"
+	manpower = 561966
+	resources = {
+		steel = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = V23
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = V23
+	}
+
+	provinces = {
+		11790 
+	}
+}

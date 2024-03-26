@@ -1,0 +1,152 @@
+characters = {
+	LAT_67110837 = {
+		name = Martins_Plavins
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	LAT_33556406 = {
+		name = Roberts_Krogzems
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33556406
+			cost = 150
+		}
+	}
+	LAT_67110132 = {
+		name = Bruno_Plavins
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	LAT_100665310 = {
+		name = Oskars_Maters
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100665310
+			cost = 150
+		}
+	}
+	LAT_100669226 = {
+		name = Roberts_von_Knabenau
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox engineer_officer infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	LAT_117442489 = {
+		name = Elmars_von_Lieven
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_117442489
+			cost = 150
+		}
+	}
+	LAT_117442528 = {
+		name = Roberts_Ulmanis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_117442528
+			cost = 150
+		}
+	}
+	LAT_134218984 = {
+		name = Brunis_Leiko
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_134218984
+			cost = 150
+		}
+	}
+	LAT_134219703 = {
+		name = Klara_Plieksans
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_134219703
+			cost = 150
+		}
+	}
+	LAT_150996677 = {
+		name = Gustavs_von_Wolff
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_150996677
+			cost = 150
+		}
+	}
+	LAT_150996920 = {
+		name = Brunis_Leiko
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_150996920
+			cost = 150
+		}
+	}
+}

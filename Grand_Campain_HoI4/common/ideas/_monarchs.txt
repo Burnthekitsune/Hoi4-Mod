@@ -1,0 +1,396 @@
+ideas = {
+	country = {
+		AST_Maryam_Bakhtiari = {
+			allowed = {
+				original_tag = AST
+			}
+
+			allowed_civil_war = {
+				original_tag = AST
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		BHT_bo_Jampa_dyn_bo_Depa_Tonpo = {
+			allowed = {
+				original_tag = BHT
+			}
+
+			allowed_civil_war = {
+				original_tag = BHT
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		CW1_ug_Ehmet_dyn_ug_Hisamudin = {
+			allowed = {
+				original_tag = CW1
+			}
+
+			allowed_civil_war = {
+				original_tag = CW1
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		CW4_Unkeo_Luang_Phrabang = {
+			allowed = {
+				original_tag = CW4
+			}
+
+			allowed_civil_war = {
+				original_tag = CW4
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		FRA_eu4_Yusuf_Haesteining = {
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				original_tag = FRA
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		MCH_Tong_Heng = {
+			allowed = {
+				original_tag = MCH
+			}
+
+			allowed_civil_war = {
+				original_tag = MCH
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		NEP_yue_2639_dyn_yue_6768 = {
+			allowed = {
+				original_tag = NEP
+			}
+
+			allowed_civil_war = {
+				original_tag = NEP
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		NVJ_Digul_Chee_Hastiin_Dagha = {
+			allowed = {
+				original_tag = NVJ
+			}
+
+			allowed_civil_war = {
+				original_tag = NVJ
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		NZL_James_Drake-Brockman = {
+			allowed = {
+				original_tag = NZL
+			}
+
+			allowed_civil_war = {
+				original_tag = NZL
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		ORI_Dibvyasimhadeva_Sankara = {
+			allowed = {
+				original_tag = ORI
+			}
+
+			allowed_civil_war = {
+				original_tag = ORI
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		SIK_ne_Nirav_dyn_ne_Siwakoti = {
+			allowed = {
+				original_tag = SIK
+			}
+
+			allowed_civil_war = {
+				original_tag = SIK
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		TIB_Tsepon_Ngapoi = {
+			allowed = {
+				original_tag = TIB
+			}
+
+			allowed_civil_war = {
+				original_tag = TIB
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		V23_eu4_Ali_di_Avula = {
+			allowed = {
+				original_tag = V23
+			}
+
+			allowed_civil_war = {
+				original_tag = V23
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		V24_Nikolaos_Benizelos = {
+			allowed = {
+				original_tag = V24
+			}
+
+			allowed_civil_war = {
+				original_tag = V24
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W22_Sugandi_Rajasanagara = {
+			allowed = {
+				original_tag = W22
+			}
+
+			allowed_civil_war = {
+				original_tag = W22
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W27_Iskandar_Abdullahid = {
+			allowed = {
+				original_tag = W27
+			}
+
+			allowed_civil_war = {
+				original_tag = W27
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W30_Safiuddin_Pahang = {
+			allowed = {
+				original_tag = W30
+			}
+
+			allowed_civil_war = {
+				original_tag = W30
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W36_Phraya_Luang_Phrabang = {
+			allowed = {
+				original_tag = W36
+			}
+
+			allowed_civil_war = {
+				original_tag = W36
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W40_yrk_Khasavako_Asha = {
+			allowed = {
+				original_tag = W40
+			}
+
+			allowed_civil_war = {
+				original_tag = W40
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W50_Aziz_Bendahara = {
+			allowed = {
+				original_tag = W50
+			}
+
+			allowed_civil_war = {
+				original_tag = W50
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W69_Abd_al-Malik_al-Zaydani = {
+			allowed = {
+				original_tag = W69
+			}
+
+			allowed_civil_war = {
+				original_tag = W69
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W74_Edinho_Sjah = {
+			allowed = {
+				original_tag = W74
+			}
+
+			allowed_civil_war = {
+				original_tag = W74
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		W82_Te_Rata_Hongi = {
+			allowed = {
+				original_tag = W82
+			}
+
+			allowed_civil_war = {
+				original_tag = W82
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		X32_Truong_Vijaya = {
+			allowed = {
+				original_tag = X32
+			}
+
+			allowed_civil_war = {
+				original_tag = X32
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		X69_Shahabuddin_Jambi = {
+			allowed = {
+				original_tag = X69
+			}
+
+			allowed_civil_war = {
+				original_tag = X69
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		X89_Ali_Jambi = {
+			allowed = {
+				original_tag = X89
+			}
+
+			allowed_civil_war = {
+				original_tag = X89
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		YCM_Pacal_Xiu = {
+			allowed = {
+				original_tag = YCM
+			}
+
+			allowed_civil_war = {
+				original_tag = YCM
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		Z02_Jamphel_Ngapoi = {
+			allowed = {
+				original_tag = Z02
+			}
+
+			allowed_civil_war = {
+				original_tag = Z02
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+	}
+}

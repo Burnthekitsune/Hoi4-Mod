@@ -1,0 +1,143 @@
+characters = {
+	ACE_1001 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	ACE_50333062 = {
+		name = Ismail_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50333062
+			cost = 150
+		}
+	}
+	ACE_50334454 = {
+		name = Abdullah_Raja_Inu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50334454
+			cost = 150
+		}
+	}
+	ACE_67109366 = {
+		name = Idris_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67109366
+			cost = 150
+		}
+	}
+	ACE_67109794 = {
+		name = Shahabuddin_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67109794
+			cost = 150
+		}
+	}
+	ACE_67109830 = {
+		name = Shahabuddin_Jamalullail
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { commando infantry_officer organizer trait_cautious }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 7
+		}
+	}
+	ACE_67111270 = {
+		name = Ismail_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67111270
+			cost = 150
+		}
+	}
+	ACE_83887408 = {
+		name = Riayat_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83887408
+			cost = 150
+		}
+	}
+	ACE_83890733 = {
+		name = Idris_Raja_Ahmad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83890733
+			cost = 150
+		}
+	}
+	ACE_117440900 = {
+		name = Tuanku_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117440900
+			cost = 150
+		}
+	}
+}

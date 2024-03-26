@@ -1,0 +1,161 @@
+characters = {
+	HOL_1071 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	HOL_33556547 = {
+		name = Quinten_Buyskes
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33556547
+			cost = 150
+		}
+	}
+	HOL_50332600 = {
+		name = Diderika_van_Saksen-Weimar
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50332600
+			cost = 150
+		}
+	}
+	HOL_67109874 = {
+		name = Johan_de_Vos_van_Steenwijk
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer commando organizer }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+	HOL_83887066 = {
+		name = Richardus_van_Troyen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83887066
+			cost = 150
+		}
+	}
+	HOL_100663302 = {
+		name = Karel_de_Kock
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100663302
+			cost = 150
+		}
+	}
+	HOL_100666730 = {
+		name = Johan_van_Doorn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100666730
+			cost = 150
+		}
+	}
+	HOL_100668765 = {
+		name = Barthout_Michiels
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100668765
+			cost = 150
+		}
+	}
+	HOL_117440794 = {
+		name = Christiaan_van_Coeverden
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_117440794
+			cost = 150
+		}
+	}
+	HOL_134217781 = {
+		name = Stefan_Coops
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_134217781
+			cost = 150
+		}
+	}
+	HOL_134223406 = {
+		name = Gabriel_Chasse
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert gunnery_expert naval_lineage }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+}

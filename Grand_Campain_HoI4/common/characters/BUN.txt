@@ -1,0 +1,137 @@
+characters = {
+	BUN_83886280 = {
+		name = Venkatadri_Chalukya
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BUN_33556845 = {
+		name = Parbhu_Rawat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33556845
+			cost = 150
+		}
+	}
+	BUN_83886261 = {
+		name = Vishvanath_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_83886261
+			cost = 150
+		}
+	}
+	BUN_83886979 = {
+		name = Mahip_Singh
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer naval_invader organizer trait_mountaineer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_83886979
+			cost = 150
+		}
+	}
+	BUN_83890041 = {
+		name = Ishvari_Rawat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83890041
+			cost = 150
+		}
+	}
+	BUN_100666397 = {
+		name = Ishvari_Kapoor
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100666397
+			cost = 150
+		}
+	}
+	BUN_100669414 = {
+		name = Parbhu_Kapoor
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100669414
+			cost = 150
+		}
+	}
+	BUN_117445545 = {
+		name = Vijay_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_117445545
+			cost = 150
+		}
+	}
+	BUN_150998015 = {
+		name = Lokendra_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_150998015
+			cost = 150
+		}
+	}
+}

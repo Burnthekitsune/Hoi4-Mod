@@ -1,0 +1,123 @@
+characters = {
+	EST_50336082 = {
+		name = Juhan_Kogerman
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FIN_kyosti_kallio
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	EST_33555205 = {
+		name = Lennart_Anvel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_33555205
+			cost = 150
+		}
+	}
+	EST_67110070 = {
+		name = Peeter_Koiv
+		portraits = {
+			army = {
+				large = GFX_portrait_FIN_carl_mannerheim
+				small = GFX_portrait_FIN_carl_mannerheim_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_67110070
+			cost = 150
+		}
+	}
+	EST_117441144 = {
+		name = Ernst_Kopp
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_117441144
+			cost = 150
+		}
+	}
+	EST_117441582 = {
+		name = Ivari_Orkivu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_117441582
+			cost = 150
+		}
+	}
+	EST_134223507 = {
+		name = Pent_Leppik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_134223507
+			cost = 150
+		}
+	}
+	EST_150995723 = {
+		name = Mart_Kukk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_150995723
+			cost = 150
+		}
+	}
+	EST_167775001 = {
+		name = Sven_Aamisepp
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_167775001
+			cost = 150
+		}
+	}
+}

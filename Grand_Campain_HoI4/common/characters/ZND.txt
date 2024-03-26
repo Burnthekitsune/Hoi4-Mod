@@ -1,0 +1,145 @@
+characters = {
+	ZND_1039 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	ZND_16778896 = {
+		name = Catarina_Younga
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_16778896
+			cost = 150
+		}
+	}
+	ZND_16778898 = {
+		name = Souau_Younga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16778898
+			cost = 150
+		}
+	}
+	ZND_16778901 = {
+		name = Birhenjira_Younga
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ZND_33556101 = {
+		name = Makome_Nabushi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33556101
+			cost = 150
+		}
+	}
+	ZND_33556113 = {
+		name = Kabare_Younga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_33556113
+			cost = 150
+		}
+	}
+	ZND_67110579 = {
+		name = Catarina_Dericoyard
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67110579
+			cost = 150
+		}
+	}
+	ZND_67111180 = {
+		name = Ngabwe_Vungara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67111180
+			cost = 150
+		}
+	}
+	ZND_83888468 = {
+		name = Kabare_Vungara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83888468
+			cost = 150
+		}
+	}
+	ZND_134219150 = {
+		name = Rugemaninzi_Dericoyard
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_134219150
+			cost = 150
+		}
+	}
+}

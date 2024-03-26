@@ -1,0 +1,335 @@
+characters = {
+	X10_1017 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	X10_33555445 = {
+		name = eu4_Basir_eu4_Elfael
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer logistics_wizard naval_invader organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	X10_50331649 = {
+		name = eu4_Rahim_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_50331649
+			cost = 150
+		}
+	}
+	X10_50332209 = {
+		name = eu4_Ayyub_eu4_Ari
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer gentlemanly media_personality }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50332209
+			cost = 150
+		}
+	}
+	X10_50334295 = {
+		name = eu4_Abdullah_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334295
+			cost = 150
+		}
+	}
+	X10_50336008 = {
+		name = eu4_Qasim_eu4_Ari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_50336008
+			cost = 150
+		}
+	}
+	X10_67110423 = {
+		name = eu4_Moses_eu4_Ari
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert caustic_personality seawolf }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	X10_67111035 = {
+		name = eu4_Yusuf_eu4_Hammelburg
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	X10_67113005 = {
+		name = eu4_Ismail_eu4_Qutamid
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer guerilla_fighter inflexible_strategist organizer trickster }
+			skill = 4
+			attack_skill = 1
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	X10_83886372 = {
+		name = eu4_Balashk_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886372
+			cost = 150
+		}
+	}
+	X10_83886508 = {
+		name = eu4__Abd_eu4_Hammelburg
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer cuts_corners seawolf }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
+		}
+	}
+	X10_100663567 = {
+		name = eu4_Abdul-Razzaq_eu4_Qutamid
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox engineer_officer infantry_officer organizer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	X10_100664353 = {
+		name = eu4_Safi_eu4_Ari
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { gunnery_expert superior_tactician }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 5
+		}
+	}
+	X10_100665238 = {
+		name = eu4_Solomon_eu4_Elfael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_100665238
+			cost = 150
+		}
+	}
+	X10_100665286 = {
+		name = eu4_Sa_d_eu4_Elfael
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader infantry_officer naval_invader }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	X10_117441239 = {
+		name = eu4_Mubashir_eu4_Haesteining
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer harsh_leader infantry_officer trickster }
+			skill = 6
+			attack_skill = 4
+			defense_skill = 6
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	X10_117441588 = {
+		name = eu4_Abdul-Hakam_eu4_Qutamid
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer brilliant_strategist naval_invader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	X10_134218419 = {
+		name = eu4_Fadl_eu4_Ari
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer brilliant_strategist engineer_officer guerilla_fighter trickster }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	X10_134218928 = {
+		name = eu4_Basir_eu4_Elfael
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert seawolf superior_tactician }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 5
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_134218928
+			cost = 150
+		}
+	}
+	X10_150995014 = {
+		name = eu4_John_eu4_Qutamid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_150995014
+			cost = 150
+		}
+	}
+}

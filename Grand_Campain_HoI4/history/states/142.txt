@@ -1,0 +1,29 @@
+state = {
+	id = 142
+	name = "STATE_142"
+	manpower = 3091261
+	resources = {
+		oil = 7
+		steel = 26
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = W40
+		victory_points = {
+			4797 6
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 4
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		1672 1696 1707 1727 1735 1762 1803 1810 1813 1826 1829 4703 4705 4716 4737 4750 4766 4782 4797 4808 4815 4835 4837 7736 7751 7769 7802 7816 7828 7835 7838 7841 7854 7860 7876 7902 10524 10528 10543 10549 10570 10596 10654 10658 10661 10664 10683 10699 12506 12507 12523 12525 12540 12575 12641 12644 12647 12681 
+	}
+}

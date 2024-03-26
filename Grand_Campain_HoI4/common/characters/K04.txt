@@ -1,0 +1,134 @@
+characters = {
+	K04_50337301 = {
+		name = Jack_Tullaugaq
+		portraits = {
+			civilian = {
+				large = GFX_portrait_asia_generic_4
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	K04_50332185 = {
+		name = Markoosie_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50332185
+			cost = 150
+		}
+	}
+	K04_67114330 = {
+		name = Jose_2_Nutarak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67114330
+			cost = 150
+		}
+	}
+	K04_83886396 = {
+		name = Caubvick_Kusugak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886396
+			cost = 150
+		}
+	}
+	K04_100666333 = {
+		name = Germaine_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	K04_117442059 = {
+		name = Markoosie_Tiktaalaaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_117442059
+			cost = 150
+		}
+	}
+	K04_117443422 = {
+		name = Simeonie_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_117443422
+			cost = 150
+		}
+	}
+	K04_134217897 = {
+		name = Ipeelee_Evaloarjuk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_134217897
+			cost = 150
+		}
+	}
+	K04_134218532 = {
+		name = Pitseolak_Arreak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_134218532
+			cost = 150
+		}
+	}
+	K04_134219179 = {
+		name = Germaine_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_134219179
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 368
+	name = "STATE_368"
+	manpower = 2621187
+	resources = {
+		tungsten = 12
+	}
+
+	state_category = town
+
+	history = {
+		owner = ANK
+		victory_points = {
+			5160 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = ANK
+	}
+
+	provinces = {
+		5160 10860 11145 
+	}
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 157
+	name = "STATE_157"
+	manpower = 4170047
+	resources = {
+		oil = 29
+	}
+
+	state_category = large_city
+
+	history = {
+		owner = PER
+		victory_points = {
+			12863 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 1
+			7982 = {
+				naval_base = 6
+			}
+			air_base = 2
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		1889 1986 4959 7982 10913 11249 12780 12809 12832 12863 13312 
+	}
+}

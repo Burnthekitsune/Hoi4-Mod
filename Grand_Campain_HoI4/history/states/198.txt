@@ -1,0 +1,32 @@
+state = {
+	id = 198
+	name = "STATE_198"
+	manpower = 3524001
+	resources = {
+		steel = 8
+	}
+
+	state_category = large_city
+
+	history = {
+		owner = W40
+		victory_points = {
+			6704 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			3686 = {
+				naval_base = 4
+			}
+			air_base = 2
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+}

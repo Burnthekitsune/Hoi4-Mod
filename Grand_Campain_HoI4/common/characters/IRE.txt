@@ -1,0 +1,177 @@
+characters = {
+	IRE_1053 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	IRE_33559252 = {
+		name = eu4_Maine_eu4_Glencanane
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer inflexible_strategist organizer trait_mountaineer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	IRE_67109889 = {
+		name = eu4_Berrach_eu4_Hammelburg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109889
+			cost = 150
+		}
+	}
+	IRE_67111294 = {
+		name = eu4_Abban_eu4_Moher
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer engineer_officer fortress_buster harsh_leader trait_mountaineer }
+			skill = 6
+			attack_skill = 7
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+	IRE_67111898 = {
+		name = eu4_Cahal_eu4_Drumgarve
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67111898
+			cost = 150
+		}
+	}
+	IRE_83886392 = {
+		name = eu4_Domnall_eu4_Darcy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83886392
+			cost = 150
+		}
+	}
+	IRE_83892110 = {
+		name = eu4_Maine_eu4_Kelly
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83892110
+			cost = 150
+		}
+	}
+	IRE_100664603 = {
+		name = eu4_Dub-da-Bairenn_eu4_Barry
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	IRE_100666431 = {
+		name = eu4_Corbb_eu4_ua_Frode
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_100666431
+			cost = 150
+		}
+	}
+	IRE_100666820 = {
+		name = eu4_Moenach_eu4_MacLochlainn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100666820
+			cost = 150
+		}
+	}
+	IRE_117443141 = {
+		name = eu4_Abban_eu4_Drumgarve
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_117443141
+			cost = 150
+		}
+	}
+	IRE_151000644 = {
+		name = eu4_Artbran_eu4_Qutamid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_151000644
+			cost = 150
+		}
+	}
+}

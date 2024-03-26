@@ -1,0 +1,23 @@
+state = {
+	id = 729
+	name = "STATE_729"
+	manpower = 596289
+
+	state_category = rural
+
+	history = {
+		owner = V46
+		victory_points = {
+			4017 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		4017 4574 4591 7001 10089 
+	}
+}

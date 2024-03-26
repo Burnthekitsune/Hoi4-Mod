@@ -1,0 +1,134 @@
+characters = {
+	SG1_33554721 = {
+		name = Caubvick_Atagotaaluk
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	SG1_50331662 = {
+		name = Peter_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SG1_50335330 = {
+		name = Ernie_Arreak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50335330
+			cost = 150
+		}
+	}
+	SG1_67112086 = {
+		name = Kenojuak_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67112086
+			cost = 150
+		}
+	}
+	SG1_67113036 = {
+		name = Simeonie_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67113036
+			cost = 150
+		}
+	}
+	SG1_67114992 = {
+		name = Jack_Kusugak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67114992
+			cost = 150
+		}
+	}
+	SG1_83887987 = {
+		name = Peter_Kunuk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83887987
+			cost = 150
+		}
+	}
+	SG1_83892138 = {
+		name = Naalak_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_83892138
+			cost = 150
+		}
+	}
+	SG1_117440811 = {
+		name = Germaine_Maksagak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117440811
+			cost = 150
+		}
+	}
+	SG1_117441590 = {
+		name = Ernie_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117441590
+			cost = 150
+		}
+	}
+}

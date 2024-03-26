@@ -1,0 +1,29 @@
+state = {
+	id = 111
+	name = "STATE_111"
+	manpower = 3174065
+	resources = {
+		steel = 3
+	}
+
+	state_category = metropolis
+
+	history = {
+		owner = FRA
+		victory_points = {
+			9898 4
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 1
+			air_base = 3
+		}
+		add_core_of = FRA
+	}
+
+	provinces = {
+		943 6960 9898 
+	}
+}

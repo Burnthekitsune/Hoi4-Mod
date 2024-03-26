@@ -1,0 +1,169 @@
+characters = {
+	NZL_100664388 = {
+		name = James_Drake-Brockman
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+			traits = {  }
+		}
+	}
+	NZL_33555252 = {
+		name = Edmund_War
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { naval_invader organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	NZL_67109834 = {
+		name = Arthur_Drake-Brockman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	NZL_67110994 = {
+		name = Scott_Jeffcott
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67110994
+			cost = 150
+		}
+	}
+	NZL_67114289 = {
+		name = Serena_Hatch
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67114289
+			cost = 150
+		}
+	}
+	NZL_67114871 = {
+		name = Scott_Forlonge
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67114871
+			cost = 150
+		}
+	}
+	NZL_83886857 = {
+		name = James_Baird
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83886857
+			cost = 150
+		}
+	}
+	NZL_83890486 = {
+		name = Arthur_Anderson
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_83890486
+			cost = 150
+		}
+	}
+	NZL_83890807 = {
+		name = Guy_Stewart
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83890807
+			cost = 150
+		}
+	}
+	NZL_117445928 = {
+		name = Bob_Duggan
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert aviation_enthusiast chief_engineer media_personality }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	NZL_134218073 = {
+		name = Charles_Playford
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_134218073
+			cost = 150
+		}
+	}
+	NZL_134218948 = {
+		name = Arthur_Davis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134218948
+			cost = 150
+		}
+	}
+}

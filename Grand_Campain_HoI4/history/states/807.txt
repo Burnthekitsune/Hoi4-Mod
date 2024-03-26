@@ -1,0 +1,25 @@
+state = {
+	id = 807
+	name = "STATE_807"
+	manpower = 42287
+	resources = {
+		aluminium = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = NVJ
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = NVJ
+	}
+
+	provinces = {
+		4727 12303 
+	}
+}

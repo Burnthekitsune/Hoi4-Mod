@@ -1,0 +1,143 @@
+characters = {
+	X75_1020 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	X75_67109939 = {
+		name = Alemayehu_Gemeda
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67109939
+			cost = 150
+		}
+	}
+	X75_67114856 = {
+		name = Dirribi_Dacche
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_67114856
+			cost = 150
+		}
+	}
+	X75_83888574 = {
+		name = Tsegaye_Safo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83888574
+			cost = 150
+		}
+	}
+	X75_83888689 = {
+		name = Alemayehu_Safo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83888689
+			cost = 150
+		}
+	}
+	X75_117440622 = {
+		name = Abadula_Gessesse
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117440622
+			cost = 150
+		}
+	}
+	X75_134217809 = {
+		name = Alemayehu_Qallu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_134217809
+			cost = 150
+		}
+	}
+	X75_134219334 = {
+		name = Tilahun_Dinagde
+		portraits = {
+			army = {
+				large = GFX_portrait_ETH_generic_male_1
+				small = GFX_portrait_ETH_generic_male_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer organizer trait_cautious }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	X75_150994980 = {
+		name = Tilahun_Turnsaa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_150994980
+			cost = 150
+		}
+	}
+	X75_150995339 = {
+		name = Abdus_Dinagde
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_150995339
+			cost = 150
+		}
+	}
+}

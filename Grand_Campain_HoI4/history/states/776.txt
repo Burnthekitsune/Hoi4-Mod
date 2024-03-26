@@ -1,0 +1,26 @@
+state = {
+	id = 776
+	name = "STATE_776"
+	manpower = 250063
+
+	state_category = town
+
+	history = {
+		owner = V50
+		victory_points = {
+			12753 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 5
+		}
+		add_core_of = V50
+	}
+
+	provinces = {
+		12753 
+	}
+}

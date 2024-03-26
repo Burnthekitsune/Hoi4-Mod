@@ -1,0 +1,140 @@
+characters = {
+	IN1_83886757 = {
+		name = James_Tullaugaq
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	IN1_50334582 = {
+		name = Titus_Nutarak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_50334582
+			cost = 150
+		}
+	}
+	IN1_50335265 = {
+		name = Steve_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50335265
+			cost = 150
+		}
+	}
+	IN1_50337744 = {
+		name = Peter_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50337744
+			cost = 150
+		}
+	}
+	IN1_67114234 = {
+		name = Markoosie_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67114234
+			cost = 150
+		}
+	}
+	IN1_67114757 = {
+		name = Simeonie_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67114757
+			cost = 150
+		}
+	}
+	IN1_83886267 = {
+		name = Pitseolak_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_83886267
+			cost = 150
+		}
+	}
+	IN1_83890924 = {
+		name = Kenojuak_Nutarak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83890924
+			cost = 150
+		}
+	}
+	IN1_83891139 = {
+		name = Kenojuak_Paniloo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83891139
+			cost = 150
+		}
+	}
+	IN1_150995306 = {
+		name = Steve_Quissa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_150995306
+			cost = 150
+		}
+	}
+}

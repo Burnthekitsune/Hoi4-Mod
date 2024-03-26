@@ -1,0 +1,143 @@
+characters = {
+	AHU_1028 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  }
+		}
+	}
+	AHU_50331737 = {
+		name = zh_6134_dyn_zh_5663
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50331737
+			cost = 150
+		}
+	}
+	AHU_67109929 = {
+		name = Huang_Nie
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox inflexible_strategist organizer trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	AHU_67110474 = {
+		name = zh_4790_dyn_zh_7067
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67110474
+			cost = 150
+		}
+	}
+	AHU_67111519 = {
+		name = zh_7209_dyn_zh_4547
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67111519
+			cost = 150
+		}
+	}
+	AHU_67114436 = {
+		name = zh_2514_dyn_zh_3009
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67114436
+			cost = 150
+		}
+	}
+	AHU_83886149 = {
+		name = zh_4176_dyn_zh_6581
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886149
+			cost = 150
+		}
+	}
+	AHU_83886906 = {
+		name = zh_3134_dyn_zh_5400
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83886906
+			cost = 150
+		}
+	}
+	AHU_100667059 = {
+		name = Wang_Zhang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100667059
+			cost = 150
+		}
+	}
+	AHU_117443456 = {
+		name = Ma_Zhao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117443456
+			cost = 150
+		}
+	}
+}

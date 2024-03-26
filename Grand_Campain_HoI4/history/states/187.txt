@@ -1,0 +1,31 @@
+state = {
+	id = 187
+	name = "STATE_187"
+	manpower = 3088004
+	resources = {
+		aluminium = 26
+		chromium = 18
+		tungsten = 3
+	}
+
+	state_category = large_city
+
+	history = {
+		owner = W40
+		victory_points = {
+			3988 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		976 1109 1205 3864 3988 4109 7127 11895 12001 
+	}
+}

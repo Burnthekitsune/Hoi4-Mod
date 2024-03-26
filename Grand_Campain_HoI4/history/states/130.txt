@@ -1,0 +1,28 @@
+state = {
+	id = 130
+	name = "STATE_130"
+	manpower = 1909705
+	resources = {
+		steel = 17
+	}
+
+	state_category = large_town
+
+	history = {
+		owner = FRA
+		victory_points = {
+			9503 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = FRA
+	}
+
+	provinces = {
+		549 678 1346 3629 6529 9503 9559 11502 
+	}
+}

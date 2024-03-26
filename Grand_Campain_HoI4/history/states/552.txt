@@ -1,0 +1,25 @@
+state = {
+	id = 552
+	name = "STATE_552"
+	manpower = 1179434
+	resources = {
+		steel = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = CHP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = CHP
+	}
+
+	provinces = {
+		1520 4260 4539 10195 
+	}
+}

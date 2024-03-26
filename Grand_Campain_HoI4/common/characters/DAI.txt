@@ -1,0 +1,160 @@
+characters = {
+	DAI_1004 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+		}
+	}
+	DAI_50337441 = {
+		name = Tran_Buu_Lan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50337441
+			cost = 150
+		}
+	}
+	DAI_67110225 = {
+		name = Nguyen_Truong-Minh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67110225
+			cost = 150
+		}
+	}
+	DAI_83889717 = {
+		name = Noang_Cao_Trong_Hiep
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83889717
+			cost = 150
+		}
+	}
+	DAI_100663678 = {
+		name = Tran_Tuan
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	DAI_100664236 = {
+		name = Bui_An_Pham
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100664236
+			cost = 150
+		}
+	}
+	DAI_100664398 = {
+		name = Noang_Cao_Le
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert gentlemanly old_guard_navy }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	DAI_100664863 = {
+		name = Nguyen_Ngo_Dinh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100664863
+			cost = 150
+		}
+	}
+	DAI_117440660 = {
+		name = Bui_An_Tuan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117440660
+			cost = 150
+		}
+	}
+	DAI_117445579 = {
+		name = Nguyen_Buu_Lan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_117445579
+			cost = 150
+		}
+	}
+	DAI_201327622 = {
+		name = Bui_An_Tuan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_201327622
+			cost = 150
+		}
+	}
+}

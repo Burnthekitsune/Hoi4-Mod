@@ -1,0 +1,33 @@
+state = {
+	id = 151
+	name = "STATE_151"
+	manpower = 3990050
+	resources = {
+		chromium = 29
+		steel = 21
+	}
+
+	state_category = large_city
+
+	history = {
+		owner = X10
+		victory_points = {
+			9896 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 2
+			10024 = {
+				naval_base = 10
+			}
+			air_base = 2
+		}
+		add_core_of = X10
+	}
+
+	provinces = {
+		832 871 942 962 1093 3799 3835 3873 4098 4195 6817 6856 6906 6959 7111 9889 9896 9903 10024 10109 11807 11812 11884 
+	}
+}

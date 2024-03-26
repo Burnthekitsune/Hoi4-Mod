@@ -1,0 +1,27 @@
+state = {
+	id = 487
+	name = "STATE_487"
+	manpower = 5959261
+	resources = {
+		oil = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = Z03
+		victory_points = {
+			12566 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = Z03
+	}
+
+	provinces = {
+		1752 1836 1870 3719 4759 4772 6722 7877 10685 10709 12566 12685 
+	}
+}

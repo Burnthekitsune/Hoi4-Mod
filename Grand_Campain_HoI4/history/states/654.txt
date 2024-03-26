@@ -1,0 +1,21 @@
+state = {
+	id = 654
+	name = "STATE_654"
+	manpower = 154244
+
+	state_category = rural
+
+	history = {
+		owner = SCA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = SCA
+	}
+
+	provinces = {
+		2999 11315 
+	}
+}

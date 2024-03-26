@@ -1,0 +1,28 @@
+state = {
+	id = 239
+	name = "STATE_239"
+	manpower = 2425086
+	resources = {
+		tungsten = 0
+	}
+
+	state_category = city
+
+	history = {
+		owner = W40
+		victory_points = {
+			10601 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = W40
+	}
+
+	provinces = {
+		1532 1554 4488 4499 4636 4686 7501 7507 7777 10148 10366 10420 10601 
+	}
+}

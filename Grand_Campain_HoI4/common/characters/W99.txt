@@ -1,0 +1,143 @@
+characters = {
+	W99_1016 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	W99_33555036 = {
+		name = Abdolsamad_Shafaei
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { commando naval_invader politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	W99_33556524 = {
+		name = Ahmad_Pirnia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_33556524
+			cost = 150
+		}
+	}
+	W99_50332276 = {
+		name = Hasan_Ayrum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50332276
+			cost = 150
+		}
+	}
+	W99_67111411 = {
+		name = Muhsin_Pirnia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67111411
+			cost = 150
+		}
+	}
+	W99_67111448 = {
+		name = Abolghasem_Meshhedi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67111448
+			cost = 150
+		}
+	}
+	W99_67113447 = {
+		name = Ali_Bakhtiari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67113447
+			cost = 150
+		}
+	}
+	W99_100664666 = {
+		name = Nosret_Bakhtiari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100664666
+			cost = 150
+		}
+	}
+	W99_134218641 = {
+		name = Murad_Nakhchevani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134218641
+			cost = 150
+		}
+	}
+	W99_150996230 = {
+		name = Mozzafer_ed-Din_Farhani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_150996230
+			cost = 150
+		}
+	}
+}

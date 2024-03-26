@@ -1,0 +1,25 @@
+state = {
+	id = 630
+	name = "STATE_630"
+	manpower = 113733
+	resources = {
+		rubber = 1
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = SIA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = SIA
+	}
+
+	provinces = {
+		1296 4275 10217 12292 
+	}
+}

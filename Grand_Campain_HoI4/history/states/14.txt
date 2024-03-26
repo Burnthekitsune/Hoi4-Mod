@@ -1,0 +1,30 @@
+state = {
+	id = 14
+	name = "STATE_14"
+	manpower = 5020733
+	resources = {
+		aluminium = 42
+		chromium = 55
+		steel = 53
+	}
+
+	state_category = megalopolis
+
+	history = {
+		owner = UPU
+		victory_points = {
+			9570 6
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			arms_factory = 5
+			air_base = 4
+		}
+		add_core_of = UPU
+	}
+
+	provinces = {
+		552 3438 3485 3545 6464 6512 6534 6595 9457 9470 9511 9570 11467 11517 13205 
+	}
+}

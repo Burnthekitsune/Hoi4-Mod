@@ -1,0 +1,25 @@
+state = {
+	id = 78
+	name = "STATE_78"
+	manpower = 5235939
+
+	state_category = megalopolis
+
+	history = {
+		owner = V27
+		victory_points = {
+			2012 6
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+		}
+		add_core_of = V27
+	}
+
+	provinces = {
+		2012 10812 10829 10915 12751 
+	}
+}

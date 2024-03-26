@@ -1,0 +1,140 @@
+characters = {
+	Z00_16781128 = {
+		name = Titus_Tullaugaq
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	Z00_33560725 = {
+		name = Pitseolak_Ashoona
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_33560725
+			cost = 150
+		}
+	}
+	Z00_50333172 = {
+		name = Peter_Atagotaaluk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50333172
+			cost = 150
+		}
+	}
+	Z00_50334190 = {
+		name = David_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334190
+			cost = 150
+		}
+	}
+	Z00_67108883 = {
+		name = Simeonie_Sivuarapik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_67108883
+			cost = 150
+		}
+	}
+	Z00_83887030 = {
+		name = Naalak_Maksagak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83887030
+			cost = 150
+		}
+	}
+	Z00_83888038 = {
+		name = Pitseolak_Irgittuq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83888038
+			cost = 150
+		}
+	}
+	Z00_83891783 = {
+		name = Naalak_Kusugak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83891783
+			cost = 150
+		}
+	}
+	Z00_100664227 = {
+		name = Kenojuak_Maksagak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_100664227
+			cost = 150
+		}
+	}
+	Z00_150995432 = {
+		name = Pitseolak_Tullaugaq
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_150995432
+			cost = 150
+		}
+	}
+}

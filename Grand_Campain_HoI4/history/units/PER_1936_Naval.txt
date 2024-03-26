@@ -1,0 +1,173 @@
+# Naval OOB
+units = {
+	fleet = {
+		name = "1. Fleet"
+		naval_base = 8085
+		task_force = {
+			name = "1. Fleet"
+			location = 8085
+			ship = { name = "Heavy Cruiser 1" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Destroyer 1" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 2" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 3" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Submarine 1" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 2" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 3" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 4" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "2. Fleet"
+		naval_base = 10797
+		task_force = {
+			name = "2. Fleet"
+			location = 10797
+			ship = { name = "Battleship 1" definition = battleship equipment = { ship_hull_heavy_2 = {  amount = 1  owner = PER  version_name = "1936 Battleship" } } }
+			ship = { name = "Heavy Cruiser 2" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 1" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Destroyer 4" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 5" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 6" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 7" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Heavy Cruiser 3" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Destroyer 8" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 9" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 10" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Submarine 5" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 6" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 7" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 8" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 9" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 10" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 11" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 12" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 13" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 14" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 15" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 16" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "3. Fleet"
+		naval_base = 5005
+		task_force = {
+			name = "3. Fleet"
+			location = 5005
+			ship = { name = "Battleship 2" definition = battleship equipment = { ship_hull_heavy_2 = {  amount = 1  owner = PER  version_name = "1936 Battleship" } } }
+			ship = { name = "Heavy Cruiser 4" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Destroyer 11" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 12" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 13" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 14" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Battleship 3" definition = battleship equipment = { ship_hull_heavy_2 = {  amount = 1  owner = PER  version_name = "1936 Battleship" } } }
+			ship = { name = "Heavy Cruiser 5" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Destroyer 15" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 16" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 17" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 18" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Submarine 17" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 18" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 19" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 20" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 21" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 22" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 23" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 24" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 25" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 26" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 27" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 28" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 29" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 30" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 31" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 32" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "4. Fleet"
+		naval_base = 7982
+		task_force = {
+			name = "4. Fleet"
+			location = 7982
+			ship = { name = "Battleship 4" definition = battleship equipment = { ship_hull_heavy_2 = {  amount = 1  owner = PER  version_name = "1936 Battleship" } } }
+			ship = { name = "Heavy Cruiser 6" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 4" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Destroyer 19" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 20" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 21" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 22" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Heavy Cruiser 7" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Destroyer 23" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 24" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 25" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Submarine 33" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 34" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 35" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 36" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 37" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 38" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 39" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 40" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 41" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 42" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 43" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 44" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "5. Fleet"
+		naval_base = 3456
+		task_force = {
+			name = "5. Fleet"
+			location = 3456
+			ship = { name = "Heavy Cruiser 8" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Destroyer 26" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 27" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 28" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Submarine 45" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 46" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 47" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 48" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "6. Fleet"
+		naval_base = 4891
+		task_force = {
+			name = "6. Fleet"
+			location = 4891
+			ship = { name = "Battleship 5" definition = battleship equipment = { ship_hull_heavy_2 = {  amount = 1  owner = PER  version_name = "1936 Battleship" } } }
+			ship = { name = "Heavy Cruiser 9" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 5" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Destroyer 29" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 30" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 31" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 32" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Battleship 6" definition = battleship equipment = { ship_hull_heavy_2 = {  amount = 1  owner = PER  version_name = "1936 Battleship" } } }
+			ship = { name = "Heavy Cruiser 10" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 6" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = PER  version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Destroyer 33" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 34" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 35" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 36" definition = destroyer equipment = { ship_hull_light_2 = {  amount = 1  owner = PER  version_name = "1936 Destroyer" } } }
+			ship = { name = "Submarine 49" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 50" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 51" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 52" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 53" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 54" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 55" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 56" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 57" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 58" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 59" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 60" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 61" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 62" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 63" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 64" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = PER  version_name = "Early Submarine" } } }
+		}
+	}
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 321
+	name = "STATE_321"
+	manpower = 2144319
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = BRA
+		victory_points = {
+			5026 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = BRA
+	}
+
+	provinces = {
+		1887 2007 5026 10792 12729 12770 12825 
+	}
+}

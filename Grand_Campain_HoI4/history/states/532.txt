@@ -1,0 +1,24 @@
+state = {
+	id = 532
+	name = "STATE_532"
+	manpower = 1438900
+
+	state_category = town
+
+	history = {
+		owner = ZND
+		victory_points = {
+			1950 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = ZND
+	}
+
+	provinces = {
+		1950 2073 2154 6027 12783 12808 12847 
+	}
+}

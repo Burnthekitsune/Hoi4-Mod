@@ -1,0 +1,32 @@
+state = {
+	id = 439
+	name = "STATE_439"
+	manpower = 1909506
+	resources = {
+		rubber = 8
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = ZIM
+		victory_points = {
+			5164 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			2123 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ZIM
+	}
+
+	provinces = {
+		2123 2180 5164 
+	}
+}

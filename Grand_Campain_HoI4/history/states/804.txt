@@ -1,0 +1,23 @@
+state = {
+	id = 804
+	name = "STATE_804"
+	manpower = 59937
+
+	state_category = rural
+
+	history = {
+		owner = W40
+		victory_points = {
+			7669 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		1431 1454 1478 4415 4441 7669 12104 12311 12326 
+	}
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 221
+	name = "STATE_221"
+	manpower = 6291604
+	resources = {
+		steel = 8
+		tungsten = 11
+	}
+
+	state_category = city
+
+	history = {
+		owner = HYD
+		victory_points = {
+			8011 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			10190 = {
+				naval_base = 4
+			}
+			air_base = 7
+		}
+		add_core_of = HYD
+	}
+
+	provinces = {
+		1412 4344 7244 7391 7395 8011 8100 10190 12146 12734 
+	}
+}

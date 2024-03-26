@@ -1,0 +1,28 @@
+state = {
+	id = 210
+	name = "STATE_210"
+	manpower = 1828158
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = large_town
+
+	history = {
+		owner = PER
+		victory_points = {
+			13017 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		2165 13017 13018 
+	}
+}

@@ -1,0 +1,162 @@
+characters = {
+	W69_67109258 = {
+		name = Abd_al-Malik_al-Zaydani
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	W69_50335747 = {
+		name = Fuad_al-Zaydani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	W69_67110360 = {
+		name = Nur_al-Din_ibn_Salim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67110360
+			cost = 150
+		}
+	}
+	W69_67111675 = {
+		name = Nur_al-Din_ibn_Yusuf
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67111675
+			cost = 150
+		}
+	}
+	W69_83886519 = {
+		name = Abd_al-Qadir_al-Halabi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886519
+			cost = 150
+		}
+	}
+	W69_83891870 = {
+		name = Ibrahim_al-Zaydani
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox engineer_officer fortress_buster inflexible_strategist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83891870
+			cost = 150
+		}
+	}
+	W69_100663789 = {
+		name = Zafir_al-Askari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_100663789
+			cost = 150
+		}
+	}
+	W69_100665780 = {
+		name = Muhammad_ibn_Salim
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_1
+				small = GFX_Portrait_Arabia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert bold gunnery_expert }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	W69_117440738 = {
+		name = Shukri_al-Nablusi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_117440738
+			cost = 150
+		}
+	}
+	W69_117441514 = {
+		name = Ibrahim_Nuseibeh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_117441514
+			cost = 150
+		}
+	}
+	W69_134218645 = {
+		name = Iskandar_al-Atrash
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_134218645
+			cost = 150
+		}
+	}
+}

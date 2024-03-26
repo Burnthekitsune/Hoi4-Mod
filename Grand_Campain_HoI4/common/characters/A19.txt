@@ -1,0 +1,137 @@
+characters = {
+	A19_1000 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {  }
+		}
+	}
+	A19_50331762 = {
+		name = fa_Sasan_dyn_fa_Kazemi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50331762
+			cost = 150
+		}
+	}
+	A19_67108874 = {
+		name = fa_Peyvand_dyn_fa_Rezaei
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67108874
+			cost = 150
+		}
+	}
+	A19_83887349 = {
+		name = fa_Mehrzad_dyn_fa_Lotfi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer organizer ranger trait_cautious }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_83887349
+			cost = 150
+		}
+	}
+	A19_100663298 = {
+		name = fa_Farrokh_dyn_fa_Mahmudnizhad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_100663298
+			cost = 150
+		}
+	}
+	A19_100666162 = {
+		name = fa_Morteza_dyn_fa_Ghanbari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100666162
+			cost = 150
+		}
+	}
+	A19_100667660 = {
+		name = fa_Ardalan_dyn_fa_Mohamadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_100667660
+			cost = 150
+		}
+	}
+	A19_117444293 = {
+		name = fa_Forouq_dyn_fa_Mumtaz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_117444293
+			cost = 150
+		}
+	}
+	A19_117444704 = {
+		name = fa_Yaghoub_dyn_fa_Davoodzadeh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_117444704
+			cost = 150
+		}
+	}
+}

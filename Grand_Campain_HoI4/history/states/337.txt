@@ -1,0 +1,26 @@
+state = {
+	id = 337
+	name = "STATE_337"
+	manpower = 1447390
+	resources = {
+		steel = 3
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = W36
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = W36
+	}
+
+	provinces = {
+		4339 7218 7356 9961 
+	}
+}
