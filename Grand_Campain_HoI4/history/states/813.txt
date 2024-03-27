@@ -14,6 +14,7 @@ state = {
 			air_base = 5
 		}
 		add_core_of = BNJ
+		add_core_of = W88
 	}
 
 	provinces = {
