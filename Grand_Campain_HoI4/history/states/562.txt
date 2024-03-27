@@ -21,6 +21,7 @@ state = {
 			arms_factory = 0
 		}
 		add_core_of = ENG
+		add_core_of = AST
 	}
 
 	provinces = {
