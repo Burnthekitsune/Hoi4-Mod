@@ -9,7 +9,7 @@ state = {
 	state_category = metropolis
 
 	history = {
-		owner = FRA
+		owner = X10
 		victory_points = {
 			743 4
 		}
@@ -20,7 +20,7 @@ state = {
 			dockyard = 2
 			air_base = 3
 		}
-		add_core_of = FRA
+		add_core_of = X10
 	}
 
 	provinces = {

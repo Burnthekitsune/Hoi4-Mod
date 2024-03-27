@@ -6,7 +6,7 @@ state = {
 	state_category = megalopolis
 
 	history = {
-		owner = FRA
+		owner = X10
 		victory_points = {
 			629 6
 		}
@@ -15,15 +15,15 @@ state = {
 			industrial_complex = 5
 			arms_factory = 3
 			dockyard = 3
-			485 = {
+			6657 = {
 				naval_base = 10
 			}
 			air_base = 3
 		}
-		add_core_of = FRA
+		add_core_of = X10
 	}
 
 	provinces = {
-		485 595 629 655 6657 9597 9631 11582 11596 11600 
+		595 629 655 6657 9597 9631 11582 11596 11600 
 	}
 }

@@ -6,7 +6,7 @@ state = {
 	state_category = city
 
 	history = {
-		owner = X10
+		owner = FRA
 		victory_points = {
 			3523 2
 		}
@@ -16,7 +16,7 @@ state = {
 			arms_factory = 2
 			air_base = 2
 		}
-		add_core_of = X10
+		add_core_of = FRA
 	}
 
 	provinces = {
