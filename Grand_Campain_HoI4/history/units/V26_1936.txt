@@ -1,5 +1,5 @@
 division_template = {
-	name = "CS LGrd"
+	name = "Presidential Guard Division of the Police"
 	division_names_group = CS_LGrd
 	priority = 2
 	override_model = armored_car_0_entity
@@ -13,7 +13,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "CS Volksturm"
+	name = "Jaeger Militia"
 	division_names_group = CS_Volk
 	priority = 0
 	regiments = {
@@ -29,7 +29,7 @@ units = {
 			name_order = 1
 		}
 		location = 438 # Simist
-		division_template = "CS LGrd"
+		division_template = "Presidential Guard Division of the Police"
 		start_experience_factor = 0.76
 		start_equipment_factor = 0.9
 		start_manpower_factor = 1
