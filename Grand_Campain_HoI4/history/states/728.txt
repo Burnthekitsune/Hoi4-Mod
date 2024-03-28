@@ -1,7 +1,7 @@
 state = {
 	id = 728
 	name = "STATE_728"
-	manpower = 66275
+	manpower = 662756
 	resources = {
 		rubber = 0
 		tungsten = 0
@@ -15,7 +15,7 @@ state = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 5
+			air_base = 1
 		}
 		add_core_of = CC1
 	}

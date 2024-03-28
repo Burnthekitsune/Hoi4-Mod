@@ -3,23 +3,24 @@ state = {
 	name = "STATE_806"
 	manpower = 40196
 	resources = {
-		steel = 0
+		steel = 1
 	}
 
 	state_category = rural
 
 	history = {
-		owner = W82
+		owner = NZL
 		victory_points = {
 			10334 15
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 5
+			air_base = 1
 		}
 		add_core_of = W82
+		add_core_of = NZL
 	}
 
 	provinces = {
