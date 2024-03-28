@@ -10,13 +10,18 @@ state = {
 
 	history = {
 		owner = V26
+		victory_points = {
+			438 2
+		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 1
-			air_base = 5
+			air_base = 1
+			synthetic_refinery = 1
 		}
 		add_core_of = V26
+		add_core_of = UPU
 	}
 
 	provinces = {

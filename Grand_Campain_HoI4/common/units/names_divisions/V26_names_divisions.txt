@@ -1,0 +1,30 @@
+﻿CS_LGrd =
+{
+	name = "Life Guard Division"
+	for_countries = V26
+	can_use = { always = yes }
+	division_types = { "motorized" }
+	fallback_name = "%dya Motoyeherska Diviziya"
+		
+	ordered =
+		{
+			1 = { "%dya Simista Leybgvardi Polk" }
+			2 = { "%dya Zakhidnovolyns'koho Leybgvardi Polk" }
+			3 = { "%dya Cherven' Motoyeherska Polk" }
+		}
+}
+CS_Volk =
+{
+	name = "Skirmishing Brigade"
+	for_countries = V26
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%dya Potiklyudey"
+	link_numbering_with = { CS_LGrd }
+		
+	ordered =
+		{
+			4 = { "%dya Cherven' Bryhada" }
+			5 = { "%dya Zakhidnovolyns'koho Yehers'ka Bryhada" }
+		}
+}
