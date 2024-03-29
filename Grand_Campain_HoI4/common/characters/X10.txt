@@ -1,14 +1,16 @@
 characters = {
 	X10_1017 = {
-		name = The_Council
+		name = qasim_ari
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large =GFX_Portrait_Europe_Generic_land_3
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { 
+				veteran_communist
+			}
 		}
 	}
 	X10_33555445 = {
