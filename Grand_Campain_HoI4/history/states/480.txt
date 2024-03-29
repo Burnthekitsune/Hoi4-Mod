@@ -11,7 +11,13 @@ state = {
 	history = {
 		owner = SCA
 		victory_points = {
-			6115 1
+			6115 10
+		}
+		victory_points = {
+			3021 5
+		}
+		victory_points = {
+			3136 2
 		}
 		buildings = {
 			infrastructure = 2
