@@ -1,14 +1,14 @@
 characters = {
 	V27_1010 = {
-		name = The_Council
+		name = Supreme_Revolutionary_Council
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = portrait_SOV_supreme_soviet
 			}
 		}
 		country_leader = {
 			ideology = leninism
-			traits = {  }
+			traits = { communist_politician }
 		}
 	}
 	V27_33554952 = {
