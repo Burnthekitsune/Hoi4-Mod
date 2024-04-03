@@ -19,21 +19,6 @@ if = {
 	limit = { has_dlc = "La Resistance" }
 }
 
-X10 = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = HOL
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
-		}
-	}
-	else = {
-		puppet = HOL
-	}
-}
 set_politics = {
 	ruling_party = communism
 	last_election = "1935.11.14"
