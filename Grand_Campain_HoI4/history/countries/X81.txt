@@ -34,6 +34,57 @@ set_popularities = {
 	neutrality = 1
 }
 
+create_faction = PCP
+add_to_faction = AIN
+add_to_faction = X77
+add_to_faction = W91
+add_to_faction = W88
+add_to_faction = W89
+add_to_faction = DAI
+add_to_faction = W92
+add_to_faction = HAW
+
+add_ai_strategy = {
+    type = alliance
+    id = "AIN"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "X77"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "W91"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "W88"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "W89"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "DAI"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "W92"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "HAW"
+    value = 200
+}
+
 add_ideas = {
 	civilian_economy
 	export_focus

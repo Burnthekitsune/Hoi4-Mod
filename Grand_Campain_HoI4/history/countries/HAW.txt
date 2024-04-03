@@ -33,6 +33,12 @@ set_popularities = {
 	neutrality = 1
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = "X81"
+    value = 200
+}
+
 add_ideas = {
 	civilian_economy
 	export_focus

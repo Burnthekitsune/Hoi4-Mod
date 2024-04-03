@@ -42,6 +42,12 @@ set_popularities = {
 	neutrality = 1
 }
 
+create_faction = Worker_Alliance
+add_to_faction = X10
+add_to_faction = HOL
+add_to_faction = IRE
+add_to_faction = ICE
+
 add_ideas = {
 	civilian_economy
 	export_focus
