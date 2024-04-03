@@ -1,311 +1,148 @@
 characters = {
-	W40_67112370 = {
-		name = el_Ambrosios_dyn_el_Tsavdaridou
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_2
-				small = GFX_Portrait_Europe_Generic_land_2_small
-			}
-			civilian = {
-				large = GFX_Portrait_Europe_Generic_land_2
-			}
-		}
-		country_leader = {
-			ideology = liberalism
-			traits = {  }
-		}
-		field_marshal = {
-			traits = { career_officer naval_invader trait_mountaineer war_hero }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 3
-		}
-	}
-	W40_16779887 = {
-		name = yrk_Natena_dyn_yrk_Kokanyu
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_1
-				small = GFX_Portrait_Europe_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { arctic_water_expert media_personality navy_career_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 5
-		}
-	}
-	W40_33555008 = {
-		name = yrk_Iriko_dyn_yrk_Noleynyu
-		portraits = {
-			army = {
-				large = GFX_portrait_FIN_carl_mannerheim
-				small = GFX_portrait_FIN_carl_mannerheim_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer engineer_officer guerilla_fighter organizer trait_mountaineer trickster }
-			skill = 4
-			attack_skill = 1
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 3
-		}
-	}
-	W40_33555823 = {
-		name = el_Kimon_dyn_el_Kopsas
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_33555823
-			cost = 150
-		}
-	}
-	W40_33559176 = {
-		name = yrk_Ervko_dyn_yrk_Natenanyu
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer inflexible_strategist naval_invader organizer }
-			skill = 4
-			attack_skill = 2
-			defense_skill = 5
-			planning_skill = 3
-			logistics_skill = 5
-		}
-		advisor = {
-			traits = { grand_battle_plan_expert }
-			slot = political_advisor
-			idea_token = i_33559176
-			cost = 150
-		}
-	}
-	W40_50332788 = {
-		name = el_Agias_dyn_el_Strategakis
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_4
-				small = GFX_Portrait_Europe_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader old_guard trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	W40_50333617 = {
-		name = yrk_Petrako_dyn_yrk_Vavlyanyu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_50333617
-			cost = 150
-		}
-	}
-	W40_50335468 = {
-		name = yrk_Savane_dyn_yrk_Sevtyanyu
+	W40_baroness_sevtyanyu = {
+		name = MUR_baroness_savane
 		gender = female
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				large = "GFX_portrait_fra_jennie_rousseau"
 			}
 		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_50335468
-			cost = 150
+		country_leader = {
+			traits = { strict_austerity_adherent }
+			ideology = liberalism
+			expire = 1938.11.5
 		}
 	}
-	W40_50336482 = {
-		name = yrk_Iriko_dyn_yrk_Myusenanyu
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_2
-				small = GFX_Portrait_Europe_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer media_personality }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 3
-		}
-	}
-	W40_67115200 = {
-		name = yrk_Noley_dyn_yrk_Serakonenyu
+	W40_Kimon = {
+		name = MUR_kimon_kopsas
+		gender = male
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				large = "GFX_portrait_ITA_pietro_koch"
 			}
 		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_67115200
-			cost = 150
+		country_leader = {
+			traits = { conservative_grandee }
+			ideology = conservatism
+			expire = 1940.11.5
 		}
 	}
-	W40_83886356 = {
-		name = yrk_Noley_dyn_yrk_Ervkonyu
-		portraits = {
-			army = {
-				large = GFX_Portrait_europe_generic_land_6
-				small = GFX_Portrait_europe_generic_land_6_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer engineer_officer organizer }
-			skill = 4
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 5
-		}
-	}
-	W40_83886769 = {
-		name = yrk_Khasavako_Asha
+	W40_Epimon = {
+		name = MUR_Epameinondas_Gianna
+		gender = male
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				large = "GFX_portrait_asia_generic_land_9"
 			}
 		}
-		advisor = {
-			traits = { reluctant_interventionist }
-			slot = political_advisor
-			idea_token = i_83886769
-			cost = 150
+		country_leader = {
+			traits = { disdain_for_politicians_1 retired_officer }
+			ideology = conservatism
+			expire = 1944.11.5
 		}
 	}
-	W40_83890776 = {
-		name = el_Alekos_dyn_el_Markoullides
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_7
-				small = GFX_portrait_europe_generic_land_7_small
-			}
-		}
-		corps_commander = {
-			traits = { career_officer engineer_officer guerilla_fighter organizer politically_connected trickster }
-			skill = 5
-			attack_skill = 2
-			defense_skill = 5
-			planning_skill = 6
-			logistics_skill = 3
-		}
-	}
-	W40_100664036 = {
-		name = el_Aineias_dyn_el_Kalogeropoulos
+	W40_Poriin_Saran = {
+		name = MUR_porinsaran
+		gender = male
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				large = "GFX_Portrait_SOV_nikolay_kuznetsov"
 			}
 		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_100664036
-			cost = 150
+		country_leader = {
+			traits = { stalin_heart_of_steel empire_builder }
+			ideology = socialism
 		}
 	}
-	W40_100665520 = {
-		name = yrk_Ervko_Asha
+	W40_miat_khasavako = {
+		name = MUR_miat
+		gender = male
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				large = "GFX_portrait_bul_ferdinand_i"
 			}
 		}
-	}
-	W40_117440731 = {
-		name = yrk_Neleyko_dyn_yrk_Serakonenyu
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_13
-				small = GFX_portrait_europe_generic_land_13_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer infantry_officer trait_mountaineer }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+		country_leader = {
+			traits = { empire_builder }
+			ideology = despotism
 		}
 	}
-	W40_117441228 = {
-		name = yrk_Vesako_dyn_yrk_Irikonyu
-		portraits = {
-			army = {
-				large = GFX_portrait_FIN_carl_mannerheim
-				small = GFX_portrait_FIN_carl_mannerheim_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer naval_invader }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 3
-		}
-	}
-	W40_117441859 = {
-		name = yrk_Nolyako_dyn_yrk_Nolyakonyu
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { arctic_water_expert }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 3
-		}
-	}
-	W40_134218614 = {
-		name = el_Socrates_dyn_el_Zuliamis
+	W40_miat_helias = {
+		name = MUR_miat_helias
+		gender = male
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				large = "GFX_portrait_europe_generic_navy_13"
 			}
 		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_134218614
-			cost = 150
+		country_leader = {
+			traits = { the_sacred_king generallissimo }
+			ideology = despotism
+		}
+	}
+	W40_oligarch_sokrates = {
+		name = MUR_sokroligarches
+		gender = male
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_eng_juan_pujol"
+			}
+		}
+		country_leader = {
+			traits = { humble SWE_ardent_conservative }
+			ideology = oligarchism
+		}
+	}
+	W40_evrko_bibi = {
+		name = MUR_bibi
+		gender = male
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Canada_Adrien_Arcand"
+			}
+		}
+		country_leader = {
+			traits = { inexperienced_imperialist }
+			ideology = rexism
+		}
+	}
+	W40_baronhede = {
+		name = MUR_baronhede
+		gender = male
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_NOR_jonas_lie"
+			}
+		}
+		country_leader = {
+			traits = { DEN_fascist_populist man_of_the_nation }
+			ideology = falangism
+		}
+	}
+	W40_aioli = {
+		name = MUR_aioli
+		gender = male
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ITA_ivanoe_bonomi"
+			}
+		}
+		country_leader = {
+			traits = { strict_austerity_adherent }
+			ideology = anti_revisionism
+		}
+	}
+	W40_autabat = {
+		name = MUR_autabat
+		gender = male
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ETH_imru_haile_selassie"
+			}
+		}
+		country_leader = {
+			traits = { defeatist editor }
+			ideology = marxism
 		}
 	}
 }

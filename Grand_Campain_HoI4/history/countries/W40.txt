@@ -4,25 +4,7 @@ oob = "W40_1936"
 set_research_slots = 4
 set_convoys = 167
 
-recruit_character = W40_67112370
-recruit_character = W40_16779887
-recruit_character = W40_33555008
-recruit_character = W40_33555823
-recruit_character = W40_33559176
-recruit_character = W40_50332788
-recruit_character = W40_50333617
-recruit_character = W40_50335468
-recruit_character = W40_50336482
-recruit_character = W40_67115200
-recruit_character = W40_83886356
-recruit_character = W40_83886769
-recruit_character = W40_83890776
-recruit_character = W40_100664036
-recruit_character = W40_100665520
-recruit_character = W40_117440731
-recruit_character = W40_117441228
-recruit_character = W40_117441859
-recruit_character = W40_134218614
+recruit_character = W40_baroness_sevtyanyu
 if = {
 	limit = { has_dlc = "La Resistance" }
 }

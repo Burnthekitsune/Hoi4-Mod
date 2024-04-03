@@ -264,6 +264,8 @@ ideas = {
 
 			removal_cost = -1
 
+			image = "GFX_idea_BUL_ferdinand_i"
+
 			traits = { popular_figurehead }
 		}
 		W50_Aziz_Bendahara = {
