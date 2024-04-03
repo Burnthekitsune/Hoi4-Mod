@@ -42,6 +42,8 @@ set_popularities = {
 	neutrality = 1
 }
 
+give_guarantee = X19
+
 create_faction = Worker_Alliance
 add_to_faction = X10
 add_to_faction = HOL
