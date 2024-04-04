@@ -1,6 +1,5 @@
-focus_tree = {
-	id = X10_focus
-	
+﻿focus_tree = {
+	id = X10_focus_tree
 	country = {
 		factor = 0
 		
@@ -9,14 +8,264 @@ focus_tree = {
 			tag = X10
 		}
 	}
-	
 	default = no
-	reset_on_civilwar = no
+	reset_on_civil_war = no
 
-	shared_focus = army_effort
-	shared_focus = aviation_effort
-	shared_focus = naval_effort
-	shared_focus = industrial_effort
-	shared_focus = political_effort
-
+	focus = {
+		id = Party_Election_1936
+		icon = goal_unknown
+		cost = 0
+		x = 4
+		y = 1
+		prerequisite = {  }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Reformist_Ideals
+		icon = goal_unknown
+		cost = 0
+		x = 0
+		y = 2
+		prerequisite = { focus = Party_Election_1936 }
+		mutually_exclusive = { focus = Stay_the_Course focus = Return_to_Glory }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Stay_the_Course
+		icon = goal_unknown
+		cost = 0
+		x = 4
+		y = 2
+		prerequisite = { focus = Party_Election_1936 }
+		mutually_exclusive = { focus = Reformist_Ideals focus = Return_to_Glory }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Return_to_Glory
+		icon = goal_unknown
+		cost = 0
+		x = 8
+		y = 2
+		prerequisite = { focus = Party_Election_1936 }
+		mutually_exclusive = { focus = Stay_the_Course focus = Reformist_Ideals }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Address_the_budget
+		icon = goal_unknown
+		cost = 0
+		x = 0
+		y = 3
+		prerequisite = { focus = Reformist_Ideals }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = A_new_league
+		icon = goal_unknown
+		cost = 0
+		x = 2
+		y = 3
+		prerequisite = { focus = Reformist_Ideals }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Adjust_Social_Welfare
+		icon = goal_unknown
+		cost = 0
+		x = 0
+		y = 4
+		prerequisite = { focus = Address_the_budget }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Develop_New_Jobs
+		icon = goal_unknown
+		cost = 0
+		x = 0
+		y = 5
+		prerequisite = { focus = Adjust_Social_Welfare }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = New_Allies
+		icon = goal_unknown
+		cost = 0
+		x = 2
+		y = 4
+		prerequisite = { focus = A_new_league }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Moving_Forward_Together
+		icon = goal_unknown
+		cost = 0
+		x = 2
+		y = 6
+		prerequisite = { focus = Develop_New_Jobs focus = New_Allies }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = The_New_currency
+		icon = goal_unknown
+		cost = 0
+		x = 4
+		y = 3
+		prerequisite = { focus = Stay_the_Course }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = the_common_market
+		icon = goal_unknown
+		cost = 0
+		x = 4
+		y = 4
+		prerequisite = { focus = The_New_currency }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = make_amends
+		icon = goal_unknown
+		cost = 0
+		x = 6
+		y = 3
+		prerequisite = { focus = Stay_the_Course }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = direct_investment
+		icon = goal_unknown
+		cost = 0
+		x = 6
+		y = 4
+		prerequisite = { focus = make_amends }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = build_support
+		icon = goal_unknown
+		cost = 0
+		x = 6
+		y = 5
+		prerequisite = { focus = direct_investment focus = the_common_market }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = the_grand_alliance
+		icon = goal_unknown
+		cost = 0
+		x = 6
+		y = 6
+		prerequisite = { focus = build_support }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = army_reforms
+		icon = goal_unknown
+		cost = 0
+		x = 8
+		y = 3
+		prerequisite = { focus = Return_to_Glory }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = navy_reforms
+		icon = goal_unknown
+		cost = 0
+		x = 10
+		y = 3
+		prerequisite = { focus = Return_to_Glory }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = new_traditions
+		icon = goal_unknown
+		cost = 0
+		x = 12
+		y = 3
+		prerequisite = { focus = Return_to_Glory }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = seek_new_talent
+		icon = goal_unknown
+		cost = 0
+		x = 8
+		y = 4
+		prerequisite = { focus = army_reforms focus = navy_reforms }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = leverage_connections
+		icon = goal_unknown
+		cost = 0
+		x = 12
+		y = 4
+		prerequisite = { focus = new_traditions }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = authorized_intervention
+		icon = goal_unknown
+		cost = 0
+		x = 10
+		y = 5
+		prerequisite = { focus = seek_new_talent focus = leverage_connections }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = missions_of_liberation
+		icon = goal_unknown
+		cost = 0
+		x = 10
+		y = 6
+		prerequisite = { focus = authorized_intervention }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
 }
+
