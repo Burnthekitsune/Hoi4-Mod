@@ -20,6 +20,18 @@ state = {
 			arms_factory = 2
 			dockyard = 1
 			air_base = 2
+			1160 = {
+				bunker = 5
+			}
+			1058 = {
+				bunker = 5
+			}
+			1141 = {
+				bunker = 5
+			}
+			9943 = {
+				bunker = 5
+			}
 		}
 		add_core_of = X10
 	}

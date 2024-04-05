@@ -22,6 +22,9 @@ state = {
 			7203 = {
 				naval_base = 1
 			}
+			5046 = {
+				bunker = 5
+			}
 			air_base = 2
 		}
 		add_core_of = X10
