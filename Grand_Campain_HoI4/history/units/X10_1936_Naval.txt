@@ -744,10 +744,10 @@ units = {
 	}
 	fleet = {
 		name = "14. Fleet"
-		naval_base = 9500
+		naval_base = 6657
 		task_force = {
 			name = "14. Fleet"
-			location = 9500
+			location = 6657
 			ship = { name = "Battleship 23" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 34" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 23" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }

@@ -385,7 +385,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 9568
+		location = 1145
 		division_template = "Assault Division"
 		start_equipment_factor = 0.85
 		start_experience_factor = 0.2
@@ -425,7 +425,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 24
 		}
-		location = 6850
+		location = 1194
 		division_template = "Assault Division"
 		start_equipment_factor = 0.85
 		start_experience_factor = 0.2
