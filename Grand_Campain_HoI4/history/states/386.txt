@@ -10,7 +10,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = SCA
+		owner = ICE
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
@@ -19,7 +19,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = SCA
+		add_core_of = ICE
 	}
 
 	provinces = {
