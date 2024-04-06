@@ -25,10 +25,10 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 8
-	democratic = 0
-	fascism = 36
-	neutrality = 56
+	communism = 38
+	democratic = 20
+	fascism = 6
+	neutrality = 36
 }
 
 add_ai_strategy = {
