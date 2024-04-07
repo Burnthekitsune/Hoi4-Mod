@@ -1,0 +1,30 @@
+﻿Imperial_Guard_Muraa =
+{
+	name = "Imperial Guard Division"
+	for_countries = W40
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%dya Motoyeherska Diviziya"
+		
+	ordered =
+		{
+			1 = { "%dya Simista Leybgvardi Polk" }
+			2 = { "%dya Zakhidnovolyns'koho Leybgvardi Polk" }
+			3 = { "%dya Cherven' Motoyeherska Polk" }
+		}
+}
+Infantry_Division_Muraa =
+{
+	name = "Infantry Division"
+	for_countries = W40
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%dya Potiklyudey"
+	link_numbering_with = { Imperial_Guard_Muraa }
+		
+	ordered =
+		{
+			4 = { "%dya Cherven' Bryhada" }
+			5 = { "%dya Zakhidnovolyns'koho Yehers'ka Bryhada" }
+		}
+}
