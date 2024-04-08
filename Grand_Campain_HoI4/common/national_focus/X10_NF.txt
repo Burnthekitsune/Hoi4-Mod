@@ -13,22 +13,31 @@
 
 	focus = {
 		id = Party_Election_1936
-		icon = goal_unknown
-		cost = 0
+		icon = focus_generic_soviet_politics
+		cost = 35
 		x = 4
 		y = 1
 		prerequisite = {  }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		select_effect = {
+			country_event = {
+				id = my_event.1 # Election Start 
+				days = 10
+			}
+		}
 	}
 	focus = {
 		id = Reformist_Ideals
-		icon = goal_unknown
-		cost = 0
+		icon = focus_generic_workers
+		cost = 35
 		x = 0
 		y = 2
 		prerequisite = { focus = Party_Election_1936 }
+		available = {
+			has_country_flag = abdul_win
+		}
 		mutually_exclusive = { focus = Stay_the_Course focus = Return_to_Glory }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
@@ -36,11 +45,14 @@
 	}
 	focus = {
 		id = Stay_the_Course
-		icon = goal_unknown
-		cost = 0
+		icon = focus_generic_communist_industry
+		cost = 35
 		x = 4
 		y = 2
 		prerequisite = { focus = Party_Election_1936 }
+		available = {
+			has_country_flag = qasim_win
+		}
 		mutually_exclusive = { focus = Reformist_Ideals focus = Return_to_Glory }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
@@ -48,11 +60,14 @@
 	}
 	focus = {
 		id = Return_to_Glory
-		icon = goal_unknown
-		cost = 0
+		icon = focus_generic_full_social_mobilization
+		cost = 35
 		x = 8
 		y = 2
 		prerequisite = { focus = Party_Election_1936 }
+		available = {
+			has_country_flag = basir_win
+		}
 		mutually_exclusive = { focus = Stay_the_Course focus = Reformist_Ideals }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
