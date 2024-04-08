@@ -3,7 +3,7 @@ characters = {
 		name = qasim_ari
 		portraits = {
 			civilian = {
-				large =GFX_Portrait_Europe_Generic_land_3
+				large = GFX_Portrait_Europe_Generic_land_3
 			}
 		}
 		country_leader = {
@@ -19,6 +19,9 @@ characters = {
 			army = {
 				large = GFX_portrait_europe_generic_land_7
 				small = GFX_portrait_europe_generic_land_7_small
+			}
+			civilian = {
+				large = GFX_portrait_europe_generic_land_7
 			}
 		}
 		field_marshal = {
@@ -84,7 +87,7 @@ characters = {
 		}
 	}
 	X10_50336008 = {
-		name = eu4_Qasim_eu4_Ari
+		name = eu4_Qasim_eu4_Elfael
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -265,8 +268,11 @@ characters = {
 		name = eu4_Abdul-Hakam_eu4_Qutamid
 		portraits = {
 			army = {
-				large = GFX_Portrait_europe_generic_land_6
-				small = GFX_Portrait_europe_generic_land_6_small
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_Portrait_europe_generic_land_13_small
+			}
+			civilian = {
+				
 			}
 		}
 		corps_commander = {
@@ -296,7 +302,7 @@ characters = {
 		}
 	}
 	X10_134218928 = {
-		name = eu4_Basir_eu4_Elfael
+		name = eu4_Basir_eu4_Ari
 		portraits = {
 			navy = {
 				large = GFX_portrait_europe_generic_navy_5

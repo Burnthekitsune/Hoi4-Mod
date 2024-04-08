@@ -1,0 +1,337 @@
+﻿add_namespace = ASH_election
+
+country_event = {
+	id = ASH_election.1
+	title = ASH_election.1.t
+	desc = ASH_election.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASH_election.1.a
+		hidden_effect = {
+			set_variable = {
+				var = qasim_vote
+				value = 2
+			}
+			set_variable = {
+				var = abdul_vote
+				value = 3
+			}
+			set_variable = {
+				var = basir_vote
+				value = 1
+			}
+		}
+		country_event = {
+			id = my_event.2 # Debate 1
+			days = 10
+		}
+	}
+}
+
+country_event = { # Debate 1 - Economic
+	id = ASH_election.2
+	title = ASH_election.2.t
+	desc = ASH_election.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASH_election.2.a # Spend the Surplus
+		hidden_effect = {
+			add_to_variable = {
+				var = abdul_vote
+				value = 3
+			}
+			add_to_variable = {
+				var = qasim_vote
+				value = 1
+			}
+		}
+		country_event = {
+			id = my_event.3 # Debate 2
+			days = 10
+		}
+	}
+	
+	option = {
+		name = ASH_election.2.b # Cut the taxes
+		hidden_effect = {
+			add_to_variable = {
+				var = qasim_vote
+				value = 3
+			}
+			add_to_variable = {
+				var = abdul_vote
+				value = 1
+			}
+		}
+		country_event = {
+			id = my_event.3 # Debate 2
+			days = 10
+		}
+	}
+	
+	option = {
+		name = ASH_election.2.c # Divert Funding
+		hidden_effect = {
+			add_to_variable = {
+				var = basir_vote
+				value = 3
+			}
+		}
+		country_event = {
+			id = my_event.3 # Debate 2
+			days = 10
+		}
+	}
+}
+
+country_event = { # Debate 2 - Military
+	id = ASH_election.3
+	title = ASH_election.3.t
+	desc = ASH_election.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASH_election.3.a # Defensive
+		hidden_effect = {
+			add_to_variable = {
+				var = abdul_vote
+				value = 2
+			}
+			add_to_variable = {
+				var = qasim_vote
+				value = 2
+			}
+		}
+		country_event = {
+			id = my_event.4 # Debate 3
+			days = 10
+		}
+	}
+	
+	option = {
+		name = ASH_election.3.b # Offencive
+		hidden_effect = {
+			add_to_variable = {
+				var = basir_vote
+				value = 5
+			}
+		}
+		country_event = {
+			id = my_event.4 # Debate 3
+			days = 10
+		}
+	}
+}
+
+country_event = { # Debate 3 - Foriegn Policy
+	id = ASH_election.4
+	title = ASH_election.4.t
+	desc = ASH_election.4.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASH_election.4.a # Approach Old Allies
+		hidden_effect = {
+			add_to_variable = {
+				var = qasim_vote
+				value = 5
+			}
+		}
+	}
+	
+	option = {
+		name = ASH_election.4.b # Forge New Allies
+		hidden_effect = {
+			add_to_variable = {
+				var = abdul_vote
+				value = 5
+			}
+		}
+	}
+	
+	option = {
+		name = ASH_election.4.c # Create Allies
+		hidden_effect = {
+			add_to_variable = {
+				var = basir_vote
+				value = 5
+			}
+		}
+	}
+}
+
+country_event = { # Get Results
+	id = ASH_election.5
+	title = ASH_election.5.t
+	desc = ASH_election.5.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASH_election.5.a
+		hidden_effect = {
+			set_variable_to_random = {
+				var = qasim_bonus
+				min = 0
+				max = 5
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = abdul_bonus
+				min = 0
+				max = 5
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = basir_bonus
+				min = 0
+				max = 5
+				integer = yes
+			}
+			add_to_variable = {
+				var = qasim_vote
+				value = qasim_bonus
+			}
+			add_to_variable = {
+				var = abdul_vote
+				value = abdul_bonus
+			}
+			add_to_variable = {
+				var = basir_vote
+				value = basir_bonus
+			}
+			clear_variable = qasim_bonus
+			clear_variable = abdul_bonus
+			clear_variable = basir_bonus
+			if = {
+				limit = {
+					check_variable = {
+						var = qasim_vote
+						value = abdul_vote
+						compare = greater_than
+					}
+					check_variable = {
+						var = qasim_vote
+						value = basir_vote
+						compare = greater_than
+					}
+				}
+				set_county_flag = qasim_win
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = abdul_vote
+						value = qasim_vote
+						compare = greater_than
+					}
+					check_variable = {
+						var = abdul_vote
+						value = basir_vote
+						compare = greater_than
+					}
+				}
+				set_county_flag = abdul_win
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = basir_vote
+						value = qasim_vote
+						compare = greater_than
+					}
+					check_variable = {
+						var = basir_vote
+						value = abdul_vote
+						compare = greater_than
+					}
+				}
+				set_county_flag = basir_win
+			} # if it gets this far there is a tie
+			else_if = { # Qasim wins tie with Basir
+				limit = {
+					check_variable = {
+						var = qasim_vote
+						value = basir_bonus
+						compare = equals
+					}
+					check_variable = {
+						var = qasim_vote
+						value = abdul_vote
+						compare = greater_than
+					}
+				}
+				set_county_flag = qasim_win
+			}
+			else = { # Abdul wins all ties
+				set_county_flag = abdul_win
+			}
+			clear_variable = qasim_vote
+			clear_variable = abdul_vote
+			clear_variable = basir_vote
+			
+		}
+		country_event = {
+			id = my_event.6 # Results
+		}
+	}
+}
+
+country_event = { # Results
+	id = ASH_election.6
+	title = ASH_election.6.t
+	desc = ASH_election.6.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASH_election.6.a # Abdul
+		trigger = {
+			NOT = {
+				has_country_flag = qasim_win
+				has_country_flag = basir_win
+			}
+		}
+		add_country_leader_role = {
+			character = X10_117441588
+			country_leader = {
+				ideology = marxism
+				traits = { economic_reformer captain_of_industry }
+			}
+			promote_leader = yes
+		}
+	}
+	option = {
+		name = ASH_election.6.b # Qasim
+		trigger = {
+			has_country_flag = qasim_win
+		}
+		add_country_leader_trait = fortification_engineer
+	}
+	option = {
+		name = ASH_election.6.c # Basir
+		trigger = {
+			has_country_flag = basir_win
+		}
+		add_country_leader_role = {
+			character = X10_33555445
+			country_leader = {
+				ideology = stalinism
+				traits = { great_war_hero war_industrialist }
+			}
+			promote_leader = yes
+		}
+	}
+}
