@@ -4,27 +4,126 @@
 	for_countries = W40
 	can_use = { always = yes }
 	division_types = { "infantry" }
-	fallback_name = "%dya Motoyeherska Diviziya"
+	fallback_name = "%d. Merarchia Miakos"
 		
 	ordered =
 		{
-			1 = { "%dya Simista Leybgvardi Polk" }
-			2 = { "%dya Zakhidnovolyns'koho Leybgvardi Polk" }
-			3 = { "%dya Cherven' Motoyeherska Polk" }
+			4 = { "%d. Murom Frouros" }
+			5 = { "%d. Dyrrachion Frouros" }
+			10 = { "%d. Fylakes Miakos Diaitas" }
 		}
 }
+
 Infantry_Division_Muraa =
 {
 	name = "Infantry Division"
 	for_countries = W40
 	can_use = { always = yes }
 	division_types = { "infantry" }
-	fallback_name = "%dya Potiklyudey"
+	fallback_name = "%d. Merarchia Pezikou"
 	link_numbering_with = { Imperial_Guard_Muraa }
 		
 	ordered =
 		{
-			4 = { "%dya Cherven' Bryhada" }
-			5 = { "%dya Zakhidnovolyns'koho Yehers'ka Bryhada" }
+			12 = { "%d. Kazan Toufekia" }
+			13 = { "%d. Anatoliko Palatios" }
+			14 = { "%d. Kalokairi Palatios" }
+			15 = { "%d. Cheimonas Palatios" }
+			16 = { "%d. Fylakes Epitropi Dimosias Ypiresias" }
+			17 = { "%d. Fylakes Logokrino" }
+		}
+}
+
+Naval_Infantry_Muraa =
+{
+	name = "Naval Infantry Division"
+	for_countries = W40
+	can_use = { always = yes }
+	division_types = { "infantry" "marine" }
+	fallback_name = "%d. Thalassio Pezikou"
+		
+	ordered =
+		{
+			8 = { "%d. Fiji Pezikou" }
+			9 = { "%d. Comoros Pezikou" }
+			11 = { "%d. Mikronisias Thalassio Pezikou" }
+		}
+}
+
+Special_Navy_Muraa =
+{
+	name = "Special Navy Brigade"
+	for_countries = W40
+	can_use = { always = yes }
+	division_types = { "marine" }
+	fallback_name = "%d. Eidiko Thalassio Tritos"
+		
+	ordered =
+		{
+			1 = { "%d. Alise Thalassio Tritos" }
+			2 = { "%d. Alise Thalassio Tritos" }
+			3 = { "%d. Dekatera Thalassio Tritos" }
+			7 = { "%d. Fiji Thalassio Tritos" }
+		}
+}
+
+Cavalry_Division_Muraa =
+{
+	name = "Cavalry Division"
+	for_countries = W40
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+	fallback_name = "%d. Stratos Dragoumanon"
+		
+	ordered =
+		{
+			6 = { "%d. Plovdiv Palatios" }
+			18 = { "%d. Miakos Drakoi" }
+			19 = { "%d. Miakos Drakoi" }
+			20 = { "%d. Miakos Drakoi" }
+		}
+}
+
+Mixed_Division_Muraa =
+{
+	name = "Mixed Division"
+	for_countries = W40
+	can_use = { always = yes }
+	division_types = { "mechanized" "motorized" "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	fallback_name = "%d. Taxiarchia Syndyasmeni"
+		
+	ordered =
+		{
+			21 = { "%d. Peiramatikos Taxiarchia" }
+			23 = { "%d. Peiramatikos Taxiarchia" }
+			44 = { "%d. Neos Taxiarchia Syndyasmeni" }
+		}
+}
+
+Summit_Division_Muraa =
+{
+	name = "Summit Division"
+	for_countries = W40
+	can_use = { always = yes }
+	division_types = { "mountaineers" }
+	fallback_name = "%d. Merarchia Koryfi Pezikou"
+		
+	ordered =
+		{
+			22 = { "%d. Perses Oreivates" }
+		}
+}
+
+Plane_Division_Muraa =
+{
+	name = "Paratrooper Division"
+	for_countries = W40
+	can_use = { always = yes }
+	division_types = { "paratrooper" }
+	fallback_name = "%d. Merarchia Aeroplanodesant"
+		
+	ordered =
+		{
+			24 = { "%d. MAD" }
 		}
 }

@@ -264,7 +264,7 @@ ideas = {
 
 			removal_cost = -1
 
-			image = "GFX_idea_BUL_ferdinand_i"
+			image = BUL_ferdinand_i
 
 			traits = { popular_figurehead }
 		}
