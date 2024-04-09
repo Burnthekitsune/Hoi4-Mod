@@ -1,0 +1,12 @@
+Ahshmali_influence = {
+	enable = { always = yes }
+	icon = GFX_generic_communism_drift_bonus
+	communism_drift = 0.05
+}
+
+Ahshmali_influence_heavy = {
+	enable = { always = yes }
+	icon = GFX_generic_communism_drift_bonus
+	communism_drift = 0.1
+}
+

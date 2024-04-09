@@ -13,8 +13,8 @@
 
 	focus = {
 		id = Party_Election_1936
-		icon = focus_generic_soviet_politics
-		cost = 35
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5
 		x = 4
 		y = 1
 		prerequisite = {  }
@@ -30,8 +30,8 @@
 	}
 	focus = {
 		id = Reformist_Ideals
-		icon = focus_generic_workers
-		cost = 35
+		icon = GFX_focus_generic_workers
+		cost = 5
 		x = 0
 		y = 2
 		prerequisite = { focus = Party_Election_1936 }
@@ -42,11 +42,14 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 75
+		}
 	}
 	focus = {
 		id = Stay_the_Course
-		icon = focus_generic_communist_industry
-		cost = 35
+		icon = GFX_focus_generic_communist_industry
+		cost = 5
 		x = 4
 		y = 2
 		prerequisite = { focus = Party_Election_1936 }
@@ -60,8 +63,8 @@
 	}
 	focus = {
 		id = Return_to_Glory
-		icon = focus_generic_full_social_mobilization
-		cost = 35
+		icon = GFX_focus_generic_full_social_mobilization
+		cost = 5
 		x = 8
 		y = 2
 		prerequisite = { focus = Party_Election_1936 }
@@ -75,7 +78,7 @@
 	}
 	focus = {
 		id = Address_the_budget
-		icon = goal_unknown
+		icon = GFX_focus_generic_socialist_science
 		cost = 0
 		x = 0
 		y = 3
@@ -83,21 +86,27 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	focus = {
 		id = A_new_league
-		icon = goal_unknown
-		cost = 0
+		icon = GFX_focus_chi_cooperation_with_the_communists
+		cost = 5
 		x = 2
 		y = 3
 		prerequisite = { focus = Reformist_Ideals }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			set_faction_name = communist_pact
+		}
 	}
 	focus = {
 		id = Adjust_Social_Welfare
-		icon = goal_unknown
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		cost = 0
 		x = 0
 		y = 4
@@ -105,10 +114,13 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = ASH_social_welfare
+		}
 	}
 	focus = {
 		id = Develop_New_Jobs
-		icon = goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		cost = 0
 		x = 0
 		y = 5
@@ -116,21 +128,46 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex 
+				level = 5
+			}
+		}
 	}
 	focus = {
 		id = New_Allies
-		icon = goal_unknown
-		cost = 0
+		icon = GFX_goal_generic_alliance
+		cost = 5
 		x = 2
 		y = 4
 		prerequisite = { focus = A_new_league }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			SPM = { country_event = ASH_focus.1 }
+			LOM = { country_event = ASH_focus.1 }
+			add_dynamic_modifier = {
+				modifier = Ahshmali_influence
+				scope = SPM
+				days = 365
+			}
+			add_dynamic_modifier = {
+				modifier = Ahshmali_influence
+				scope = LOM
+				days = 365
+			}
+			add_dynamic_modifier = {
+				modifier = Ahshmali_influence_heavy
+				scope = VEN
+				days = 365
+			}
+		}
 	}
 	focus = {
 		id = Moving_Forward_Together
-		icon = goal_unknown
+		icon = GFX_focus_SOV_international_union_of_soviet_republics
 		cost = 0
 		x = 2
 		y = 6
@@ -138,10 +175,24 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			hidden_effect = {
+				add_county_flag = moving_forward
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = X10
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.10
+				}
+			}
+		}
 	}
 	focus = {
 		id = The_New_currency
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 4
 		y = 3
@@ -152,7 +203,7 @@
 	}
 	focus = {
 		id = the_common_market
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 4
 		y = 4
@@ -163,7 +214,7 @@
 	}
 	focus = {
 		id = make_amends
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 6
 		y = 3
@@ -174,7 +225,7 @@
 	}
 	focus = {
 		id = direct_investment
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 6
 		y = 4
@@ -185,7 +236,7 @@
 	}
 	focus = {
 		id = build_support
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 6
 		y = 5
@@ -196,7 +247,7 @@
 	}
 	focus = {
 		id = the_grand_alliance
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 6
 		y = 6
@@ -207,7 +258,7 @@
 	}
 	focus = {
 		id = army_reforms
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 8
 		y = 3
@@ -218,7 +269,7 @@
 	}
 	focus = {
 		id = navy_reforms
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 10
 		y = 3
@@ -229,7 +280,7 @@
 	}
 	focus = {
 		id = new_traditions
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 12
 		y = 3
@@ -240,7 +291,7 @@
 	}
 	focus = {
 		id = seek_new_talent
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 8
 		y = 4
@@ -251,7 +302,7 @@
 	}
 	focus = {
 		id = leverage_connections
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 12
 		y = 4
@@ -262,7 +313,7 @@
 	}
 	focus = {
 		id = authorized_intervention
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 10
 		y = 5
@@ -273,7 +324,7 @@
 	}
 	focus = {
 		id = missions_of_liberation
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 0
 		x = 10
 		y = 6

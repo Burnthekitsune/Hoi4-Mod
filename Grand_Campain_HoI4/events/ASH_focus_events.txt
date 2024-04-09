@@ -1,0 +1,35 @@
+add_namespace = ASH_focus
+
+country_event = { # Invite to faction
+	id = ASH_focus.1
+	title = ASH_focus.1.t
+	desc = ASH_focus.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = ASH_focus.1.a
+		X10 = {
+			add_to_faction = ROOT
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				NOT = { has_government = communist }
+				factor = 0
+			}
+		}
+	}
+	
+	option = { # NO
+		name = ASH_focus.1.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				has_government = communist
+				factor = 0
+			}
+		}
+	}
+}

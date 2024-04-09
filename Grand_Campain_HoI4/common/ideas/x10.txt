@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		ASH_social_welfare = {
+			allowed = {
+				original_tag = X10
+				has_government = communist
+			}
+			
+			allowed_civil_war = {
+				original_tag = X10
+				has_government = communist
+			}
+			
+			removal_cost = -1
+			
+			traits = {  } 
+		}
+	}
+}

@@ -11,5 +11,6 @@
   FACTION_NAME_RADICAL_5:0 "The $LEADER_COUNTRY$ Organization"
   FACTION_NAME_RADICAL_6:0 "The $LEADER_COUNTRY$ Cooperative"
   
-  Worker_Alliance: "The Worker's Alliance"
+  Worker_Alliance: "The Workers' Alliance"
   PCP: "Pacific Communist Pact"
+  communist_pact: "The Communist Pact"
