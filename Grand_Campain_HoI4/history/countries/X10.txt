@@ -36,10 +36,10 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 46
-	democratic = 35
-	fascism = 18
-	neutrality = 1
+	communism = 75
+	democratic = 15
+	fascism = 10
+	neutrality = 0
 }
 
 give_guarantee = X19
