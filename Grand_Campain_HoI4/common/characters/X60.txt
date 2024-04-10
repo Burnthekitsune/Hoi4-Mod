@@ -3,7 +3,7 @@ characters = {
 		name = The_Council
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_leader_unknown
 			}
 		}
 		country_leader = {
@@ -43,8 +43,8 @@ characters = {
 		name = gu_Sanjeev_dyn_gu_Gupta
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {
@@ -60,8 +60,8 @@ characters = {
 		name = gu_Sanjeev_dyn_gu_Ganjawala
 		portraits = {
 			navy = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		navy_leader = {

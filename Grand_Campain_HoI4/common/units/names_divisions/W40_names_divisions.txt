@@ -1,7 +1,7 @@
 ﻿Imperial_Guard_Muraa =
 {
 	name = "Imperial Guard Division"
-	for_countries = W40
+	for_countries = { W40 }
 	can_use = { always = yes }
 	division_types = { "infantry" }
 	fallback_name = "%d. Merarchia Miakos"
@@ -17,7 +17,7 @@
 Infantry_Division_Muraa =
 {
 	name = "Infantry Division"
-	for_countries = W40
+	for_countries = { W40 }
 	can_use = { always = yes }
 	division_types = { "infantry" }
 	fallback_name = "%d. Merarchia Pezikou"
@@ -37,7 +37,7 @@ Infantry_Division_Muraa =
 Naval_Infantry_Muraa =
 {
 	name = "Naval Infantry Division"
-	for_countries = W40
+	for_countries = { W40 }
 	can_use = { always = yes }
 	division_types = { "infantry" "marine" }
 	fallback_name = "%d. Thalassio Pezikou"
@@ -53,7 +53,7 @@ Naval_Infantry_Muraa =
 Special_Navy_Muraa =
 {
 	name = "Special Navy Brigade"
-	for_countries = W40
+	for_countries = { W40 }
 	can_use = { always = yes }
 	division_types = { "marine" }
 	fallback_name = "%d. Eidiko Thalassio Tritos"
@@ -70,7 +70,7 @@ Special_Navy_Muraa =
 Cavalry_Division_Muraa =
 {
 	name = "Cavalry Division"
-	for_countries = W40
+	for_countries = { W40 }
 	can_use = { always = yes }
 	division_types = { "cavalry" }
 	fallback_name = "%d. Stratos Dragoumanon"
@@ -87,7 +87,7 @@ Cavalry_Division_Muraa =
 Mixed_Division_Muraa =
 {
 	name = "Mixed Division"
-	for_countries = W40
+	for_countries = { W40 }
 	can_use = { always = yes }
 	division_types = { "mechanized" "motorized" "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 	fallback_name = "%d. Taxiarchia Syndyasmeni"
@@ -103,7 +103,7 @@ Mixed_Division_Muraa =
 Summit_Division_Muraa =
 {
 	name = "Summit Division"
-	for_countries = W40
+	for_countries = { W40 }
 	can_use = { always = yes }
 	division_types = { "mountaineers" }
 	fallback_name = "%d. Merarchia Koryfi Pezikou"
@@ -117,7 +117,7 @@ Summit_Division_Muraa =
 Plane_Division_Muraa =
 {
 	name = "Paratrooper Division"
-	for_countries = W40
+	for_countries = { W40 }
 	can_use = { always = yes }
 	division_types = { "paratrooper" }
 	fallback_name = "%d. Merarchia Aeroplanodesant"

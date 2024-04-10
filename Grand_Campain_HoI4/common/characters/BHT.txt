@@ -3,7 +3,7 @@ characters = {
 		name = bo_Jampa_dyn_bo_Depa_Tonpo
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_leader_unknown
 			}
 		}
 		country_leader = {
@@ -29,8 +29,8 @@ characters = {
 		name = Narayan_Bhave
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {

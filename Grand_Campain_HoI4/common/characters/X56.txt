@@ -3,7 +3,7 @@ characters = {
 		name = The_Council
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_leader_unknown
 			}
 		}
 		country_leader = {
@@ -29,8 +29,8 @@ characters = {
 		name = Raghuraj_Singh
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {
@@ -99,8 +99,8 @@ characters = {
 		name = Vijay_Kapoor
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {
@@ -116,8 +116,8 @@ characters = {
 		name = Parbhu_Kapoor
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {
@@ -133,8 +133,8 @@ characters = {
 		name = Jugal_Singh
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {
@@ -206,8 +206,8 @@ characters = {
 		name = Prasan_Singh
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		field_marshal = {

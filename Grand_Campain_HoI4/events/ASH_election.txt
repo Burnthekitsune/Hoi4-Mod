@@ -227,7 +227,7 @@ country_event = { # Get Results
 						compare = greater_than
 					}
 				}
-				set_county_flag = qasim_win
+				set_country_flag = qasim_win
 			}
 			else_if = {
 				limit = {
@@ -242,7 +242,7 @@ country_event = { # Get Results
 						compare = greater_than
 					}
 				}
-				set_county_flag = abdul_win
+				set_country_flag = abdul_win
 			}
 			else_if = {
 				limit = {
@@ -257,7 +257,7 @@ country_event = { # Get Results
 						compare = greater_than
 					}
 				}
-				set_county_flag = basir_win
+				set_country_flag = basir_win
 			} # if it gets this far there is a tie
 			else_if = { # Qasim wins tie with Basir
 				limit = {
@@ -272,10 +272,10 @@ country_event = { # Get Results
 						compare = greater_than
 					}
 				}
-				set_county_flag = qasim_win
+				set_country_flag = qasim_win
 			}
 			else = { # Abdul wins all ties
-				set_county_flag = abdul_win
+				set_country_flag = abdul_win
 			}
 			clear_variable = qasim_vote
 			clear_variable = abdul_vote

@@ -6,7 +6,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_Nunavut_Paul_Okalik_small
-		texturefile = "gfx/interface/ideas/idea_Nunavut_Paul_Okalik.dds"
+		texturefile = "gfx/interface/ideas/idea_unknown.dds"
 	}
 
 }

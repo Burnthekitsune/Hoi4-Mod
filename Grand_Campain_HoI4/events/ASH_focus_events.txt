@@ -16,7 +16,9 @@ country_event = { # Invite to faction
 		ai_chance = {
 			base = 1
 			modifier = {
-				NOT = { has_government = communist }
+				NOT = {
+					has_government = communism
+				}
 				factor = 0
 			}
 		}
@@ -27,7 +29,7 @@ country_event = { # Invite to faction
 		ai_chance = {
 			base = 1
 			modifier = {
-				has_government = communist
+				has_government = communism
 				factor = 0
 			}
 		}

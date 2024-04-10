@@ -3,7 +3,7 @@ characters = {
 		name = eu4_Ali_di_Avula
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_leader_unknown
 			}
 		}
 		country_leader = {

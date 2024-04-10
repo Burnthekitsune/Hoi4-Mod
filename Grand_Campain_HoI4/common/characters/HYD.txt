@@ -3,7 +3,7 @@ characters = {
 		name = The_Council
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_leader_unknown
 			}
 		}
 		country_leader = {
@@ -15,8 +15,8 @@ characters = {
 		name = mr_Pushpraj_dyn_mr_Ratnaparakhi
 		portraits = {
 			navy = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		navy_leader = {
@@ -32,8 +32,8 @@ characters = {
 		name = mr_Prithujay_dyn_mr_Kapse
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {
@@ -77,8 +77,8 @@ characters = {
 		name = mr_Pruthviraj_dyn_mr_Patil
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {
@@ -122,8 +122,8 @@ characters = {
 		name = mr_Prasan_dyn_mr_Tipnis
 		portraits = {
 			navy = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		navy_leader = {

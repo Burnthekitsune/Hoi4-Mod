@@ -1,7 +1,7 @@
 ﻿CS_LGrd =
 {
 	name = "Life Guard Division"
-	for_countries = V26
+	for_countries = { V26 }
 	can_use = { always = yes }
 	division_types = { "motorized" }
 	fallback_name = "%dya Motoyeherska Diviziya"
@@ -16,7 +16,7 @@
 CS_Volk =
 {
 	name = "Skirmishing Brigade"
-	for_countries = V26
+	for_countries = { V26 }
 	can_use = { always = yes }
 	division_types = { "infantry" }
 	fallback_name = "%dya Potiklyudey"

@@ -3,7 +3,7 @@ characters = {
 		name = The_Council
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_leader_unknown
 			}
 		}
 		country_leader = {
@@ -43,8 +43,8 @@ characters = {
 		name = ne_Puru_dyn_ne_Bakhrel
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {
@@ -144,8 +144,8 @@ characters = {
 		name = ne_Sabir_dyn_ne_Pun
 		portraits = {
 			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+				large = GFX_leader_unknown
+				small = GFX_idea_unknown
 			}
 		}
 		corps_commander = {

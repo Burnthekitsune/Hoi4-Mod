@@ -9,7 +9,6 @@
 		}
 	}
 	default = no
-	reset_on_civil_war = no
 
 	focus = {
 		id = Party_Election_1936
@@ -177,7 +176,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			hidden_effect = {
-				add_county_flag = moving_forward
+				set_country_flag = moving_forward
 			}
 			every_country = {
 				limit = {

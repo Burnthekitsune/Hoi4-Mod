@@ -235,7 +235,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 28807
+		location = 1306
 		division_template = "Cavalry Brigade"
 		start_equipment_factor = 0.35
 		start_experience_factor = 0.2

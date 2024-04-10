@@ -3,17 +3,17 @@ ideas = {
 		ASH_social_welfare = {
 			allowed = {
 				original_tag = X10
-				has_government = communist
+				is_puppet = no
 			}
 			
 			allowed_civil_war = {
 				original_tag = X10
-				has_government = communist
+				is_puppet = no
 			}
 			
 			removal_cost = -1
 			
-			traits = {  } 
+			traits = { ASH_expanded_welfare } 
 		}
 	}
 }
