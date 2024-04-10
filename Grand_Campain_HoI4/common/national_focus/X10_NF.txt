@@ -79,7 +79,7 @@
 	focus = {
 		id = Address_the_budget
 		icon = GFX_focus_generic_socialist_science
-		cost = 0
+		cost = 5
 		x = 0
 		y = 3
 		prerequisite = { focus = Reformist_Ideals }
@@ -107,7 +107,7 @@
 	focus = {
 		id = Adjust_Social_Welfare
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		cost = 0
+		cost = 5
 		x = 0
 		y = 4
 		prerequisite = { focus = Address_the_budget }
@@ -121,7 +121,7 @@
 	focus = {
 		id = Develop_New_Jobs
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 0
+		cost = 5
 		x = 0
 		y = 5
 		prerequisite = { focus = Adjust_Social_Welfare }
@@ -168,7 +168,7 @@
 	focus = {
 		id = Moving_Forward_Together
 		icon = GFX_focus_SOV_international_union_of_soviet_republics
-		cost = 0
+		cost = 5
 		x = 2
 		y = 6
 		prerequisite = { focus = Develop_New_Jobs focus = New_Allies }
@@ -193,7 +193,7 @@
 	focus = {
 		id = The_New_currency
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 4
 		y = 3
 		prerequisite = { focus = Stay_the_Course }
@@ -204,7 +204,7 @@
 	focus = {
 		id = the_common_market
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 4
 		y = 4
 		prerequisite = { focus = The_New_currency }
@@ -215,7 +215,7 @@
 	focus = {
 		id = make_amends
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 6
 		y = 3
 		prerequisite = { focus = Stay_the_Course }
@@ -226,7 +226,7 @@
 	focus = {
 		id = direct_investment
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 6
 		y = 4
 		prerequisite = { focus = make_amends }
@@ -237,7 +237,7 @@
 	focus = {
 		id = build_support
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 6
 		y = 5
 		prerequisite = { focus = direct_investment focus = the_common_market }
@@ -248,7 +248,7 @@
 	focus = {
 		id = the_grand_alliance
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 6
 		y = 6
 		prerequisite = { focus = build_support }
@@ -259,7 +259,7 @@
 	focus = {
 		id = army_reforms
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 8
 		y = 3
 		prerequisite = { focus = Return_to_Glory }
@@ -270,7 +270,7 @@
 	focus = {
 		id = navy_reforms
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 10
 		y = 3
 		prerequisite = { focus = Return_to_Glory }
@@ -281,7 +281,7 @@
 	focus = {
 		id = new_traditions
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 12
 		y = 3
 		prerequisite = { focus = Return_to_Glory }
@@ -292,7 +292,7 @@
 	focus = {
 		id = seek_new_talent
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 8
 		y = 4
 		prerequisite = { focus = army_reforms focus = navy_reforms }
@@ -303,7 +303,7 @@
 	focus = {
 		id = leverage_connections
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 12
 		y = 4
 		prerequisite = { focus = new_traditions }
@@ -314,7 +314,7 @@
 	focus = {
 		id = authorized_intervention
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 10
 		y = 5
 		prerequisite = { focus = seek_new_talent focus = leverage_connections }
@@ -325,7 +325,7 @@
 	focus = {
 		id = missions_of_liberation
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 5
 		x = 10
 		y = 6
 		prerequisite = { focus = authorized_intervention }
