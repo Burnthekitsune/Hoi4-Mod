@@ -22,8 +22,8 @@
 		continue_if_invalid = no
 		select_effect = {
 			country_event = {
-				id = my_event.1 # Election Start 
-				days = 10
+				id = ASH_election.1 # Election Start 
+				days = 1
 			}
 		}
 	}
@@ -145,22 +145,37 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			SPM = { country_event = ASH_focus.1 }
-			LOM = { country_event = ASH_focus.1 }
-			add_dynamic_modifier = {
-				modifier = Ahshmali_influence
-				scope = SPM
-				days = 365
+			SPM = { 
+				country_event = ASH_focus.1
+				add_ideas = ASH_influence
 			}
-			add_dynamic_modifier = {
-				modifier = Ahshmali_influence
-				scope = LOM
-				days = 365
+			LOM = { 
+				country_event = ASH_focus.1
+				add_ideas = ASH_influence
 			}
-			add_dynamic_modifier = {
-				modifier = Ahshmali_influence_heavy
-				scope = VEN
-				days = 365
+			VEN = { 
+				add_ideas = ASH_influence_2
+			}
+			hidden_effect = {
+				
+				SPM = {
+					country_event = {
+						id = ASH_focus.2 # Removes Idea after a bit
+						days = 365
+					}
+				}
+				LOM = {
+					country_event = {
+						id = ASH_focus.2
+						days = 365
+					}
+				}
+				VEN = {
+					country_event = {
+						id = ASH_focus.2
+						days = 365
+					}
+				}
 			}
 		}
 	}
@@ -170,7 +185,8 @@
 		cost = 5
 		x = 2
 		y = 6
-		prerequisite = { focus = Develop_New_Jobs focus = New_Allies }
+		prerequisite = { focus = Develop_New_Jobs }
+		prerequisite = { focus = New_Allies }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -239,7 +255,8 @@
 		cost = 5
 		x = 6
 		y = 5
-		prerequisite = { focus = direct_investment focus = the_common_market }
+		prerequisite = { focus = the_common_market }
+		prerequisite = { focus = direct_investment }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -294,7 +311,8 @@
 		cost = 5
 		x = 8
 		y = 4
-		prerequisite = { focus = army_reforms focus = navy_reforms }
+		prerequisite = { focus = army_reforms }
+		prerequisite = { focus = navy_reforms }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -316,7 +334,8 @@
 		cost = 5
 		x = 10
 		y = 5
-		prerequisite = { focus = seek_new_talent focus = leverage_connections }
+		prerequisite = { focus = leverage_connections }
+		prerequisite = { focus = seek_new_talent}
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no

@@ -10658,9 +10658,4 @@ surveyor = {
 			}
 		}
 	}
-	
-	ASH_expanded_welfare = {
-		communism_drift = 0.1
-		stability_factor = 0.05
-	}
 }

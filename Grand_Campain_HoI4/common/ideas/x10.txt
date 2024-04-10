@@ -13,7 +13,36 @@ ideas = {
 			
 			removal_cost = -1
 			
-			traits = { ASH_expanded_welfare } 
+			modifier = {
+				communism_drift = 0.1
+				stability_factor = 0.05
+			}
+		}
+		
+		ASH_influence = {
+			allowed = {
+				is_puppet = no
+			}
+			allowed_civil_war = {
+				is_puppet = no
+			}
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.05
+			}
+		}
+		
+		ASH_influence_2 = {
+			allowed = {
+				is_puppet = no
+			}
+			allowed_civil_war = {
+				is_puppet = no
+			}
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.1
+			}
 		}
 	}
 }
