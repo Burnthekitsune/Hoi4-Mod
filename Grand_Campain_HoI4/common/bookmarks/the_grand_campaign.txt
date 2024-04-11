@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = GRAND_CAMPAIGN_NAME
-		desc = GRAND_CAMPAIGN_DESC
+		name = "GRAND_CAMPAIGN_NAME"
+		desc = "GRAND_CAMPAIGN_DESC"
 		date = 1936.1.1.12
 		picture = GFX_select_date_1936
 		default_country = "---"
@@ -10,7 +10,10 @@ bookmarks = {
 		UPU= {}
 		V27= {}
 		W40= {}
-		X10= {}
+		X10= {
+			history = X10_hist
+			ideology = communism
+		}
 		"---"= {
 			history = "OTHER_GRAND_CAMPAIGN_DESC"
 		}
@@ -21,6 +24,15 @@ bookmarks = {
 			minor = yes
 		}
 		GER = {
+			minor = yes
+		}
+		SCA = {
+			minor = yes
+		}
+		Z03 = {
+			minor = yes
+		}
+		BRA = {
 			minor = yes
 		}
 		effect = {
