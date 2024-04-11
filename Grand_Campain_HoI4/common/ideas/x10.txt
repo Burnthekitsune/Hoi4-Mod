@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		ASH_social_welfare = {
+			picture = idea_new_economic_policy
 			allowed = {
 				original_tag = X10
 				is_puppet = no
@@ -20,6 +21,7 @@ ideas = {
 		}
 		
 		ASH_influence = {
+			picture = generic_communism_drift_bonus
 			allowed = {
 				is_puppet = no
 			}
@@ -33,6 +35,7 @@ ideas = {
 		}
 		
 		ASH_influence_2 = {
+			picture = generic_communism_drift_bonus
 			allowed = {
 				is_puppet = no
 			}
