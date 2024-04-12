@@ -47,5 +47,20 @@ ideas = {
 				communism_drift = 0.1
 			}
 		}
+		
+		ASH_market = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.5
+				industrial_capacity_factory = 0.1
+			}
+		}
 	}
 }

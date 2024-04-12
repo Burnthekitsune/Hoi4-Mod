@@ -56,3 +56,23 @@ country_event = { # Influence Wears off
 		}
 	}
 }
+
+country_event = { # Enables Direct Invesment Decisons
+	id = ASH_focus.3
+	title = ASH_focus.3.t
+	desc = ASH_focus.3.d
+	picture = GFX_news_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ASH_focus.3.a
+		hidden_effect = {
+			set_country_flag = ASH_dir_inv
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
