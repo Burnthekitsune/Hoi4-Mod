@@ -210,6 +210,7 @@
 		completion_reward = {
 			hidden_effect = {
 				set_country_flag = moving_forward
+				set_country_flag = reforms_finished
 			}
 			every_country = {
 				limit = {
@@ -407,6 +408,7 @@
 		completion_reward = {
 			hidden_effect = {
 				set_country_flag = grand_alliance
+				set_country_flag = reforms_finished
 			}
 			every_country = {
 				limit = {
@@ -497,6 +499,224 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			hidden_effect = {
+				set_country_flag = communist_liberation
+				set_country_flag = reforms_finished
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = X10
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.15
+				}
+			}
+		}
+	}
+		focus = {
+		id = Office_of_Foreign_relations
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 14
+		y = 1
+		prerequisite = {  }
+		available = {
+			has_country_flag = reforms_finished 
+		}
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+	}
+	focus = {
+		id = force_french_election
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 10
+		y = 2
+		prerequisite = { focus = Office_of_Foreign_relations }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = offer_panama
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 18
+		y = 2
+		prerequisite = { focus = Office_of_Foreign_relations }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = approach_britania
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 14
+		y = 2
+		prerequisite = { focus = Office_of_Foreign_relations }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = buy_off_north_ireland
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 14
+		y = 3
+		prerequisite = { focus = approach_britania }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = appease_PCP
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 16
+		y = 2
+		prerequisite = { focus = Office_of_Foreign_relations }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = offer_oil_rights
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 16
+		y = 3
+		prerequisite = { focus = appease_PCP }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_pcp
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 16
+		y = 4
+		prerequisite = { focus = offer_oil_rights }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = pressure_bermuda
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 12
+		y = 2
+		prerequisite = { focus = Office_of_Foreign_relations }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_italian_communists
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 20
+		y = 2
+		prerequisite = { focus = Office_of_Foreign_relations }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = unified_communist_front
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 14
+		y = 5
+		prerequisite = {  }
+		available = {
+			count_triggers = {
+				amount = 4
+				has_completed_focus = force_french_election
+				has_completed_focus = pressure_bermuda
+				has_completed_focus = buy_off_north_ireland
+				has_completed_focus = invite_pcp
+				has_completed_focus = floridian_aid
+				has_completed_focus = mexican_aid
+				has_completed_focus = look_west
+				has_completed_focus = unite_italian_communists
+			}
+		}
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = spread_italian_communism
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 20
+		y = 3
+		prerequisite = { focus = invite_italian_communists }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = unite_italian_communists
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 20
+		y = 4
+		prerequisite = { focus = spread_italian_communism }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = find_north_american_allies
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 18
+		y = 4
+		prerequisite = { focus = offer_panama }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = floridian_aid
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 16
+		y = 5
+		prerequisite = { focus = find_north_american_allies }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = mexican_aid
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 18
+		y = 5
+		prerequisite = { focus = find_north_american_allies }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = look_west
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 20
+		y = 5
+		prerequisite = { focus = find_north_american_allies }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
 	}
 }
-
