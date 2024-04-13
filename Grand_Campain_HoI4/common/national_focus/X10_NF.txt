@@ -82,6 +82,10 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 25
+			add_command_power = 100
+		}
 	}
 	focus = {
 		id = Address_the_budget
@@ -212,6 +216,7 @@
 				set_country_flag = moving_forward
 				set_country_flag = reforms_finished
 			}
+			add_ideas = ASH_moving_forward_together
 			every_country = {
 				limit = {
 					is_in_faction_with = X10
@@ -372,11 +377,11 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = cheaper_dir_inv
+			}
 			country_event = {
 				id = ASH_focus.3
-				hidden_effect = {
-					set_country_flag = cheaper_dir_inv
-				}
 			}
 		}
 	}
@@ -410,6 +415,7 @@
 				set_country_flag = grand_alliance
 				set_country_flag = reforms_finished
 			}
+			add_ideas = ASH_grand_alliance
 			every_country = {
 				limit = {
 					is_in_faction_with = X10
@@ -423,7 +429,7 @@
 	}
 	focus = {
 		id = army_reforms
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 5
 		x = 8
 		y = 3
@@ -431,10 +437,18 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			army_experience = 50
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = artillery
+			}
+		}
 	}
 	focus = {
 		id = navy_reforms
-		icon = GFX_goal_unknown
+		icon = GFX_focus_NORDIC_com_navy
 		cost = 5
 		x = 10
 		y = 3
@@ -442,10 +456,18 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			navy_experience = 50
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = naval_equipment
+			}
+		}
 	}
 	focus = {
 		id = new_traditions
-		icon = GFX_goal_unknown
+		icon = GFX_focus_NORDIC_com_capstone_army
 		cost = 5
 		x = 12
 		y = 3
@@ -453,10 +475,13 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = ASH_promoted_service
+		}
 	}
 	focus = {
 		id = seek_new_talent
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_support_general_cedillo
 		cost = 5
 		x = 8
 		y = 4
@@ -465,10 +490,17 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			X10 = {
+				every_unit_leader = {
+					gain_xp = 1000
+				}
+			}
+		}
 	}
 	focus = {
 		id = leverage_connections
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_positive_trade_relations
 		cost = 5
 		x = 12
 		y = 4
@@ -476,22 +508,34 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			hidden_effect = {
+				set_country_flag = lev_conn
+			}
+			custom_effect_tooltip = enable_lev_con
+		}
 	}
 	focus = {
 		id = authorized_intervention
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_cooperation_with_the_communists
 		cost = 5
 		x = 10
 		y = 5
 		prerequisite = { focus = leverage_connections }
-		prerequisite = { focus = seek_new_talent}
+		prerequisite = { focus = seek_new_talent }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 50
+			navy_experience = 50
+			air_experience = 50
+		}
 	}
 	focus = {
 		id = missions_of_liberation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
 		cost = 5
 		x = 10
 		y = 6
@@ -504,6 +548,7 @@
 				set_country_flag = communist_liberation
 				set_country_flag = reforms_finished
 			}
+			add_ideas = ASH_global_liberation
 			every_country = {
 				limit = {
 					is_in_faction_with = X10
@@ -628,6 +673,9 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		bypass = {
+			has_completed_focus = new_allie
+		}
 	}
 	focus = {
 		id = unified_communist_front

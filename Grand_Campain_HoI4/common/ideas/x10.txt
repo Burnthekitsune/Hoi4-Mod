@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		ASH_social_welfare = {
-			picture = idea_new_economic_policy
+			picture = generic_morale_bonus
 			allowed = {
 				original_tag = X10
 				is_puppet = no
@@ -60,6 +60,67 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.5
 				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		ASH_promoted_service = {
+			picture = generic_communism_drift_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				recruitable_population_factor = 0.02
+				mobilization_speed = 0.1
+				war_support_factor = 0.1
+			}
+		}
+		
+		ASH_global_liberation = {
+			picture = FRA_scw_intervention_republicans_focus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.25
+				send_volunteer_factor = 0.5
+				opinion_gain_monthly_same_ideology = 1
+			}
+		}
+		
+		ASH_moving_forward_together = {
+			picture = FRA_scw_intervention_republicans_focus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				opinion_gain_monthly_same_ideology = 1
+			}
+		}
+		
+		ASH_grand_alliance = {
+			picture = FRA_scw_intervention_republicans_focus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				defensive_war_stability_factor = 0.1
+				opinion_gain_monthly_same_ideology = 1
 			}
 		}
 	}
