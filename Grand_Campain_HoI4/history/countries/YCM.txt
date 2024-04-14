@@ -24,7 +24,19 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+create_faction = mex_allaince
+add_to_faction = V50
+add_to_faction = NVJ
+add_ai_strategy = {
+    type = alliance
+    id = "V50"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "NVJ"
+    value = 200
+}
 set_popularities = {
 	communism = 0
 	democratic = 17

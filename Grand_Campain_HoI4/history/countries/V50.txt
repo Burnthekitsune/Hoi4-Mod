@@ -18,7 +18,16 @@ recruit_character = V50_150994971
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
-
+add_ai_strategy = {
+    type = alliance
+    id = "YCM"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "NVJ"
+    value = 200
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.1.1"
