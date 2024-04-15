@@ -13,6 +13,11 @@ country_event = { # Invite to faction
 		X10 = {
 			add_to_faction = ROOT
 		}
+		add_ai_strategy = {
+			type = alliance
+			id = X10
+			value = 200
+		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -73,6 +78,38 @@ country_event = { # Enables Direct Invesment Decisons
 		}
 		ai_chance = {
 			base = 1
+		}
+	}
+}
+
+country_event = { # Cede Northern Ireland
+	id = ASH_focus.4
+	title = ASH_focus.4.t
+	desc = ASH_focus.4.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = ASH_focus.4.a
+		add_political_power = 100
+		remove_state_core = 89
+		89 = {
+			transfer_state_to = IRE
+		}
+		
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = { # NO
+		X10 = {
+			add_political_power = 100
+		}
+		name = ASH_focus.4.b
+		ai_chance = {
+			base = 0
 		}
 	}
 }

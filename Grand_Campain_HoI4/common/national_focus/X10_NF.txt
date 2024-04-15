@@ -12,7 +12,7 @@
 
 	focus = {
 		id = Party_Election_1936
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_GFX_focus_generic_soviet_politics
 		cost = 5
 		x = 4
 		y = 1
@@ -562,7 +562,7 @@
 	}
 		focus = {
 		id = Office_of_Foreign_relations
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_NORDIC_com_capstone_materiel
 		cost = 5
 		x = 14
 		y = 1
@@ -577,14 +577,33 @@
 	}
 	focus = {
 		id = force_french_election
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_chi_reach_out_to_france
 		cost = 5
 		x = 10
 		y = 2
+		available = {
+			FRA = {
+				communism > 0.50
+			}
+		}
+		bypass = {
+			FRA = {
+				is_in_faction_with = X10
+			}
+		}
 		prerequisite = { focus = Office_of_Foreign_relations }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			FRA = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
 	}
 	focus = {
 		id = offer_panama
@@ -599,25 +618,62 @@
 	}
 	focus = {
 		id = approach_britania
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_chi_british_cooperation
 		cost = 5
 		x = 14
 		y = 2
+		available = {
+			ENG = {
+				has_same_ideology = yes
+				has_opinion = {
+					target = X10
+					value > 50
+				}
+			}
+		}
+		bypass = {
+			ENG = {
+				is_in_faction_with = X10
+			}
+		}
 		prerequisite = { focus = Office_of_Foreign_relations }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			ENG = {
+				country_event = ASH_focus.1
+			}
+		}
 	}
 	focus = {
 		id = buy_off_north_ireland
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_chi_british_cooperation
 		cost = 5
 		x = 14
 		y = 3
 		prerequisite = { focus = approach_britania }
+		available = {
+			ENG = {
+				is_in_faction_with = X10
+				is_in_faction_with = IRE
+				owns_state = 89
+			}
+		}
+		bypass = {
+			IRE = {
+				owns_state = 89
+			}
+		}
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -100
+			ENG = {
+				country_event = ASH_focus.4
+			}
+		}
 	}
 	focus = {
 		id = appease_PCP
@@ -629,6 +685,9 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = offer_oil_rights
@@ -654,14 +713,33 @@
 	}
 	focus = {
 		id = pressure_bermuda
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
 		cost = 5
 		x = 12
 		y = 2
+		bypass = {
+			X15 = {
+				is_in_faction_with = X10
+			}
+		}
 		prerequisite = { focus = Office_of_Foreign_relations }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			X15 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				hidden_effect = {
+					set_popularities = {
+						communism = 100
+					}
+				}
+				country_event = ASH_focus.1
+			}
+		}
 	}
 	focus = {
 		id = invite_italian_communists
@@ -674,7 +752,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		bypass = {
-			has_completed_focus = new_allie
+			has_completed_focus = New_Allies
 		}
 	}
 	focus = {
