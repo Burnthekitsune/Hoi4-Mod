@@ -36,21 +36,20 @@ SIA = {
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1934.1.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 0
+	communism = 53
 	democratic = 11
-	fascism = 36
-	neutrality = 53
+	fascism = 26
+	neutrality = 10
 }
 
 add_ideas = {
-	X32_Truong_Vijaya
 	civilian_economy
 	export_focus
 	volunteer_only

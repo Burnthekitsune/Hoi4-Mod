@@ -33,15 +33,15 @@ SIA = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1932.1.6"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 26
-	democratic = 61
+	communism = 66
+	democratic = 21
 	fascism = 12
 	neutrality = 1
 }
