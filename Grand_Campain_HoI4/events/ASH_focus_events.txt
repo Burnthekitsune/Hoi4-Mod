@@ -13,10 +13,16 @@ country_event = { # Invite to faction
 		X10 = {
 			add_to_faction = ROOT
 		}
-		add_ai_strategy = {
-			type = alliance
-			id = X10
-			value = 200
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			add_ai_strategy = {
+				type = alliance
+				id = X10
+				value = 200
+			}
 		}
 		ai_chance = {
 			base = 1
@@ -108,6 +114,50 @@ country_event = { # Cede Northern Ireland
 			add_political_power = 100
 		}
 		name = ASH_focus.4.b
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Offer Panama Canal
+	id = ASH_focus.5
+	title = ASH_focus.5.t
+	desc = ASH_focus.5.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = ASH_focus.5.a
+		X10 = {
+			remove_state_core = 154
+		}
+		add_state_core = 154
+		154 = {
+			transfer_state_to = BRA
+		}
+		X10 = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			add_ai_strategy = {
+				type = alliance
+				id = X10
+				value = 200
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = { # NO
+		name = ASH_focus.5.b
 		ai_chance = {
 			base = 0
 		}

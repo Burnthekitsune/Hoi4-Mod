@@ -602,19 +602,30 @@
 					elections_allowed = yes
 				}
 				country_event = ASH_focus.1
+				remove_ideas = FRA_eu4_Yusuf_Haesteining
 			}
 		}
 	}
 	focus = {
 		id = offer_panama
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_por_latin_american_communism
 		cost = 5
 		x = 18
 		y = 2
+		bypass = {
+			BRA = {
+				is_in_faction_with = X10
+			}
+		}
 		prerequisite = { focus = Office_of_Foreign_relations }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			BRA = {
+				country_event = ASH_focus.5
+			}
+		}
 	}
 	focus = {
 		id = approach_britania
@@ -677,7 +688,7 @@
 	}
 	focus = {
 		id = appease_PCP
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_jap_pacific_guardian
 		cost = 5
 		x = 16
 		y = 2
@@ -691,7 +702,7 @@
 	}
 	focus = {
 		id = offer_oil_rights
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_oil_refinery
 		cost = 5
 		x = 16
 		y = 3
@@ -699,17 +710,64 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			give_resource_rights = {
+				receiver = X81
+				state = 58
+				resources = { oil }
+			}
+		}
 	}
 	focus = {
-		id = invite_pcp
-		icon = mission_build_up_to_force_limit
+		id = approach_siam
+		icon = GFX_focus_generic_diplomatic_treaty
 		cost = 5
-		x = 16
+		x = 14
 		y = 4
+		bypass = {
+			SIA = {
+				is_in_faction_with = X10
+			}
+		}
 		prerequisite = { focus = offer_oil_rights }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			SIA = {
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	focus = {
+		id = invite_pcp
+		icon = GFX_focus_chi_cooperation_with_the_communists
+		cost = 5
+		x = 16
+		y = 4
+		bypass = {
+			X81 = {
+				is_in_faction_with = X10
+			}
+		}
+		prerequisite = { focus = offer_oil_rights }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_in_faction_with = X81
+					NOT = {
+						tag = X81
+					}
+				}
+				country_event = ASH_focus.1
+			}
+			X81 = {
+				country_event = ASH_focus.1
+			}
+		}
 	}
 	focus = {
 		id = pressure_bermuda
@@ -743,7 +801,7 @@
 	}
 	focus = {
 		id = invite_italian_communists
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_befriend_italy
 		cost = 5
 		x = 20
 		y = 2
@@ -753,6 +811,23 @@
 		continue_if_invalid = no
 		bypass = {
 			has_completed_focus = New_Allies
+		}
+		completion_reward = {
+			every_country = {
+				limit = {
+					OR = {
+						tag = SPM
+						tag = LOM
+						tag = VEN
+						tag = V23
+						tag = X72
+					}
+					has_same_ideology = yes
+					is_subject = no
+					is_in_faction = no
+				}
+				country_event = ASH_focus.1
+			}
 		}
 	}
 	focus = {
@@ -781,7 +856,7 @@
 	}
 	focus = {
 		id = spread_italian_communism
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ITA_communist_leadership
 		cost = 5
 		x = 20
 		y = 3
@@ -789,17 +864,203 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			V23 = {
+				add_ideas = ASH_influence_2
+				hidden_effect = {
+					add_popularity = {
+						ideology = communism
+						popularity = 0.1
+					}
+					country_event = {
+						id = ASH_focus.2 # Removes Idea after a bit
+						days = 365
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = SPM
+						tag = LOM
+						tag = VEN
+						
+						tag = X72
+						tag = MLT
+					}
+					has_same_ideology = yes
+					is_subject = no
+					is_in_faction = no
+				}
+				add_ideas = ASH_influence
+				hidden_effect = {
+					country_event = {
+						id = ASH_focus.2 # Removes Idea after a bit
+						days = 365
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = unite_italian_communists
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ITA_the_italian_republic
 		cost = 5
 		x = 20
 		y = 4
+		available = {
+			SPM = {
+				is_in_faction_with = X10
+			}
+			V23 = {
+				OR = {
+					is_in_faction_with = X10
+					has_same_ideology = yes
+					communism > 0.5
+				}
+				is_subject = no
+			}
+		}
 		prerequisite = { focus = spread_italian_communism }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			SPM = {
+				V23 = {
+					hidden_effect = {
+						remove_state_core = 589
+						remove_state_core = 531
+						remove_state_core = 550
+						remove_state_core = 699
+						remove_state_core = 573
+						remove_state_core = 457
+						remove_state_core = 501
+						remove_state_core = 510
+					}
+				}
+				annex_country = {
+					target = V23
+					transfer_troops = yes
+				}
+				if = {
+					limit = {
+						LOM = {
+							OR = {
+								is_in_faction_with = X10
+								has_same_ideology = yes
+								communism > 0.5
+							}
+							is_subject = no
+						}
+					}
+					LOM = {
+						hidden_effect = {
+							remove_state_core = 535
+						}
+					}
+					annex_country = {
+						target = LOM
+						transfer_troops = yes
+					}
+				}
+				if = {
+					limit = {
+						VEN = {
+							OR = {
+								is_in_faction_with = X10
+								has_same_ideology = yes
+								communism > 0.5
+							}
+							is_subject = no
+						}
+					}
+					VEN = {
+						hidden_effect = {
+							remove_state_core = 738
+							remove_state_core = 666
+							remove_state_core = 240
+						}
+					}
+					annex_country = {
+						target = VEN
+						transfer_troops = yes
+					}
+				}
+				if = {
+					limit = {
+						X72 = {
+							OR = {
+								is_in_faction_with = X10
+								AND = {
+									has_same_ideology = yes
+									communism > 0.75
+								}
+							}
+							is_subject = no
+						}
+					}
+					X72 = {
+						hidden_effect = {
+							remove_state_core = 666
+							remove_state_core = 240
+							remove_state_core = 634
+							remove_state_core = 627
+							remove_state_core = 664
+							remove_state_core = 632
+						}
+					}
+					annex_country = {
+						target = X72
+						transfer_troops = yes
+					}
+				}
+				if = {
+					limit = {
+						MLT = {
+							OR = {
+								is_in_faction_with = X10
+								AND = {
+									has_same_ideology = yes
+									communism > 0.75
+								}
+							}
+							is_subject = no
+						}
+					}
+					MLT = {
+						hidden_effect = {
+							remove_state_core = 775
+						}
+					}
+					annex_country = {
+						target = MLT
+						transfer_troops = yes
+					}
+				}
+				set_capital = {state = 550}
+				hidden_effect = {
+					add_state_core = 589
+					add_state_core = 531
+					add_state_core = 550
+					add_state_core = 699
+					add_state_core = 573
+					add_state_core = 457
+					add_state_core = 501
+					add_state_core = 510
+					add_state_core = 535
+					add_state_core = 738
+					add_state_core = 666
+					add_state_core = 240
+					add_state_core = 634
+					add_state_core = 627
+					add_state_core = 664
+					add_state_core = 632
+					add_state_core = 775
+				}
+				set_cosmetic_tag = new_italy
+			}
+		}
 	}
 	focus = {
 		id = find_north_american_allies
