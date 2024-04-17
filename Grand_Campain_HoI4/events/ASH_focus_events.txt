@@ -13,6 +13,13 @@ country_event = { # Invite to faction
 		X10 = {
 			add_to_faction = ROOT
 		}
+		add_to_tech_sharing_group = communist_front_tech_group
+		if = {
+			limit = {
+				has_global_flag = UCF
+			}
+			add_ideas = ASH_unified_communist_front
+		}
 		hidden_effect = {
 			add_popularity = {
 				ideology = communism
@@ -139,6 +146,13 @@ country_event = { # Offer Panama Canal
 		}
 		X10 = {
 			add_to_faction = ROOT
+		}
+		add_to_tech_sharing_group = communist_front_tech_group
+		if = {
+			limit = {
+				has_global_flag = UCF
+			}
+			add_ideas = ASH_unified_communist_front
 		}
 		hidden_effect = {
 			add_popularity = {

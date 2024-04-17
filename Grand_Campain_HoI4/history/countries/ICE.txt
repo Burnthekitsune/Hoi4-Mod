@@ -80,6 +80,12 @@ if = {
 }
 
 if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = communist_front_tech_group
+}
+
+if = {
 	limit = { not = { has_dlc = "By Blood Alone" } }
 	set_technology = {
 		early_bomber = 1

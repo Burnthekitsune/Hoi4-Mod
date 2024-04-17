@@ -71,6 +71,12 @@ if = {
 }
 
 if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = communist_front_tech_group
+}
+
+if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_battery = 1

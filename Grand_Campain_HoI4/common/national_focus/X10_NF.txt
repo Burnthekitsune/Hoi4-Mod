@@ -12,7 +12,7 @@
 
 	focus = {
 		id = Party_Election_1936
-		icon = GFX_GFX_focus_generic_soviet_politics
+		icon = GFX_focus_generic_soviet_politics
 		cost = 5
 		x = 4
 		y = 1
@@ -832,7 +832,7 @@
 	}
 	focus = {
 		id = unified_communist_front
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SOV_international_union_of_soviet_republics
 		cost = 5
 		x = 14
 		y = 5
@@ -848,11 +848,27 @@
 				has_completed_focus = mexican_aid
 				has_completed_focus = look_west
 				has_completed_focus = unite_italian_communists
+				has_completed_focus = approach_siam
 			}
 		}
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			modify_tech_sharing_bonus = {
+				id = communist_front_tech_group
+				bonus = 0.25
+			}
+			hidden_effect = {
+				set_global_flag = UCF
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = X10
+				}
+				add_ideas = ASH_unified_communist_front
+			}
+		}
 	}
 	focus = {
 		id = spread_italian_communism
@@ -1064,7 +1080,7 @@
 	}
 	focus = {
 		id = find_north_american_allies
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ARG_align_with_the_monroe_doctrine
 		cost = 5
 		x = 18
 		y = 4
@@ -1072,32 +1088,203 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 25
+		}
 	}
 	focus = {
 		id = floridian_aid
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_alliance
 		cost = 5
 		x = 16
 		y = 5
 		prerequisite = { focus = find_north_american_allies }
+		available = {
+			country_exists = X51
+		}
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			X51 = { 
+				country_event = ASH_focus.1
+				add_ideas = ASH_influence
+			}
+			612 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+				X51 = {
+					country_event = {
+						id = ASH_focus.2 # Removes Idea after a bit
+						days = 365
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = mexican_aid
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_mex_redeem_aztlan
 		cost = 5
 		x = 18
 		y = 5
+		available = { # Only 1 side has won the war
+			OR = {
+				country_exists = X42
+				country_exists = YCM
+			}
+			OR = {
+				NOT = {
+					country_exists = X42
+				}
+				NOT = {
+					country_exists = YCM
+				}
+			}
+		}
 		prerequisite = { focus = find_north_american_allies }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			if = {
+				limit = {
+					country_exists = X42
+				}
+				X42 = { 
+					country_event = ASH_focus.1
+					add_ideas = ASH_influence
+				}
+				178 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				228 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				216 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				hidden_effect = {
+					X42 = {
+						country_event = {
+							id = ASH_focus.2 # Removes Idea after a bit
+							days = 365
+						}
+					}
+				}
+			}
+			else = {
+				NVJ = { 
+					country_event = ASH_focus.1
+					add_ideas = ASH_influence
+				}
+				V50 = { 
+					country_event = ASH_focus.1
+					add_ideas = ASH_influence
+				}
+				YCM = { 
+					country_event = ASH_focus.1
+					add_ideas = ASH_influence
+				}
+				803 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				776 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				448 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				hidden_effect = {
+					NVJ = {
+						country_event = {
+							id = ASH_focus.2 # Removes Idea after a bit
+							days = 365
+						}
+					}
+					V50 = {
+						country_event = {
+							id = ASH_focus.2 # Removes Idea after a bit
+							days = 365
+						}
+					}
+					YCM = {
+						country_event = {
+							id = ASH_focus.2 # Removes Idea after a bit
+							days = 365
+						}
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = look_west
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_alliance
 		cost = 5
 		x = 20
 		y = 5
@@ -1105,5 +1292,39 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			X08 = { 
+				country_event = ASH_focus.1
+				add_ideas = ASH_influence
+			}
+			CAL = { 
+				country_event = ASH_focus.1
+				add_ideas = ASH_influence
+			}
+			A19 = { 
+				country_event = ASH_focus.1
+				add_ideas = ASH_influence
+			}
+			hidden_effect = {
+				X08 = {
+					country_event = {
+						id = ASH_focus.2 # Removes Idea after a bit
+						days = 365
+					}
+				}
+				A19 = {
+					country_event = {
+						id = ASH_focus.2 # Removes Idea after a bit
+						days = 365
+					}
+				}
+				CAL = {
+					country_event = {
+						id = ASH_focus.2 # Removes Idea after a bit
+						days = 365
+					}
+				}
+			}
+		}
 	}
 }
