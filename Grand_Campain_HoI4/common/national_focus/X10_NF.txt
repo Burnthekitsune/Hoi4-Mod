@@ -9,6 +9,8 @@
 		}
 	}
 	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000 }
 
 	focus = {
 		id = Party_Election_1936
@@ -1326,5 +1328,193 @@
 				}
 			}
 		}
+	}
+	focus = {
+		id = office_of_internal_affairs
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 6
+		y = 7
+		prerequisite = {  }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = office_of_industry
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 2
+		y = 8
+		prerequisite = { focus = office_of_internal_affairs }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = infastructure_campain
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 2
+		y = 9
+		prerequisite = { focus = office_of_industry }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = civilian_factory_buildup
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 0
+		y = 10
+		prerequisite = { focus = infastructure_campain }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = military_factory_buildup
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 2
+		y = 10
+		prerequisite = { focus = infastructure_campain }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = industrial_efficiency
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 2
+		y = 11
+		prerequisite = { focus = military_factory_buildup }
+		prerequisite = { focus = civilian_factory_buildup}
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = new_advisors
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 6
+		y = 8
+		prerequisite = { focus = office_of_internal_affairs }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_experts
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 6
+		y = 11
+		prerequisite = { focus = new_advisors }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = railroad_buildup
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 4
+		y = 9
+		prerequisite = { focus = office_of_industry }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = further_railroad_buildup
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 4
+		y = 11
+		prerequisite = { focus = railroad_buildup }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = office_of_defense
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 10
+		y = 8
+		prerequisite = { focus = office_of_internal_affairs }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = expand_the_forts
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 10
+		y = 9
+		prerequisite = { focus = office_of_defense }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = naval_fort_buildup
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 10
+		y = 11
+		prerequisite = { focus = expand_the_forts }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = anti_air_buildup
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 12
+		y = 9
+		prerequisite = { focus = office_of_defense }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = radar_buildup
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 12
+		y = 11
+		prerequisite = { focus = anti_air_buildup }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = new_sources_of_oil
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 8
+		y = 8
+		prerequisite = { focus = office_of_internal_affairs }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = improve_synthetic_oil_production
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 8
+		y = 11
+		prerequisite = { focus = new_sources_of_oil }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
 	}
 }
