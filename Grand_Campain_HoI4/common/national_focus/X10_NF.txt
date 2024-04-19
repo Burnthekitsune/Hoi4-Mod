@@ -1375,7 +1375,7 @@
 	focus = {
 		id = infastructure_campain
 		icon = GFX_goal_continuous_non_factory_construct
-		cost = 20
+		cost = 10
 		x = 2
 		y = 9
 		prerequisite = { focus = office_of_industry }
@@ -1383,7 +1383,35 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			every_owned_state = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1395,7 +1423,7 @@
 	focus = {
 		id = civilian_factory_buildup
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 20
+		cost = 10
 		x = 0
 		y = 10
 		prerequisite = { focus = infastructure_campain }
@@ -1403,7 +1431,35 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			every_owned_state = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1415,7 +1471,7 @@
 	focus = {
 		id = military_factory_buildup
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 20
+		cost = 10
 		x = 2
 		y = 10
 		prerequisite = { focus = infastructure_campain }
@@ -1423,7 +1479,35 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			every_owned_state = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -1490,7 +1574,7 @@
 	focus = {
 		id = railroad_buildup
 		icon = GFX_focus_generic_railroad
-		cost = 20
+		cost = 10
 		x = 4
 		y = 9
 		prerequisite = { focus = office_of_industry }
@@ -1504,7 +1588,7 @@
 	focus = {
 		id = further_railroad_buildup
 		icon = GFX_focus_SOV_south_manchuria_railway
-		cost = 20
+		cost = 10
 		x = 4
 		y = 11
 		prerequisite = { focus = railroad_buildup }
@@ -1512,7 +1596,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			country_event = ASH_focus.6
+			country_event = ASH_focus.7
 		}
 	}
 	focus = {

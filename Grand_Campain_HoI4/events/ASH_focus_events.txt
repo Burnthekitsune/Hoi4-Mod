@@ -178,16 +178,60 @@ country_event = { # Offer Panama Canal
 	}
 }
 
-country_event = { # Railway Buildup
+country_event = { # Railway Buildup - Africa
 	id = ASH_focus.6
 	title = ASH_focus.6.t
 	desc = ASH_focus.6.d
-	picture = GFX_report_event_election_vote
+	picture = GFX_report_event_generic_construction_site
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = ASH_focus.6.a
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 5046
+			target_province = 9945
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 7132
+			target_province = 9945
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 7132
+			target_province = 1145
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 7132
+			target_province = 1160
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { # Railway Buildup - Europe
+	id = ASH_focus.7
+	title = ASH_focus.7.t
+	desc = ASH_focus.7.d
+	picture = GFX_report_event_generic_construction_site
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASH_focus.7.a
 		build_railway = {
 			level = 1
 			build_only_on_allied = yes
@@ -278,34 +322,6 @@ country_event = { # Railway Buildup
 			fallback = yes
 			start_province = 9737
 			target_province = 752
-		}
-		build_railway = {
-			level = 1
-			build_only_on_allied = yes
-			fallback = yes
-			start_province = 5046
-			target_province = 9945
-		}
-		build_railway = {
-			level = 1
-			build_only_on_allied = yes
-			fallback = yes
-			start_province = 7132
-			target_province = 9945
-		}
-		build_railway = {
-			level = 1
-			build_only_on_allied = yes
-			fallback = yes
-			start_province = 7132
-			target_province = 1145
-		}
-		build_railway = {
-			level = 1
-			build_only_on_allied = yes
-			fallback = yes
-			start_province = 7132
-			target_province = 1160
 		}
 		ai_chance = {
 			base = 1

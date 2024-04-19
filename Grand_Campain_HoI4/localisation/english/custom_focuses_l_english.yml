@@ -242,9 +242,12 @@
  ASH_focus.5.a: "Yes"
  ASH_focus.5.b: "Never"
  
- ASH_focus.6.t: "Railroad Buildup"
+ ASH_focus.6.t: "Railroad Buildup - Africa"
  ASH_focus.6.d: "We have expanded our major railroads "
  ASH_focus.6.a: "Railways are an asset to our nation!"
+ ASH_focus.7.t: "Railroad Buildup - Europe"
+ ASH_focus.7.d: "We have expanded our major railroads "
+ ASH_focus.7.a: "Railways are an asset to our nation!"
  
  ASH_influence: "Ahshamali Influence"
  ASH_influence_desc: "The Ahshamali have been using diplomatic influence on our government and people"
