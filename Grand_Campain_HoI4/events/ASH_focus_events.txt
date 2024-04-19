@@ -177,3 +177,138 @@ country_event = { # Offer Panama Canal
 		}
 	}
 }
+
+country_event = { # Railway Buildup
+	id = ASH_focus.6
+	title = ASH_focus.6.t
+	desc = ASH_focus.6.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASH_focus.6.a
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 7
+			target_state = 126
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 7
+			target_state = 276
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 7
+			target_state = 63
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 126
+			target_state = 44
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 44
+			target_state = 215
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 44
+			target_state = 50
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 50
+			target_state = 63
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 31
+			target_state = 76
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 31
+			target_state = 188
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_state = 188
+			target_state = 76
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 3771
+			target_province = 9603
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 9603
+			target_province = 11834
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 9737
+			target_province = 752
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 5046
+			target_province = 9945
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 7132
+			target_province = 9945
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 7132
+			target_province = 1145
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 7132
+			target_province = 1160
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}

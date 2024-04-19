@@ -10658,4 +10658,13 @@ surveyor = {
 			}
 		}
 	}
+	
+	industral_experts = {
+		random = no
+		industrial_capacity_factory = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

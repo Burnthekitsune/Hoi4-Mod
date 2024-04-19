@@ -1331,18 +1331,25 @@
 	}
 	focus = {
 		id = office_of_internal_affairs
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_usa_build_the_pentagon
 		cost = 5
 		x = 6
 		y = 7
+		available = {
+			has_country_flag = reforms_finished 
+		}
 		prerequisite = {  }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = office_of_industry
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_continuous_non_factory_construct
 		cost = 5
 		x = 2
 		y = 8
@@ -1350,43 +1357,84 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			7 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = infastructure_campain
-		icon = mission_build_up_to_force_limit
-		cost = 5
+		icon = GFX_goal_continuous_non_factory_construct
+		cost = 20
 		x = 2
 		y = 9
 		prerequisite = { focus = office_of_industry }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = civilian_factory_buildup
-		icon = mission_build_up_to_force_limit
-		cost = 5
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 20
 		x = 0
 		y = 10
 		prerequisite = { focus = infastructure_campain }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = military_factory_buildup
-		icon = mission_build_up_to_force_limit
-		cost = 5
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 20
 		x = 2
 		y = 10
 		prerequisite = { focus = infastructure_campain }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = industrial_efficiency
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_public_works
 		cost = 5
 		x = 2
 		y = 11
@@ -1395,6 +1443,27 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_country_leader_trait = industral_experts
+		}
+	}
+	focus = {
+		id = discover_more_resources
+		icon = GFX_focus_generic_resource_extraction
+		cost = 5
+		x = 0
+		y = 11
+		prerequisite = { focus = military_factory_buildup }
+		prerequisite = { focus = civilian_factory_buildup}
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			custom_effect_tooltip = resource_extraction_option
+			hidden_effect = {
+				set_country_flag = ash_digging
+			}
+		}
 	}
 	focus = {
 		id = new_advisors
@@ -1420,25 +1489,31 @@
 	}
 	focus = {
 		id = railroad_buildup
-		icon = mission_build_up_to_force_limit
-		cost = 5
+		icon = GFX_focus_generic_railroad
+		cost = 20
 		x = 4
 		y = 9
 		prerequisite = { focus = office_of_industry }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			country_event = ASH_focus.6
+		}
 	}
 	focus = {
 		id = further_railroad_buildup
-		icon = mission_build_up_to_force_limit
-		cost = 5
+		icon = GFX_focus_SOV_south_manchuria_railway
+		cost = 20
 		x = 4
 		y = 11
 		prerequisite = { focus = railroad_buildup }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			country_event = ASH_focus.6
+		}
 	}
 	focus = {
 		id = office_of_defense
