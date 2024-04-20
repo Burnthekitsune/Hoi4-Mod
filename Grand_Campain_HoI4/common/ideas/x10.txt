@@ -141,5 +141,19 @@ ideas = {
 				opinion_gain_monthly_same_ideology = 0.5
 			}
 		}
+		
+		Squeeze_every_drop = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_oil_factor = 0.25
+			}
+		}
 	}
 }

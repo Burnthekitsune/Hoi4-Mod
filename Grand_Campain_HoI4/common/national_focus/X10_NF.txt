@@ -1601,7 +1601,7 @@
 	}
 	focus = {
 		id = office_of_defense
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_communist_industry
 		cost = 5
 		x = 10
 		y = 8
@@ -1609,10 +1609,14 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_country_leader_trait = defensive_advisors
+			add_command_power = 25
+		}
 	}
 	focus = {
 		id = expand_the_forts
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_fortify_city
 		cost = 5
 		x = 10
 		y = 9
@@ -1620,43 +1624,218 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			189 = {
+				add_building_construction = {
+					type = bunker
+					province = 1160
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1058
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1141
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9943
+					level = 5
+					instant_build = yes
+				}
+			}
+			124 = {
+				add_building_construction = {
+					type = bunker
+					province = 5046
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = naval_fort_buildup
-		icon = mission_build_up_to_force_limit
-		cost = 5
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10
 		x = 10
 		y = 11
 		prerequisite = { focus = expand_the_forts }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			7 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 12070
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 9815
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 4080
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 1048
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 13228
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 4135
+					level = 3
+					instant_build = yes
+				}
+			}
+			205 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 7153
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 9979
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 7068
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 10063
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 747
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 12038
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 4065
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = anti_air_buildup
-		icon = mission_build_up_to_force_limit
-		cost = 5
+		icon = GFX_focus_FIN_foreign_anti_air
+		cost = 10
 		x = 12
 		y = 9
 		prerequisite = { focus = office_of_defense }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			189 = {
+				add_building_construction = {
+					type = anti_air_building
+					province = 1160
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					province = 1058
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					province = 1141
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					province = 9943
+					level = 2
+					instant_build = yes
+				}
+			}
+			124 = {
+				add_building_construction = {
+					type = anti_air_building
+					province = 5046
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = radar_buildup
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_radar
 		cost = 5
 		x = 12
 		y = 11
+		available = {
+			has_tech = radio_detection
+		}
 		prerequisite = { focus = anti_air_buildup }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			189 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			124 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = new_sources_of_oil
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_oil_refinery
 		cost = 5
 		x = 8
 		y = 8
@@ -1664,10 +1843,26 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			44 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			108 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = improve_synthetic_oil_production
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_oil_refinery
 		cost = 5
 		x = 8
 		y = 11
@@ -1675,5 +1870,8 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = Squeeze_every_drop
+		}
 	}
 }

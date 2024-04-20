@@ -10667,4 +10667,9 @@ surveyor = {
 			factor = 1
 		}
 	}
+	
+	defensive_advisors = {
+		max_dig_in = 5
+		dig_in_speed_factor = 0.25
+	}
 }
