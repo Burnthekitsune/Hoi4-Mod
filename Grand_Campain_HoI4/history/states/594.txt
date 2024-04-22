@@ -6,13 +6,13 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = X14
+		owner = SIA
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 		}
-		add_core_of = X14
+		add_core_of = SIA
 	}
 
 	provinces = {

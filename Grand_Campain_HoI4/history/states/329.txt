@@ -25,6 +25,7 @@ state = {
 			}
 		}
 		add_core_of = PER
+		add_core_of = W30
 	}
 
 	provinces = {
