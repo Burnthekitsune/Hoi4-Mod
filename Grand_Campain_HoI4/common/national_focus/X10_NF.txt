@@ -1551,7 +1551,7 @@
 	}
 	focus = {
 		id = new_advisors
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_self_management
 		cost = 5
 		x = 6
 		y = 8
@@ -1559,10 +1559,15 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			recruit_character = X10_bons_char_1
+			recruit_character = X10_bons_char_2
+			recruit_character = X10_bons_char_3
+		}
 	}
 	focus = {
 		id = invite_experts
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_military_mission
 		cost = 5
 		x = 6
 		y = 11
@@ -1570,6 +1575,15 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = SPR_communal_military_strategies
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			activate_advisor = X_10_Council_token
+		}
 	}
 	focus = {
 		id = railroad_buildup

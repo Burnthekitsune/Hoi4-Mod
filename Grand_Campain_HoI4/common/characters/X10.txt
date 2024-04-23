@@ -37,7 +37,7 @@ characters = {
 		name = eu4_Rahim_eu4_Elfael
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_idea_europe_generic_land_14
 			}
 		}
 		advisor = {
@@ -76,7 +76,7 @@ characters = {
 		name = eu4_Abdullah_eu4_Elfael
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_idea_generic_air_europe_3
 			}
 		}
 		advisor = {
@@ -90,7 +90,7 @@ characters = {
 		name = eu4_Qasim_eu4_Elfael
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_idea_generic_political_advisor_europe_3
 			}
 		}
 		advisor = {
@@ -155,7 +155,7 @@ characters = {
 		name = eu4_Balashk_eu4_Elfael
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_idea_generic_army_europe_5
 			}
 		}
 		advisor = {
@@ -220,7 +220,7 @@ characters = {
 		name = eu4_Solomon_eu4_Elfael
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_idea_europe_generic_land_1
 			}
 		}
 		advisor = {
@@ -330,7 +330,7 @@ characters = {
 		name = eu4_John_eu4_Qutamid
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_idea_europe_generic_land_2
 			}
 		}
 		advisor = {
@@ -338,6 +338,87 @@ characters = {
 			slot = political_advisor
 			idea_token = i_150995014
 			cost = 150
+		}
+	}
+	X_10_Council = { # Anarchists
+		name=SPR_council_of_theorists
+		portraits={
+			army={
+				small="GFX_idea_SPR_anarchist_council"
+			}
+			civilian = {
+				small = GFX_idea_SPR_anarchist_council
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = X_10_Council_token
+			ledger = military
+			can_be_fired = no
+			allowed = {
+				original_tag = X10
+			}
+			visible = {
+				has_completed_focus = new_advisors
+			}
+			available = {
+				has_completed_focus = invite_experts
+			}
+			traits = { council_of_theorists }
+		}
+	}
+	X10_bons_char_1 = {
+		name=bonus_car_1_name
+		portraits = {
+			civilian = {
+				small = GFX_idea_SPA_juan_pujol
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = X_10_bonus_char_1
+			allow = {
+				original_tag = X10
+			}
+			traits = { fortification_engineer war_industrialist }
+		}
+	}
+	X10_bons_char_2 = {
+		name=bonus_car_2_name
+		portraits = {
+			civilian = {
+				small = GFX_idea_SPA_martin_de_riquer
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			ledger = army
+			idea_token = X_10_bonus_char_2
+			allow = {
+				original_tag = X10
+			}
+			traits = { army_chief_defensive_3 army_chief_entrenchment_3 }
+		}
+	}
+	X10_bons_char_3 = {
+		name=bonus_car_3_name
+		portraits = {
+			civilian = {
+				small = GFX_idea_FRA_napoleon_vi
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			ledger = navy
+			idea_token = X_10_bonus_char_3
+			allow = {
+				original_tag = X10
+			}
+			traits = { navy_chief_maneuver_3 navy_naval_air_defense_3 }
 		}
 	}
 }
