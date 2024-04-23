@@ -6,10 +6,18 @@ bookmarks = {
 		picture = GFX_select_date_1936
 		default_country = "---"
 		default = yes
-		PER= {}
-		UPU= {}
-		V27= {}
-		W40= {}
+		PER= {
+			history = PER_hist
+		}
+		UPU= {
+			history = UPU_hist
+		}
+		V27= {
+			history = V27_hist
+		}
+		W40= {
+			history = W40_hist
+		}
 		X10= {
 			history = X10_hist
 			ideology = communism
@@ -19,21 +27,35 @@ bookmarks = {
 		}
 		ENG = {
 			minor = yes
+			history = ENG_hist
 		}
 		FRA = {
 			minor = yes
+			history = FRA_hist
 		}
 		GER = {
 			minor = yes
+			history = GER_hist
 		}
 		SCA = {
 			minor = yes
+			history = SCA_hist
 		}
 		Z03 = {
 			minor = yes
+			history = Z03_hist
 		}
 		BRA = {
 			minor = yes
+			history = BRA_hist
+		}
+		X42 = {
+			minor = yes
+			history = X42_hist
+		}
+		X81 = {
+			minor = yes
+			history = X81_hist
 		}
 		effect = {
 			randomize_weather = 22345 # <-Obligatory in every bookmark !
