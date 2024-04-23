@@ -2,10 +2,10 @@
 units = {
 	fleet = {
 		name = "1. Fleet"
-		naval_base = 3790
+		naval_base = 7153
 		task_force = {
 			name = "1. Fleet"
-			location = 3790
+			location = 7153
 			ship = { name = "Battleship 1" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 1" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 1" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -64,14 +64,6 @@ units = {
 			ship = { name = "Submarine 18" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 19" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 20" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "2. Fleet"
-		naval_base = 12100
-		task_force = {
-			name = "2. Fleet"
-			location = 12100
 			ship = { name = "Battleship 3" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 4" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -95,14 +87,6 @@ units = {
 			ship = { name = "Submarine 26" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 27" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 28" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "3. Fleet"
-		naval_base = 1048
-		task_force = {
-			name = "3. Fleet"
-			location = 1048
 			ship = { name = "Battleship 4" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 5" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -161,14 +145,6 @@ units = {
 			ship = { name = "Submarine 46" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 47" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 48" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "4. Fleet"
-		naval_base = 11688
-		task_force = {
-			name = "4. Fleet"
-			location = 11688
 			ship = { name = "Battleship 6" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 8" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -284,14 +260,6 @@ units = {
 			ship = { name = "Submarine 86" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 87" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 88" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "5. Fleet"
-		naval_base = 9793
-		task_force = {
-			name = "5. Fleet"
-			location = 9793
 			ship = { name = "Battleship 11" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 13" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -350,14 +318,6 @@ units = {
 			ship = { name = "Submarine 106" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 107" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 108" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "6. Fleet"
-		naval_base = 9817
-		task_force = {
-			name = "6. Fleet"
-			location = 9817
 			ship = { name = "Battleship 13" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 16" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -416,14 +376,6 @@ units = {
 			ship = { name = "Submarine 126" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 127" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 128" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "7. Fleet"
-		naval_base = 13071
-		task_force = {
-			name = "7. Fleet"
-			location = 13071
 			ship = { name = "Heavy Cruiser 19" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Destroyer 197" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Early Destroyer" } } }
 			ship = { name = "Destroyer 198" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Early Destroyer" } } }
@@ -436,14 +388,6 @@ units = {
 			ship = { name = "Submarine 130" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 131" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 132" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "8. Fleet"
-		naval_base = 13014
-		task_force = {
-			name = "8. Fleet"
-			location = 13014
 			ship = { name = "Heavy Cruiser 20" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Destroyer 204" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Early Destroyer" } } }
 			ship = { name = "Destroyer 205" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Early Destroyer" } } }
@@ -456,14 +400,6 @@ units = {
 			ship = { name = "Submarine 134" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 135" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 136" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "9. Fleet"
-		naval_base = 6812
-		task_force = {
-			name = "9. Fleet"
-			location = 6812
 			ship = { name = "Battleship 15" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 21" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -522,14 +458,6 @@ units = {
 			ship = { name = "Submarine 154" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 155" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 156" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "10. Fleet"
-		naval_base = 799
-		task_force = {
-			name = "10. Fleet"
-			location = 799
 			ship = { name = "Battleship 17" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 24" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 17" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -588,14 +516,6 @@ units = {
 			ship = { name = "Submarine 174" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 175" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 176" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "11. Fleet"
-		naval_base = 10070
-		task_force = {
-			name = "11. Fleet"
-			location = 10070
 			ship = { name = "Heavy Cruiser 27" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Destroyer 273" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Early Destroyer" } } }
 			ship = { name = "Destroyer 274" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Early Destroyer" } } }
@@ -608,14 +528,6 @@ units = {
 			ship = { name = "Submarine 178" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 179" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 180" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "12. Fleet"
-		naval_base = 758
-		task_force = {
-			name = "12. Fleet"
-			location = 758
 			ship = { name = "Battleship 19" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 28" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 19" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -674,14 +586,6 @@ units = {
 			ship = { name = "Submarine 198" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 199" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 200" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "13. Fleet"
-		naval_base = 7153
-		task_force = {
-			name = "13. Fleet"
-			location = 7153
 			ship = { name = "Battleship 21" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 31" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 21" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -740,14 +644,6 @@ units = {
 			ship = { name = "Submarine 218" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 219" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 220" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "14. Fleet"
-		naval_base = 6657
-		task_force = {
-			name = "14. Fleet"
-			location = 6657
 			ship = { name = "Battleship 23" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 34" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 23" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -863,14 +759,6 @@ units = {
 			ship = { name = "Submarine 258" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 259" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 260" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "15. Fleet"
-		naval_base = 740
-		task_force = {
-			name = "15. Fleet"
-			location = 740
 			ship = { name = "Battleship 28" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 39" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 28" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -929,14 +817,6 @@ units = {
 			ship = { name = "Submarine 278" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 279" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 280" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "16. Fleet"
-		naval_base = 7132
-		task_force = {
-			name = "16. Fleet"
-			location = 7132
 			ship = { name = "Battleship 30" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 42" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 30" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -1075,14 +955,6 @@ units = {
 			ship = { name = "Submarine 326" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 327" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 328" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "17. Fleet"
-		naval_base = 10024
-		task_force = {
-			name = "17. Fleet"
-			location = 10024
 			ship = { name = "Battleship 36" definition = battleship equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Early Battleship" } } }
 			ship = { name = "Heavy Cruiser 48" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Light Cruiser 36" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Light Cruiser" } } }
@@ -1141,14 +1013,6 @@ units = {
 			ship = { name = "Submarine 346" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 347" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
 			ship = { name = "Submarine 348" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = X10  version_name = "Early Submarine" } } }
-		}
-	}
-	fleet = {
-		name = "18. Fleet"
-		naval_base = 4468
-		task_force = {
-			name = "18. Fleet"
-			location = 4468
 			ship = { name = "Heavy Cruiser 51" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Early Heavy Cruiser" } } }
 			ship = { name = "Destroyer 536" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Early Destroyer" } } }
 			ship = { name = "Destroyer 537" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Early Destroyer" } } }
