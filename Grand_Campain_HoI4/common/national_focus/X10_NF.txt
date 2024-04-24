@@ -1888,4 +1888,153 @@
 			add_ideas = Squeeze_every_drop
 		}
 	}
+	
+	focus = {
+		id = Revamp_armed_forces
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 18
+		y = 7
+		available = {
+			has_country_flag = reforms_finished 
+		}
+		prerequisite = {  }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = army_investment
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 16
+		y = 8
+		prerequisite = { focus = Revamp_armed_forces }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = navy_investment
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 18
+		y = 8
+		prerequisite = { focus = Revamp_armed_forces }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = airforce_investment
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 20
+		y = 8
+		prerequisite = { focus = Revamp_armed_forces }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = a_new_weapon
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 22
+		y = 8
+		prerequisite = { focus = Revamp_armed_forces }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = improve_supply_lines
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 16
+		y = 9
+		prerequisite = { focus = army_investment }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = the_unbreaking_wall
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 16
+		y = 10
+		prerequisite = { focus = improve_supply_lines }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = protected_shipping
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 18
+		y = 9
+		prerequisite = { focus = navy_investment }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = the_grand_fleet
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 18
+		y = 10
+		prerequisite = { focus = protected_shipping }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = ace_training
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 20
+		y = 9
+		prerequisite = { focus = airforce_investment }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = terror_of_the_skies
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 20
+		y = 10
+		prerequisite = { focus = ace_training }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = a_modern_military
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 18
+		y = 11
+		prerequisite = { focus = the_unbreaking_wall }
+		prerequisite = { focus = the_grand_fleet }
+		prerequisite = { focus = terror_of_the_skies }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = the_bomb_to_end_all_bombs
+		icon = mission_build_up_to_force_limit
+		cost = 5
+		x = 22
+		y = 11
+		prerequisite = { focus = a_new_weapon }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
 }
