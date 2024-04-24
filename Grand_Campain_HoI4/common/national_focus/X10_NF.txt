@@ -1891,7 +1891,7 @@
 	
 	focus = {
 		id = Revamp_armed_forces
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_military_sphere
 		cost = 5
 		x = 18
 		y = 7
@@ -1902,10 +1902,23 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = basir_win
+					}
+				}
+				add_command_power = 50
+			}
+			else = {
+				add_command_power = 100
+			}
+		}
 	}
 	focus = {
 		id = army_investment
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_NORDIC_com_selector_army
 		cost = 5
 		x = 16
 		y = 8
@@ -1913,10 +1926,23 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = basir_win
+					}
+				}
+				army_experience = 50
+			}
+			else = {
+				army_experience = 100
+			}
+		}
 	}
 	focus = {
 		id = navy_investment
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_NORDIC_com_navy
 		cost = 5
 		x = 18
 		y = 8
@@ -1924,6 +1950,19 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = basir_win
+					}
+				}
+				navy_experience = 50
+			}
+			else = {
+				navy_experience = 100
+			}
+		}
 	}
 	focus = {
 		id = airforce_investment
@@ -1949,7 +1988,7 @@
 	}
 	focus = {
 		id = improve_supply_lines
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_supply_line
 		cost = 5
 		x = 16
 		y = 9
@@ -1957,10 +1996,20 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = ASH_mil_1
+			if = {
+				limit = {
+					has_country_flag = basir_win
+				}
+				add_political_power = 50
+				army_experience = 100
+			}
+		}
 	}
 	focus = {
 		id = the_unbreaking_wall
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SWE_hedgehog_defense
 		cost = 5
 		x = 16
 		y = 10
@@ -1968,10 +2017,21 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_ideas = ASH_mil_1
+			add_ideas = ASH_mil_2
+			if = {
+				limit = {
+					has_country_flag = basir_win
+				}
+				add_political_power = 50
+				army_experience = 100
+			}
+		}
 	}
 	focus = {
 		id = protected_shipping
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_navy_cruiser
 		cost = 5
 		x = 18
 		y = 9
@@ -1979,10 +2039,20 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = ASH_nav_1
+			if = {
+				limit = {
+					has_country_flag = basir_win
+				}
+				add_political_power = 50
+				navy_experience = 100
+			}
+		}
 	}
 	focus = {
 		id = the_grand_fleet
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_navy_battleship
 		cost = 5
 		x = 18
 		y = 10
@@ -1990,6 +2060,17 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_ideas = ASH_nav_1
+			add_ideas = ASH_nav_2
+			if = {
+				limit = {
+					has_country_flag = basir_win
+				}
+				add_political_power = 50
+				army_experience = 100
+			}
+		}
 	}
 	focus = {
 		id = ace_training
@@ -2036,5 +2117,42 @@
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+	}
+	focus = {
+		id = cloak_and_dagger
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5
+		x = 14
+		y = 8
+		available = {
+			has_intelligence_agency = yes
+		}
+		prerequisite = { focus = office_of_internal_affairs }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_economy_civilian
+			upgrade_intelligence_agency = upgrade_army_department
+			upgrade_intelligence_agency = upgrade_naval_department
+			upgrade_intelligence_agency = upgrade_airforce_department
+		}
+	}
+	focus = {
+		id = improved_spies
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5
+		x = 14
+		y = 11
+		available = {
+			is_spymaster = yes
+		}
+		prerequisite = { focus = cloak_and_dagger }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = extensive_spy_network
+		}
 	}
 }

@@ -155,5 +155,80 @@ ideas = {
 				production_oil_factor = 0.25
 			}
 		}
+		
+		extensive_spy_network = {
+			picture = generic_spy_intel
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				operative_slot = 1
+				intel_from_operatives_factor = 0.25
+				intelligence_agency_defense = 0.25
+				agency_upgrade_time = -0.10
+			}
+		}
+		
+		ASH_mil_1 = {
+			picture = generic_infantry_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				supply_consumption_factor = -0.01
+			}
+		}
+		
+		ASH_mil_2 = {
+			picture = generic_infantry_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				supply_consumption_factor = -0.01
+				army_defence_factor = 0.2
+			}
+		}
+		
+		ASH_nav_1 = {
+			picture = generic_navy_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				convoy_escort_efficiency = 0.1
+			}
+		}
+		
+		ASH_nav_2 = {
+			picture = generic_navy_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				convoy_escort_efficiency = 0.1
+				naval_damage_factor = 0.2
+			}
+		}
 	}
 }
