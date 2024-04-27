@@ -939,6 +939,15 @@
 				is_subject = no
 			}
 		}
+		bypass = {
+			is_in_faction_with = V23
+			V23 = {
+				has_government = communism
+			}
+			NOT = {
+				country_exists = SPM
+			}
+		}
 		prerequisite = { focus = spread_italian_communism }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
@@ -1109,7 +1118,6 @@
 		continue_if_invalid = no
 		completion_reward = {
 			X51 = { 
-				country_event = ASH_focus.1
 				add_ideas = ASH_influence
 			}
 			612 = {
@@ -1164,7 +1172,6 @@
 					country_exists = X42
 				}
 				X42 = { 
-					country_event = ASH_focus.1
 					add_ideas = ASH_influence
 				}
 				178 = {
@@ -1214,15 +1221,12 @@
 			}
 			else = {
 				NVJ = { 
-					country_event = ASH_focus.1
 					add_ideas = ASH_influence
 				}
 				V50 = { 
-					country_event = ASH_focus.1
 					add_ideas = ASH_influence
 				}
 				YCM = { 
-					country_event = ASH_focus.1
 					add_ideas = ASH_influence
 				}
 				803 = {
@@ -1296,15 +1300,12 @@
 		continue_if_invalid = no
 		completion_reward = {
 			X08 = { 
-				country_event = ASH_focus.1
 				add_ideas = ASH_influence
 			}
 			CAL = { 
-				country_event = ASH_focus.1
 				add_ideas = ASH_influence
 			}
 			A19 = { 
-				country_event = ASH_focus.1
 				add_ideas = ASH_influence
 			}
 			hidden_effect = {
