@@ -1,0 +1,468 @@
+X10_fed_inv_category = {
+	invite_mexico = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = X42
+			}
+			has_completed_focus = mexican_aid
+			country_exists = X42
+			X42 = {
+				is_subject = no
+			}
+		}
+		available = {
+			X42 = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+				is_in_faction = no
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			X42 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_mexican_nations = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = YCM
+				is_in_faction_with = NVJ
+				is_in_faction_with = V50
+			}
+			has_completed_focus = mexican_aid
+			OR = {
+				country_exists = YCM
+				country_exists = NVJ
+				country_exists = V50
+			}
+			OR = {
+				YCM = {
+					is_subject = no
+				}
+				NVJ = {
+					is_subject = no
+				}
+				V50 = {
+					is_subject = no
+				}
+				
+			}
+		}
+		available = {
+			OR = {
+				YCM = {
+					communism > 0.50
+					has_opinion = {
+						target = X10
+						value > 75
+					}
+					OR = {
+						is_in_faction = no
+						is_faction_leader = yes
+					}
+				}
+				NOT = {
+					country_exists = YCM
+				}
+			}
+			OR = {
+				NVJ = {
+					communism > 0.50
+					has_opinion = {
+						target = X10
+						value > 75
+					}
+				}
+				NOT = {
+					country_exists = NVJ
+				}
+			}
+			OR = {
+				V50 = {
+					communism > 0.50
+					has_opinion = {
+						target = X10
+						value > 75
+					}
+				}
+				NOT = {
+					country_exists = V50
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			YCM = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+			NVJ = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+			V50 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_florida = {
+		cost = 10
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = X51
+			}
+			has_completed_focus = floridian_aid
+			country_exists = X51
+			X51 = {
+				is_subject = no
+			}
+		}
+		available = {
+			X51 = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+				is_in_faction = no
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			X51 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_california = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = CAL
+			}
+			has_completed_focus = look_west
+			country_exists = CAL
+			CAL = {
+				is_subject = no
+			}
+		}
+		available = {
+			CAL = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+			}
+			is_in_faction = no
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			CAL = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_alaska = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = X08
+			}
+			has_completed_focus = look_west
+			country_exists = X08
+			X08 = {
+				is_subject = no
+			}
+		}
+		available = {
+			X08 = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+			}
+			is_in_faction = no
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			X08 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_inner_republic = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = A19
+			}
+			has_completed_focus = look_west
+			country_exists = A19
+			A19 = {
+				is_subject = no
+			}
+		}
+		available = {
+			A19 = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+				is_in_faction = no
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			A19 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_bengal = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = X14
+			}
+			has_completed_focus = approach_siam
+			country_exists = X14
+			X14 = {
+				is_subject = no
+			}
+		}
+		available = {
+			X14 = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+				is_in_faction = no
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			X14 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_malacca = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = W30
+			}
+			has_completed_focus = approach_siam
+			country_exists = W30
+			W30 = {
+				is_subject = no
+			}
+		}
+		available = {
+			W30 = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+				is_in_faction = no
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			W30 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_romagna = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = V23
+			}
+			has_completed_focus = spread_italian_communism
+			country_exists = V23
+			V23 = {
+				is_subject = no
+			}
+		}
+		available = {
+			V23 = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+				is_in_faction = no
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			V23 = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	invite_germany = {
+		cost = 100
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				is_in_faction_with = GER
+			}
+			has_completed_focus = look_west
+			country_exists = GER
+			GER = {
+				is_subject = no
+			}
+		}
+		available = {
+			GER = {
+				communism > 0.50
+				has_opinion = {
+					target = X10
+					value > 75
+				}
+				is_in_faction = no
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			GER = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				country_event = ASH_focus.1
+			}
+		}
+	}
+	
+}
+
+X10_investment_category = {
+	
+}
