@@ -431,7 +431,7 @@ X10_fed_inv_category = {
 			NOT = {
 				is_in_faction_with = GER
 			}
-			has_completed_focus = look_west
+			has_completed_focus = unified_communist_front
 			country_exists = GER
 			GER = {
 				is_subject = no
@@ -465,4 +465,2169 @@ X10_fed_inv_category = {
 
 X10_investment_category = {
 	
+	mex_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X42
+			}
+			has_completed_focus = mex_investment
+			country_exists = X42
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			X42 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			X42 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 178 228 272 216 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	NVJ_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = NVJ
+			}
+			has_completed_focus = mex_investment
+			country_exists = NVJ
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			NVJ = {
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			NVJ = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	YCM_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = YCM
+			}
+			has_completed_focus = mex_investment
+			country_exists = YCM
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			YCM = {
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			YCM = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	V50_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = V50
+			}
+			has_completed_focus = mex_investment
+			country_exists = V50
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			V50 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			V50 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	flo_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X51
+			}
+			has_completed_focus = floridian_aid
+			country_exists = X51
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			X51 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			X51 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.15
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	CAL_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = CAL
+			}
+			has_completed_focus = look_west
+			country_exists = CAL
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			CAL = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			CAL = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 766 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	ASK_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X08
+			}
+			has_completed_focus = look_west
+			country_exists = X08
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			X08 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			X08 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 229 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	INR_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = A19
+			}
+			has_completed_focus = look_west
+			country_exists = A19
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			A19 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			A19 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 690 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	BNG_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X14
+			}
+			has_completed_focus = approach_siam
+			country_exists = X14
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			X14 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			X14 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 570 578 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	MAL_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = W30
+			}
+			has_completed_focus = approach_siam
+			country_exists = W30
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			W30 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			W30 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 275 494 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	ROM_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = V23
+			}
+			has_completed_focus = spread_italian_communism
+			country_exists = V23
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			V23 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			V23 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 550 573 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	GER_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = GER
+			}
+			has_completed_focus = unified_communist_front
+			country_exists = GER
+			NOT = {
+				has_country_flag = cheaper_dir_inv
+			}
+		}
+		available = {
+			GER = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			GER = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 167 246 234 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	mex_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X42
+			}
+			has_completed_focus = mex_investment
+			country_exists = X42
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			X42 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			mex_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X42
+			}
+			has_completed_focus = mex_investment
+			country_exists = X42
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			X42 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			X42 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 178 228 272 216 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	NVJ_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = NVJ
+			}
+			has_completed_focus = mex_investment
+			country_exists = NVJ
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			NVJ = {
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			NVJ = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	YCM_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = YCM
+			}
+			has_completed_focus = mex_investment
+			country_exists = YCM
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			YCM = {
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			YCM = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	V50_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = V50
+			}
+			has_completed_focus = mex_investment
+			country_exists = V50
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			V50 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			V50 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	flo_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X51
+			}
+			has_completed_focus = floridian_aid
+			country_exists = X51
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			X51 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			X51 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.15
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	CAL_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = CAL
+			}
+			has_completed_focus = look_west
+			country_exists = CAL
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			CAL = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			CAL = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 766 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	ASK_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X08
+			}
+			has_completed_focus = look_west
+			country_exists = X08
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			X08 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			X08 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 229 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	INR_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = A19
+			}
+			has_completed_focus = look_west
+			country_exists = A19
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			A19 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			A19 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 690 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	BNG_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X14
+			}
+			has_completed_focus = approach_siam
+			country_exists = X14
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			X14 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			X14 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 570 578 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	MAL_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = W30
+			}
+			has_completed_focus = approach_siam
+			country_exists = W30
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			W30 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			W30 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 275 494 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	ROM_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = V23
+			}
+			has_completed_focus = spread_italian_communism
+			country_exists = V23
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			V23 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			V23 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 550 573 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	GER_investment_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = GER
+			}
+			has_completed_focus = unified_communist_front
+			country_exists = GER
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			GER = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			GER = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 167 246 234 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+		}
+		remove_effect = {
+			X42 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 178 228 272 216 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	NVJ_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = NVJ
+			}
+			has_completed_focus = mex_investment
+			country_exists = NVJ
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			NVJ = {
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			NVJ = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	YCM_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = YCM
+			}
+			has_completed_focus = mex_investment
+			country_exists = YCM
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			YCM = {
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			YCM = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	V50_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = V50
+			}
+			has_completed_focus = mex_investment
+			country_exists = V50
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			V50 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			V50 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	flo_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X51
+			}
+			has_completed_focus = floridian_aid
+			country_exists = X51
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			X51 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			X51 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.15
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	CAL_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = CAL
+			}
+			has_completed_focus = look_west
+			country_exists = CAL
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			CAL = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			CAL = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 766 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	ASK_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X08
+			}
+			has_completed_focus = look_west
+			country_exists = X08
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			X08 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			X08 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 229 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	INR_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = A19
+			}
+			has_completed_focus = look_west
+			country_exists = A19
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			A19 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			A19 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 690 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	BNG_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = X14
+			}
+			has_completed_focus = approach_siam
+			country_exists = X14
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			X14 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			X14 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 570 578 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	MAL_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = W30
+			}
+			has_completed_focus = approach_siam
+			country_exists = W30
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			W30 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			W30 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 275 494 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	ROM_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = V23
+			}
+			has_completed_focus = spread_italian_communism
+			country_exists = V23
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			V23 = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			V23 = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 550 573 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	GER_investment2_dec = {
+		cost = 0
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			NOT = {
+				is_in_faction_with = GER
+			}
+			has_completed_focus = unified_communist_front
+			country_exists = GER
+			has_country_flag = cheaper_dir_inv
+		}
+		available = {
+			GER = {
+				is_in_faction = no
+				any_owned_state = {
+					is_core_of = THIS
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				communism < 0.50
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			GER = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = THIS
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = no
+						}
+					}
+					prioritize = { 167 246 234 }
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
 }

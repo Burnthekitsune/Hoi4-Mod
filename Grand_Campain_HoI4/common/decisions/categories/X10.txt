@@ -2,7 +2,7 @@ X10_fed_inv_category = {
 	icon = GFX_decision_category_spr_the_seeds_of_revolution
 	visible = {
 		tag = X10
-		# has_completed_focus = Office_of_Foreign_relations
+		has_completed_focus = Office_of_Foreign_relations
 	}
 }
 
@@ -10,6 +10,14 @@ X10_investment_category = {
 	icon = GFX_decision_category_generic_trade
 	visible = {
 		tag = X10
-		# has_country_flag = ASH_dir_inv
+		has_country_flag = ASH_dir_inv
+	}
+}
+
+X10_major_investment_category = {
+	icon = GFX_decision_category_generic_trade
+	visible = {
+		tag = X10
+		has_country_flag = ASH_dir_inv
 	}
 }
