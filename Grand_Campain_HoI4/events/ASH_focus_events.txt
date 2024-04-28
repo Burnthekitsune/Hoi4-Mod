@@ -79,7 +79,7 @@ country_event = { # Enables Direct Invesment Decisons
 	id = ASH_focus.3
 	title = ASH_focus.3.t
 	desc = ASH_focus.3.d
-	picture = GFX_news_event_generic_sign_treaty1
+	picture = GFX_report_event_SOV_national_academy_of_sciences
 	
 	is_triggered_only = yes
 	
