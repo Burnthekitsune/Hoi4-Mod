@@ -26,7 +26,7 @@ set_popularities = {
 add_ideas = {
 	W40_yrk_Khasavako_Asha
 	civilian_economy
-	uncontrolled_exports
+	free_trade
 	disarmed_nation
 }
 set_stability = 0.5
@@ -50,6 +50,7 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	tech_support = 1
+	tech_trucks = 1
 }
 
 if = {
