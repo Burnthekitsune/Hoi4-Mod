@@ -44,6 +44,30 @@ W40_battleline_org = {
         tag = W40
         has_dlc = "Arms Against Tyranny"
     } 
+	add_trait = { 
+		token = ENG_mio_trait_super_charges
+		name = W40_mio_dragonfire
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_weapons
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_anti_air_layout
+
+	#	available = {
+	#		FROM = {
+	#			has_completed_focus = W40_dragonfire
+	#		}
+	#	}
+
+		any_parent = { generic_mio_trait_anti_air_layout }
+
+		limit_to_equipment_type = { capital_ship }
+
+		equipment_bonus = {
+			anti_air_attack = 0.02
+			hg_attack = 0.01
+		}
+	}
 }
 
 W40_escort_org = {
@@ -52,7 +76,22 @@ W40_escort_org = {
     allowed = { 
         tag = W40
         has_dlc = "Arms Against Tyranny"
-    } 
+    }
+	add_trait = { 
+		token = generic_mio_trait_semi_armor_piercing_shells
+		name = generic_mio_trait_semi_armor_piercing_shells
+		icon = GFX_generic_mio_trait_icon_lg_attack
+		special_trait_background = yes
+
+		any_parent = { generic_mio_trait_fleet_escorts }
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_fleet_escorts
+
+		equipment_bonus = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+	}
 }
 
 
