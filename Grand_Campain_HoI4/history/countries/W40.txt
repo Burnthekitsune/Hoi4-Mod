@@ -5,6 +5,9 @@ set_research_slots = 4
 set_convoys = 374
 
 recruit_character = W40_baroness_sevtyanyu
+recruit_character = W40_oligarch_sokrates
+recruit_character = W40_evrko_bibi
+recruit_character = W40_aioli
 if = {
 	limit = { has_dlc = "La Resistance" }
 }

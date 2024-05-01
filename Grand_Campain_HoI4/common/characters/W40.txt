@@ -4,7 +4,7 @@ characters = {
 		gender = female
 		portraits = {
 			civilian = {
-				large = GFX_portrait_fra_jennie_rousseau
+				large ="GFX_portrait_jennie_rousseau"
 			}
 		}
 		country_leader = {
@@ -18,7 +18,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ITA_pietro_koch
+				large ="GFX_portrait_ITA_pietro_koch"
 			}
 		}
 		country_leader = {
@@ -32,7 +32,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_portrait_asia_generic_land_9
+				large ="GFX_portrait_asia_generic_land_9"
 			}
 		}
 		country_leader = {
@@ -46,7 +46,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_SOV_nikolay_kuznetsov
+				large ="GFX_Portrait_nikolay_kuznetsov"
 			}
 		}
 		country_leader = {
@@ -59,7 +59,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_portrait_bul_ferdinand_i
+				large ="GFX_portrait_bul_ferdinand_i"
 			}
 		}
 		country_leader = {
@@ -72,7 +72,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_portrait_europe_generic_navy_13
+				large ="GFX_portrait_europe_generic_navy_13"
 			}
 		}
 		country_leader = {
@@ -85,7 +85,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_portrait_eng_juan_pujol
+				large ="GFX_portrait_juan_pujol"
 			}
 		}
 		country_leader = {
@@ -98,7 +98,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Canada_Adrien_Arcand
+				large ="GFX_CAN_adrien_arcand"
 			}
 		}
 		country_leader = {
@@ -111,7 +111,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_portrait_NOR_jonas_lie
+				large ="GFX_portrait_NOR_jonas_lie"
 			}
 		}
 		country_leader = {
@@ -124,7 +124,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ITA_ivanoe_bonomi
+				large ="GFX_portrait_ITA_ivanoe_bonomi"
 			}
 		}
 		country_leader = {
@@ -137,7 +137,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ETH_imru_haile_selassie
+				large ="GFX_portrait_ETH_ras_imru_haile_selassie"
 			}
 		}
 		country_leader = {
