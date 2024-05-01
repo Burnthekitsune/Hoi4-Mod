@@ -253,7 +253,6 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W40_yrk_Khasavako_Asha = {
-			picture = mGFX_portrait_bul_ferdinand_i
 			allowed = {
 				original_tag = W40
 			}
