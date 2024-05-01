@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		AST_Maryam_Bakhtiari = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = AST
 			}
@@ -15,6 +16,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		BHT_bo_Jampa_dyn_bo_Depa_Tonpo = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = BHT
 			}
@@ -29,6 +31,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		CW1_ug_Ehmet_dyn_ug_Hisamudin = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = CW1
 			}
@@ -43,6 +46,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		CW4_Unkeo_Luang_Phrabang = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = CW4
 			}
@@ -57,6 +61,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		FRA_eu4_Yusuf_Haesteining = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = FRA
 			}
@@ -71,6 +76,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		MCH_Tong_Heng = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = MCH
 			}
@@ -85,6 +91,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		NEP_yue_2639_dyn_yue_6768 = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = NEP
 			}
@@ -99,6 +106,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		NVJ_Digul_Chee_Hastiin_Dagha = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = NVJ
 			}
@@ -113,6 +121,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		NZL_James_Drake-Brockman = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = NZL
 			}
@@ -127,6 +136,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		ORI_Dibvyasimhadeva_Sankara = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = ORI
 			}
@@ -141,6 +151,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		SIK_ne_Nirav_dyn_ne_Siwakoti = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = SIK
 			}
@@ -155,6 +166,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		TIB_Tsepon_Ngapoi = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = TIB
 			}
@@ -169,6 +181,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		V23_eu4_Ali_di_Avula = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = V23
 			}
@@ -183,6 +196,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		V24_Nikolaos_Benizelos = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = V24
 			}
@@ -197,6 +211,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W22_Sugandi_Rajasanagara = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = W22
 			}
@@ -211,6 +226,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W27_Iskandar_Abdullahid = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = W27
 			}
@@ -225,6 +241,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W30_Safiuddin_Pahang = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = W30
 			}
@@ -239,6 +256,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W36_Phraya_Luang_Phrabang = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = W36
 			}
@@ -267,6 +285,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W50_Aziz_Bendahara = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = W50
 			}
@@ -281,6 +300,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W69_Abd_al-Malik_al-Zaydani = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = W69
 			}
@@ -295,6 +315,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W74_Edinho_Sjah = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = W74
 			}
@@ -309,6 +330,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		W82_Te_Rata_Hongi = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = W82
 			}
@@ -323,6 +345,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		X32_Truong_Vijaya = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = X32
 			}
@@ -337,6 +360,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		X69_Shahabuddin_Jambi = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = X69
 			}
@@ -351,6 +375,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		X89_Ali_Jambi = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = X89
 			}
@@ -365,6 +390,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		YCM_Pacal_Xiu = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = YCM
 			}
@@ -379,6 +405,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		Z02_Jamphel_Ngapoi = {
+			picture = generic_monarchy
 			allowed = {
 				original_tag = Z02
 			}

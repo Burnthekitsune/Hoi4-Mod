@@ -5,4 +5,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_BUL_ferdinand_i.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_generic_monarchy"
+		texturefile = "gfx/interface/ideas/idea_generic_monarchist_uprising.dds"
+	}
+
 }
