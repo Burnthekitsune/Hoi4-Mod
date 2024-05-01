@@ -1,7 +1,7 @@
 state = {
 	id = 433
 	name = "STATE_433"
-	manpower = 115202
+	manpower = 161202
 
 	state_category = wasteland
 	impassable = yes
@@ -11,6 +11,6 @@ state = {
 	}
 
 	provinces = {
-		5206 10955 
+		5206 10955 10336
 	}
 }

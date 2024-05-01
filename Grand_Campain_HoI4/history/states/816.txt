@@ -1,23 +1,20 @@
 state = {
 	id = 816
-	name = "STATE_816"
-	manpower = 119851
+	name = "STATE_821"
+	manpower = 2554
 
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = W99
-		victory_points = {
-			7564 1
-		}
+		owner = NZL
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
 		}
 	}
 
 	provinces = {
-		7564 10430 
+		7651 
 	}
 }
