@@ -183,7 +183,7 @@ focus_tree = {
 		cost = 0
 		x = 25
 		y = 7
-		prerequisite = { focus = a_unified_italy foucs = united_at_last }
+		prerequisite = { focus = a_unified_italy focus = united_at_last }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
