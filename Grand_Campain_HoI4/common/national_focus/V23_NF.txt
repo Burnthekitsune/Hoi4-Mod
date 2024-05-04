@@ -18,5 +18,240 @@ focus_tree = {
 	shared_focus = naval_effort
 	shared_focus = industrial_effort
 	shared_focus = political_effort
-
+	
+	focus = {
+		id = Italian_conference
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 28
+		y = 0
+		prerequisite = {  }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_deligates
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 28
+		y = 1
+		prerequisite = { focus = Italian_conference }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = concessions_to_communists
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 24
+		y = 2
+		prerequisite = { focus = invite_deligates }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = promise_of_neutrality
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 28
+		y = 2
+		prerequisite = { focus = invite_deligates }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = reach_out_to_malta
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 32
+		y = 2
+		prerequisite = { focus = invite_deligates }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_sardinia-piedmont
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 24
+		y = 3
+		prerequisite = { focus = concessions_to_communists }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_lombardia
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 26
+		y = 3
+		prerequisite = { focus = concessions_to_communists }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_venice
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 30
+		y = 3
+		prerequisite = { focus = promise_of_neutrality }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_treforti
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 28
+		y = 3
+		prerequisite = { focus = promise_of_neutrality }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = invite_malta
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 32
+		y = 3
+		prerequisite = { focus = reach_out_to_malta }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = a_unified_italy
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 25
+		y = 4
+		prerequisite = { focus = invite_sardinia-piedmont }
+		prerequisite = { focus = invite_lombardia }
+		prerequisite = { focus = invite_treforti }
+		prerequisite = { focus = invite_venice }
+		prerequisite = { focus = invite_malta }
+		mutually_exclusive = { focus = a_failed_conference focus = a_working_framework }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = a_failed_conference
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 31
+		y = 4
+		prerequisite = { focus = invite_sardinia-piedmont }
+		prerequisite = { focus = invite_lombardia }
+		prerequisite = { focus = invite_treforti }
+		prerequisite = { focus = invite_venice }
+		prerequisite = { focus = invite_malta }
+		mutually_exclusive = { focus = a_unified_italy focus = a_working_framework }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = a_working_framework
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 28
+		y = 4
+		prerequisite = { focus = invite_sardinia-piedmont }
+		prerequisite = { focus = invite_lombardia }
+		prerequisite = { focus = invite_treforti }
+		prerequisite = { focus = invite_venice }
+		prerequisite = { focus = invite_malta }
+		mutually_exclusive = { focus = a_failed_conference focus = a_unified_italy }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = quell_internal_tensions
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 25
+		y = 7
+		prerequisite = { focus = a_unified_italy foucs = united_at_last }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = stronger_together
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 25
+		y = 8
+		prerequisite = { focus = quell_internal_tensions }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = claim_the_rest
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 28
+		y = 5
+		prerequisite = { focus = a_working_framework }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = united_at_last
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 28
+		y = 6
+		prerequisite = { focus = claim_the_rest }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = unify_italy_by_force
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 31
+		y = 5
+		prerequisite = { focus = a_failed_conference }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = establish_order
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 31
+		y = 6
+		prerequisite = { focus = unify_italy_by_force }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = a_new_italy
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 31
+		y = 8
+		prerequisite = { focus = establish_order }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
 }
