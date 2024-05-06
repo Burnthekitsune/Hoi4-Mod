@@ -436,3 +436,38 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = decisions.3
+	title = decisions.3.t
+	desc = decisions.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = { # Accept
+		name = decisions.3.a
+		X14 = {
+			annex_country = {
+				target = W35
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			base = 80
+		}
+	}
+	
+	option = { # War
+		name = decisions.3.b
+		X14 = {
+			declare_war_on = {
+                target = W35
+                type = annex_everything
+            }
+		}
+		ai_chance = {
+			base = 20
+		}
+	}
+}

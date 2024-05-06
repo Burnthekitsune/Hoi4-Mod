@@ -1,0 +1,28 @@
+random_decisions = {
+	annex_mong_nah = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X14
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			is_subject = no
+			country_exists = W35
+		}
+		available = {
+			has_war = no
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			789 = {
+				add_core_of = X14
+			}
+			W35 = {
+				country_event = decisions.3
+			}
+		}
+	}
+}
