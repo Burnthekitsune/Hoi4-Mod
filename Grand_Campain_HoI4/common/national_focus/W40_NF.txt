@@ -13,203 +13,203 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
-	focus = {
-			id = Imperial Tour Preparations
-			icon = GFX_goal_generic_construct_infrastructure
-			cost = 0
-			x = 5
-			y = 1
-			prerequisite = {  }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Tour the Empire
-			icon = GFX_goal_generic_air_bomber
-			cost = 0
-			x = 5
-			y = 2
-			prerequisite = { focus = Imperial Tour Preparations }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Organize the Labour Board
-			icon = GFX_goal_generic_production
-			cost = 0
-			x = 1
-			y = 3
-			prerequisite = { focus = Tour the Empire }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Standardization
-			icon = GFX_goal_generic_production2
-			cost = 0
-			x = 2.9999999999999996
-			y = 3
-			prerequisite = { focus = Tour the Empire }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Bureau of Public Awareness
-			icon = GFX_goal_generic_propaganda
-			cost = 0
-			x = 5
-			y = 4
-			prerequisite = { focus = Tour the Empire }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Abolish the Bimetallic Sukhe
-			icon = GFX_focus_fra_devalue_the_franc
-			cost = 0
-			x = 7
-			y = 3
-			prerequisite = { focus = Tour the Empire }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Higher Education Reform
-			icon = GFX_focus_research
-			cost = 0
-			x = 11
-			y = 3
-			prerequisite = { focus = Tour the Empire }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Primary Agreement
-			icon = GFX_goal_generic_major_alliance
-			cost = 0
-			x = 1
-			y = 4
-			prerequisite = { focus = Organize the Labour Board }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Propaganda on Parade
-			icon = GFX_focus_focus_fra_liberte_egalite_solidarite
-			cost = 0
-			x = 5
-			y = 5
-			prerequisite = { focus = Bureau of Public Awareness }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Gold Sukhe
-			icon = GFX_focus_usa_reestablish_the_gold_standard
-			cost = 0
-			x = 7
-			y = 4
-			prerequisite = { focus = Abolish the Bimetallic Sukhe }
-			mutually_exclusive = { focus = Silver Sukhe }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Silver Sukhe
-			icon = GFX_goal_generic_consumer_goods
-			cost = 0
-			x = 9
-			y = 4
-			prerequisite = { focus = Abolish the Bimetallic Sukhe }
-			mutually_exclusive = { focus = Gold Sukhe }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Market Guarantees
-			icon = mission_build_up_to_force_limit
-			cost = 0
-			x = 11
-			y = 4
-			prerequisite = {  }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Spring the Trap
-			icon = GFX_goal_generic_forceful_treaty
-			cost = 0
-			x = 2
-			y = 5
-			prerequisite = { focus = Primary Agreement }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Devalue the Sukhe
-			icon = GFX_goal_generic_positive_trade_relations
-			cost = 0
-			x = 7
-			y = 5
-			prerequisite = { focus = Gold Sukhe focus = Silver Sukhe }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = Expand the Arsenals
-			icon = mission_build_up_to_force_limit
-			cost = 0
-			x = 10
-			y = 5
-			prerequisite = { focus = Market Guarantees }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = National Champions
-			icon = mission_build_up_to_force_limit
-			cost = 0
-			x = 11
-			y = 6
-			prerequisite = { focus = Market Guarantees }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-		focus = {
-			id = A New Dawn
-			icon = mission_build_up_to_force_limit
-			cost = 0
-			x = 5
-			y = 7
-			prerequisite = { focus = Primary Agreement }
-			available_if_capitulated = no
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-		}
-	}
-	default = no
-	reset_on_civil_war = no
+#	focus = {
+#			id = Imperial_Tour_Preparations
+#			icon = GFX_goal_generic_construct_infrastructure
+#			cost = 0
+#			x = 5
+#			y = 1
+#			prerequisite = {  }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Tour_the_Empire
+#			icon = GFX_goal_generic_air_bomber
+#			cost = 0
+#			x = 5
+#			y = 2
+#			prerequisite = { focus = Imperial Tour Preparations }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Organize_the_Labour_Board
+#			icon = GFX_goal_generic_production
+#			cost = 0
+#			x = 1
+#			y = 3
+#			prerequisite = { focus = Tour the Empire }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Standardization
+#			icon = GFX_goal_generic_production2
+#			cost = 0
+#			x = 2.9999999999999996
+#			y = 3
+#			prerequisite = { focus = Tour the Empire }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Bureau_of_Public_Awareness
+#			icon = GFX_goal_generic_propaganda
+#			cost = 0
+#			x = 5
+#			y = 4
+#			prerequisite = { focus = Tour the Empire }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Abolish_the_Bimetallic_Sukhe
+#			icon = GFX_focus_fra_devalue_the_franc
+#			cost = 0
+#			x = 7
+#			y = 3
+#			prerequisite = { focus = Tour the Empire }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Higher_Education_Reform
+#			icon = GFX_focus_research
+#			cost = 0
+#			x = 11
+#			y = 3
+#			prerequisite = { focus = Tour the Empire }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Primary_Agreement
+#			icon = GFX_goal_generic_major_alliance
+#			cost = 0
+#			x = 1
+#			y = 4
+#			prerequisite = { focus = Organize_the_Labour_Board }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Propaganda_on_Parade
+#			icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+#			cost = 0
+#			x = 5
+#			y = 5
+#			prerequisite = { focus = Bureau of Public Awareness }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Gold_Sukhe
+#			icon = GFX_focus_usa_reestablish_the_gold_standard
+#			cost = 0
+#			x = 7
+#			y = 4
+#			prerequisite = { focus = Abolish the Bimetallic Sukhe }
+#			mutually_exclusive = { focus = Silver Sukhe }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Silver_Sukhe
+#			icon = GFX_goal_generic_consumer_goods
+#			cost = 0
+#			x = 9
+#			y = 4
+#			prerequisite = { focus = Abolish the Bimetallic Sukhe }
+#			mutually_exclusive = { focus = Gold Sukhe }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Market_Guarantees
+#			icon = mission_build_up_to_force_limit
+#			cost = 0
+#			x = 11
+#			y = 4
+#			prerequisite = {  }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Spring_the_Trap
+#			icon = GFX_goal_generic_forceful_treaty
+#			cost = 0
+#			x = 2
+#			y = 5
+#			prerequisite = { focus = Primary Agreement }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Devalue_the_Sukhe
+#			icon = GFX_goal_generic_positive_trade_relations
+#			cost = 0
+#			x = 7
+#			y = 5
+#			prerequisite = { focus = Gold Sukhe focus = Silver Sukhe }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = Expand_the_Arsenals
+#			icon = mission_build_up_to_force_limit
+#			cost = 0
+#			x = 10
+#			y = 5
+#			prerequisite = { focus = Market Guarantees }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = National_Champions
+#			icon = mission_build_up_to_force_limit
+#			cost = 0
+#			x = 11
+#			y = 6
+#			prerequisite = { focus = Market Guarantees }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#		focus = {
+#			id = A_New_Dawn
+#			icon = mission_build_up_to_force_limit
+#			cost = 0
+#			x = 5
+#			y = 7
+#			prerequisite = { focus = Primary Agreement }
+#			available_if_capitulated = no
+#			cancel_if_invalid = yes
+#			continue_if_invalid = no
+#		}
+#	}
+#	default = no
+#	reset_on_civil_war = no
 
 	focus = {
-		id = Imperial Tour Preperations
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		id = Imperial_Tour_Preparations
+		icon = icon = GFX_goal_generic_construct_infrastructure
+		cost = 5
 		x = 2
 		y = 1
 		prerequisite = {  }
@@ -218,184 +218,187 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Tour the Empire
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		id = Tour_the_Empire
+		icon = GFX_goal_generic_air_bomber
+		cost = 28.6
 		x = 2
 		y = 2
-		prerequisite = {  }
+		prerequisite = { focus = Imperial_Tour_Preparations }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Organize the Labour Board
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = -1
+		id = Organize_the_Labour_Board
+		icon = GFX_goal_generic_production
+		cost = 10
+		x = 0
 		y = 3
-		prerequisite = {  }
+		prerequisite = { focus = Tour_the_Empire }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
 		id = Standardization
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = 1
-		y = 3
-		prerequisite = {  }
+		icon = GFX_goal_generic_production2
+		cost = 5
+		x = 0
+		y = 6
+		prerequisite = { focus = Primary_Agreement }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Primary Agreement
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		id = Primary_Agreement
+		icon = GFX_goal_generic_major_alliance
+		cost = 10
 		x = 0
 		y = 4
-		prerequisite = {  }
+		prerequisite = { focus = Organize_the_Labour_Board }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Spring the Trap
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		id = Spring_the_Trap
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5
 		x = 1
 		y = 5
-		prerequisite = {  }
+		prerequisite = { focus = Primary_Agreement }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = A New Dawn
+		id = A_New_Dawn
 		icon = mission_build_up_to_force_limit
-		cost = 0
+		cost = 10
 		x = 2
 		y = 7
-		prerequisite = { focus = Primary Agreement }
+		prerequisite = { focus = Primary_Agreement }
+		prerequisite = { focus = Devalue_the_Sukhe }
+		prerequisite = { focus = National_Champions }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Bureau of Public Awareness
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		id = Bureau_of_Public_Awareness
+		icon = GFX_goal_generic_propaganda
+		cost = 10
 		x = 2
-		y = 4
-		prerequisite = { focus = Tour the Empire }
-		available_if_capitulated = no
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-	}
-	focus = {
-		id = Propaganda on Parade
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = 2
-		y = 5
-		prerequisite = { focus = Bureau of Public Awareness }
-		available_if_capitulated = no
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-	}
-	focus = {
-		id = Abolish the Bimetallic Sukhe
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = 3
 		y = 3
-		prerequisite = {  }
+		prerequisite = { focus = Tour_the_Empire }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Gold Sukhe
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = 3
+		id = Propaganda_on_Parade
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		cost = 10
+		x = 2
 		y = 4
-		prerequisite = {  }
+		prerequisite = { focus = Bureau_of_Public_Awareness }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Devalue the Sukhe
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = 3
-		y = 5
-		prerequisite = {  }
-		available_if_capitulated = no
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-	}
-	focus = {
-		id = Expand the Arsenals
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = 6
-		y = 5
-		prerequisite = { focus = Higher Education Reform }
-		available_if_capitulated = no
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-	}
-	focus = {
-		id = Silver Sukhe
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		id = Abolish_the_Bimetallic_Sukhe
+		icon = GFX_focus_fra_devalue_the_franc
+		cost = 5
 		x = 5
-		y = 4
-		prerequisite = { focus = Abolish the Bimetallic Sukhe }
-		mutually_exclusive = { focus = Gold Sukhe }
-		available_if_capitulated = no
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-	}
-	focus = {
-		id = Higher Education Reform
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = 6
 		y = 3
-		prerequisite = { focus = Tour the Empire }
+		prerequisite = { focus = Tour_the_Empire }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Market Guarantees
+		id = Gold_Sukhe
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		cost = 5
+		x = 4
+		y = 4
+		prerequisite = { focus = Abolish_the_Bimetallic_Sukhe }
+		mutually_exclusive = { focus = Silver_Sukhe }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Devalue_the_Sukhe
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10
+		x = 3
+		y = 5
+		prerequisite = { focus = Gold_Sukhe focus = Silver_Sukhe }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Expand_the_Arsenals
 		icon = mission_build_up_to_force_limit
-		cost = 0
+		cost = 10
+		x = 7
+		y = 6
+		prerequisite = { focus = Market_Guarantees }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Silver_Sukhe
+		icon = GFX_goal_generic_consumer_goods
+		cost = 5
+		x = 6
+		y = 4
+		prerequisite = { focus = Abolish_the_Bimetallic_Sukhe }
+		mutually_exclusive = { focus = Gold_Sukhe }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Higher_Education_Reform
+		icon = GFX_focus_research
+		cost = 10
+		x = 7
+		y = 3
+		prerequisite = { focus = Tour_the_Empire }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Market_Guarantees
+		icon = mission_build_up_to_force_limit
+		cost = 10
 		x = 7
 		y = 5
-		prerequisite = { focus = Higher Education Reform }
+		prerequisite = { focus = Higher_Education_Reform }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = National Champions
+		id = National_Champions
 		icon = mission_build_up_to_force_limit
-		cost = 0
+		cost = 10
 		x = 5
 		y = 6
-		prerequisite = {  }
+		prerequisite = { focus = Market_Guarantees }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Reinvigorate the Army
+		id = Reinvigorate_the_Army
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 10
@@ -406,18 +409,18 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Greasing the Wheels of Industry
+		id = Greasing_the_Wheels_of_Industry
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 10
 		y = 2
-		prerequisite = { focus = Reinvigorate the Army }
+		prerequisite = { focus = Reinvigorate_the_Army }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Student Visa Scheme
+		id = Student_Visa_Scheme
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 8
@@ -428,7 +431,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Breaking the Cartel
+		id = Breaking_the_Cartel
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 10
@@ -439,7 +442,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Shutter Gas Facilities
+		id = Shutter_Gas_Facilities
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 8
@@ -450,7 +453,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Army Manouvers
+		id = Army_Manouvers
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 10
@@ -461,7 +464,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Fortify the Capitals
+		id = Fortify_the_Capitals
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 8
@@ -472,7 +475,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Grand Army of the Empire
+		id = Grand_Army_of_the_Empire
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 10
@@ -483,7 +486,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Doctrine of the Deluge
+		id = Doctrine_of_the_Deluge
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 9
@@ -494,10 +497,10 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Doctrine of 1650
+		id = Doctrine_of_1650
 		icon = mission_build_up_to_force_limit
 		cost = 0
-		x = 11.000000000000002
+		x = 11
 		y = 6
 		prerequisite = {  }
 		available_if_capitulated = no
@@ -505,7 +508,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = The Blue Army
+		id = The_Blue_Army
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 10
@@ -516,7 +519,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Vastness of Muraa
+		id = Vastness_of_Muraa
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 12
@@ -527,7 +530,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = The Army Fleet
+		id = The_Army_Fleet
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 12
@@ -538,7 +541,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Army Air Service
+		id = Army_Air_Service
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 12
@@ -549,7 +552,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Budget Review
+		id = Budget_Review
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 12
@@ -560,7 +563,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = The Ten-Ten Plan
+		id = The_Ten_Ten_Plan
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 15
@@ -571,18 +574,18 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Revise the Projections
+		id = Revise_the_Projections
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 15
 		y = 2
-		prerequisite = { focus = The Ten-Ten Plan }
+		prerequisite = { focus = The_Ten_Ten_Plan }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Pacific Naval Institute
+		id = Pacific_Naval_Institute
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 17
@@ -593,7 +596,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Navy Air Service
+		id = Navy_Air_Service
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 14
@@ -604,18 +607,18 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Restore the Pocket Carriers
+		id = Restore_the_Pocket_Carriers
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 13
 		y = 3
-		prerequisite = { focus = Navy Air Service }
+		prerequisite = { focus = Navy_Air_Service }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Establish the Bureau of the Air Corps
+		id = Establish_the_Bureau_of_the_Air_Corps
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 14
@@ -626,7 +629,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = The Sky was Made for Us
+		id = The_Sky_was_Made_for_Us
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 14
@@ -637,7 +640,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Naval Flak Rockets
+		id = Naval_Flak_Rockets
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 15
@@ -648,7 +651,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Radar Experiments
+		id = Radar_Experiments
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 15
@@ -659,7 +662,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = A New Era
+		id = A_New_Era
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 15
@@ -670,7 +673,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Guided Bombs
+		id = Guided_Bombs
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 15
@@ -681,7 +684,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Establish the Naval Infantry
+		id = Establish_the_Naval_Infantry
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 17
@@ -692,7 +695,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Mobile Shingles
+		id = Mobile_Shingles
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 17
@@ -714,7 +717,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = The Air Corps Fleet
+		id = The_Air_Corps_Fleet
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 14
@@ -725,18 +728,18 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Mint Commemorative Platinum Sukhe
+		id = Mint_Commemorative_Platinum_Sukhe
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 4
 		y = 2
-		prerequisite = {  }
+		prerequisite = { focus = Imperial_Tour_Preparations }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Bolster the Imperial Guard
+		id = Bolster_the_Imperial_Guard
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 8
@@ -747,7 +750,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Guardians of the Fortress Cities
+		id = Guardians_of_the_Fortress_Cities
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 7
@@ -758,7 +761,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Heralds of the Thunder King
+		id = Heralds_of_the_Thunder_King
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 9
@@ -769,29 +772,30 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = With Storm and Flash
+		id = With_Storm_and_Flash
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 9
 		y = 9
+		prerequisite = { focus = Heralds_of_the_Thunder_King }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = Army_of_the_Imperial_Guard
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 7
+		y = 9
+		prerequisite = { focus = Guardians_of_the_Fortress_Cities }
 		prerequisite = { focus = Heralds of the Thunder King }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Army of the Imperial Guard
-		icon = mission_build_up_to_force_limit
-		cost = 0
-		x = 7
-		y = 9
-		prerequisite = { focus = Guardians of the Fortress Cities focus = Heralds of the Thunder King }
-		available_if_capitulated = no
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-	}
-	focus = {
-		id = Tackle Southern Unrest
+		id = Tackle_Southern_Unrest
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 21
@@ -802,7 +806,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Connecting the Railways
+		id = Connecting_the_Railways
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 19
@@ -813,7 +817,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = End the Special Category
+		id = End_the_Special_Category
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 19
@@ -824,7 +828,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Industrialize the Periphery
+		id = Industrialize_the_Periphery
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 19
@@ -835,7 +839,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Suzerainty of Fairas
+		id = Suzerainty_of_Fairas
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 21
@@ -846,7 +850,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Divide and Conquer
+		id = Divide_and_Conquer
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 21
@@ -857,7 +861,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Ban Greek Nationalist Organizations
+		id = Ban_Greek_Nationalist_Organizations
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 21
@@ -868,7 +872,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Placate the Epirotes
+		id = Placate_the_Epirotes
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 20
@@ -879,7 +883,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Association of Loyal Imperial Citizens of the South
+		id = Association_of_Loyal_Imperial_Citizens_of_the_South
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 21
@@ -890,7 +894,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Pardon the Defectors
+		id = Pardon_the_Defectors
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 23
@@ -901,7 +905,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = The Olive Branch
+		id = The_Olive_Branch
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 23
@@ -912,18 +916,18 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Amnesty for Southern Bandits
+		id = Amnesty_for_Southern_Bandits
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 25
 		y = 2
-		prerequisite = { focus = Pardon the Defectors }
+		prerequisite = { focus = Pardon_the_Defectors }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Goodwill Mission
+		id = Goodwill_Mission
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 23
@@ -934,7 +938,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = United in Fear
+		id = United_in_Fear
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 25
@@ -945,7 +949,7 @@ focus_tree = {
 		continue_if_invalid = no
 	}
 	focus = {
-		id = Positive Regionalism
+		id = Positive_Regionalism
 		icon = mission_build_up_to_force_limit
 		cost = 0
 		x = 24
