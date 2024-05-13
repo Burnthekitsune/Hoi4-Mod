@@ -5,6 +5,8 @@ random_decisions = {
 			tag = X14
 			tag = SIA
 			tag = V23
+			tag = W88
+			tag = W30
 		}
 	}
 }

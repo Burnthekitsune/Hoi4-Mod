@@ -12,6 +12,7 @@ random_decisions = {
 		}
 		available = {
 			has_war = no
+			date > 1936.06.01
 		}
 		ai_will_do = {
 			base = 100
@@ -50,4 +51,149 @@ random_decisions = {
 			}
 		}
 	}
+	subjugate_luang_namtha = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = SIA
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			is_subject = no
+			country_exists = CW4
+		}
+		available = {
+			has_war = no
+			date > 1936.06.01
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			777 = {
+				add_core_of = X14
+			}
+			CW4 = {
+				country_event = decisions.4
+			}
+		}
+	}
+	unite_borneo = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = W88
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			is_subject = no
+			country_exists = BLG
+		}
+		available = {
+			has_war = no
+			date > 1937.01.01
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			declare_war_on = {
+                target = BLG
+                type = annex_everything
+            }
+		}
+	}
+	
+	sia_centralize = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = SIA
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			is_subject = no
+		}
+		available = {
+			has_war = no
+			date > 1937.01.01
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			every_subject_country = {
+				limit = {
+					OR = {
+						tag = X32
+						tag = CHP
+						tag = VIE
+						tag = W36
+						tag = CW4
+					}
+				}
+				SIA = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+			hidden_effect = {
+				every_owned_state = {
+					remove_core_of = X32
+					remove_core_of = CHP
+					remove_core_of = VIE
+					remove_core_of = W36
+				}
+			}
+		}
+	}
+	
+	mal_centralize = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = W30
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			is_subject = no
+		}
+		available = {
+			has_war = no
+			date > 1937.01.01
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			every_subject_country = {
+				limit = {
+					OR = {
+						tag = X89
+						tag = W49
+						tag = W22
+					}
+				}
+				W30 = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+			hidden_effect = {
+				every_owned_state = {
+					remove_core_of = X89
+					remove_core_of = W49
+					remove_core_of = ACE
+					remove_core_of = W50
+					remove_core_of = JAV
+				}
+			}
+		}
+	}
+	
+	
 }

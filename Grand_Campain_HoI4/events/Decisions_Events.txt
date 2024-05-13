@@ -471,3 +471,40 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = decisions.4
+	title = decisions.4.t
+	desc = decisions.4.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = { # Accept
+		name = decisions.4.a
+		SIA = {
+			puppet = CW4
+		}
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = yes
+		}
+		remove_ideas = CW4_Unkeo_Luang_Phrabang
+		ai_chance = {
+			base = 80
+		}
+	}
+	
+	option = { # War
+		name = decisions.3.b
+		SIA = {
+			declare_war_on = {
+                target = CW4
+                type = annex_everything
+            }
+		}
+		ai_chance = {
+			base = 20
+		}
+	}
+}

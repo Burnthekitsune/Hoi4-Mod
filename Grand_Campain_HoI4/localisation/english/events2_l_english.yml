@@ -545,3 +545,8 @@
  decisions.3.d: "Bengal has demanded that we become part of thier nation, should we decline, this will lead to war. Do we accept?"
  decisions.3.a: "We have no choice but to accept"
  decisions.3.b: "We will fight to the death"
+ 
+ decisions.4.t: "Siam demands Subjugation"
+ decisions.4.d: "The government of Siam has ordered us to join them and depose our ruler."
+ decisions.4.a: "We have no choice but to accept"
+ decisions.4.b: "We will fight to the death"
