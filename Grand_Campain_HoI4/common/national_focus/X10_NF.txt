@@ -964,6 +964,21 @@
 						remove_state_core = 457
 						remove_state_core = 501
 						remove_state_core = 510
+						remove_state_core = 535
+						remove_state_core = 738
+						remove_state_core = 666
+						remove_state_core = 240
+						remove_state_core = 666
+						remove_state_core = 240
+						remove_state_core = 634
+						remove_state_core = 627
+						remove_state_core = 664
+						remove_state_core = 632
+						remove_state_core = 775
+						remove_state_core = 660
+						remove_state_core = 751
+						remove_state_core = 737
+						remove_state_core = 697
 					}
 				}
 				annex_country = {
