@@ -4,6 +4,7 @@ random_decisions = {
 		OR = {
 			tag = X14
 			tag = SIA
+			tag = V23
 		}
 	}
 }
