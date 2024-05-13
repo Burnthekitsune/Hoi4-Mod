@@ -21,7 +21,7 @@ focus_tree = {
 	
 	focus = {
 		id = Italian_conference
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_befriend_italy
 		cost = 5
 		x = 28
 		y = 0
@@ -39,7 +39,7 @@ focus_tree = {
 	}
 	focus = {
 		id = invite_deligates
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_befriend_italy
 		cost = 5
 		x = 28
 		y = 1
@@ -53,7 +53,7 @@ focus_tree = {
 	}
 	focus = {
 		id = concessions_to_communists
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ITA_the_italian_republic
 		cost = 5
 		x = 24
 		y = 2
@@ -82,7 +82,7 @@ focus_tree = {
 	}
 	focus = {
 		id = promise_of_neutrality
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_neutrality_focus
 		cost = 5
 		x = 28
 		y = 2
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 	focus = {
 		id = reach_out_to_malta
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_diplomatic_treaty
 		cost = 5
 		x = 32
 		y = 2
@@ -130,7 +130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = invite_sardinia-piedmont
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ITA_the_italian_republic
 		cost = 10
 		x = 24
 		y = 3
@@ -170,7 +170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = invite_lombardia
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ITA_the_italian_republic
 		cost = 10
 		x = 26
 		y = 3
@@ -210,7 +210,7 @@ focus_tree = {
 	}
 	focus = {
 		id = invite_venice
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_neutrality_focus
 		cost = 10
 		x = 30
 		y = 3
@@ -251,7 +251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = invite_treforti
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_neutrality_focus
 		cost = 10
 		x = 28
 		y = 3
@@ -291,7 +291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = invite_malta
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_diplomatic_treaty
 		cost = 10
 		x = 32
 		y = 3
@@ -324,14 +324,14 @@ focus_tree = {
 			}
 			else = {
 				MLT = {
-					country_event = V23_focus.4
+					country_event = V23_focus.5
 				}
 			}
 		}
 	}
 	focus = {
 		id = consolidate_the_confederation
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_befriend_italy
 		cost = 5
 		x = 28
 		y = 4
@@ -345,7 +345,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			any_subject_country = {
+			every_subject_country = {
 				limit = {
 					OR = {
 						tag = SPM
@@ -366,8 +366,8 @@ focus_tree = {
 	}
 	focus = {
 		id = a_unified_italy
-		icon = mission_build_up_to_force_limit
-		cost = 10
+		icon = GFX_focus_generic_italy_propaganda
+		cost = 5
 		x = 25
 		y = 5
 		available = {
@@ -382,17 +382,20 @@ focus_tree = {
 			owns_state = 634
 			owns_state = 627
 			owns_state = 664
-			owns_state = 623
+			owns_state = 632
 		}
 		prerequisite = { focus = consolidate_the_confederation }
 		mutually_exclusive = { focus = a_failed_conference focus = a_working_framework }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.2
+		}
 	}
 	focus = {
 		id = a_failed_conference
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_BRA_joint_italian_motor_development
 		cost = 10
 		x = 31
 		y = 5
@@ -411,7 +414,7 @@ focus_tree = {
 					owns_state = 634
 					owns_state = 627
 					owns_state = 664
-					owns_state = 623
+					owns_state = 632
 				}
 			}
 		}
@@ -420,11 +423,17 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_war_support = 0.25
+			set_rule = {
+				can_join_factions = yes
+			}
+		}
 	}
 	focus = {
 		id = a_working_framework
-		icon = mission_build_up_to_force_limit
-		cost = 10
+		icon = GFX_focus_ITA_italian_irredentism
+		cost = 5
 		x = 28
 		y = 5
 		available = {
@@ -440,7 +449,7 @@ focus_tree = {
 				NOT = { owns_state = 634 }
 				NOT = { owns_state = 627 }
 				NOT = { owns_state = 664 }
-				NOT = { owns_state = 623 }
+				NOT = { owns_state = 632 }
 			}
 			count_triggers = {
 				amount = 7
@@ -455,7 +464,7 @@ focus_tree = {
 				owns_state = 634
 				owns_state = 627
 				owns_state = 664
-				owns_state = 623
+				owns_state = 632
 			}
 		}
 		prerequisite = { focus = consolidate_the_confederation }
@@ -463,82 +472,160 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = quell_internal_tensions
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_generic_italy_propaganda
+		cost = 10
 		x = 25
 		y = 6
 		prerequisite = { focus = a_unified_italy focus = united_at_last }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			every_owned_state = {
+				remove_core_of = SPM
+				remove_core_of = LOM
+				remove_core_of = VEN
+				remove_core_of = X72
+				remove_core_of = MLT
+			}
+		}
 	}
 	focus = {
 		id = stronger_together
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_generic_italy_propaganda
+		cost = 5
 		x = 25
 		y = 9
 		prerequisite = { focus = quell_internal_tensions }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			set_cosmetic_tag = rom_italy
+			add_ideas = rom_peace
+		}
 	}
 	focus = {
 		id = claim_the_rest
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_ITA_italian_irredentism
+		cost = 10
 		x = 28
 		y = 6
 		prerequisite = { focus = a_working_framework }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			every_country = {
+				limit = {
+					OR = {
+						tag = SPM
+						tag = LOM
+						tag = VEN
+						tag = X72
+					}
+					is_subject = no
+					exists = yes
+				}
+				country_event = V23_focus.6
+			}
+		}
 	}
 	focus = {
 		id = united_at_last
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_ITA_italian_irredentism
+		cost = 10
 		x = 28
 		y = 7
+		available = {
+			owns_state = 660
+			owns_state = 751
+			owns_state = 737
+			owns_state = 697
+			owns_state = 535
+			owns_state = 738
+			owns_state = 666
+			owns_state = 240
+			owns_state = 634
+			owns_state = 627
+			owns_state = 664
+			owns_state = 632
+		}
 		prerequisite = { focus = claim_the_rest }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			every_owned_state = {
+				remove_core_of = SPM
+				remove_core_of = LOM
+				remove_core_of = VEN
+				remove_core_of = X72
+				remove_core_of = MLT
+			}
+		}
 	}
 	focus = {
 		id = unify_italy_by_force
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_BRA_joint_italian_motor_development
+		cost = 10
 		x = 31
 		y = 6
 		prerequisite = { focus = a_failed_conference }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			upgrade_economy_law = yes
+		}
 	}
 	focus = {
 		id = establish_order
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_BRA_joint_italian_motor_development
+		cost = 10
 		x = 31
 		y = 7
+		available = {
+			owns_state = 660
+			owns_state = 751
+			owns_state = 737
+			owns_state = 697
+			owns_state = 535
+			owns_state = 738
+			owns_state = 666
+			owns_state = 240
+			owns_state = 634
+			owns_state = 627
+			owns_state = 664
+			owns_state = 632
+		}
 		prerequisite = { focus = unify_italy_by_force }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = a_new_italy
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_ITA_italian_irredentism
+		cost = 5
 		x = 31
 		y = 9
 		prerequisite = { focus = establish_order }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			set_cosmetic_tag = rom_italy
+			add_ideas = rom_force
+		}
 	}
 }

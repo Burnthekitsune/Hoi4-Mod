@@ -13,20 +13,6 @@ country_event = { # Invite SPM to Italian Confederation
 		V23 = {
 			puppet = SPM
 		}
-		hidden_effects = {
-			697 = {
-				add_core_of = V23
-			}
-			737 = {
-				add_core_of = V23
-			}
-			751 = {
-				add_core_of = V23
-			}
-			660 = {
-				add_core_of = V23
-			}
-		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -38,18 +24,6 @@ country_event = { # Invite SPM to Italian Confederation
 	
 	option = { # NO
 		name = V23_focus.1.b
-		697 = {
-			add_core_of = V23
-		}
-		737 = {
-			add_core_of = V23
-		}
-		751 = {
-			add_core_of = V23
-		}
-		660 = {
-			add_core_of = V23
-		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -73,11 +47,6 @@ country_event = { # Invite LOM to Italian Confederation
 		V23 = {
 			puppet = LOM
 		}
-		hidden_effects = {
-			607 = {
-				add_core_of = V23
-			}
-		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -89,9 +58,6 @@ country_event = { # Invite LOM to Italian Confederation
 	
 	option = { # NO
 		name = V23_focus.2.b
-		607 = {
-			add_core_of = V23
-		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -115,17 +81,6 @@ country_event = { # Invite VEN to Italian Confederation
 		V23 = {
 			puppet = VEN
 		}
-		hidden_effects = {
-			738 = {
-				add_core_of = V23
-			}
-			666 = {
-				add_core_of = V23
-			}
-			240 = {
-				add_core_of = V23
-			}
-		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -137,15 +92,6 @@ country_event = { # Invite VEN to Italian Confederation
 	
 	option = { # NO
 		name = V23_focus.3.b
-		738 = {
-			add_core_of = V23
-		}
-		666 = {
-			add_core_of = V23
-		}
-		240 = {
-			add_core_of = V23
-		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -169,26 +115,6 @@ country_event = { # Invite X72 to Italian Confederation
 		V23 = {
 			puppet = X72
 		}
-		hidden_effects = {
-			634 = {
-				add_core_of = V23
-			}
-			666 = {
-				add_core_of = V23
-			}
-			240 = {
-				add_core_of = V23
-			}
-			627 = {
-				add_core_of = V23
-			}
-			664 = {
-				add_core_of = V23
-			}
-			632 = {
-				add_core_of = V23
-			}
-		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -200,24 +126,6 @@ country_event = { # Invite X72 to Italian Confederation
 	
 	option = { # NO
 		name = V23_focus.4.b
-		634 = {
-			add_core_of = V23
-		}
-		666 = {
-			add_core_of = V23
-		}
-		240 = {
-			add_core_of = V23
-		}
-		627 = {
-			add_core_of = V23
-		}
-		664 = {
-			add_core_of = V23
-		}
-		632 = {
-			add_core_of = V23
-		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -241,9 +149,41 @@ country_event = { # Invite MLT to Italian Confederation
 		V23 = {
 			puppet = MLT
 		}
-		hidden_effects = {
-			775 = {
-				add_core_of = V23
+		ai_chance = {
+			base = 1
+			modifier = {
+				is_in_faction = yes
+				factor = 0
+			}
+		}
+	}
+	
+	option = { # NO
+		name = V23_focus.5.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				is_in_faction = no
+				factor = 0
+			}
+		}
+	}
+}
+
+country_event = { # Last Chance to Join
+	id = V23_focus.6
+	title = V23_focus.6.t
+	desc = V23_focus.6.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = V23_focus.6.a
+		V23 = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
 			}
 		}
 		ai_chance = {
@@ -256,16 +196,15 @@ country_event = { # Invite MLT to Italian Confederation
 	}
 	
 	option = { # NO
-		name = V23_focus.5.b
-		775 = {
-			add_core_of = V23
+		name = V23_focus.6.b
+		V23 = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = rejected_demands
+			}
 		}
 		ai_chance = {
-			base = 1
-			modifier = {
-				is_in_faction = no
-				factor = 0
-			}
+			base = 3
 		}
 	}
 }
