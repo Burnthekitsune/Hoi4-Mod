@@ -26,6 +26,8 @@ state = {
 		}
 		add_core_of = PER
 		add_core_of = RAJ
+		add_core_of = BIK
+		add_core_of = X60
 	}
 
 	provinces = {
