@@ -2631,3 +2631,337 @@ X10_investment_category = {
 		}
 	}
 }
+
+X10_major_investment_category = {
+
+}
+
+X10_prospecting_category = {
+	aquitaine_dig = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		remove_effect = {
+			hidden_effect = {
+				add_resource = {
+					type = aluminium
+					amount = 25
+					state = 50
+				}
+				add_resource = {
+					type = steel
+					amount = 25
+					state = 63
+				}
+				add_resource = {
+					type = chromium
+					amount = 25
+					state = 40
+				}
+			}
+		}
+	}
+	
+	west_iberia_dig = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		remove_effect = {
+			hidden_effect = {
+				add_resource = {
+					type = tungsten
+					amount = 15
+					state = 76
+				}
+				add_resource = {
+					type = tungsten
+					amount = 15
+					state = 276
+				}
+				add_resource = {
+					type = tungsten
+					amount = 15
+					state = 268
+				}
+				add_resource = {
+					type = steel
+					amount = 15
+					state = 126
+				}
+				add_resource = {
+					type = aluminium
+					amount = 15
+					state = 76
+				}
+			}
+		}
+	}
+	
+	east_iberia_dig = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		remove_effect = {
+			hidden_effect = {
+				add_resource = {
+					type = oil
+					amount = 15
+					state = 44
+				}
+				add_resource = {
+					type = tungsten
+					amount = 25
+					state = 188
+				}
+				add_resource = {
+					type = chromium
+					amount = 15
+					state = 188
+				}
+				add_resource = {
+					type = tungsten
+					amount = 3
+					state = 72
+				}
+			}
+		}
+	}
+	
+	north_africa_dig = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		remove_effect = {
+			hidden_effect = {
+				add_resource = {
+					type = oil
+					amount = 5
+					state = 189
+				}
+				add_resource = {
+					type = oil
+					amount = 5
+					state = 77
+				}
+				add_resource = {
+					type = oil
+					amount = 5
+					state = 161
+				}
+				add_resource = {
+					type = aluminium
+					amount = 25
+					state = 144
+				}
+				add_resource = {
+					type = steel
+					amount = 25
+					state = 161
+				}
+			}
+		}
+	}
+	
+	pacific_dig = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		remove_effect = {
+			hidden_effect = {
+				add_resource = {
+					type = oil
+					amount = 10
+					state = 97
+				}
+				add_resource = {
+					type = oil
+					amount = 10
+					state = 58
+				}
+				add_resource = {
+					type = oil
+					amount = 1
+					state = 59
+				}
+				add_resource = {
+					type = rubber
+					amount = 15
+					state = 97
+				}
+				add_resource = {
+					type = rubber
+					amount = 15
+					state = 58
+				}
+				add_resource = {
+					type = rubber
+					amount = 3
+					state = 59
+				}
+			}
+		}
+	}
+	
+	ghabati_oil = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+			is_in_faction_with = BRA
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		remove_effect = {
+			hidden_effect = {
+				add_resource = {
+					type = oil
+					amount = 25
+					state = 117
+				}
+				add_resource = {
+					type = oil
+					amount = 25
+					state = 292
+				}
+				add_resource = {
+					type = oil
+					amount = 5
+					state = 398
+				}
+				add_resource = {
+					type = oil
+					amount = 10
+					state = 219
+				}
+				add_resource = {
+					type = oil
+					amount = 15
+					state = 171
+				}
+			}
+		}
+	}
+	
+	ghabati_rubber = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+			is_in_faction_with = BRA
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		remove_effect = {
+			hidden_effect = {
+				add_resource = {
+					type = rubber
+					amount = 15
+					state = 244
+				}
+				add_resource = {
+					type = rubber
+					amount = 15
+					state = 261
+				}
+				add_resource = {
+					type = rubber
+					amount = 25
+					state = 784
+				}
+				add_resource = {
+					type = rubber
+					amount = 25
+					state = 781
+				}
+				add_resource = {
+					type = rubber
+					amount = 15
+					state = 759
+				}
+			}
+		}
+	}
+}

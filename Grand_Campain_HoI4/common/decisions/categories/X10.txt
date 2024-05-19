@@ -21,3 +21,11 @@ X10_major_investment_category = {
 		has_country_flag = ASH_dir_inv
 	}
 }
+
+X10_prospecting_category = {
+	icon = GFX_decision_category_generic_prospect_for_resources
+	visible = {
+		tag = X10
+		has_country_flag = ash_digging
+	}
+}
