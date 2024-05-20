@@ -2633,7 +2633,381 @@ X10_investment_category = {
 }
 
 X10_major_investment_category = {
-
+	ghabat_industry_1 = {
+		cost = 35
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		modifier = {
+			civilian_factory_use = 10
+		}
+		days_remove = 60
+		remove_effect = {
+			219 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			117 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			292 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+				set_country_flag = gha_build_1
+			}
+		}
+	}
+	
+	ghabat_industry_2 = {
+		cost = 35
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+			has_country_flag = gha_build_1
+		}
+		ai_will_do = {
+			base = 100
+		}
+		modifier = {
+			civilian_factory_use = 10
+		}
+		days_remove = 60
+		remove_effect = {
+			592 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			568 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			356 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+				set_country_flag = gha_build_2
+			}
+		}
+	}
+	
+	ghabat_industry_3 = {
+		cost = 35
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+			has_country_flag = gha_build_2
+		}
+		ai_will_do = {
+			base = 100
+		}
+		modifier = {
+			civilian_factory_use = 10
+		}
+		days_remove = 60
+		remove_effect = {
+			259 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			261 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			680 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	chinese_investment = {
+		cost = 100
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			tag = X10
+		}
+		available = {
+			tag = X10
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 200
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			327 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			438 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			581 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			320 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			357 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			375 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			39 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			155 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			430 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			413 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			26 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			71 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			409 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			302 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			115 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			655 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+				every_country = {
+					limit = {
+						OR = {
+							tag = X82
+							tag = X78
+							tag = V13
+							tag = SHA
+							tag = W16
+							tag = AHU
+							tag = SHX
+							tag = X41
+							tag = HNA
+							tag = W28
+							tag = X65
+							tag = FRS
+							tag = YUE
+							tag = GUI
+							tag = KHN
+						}
+					}
+					add_opinion_modifier = {
+						target = X10
+						modifier = SOV_supported_china_good
+					}
+				}
+			}
+		}
+	}
 }
 
 X10_prospecting_category = {

@@ -185,6 +185,16 @@
  pacific_dig_desc: "Let us dig for more resoruces in the Pacific"
  ghabati_oil_desc: "Let us invest in Ghabati Oil Production"
  ghabati_rubber_desc: "Let us invest in Ghabati Rubber Production"
+ ghabat_industry_1: "Ghabati Industrial Investment"
+ ghabat_industry_2: "Further Ghabati Industrial Investment"
+ ghabat_industry_3: "Even Further Ghabati Industrial Investment"
+ ghabat_industry_1_desc: "The Ghabati Industral base is lacking, let us build stuff in their lands for them."
+ ghabat_industry_2_desc: "The first stage went well, we now need to establsh industry elsewhere in their land."
+ ghabat_industry_3_desc: "One more boost of industry is what they need."
+ gha_build_1: "Has Finished Stage 1"
+ gha_build_2: "Has Finished Stage 2"
+ chinese_investment: "Chinese Investment"
+ chinese_investment_Desc: "China has long suffered economically, it is time we invested in them"
  
  
  annex_mong_nah: "Annex Mong Nah"
