@@ -1,0 +1,401 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+X10_infantry_org = {
+    include = generic_infantry_tank_organization
+    icon = GFX_idea_generic_tank_manufacturer_1
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    } 
+}
+
+X10_refurb_org = {
+    include = generic_tank_refurbishment_plant_organization
+    icon = GFX_idea_generic_tank_manufacturer_3
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    } 
+}
+
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+X10_refurb_org = {
+	include = generic_refurbishment_repair_organization
+	icon = GFX_idea_generic_naval_manufacturer_2
+
+	allowed = { 
+        original_tag = X10
+    	} 
+
+	equipment_type = {
+		mio_cat_eq_all_battleship
+		mio_cat_eq_all_cruiser
+	}
+	research_categories = {
+		mio_cat_tech_all_capital_ship_and_modules
+		mio_cat_tech_all_cruiser_and_modules
+	}
+
+	tree_header_text = {
+		text = mio_header_protection
+		x = 3
+	}
+
+	tree_header_text = {
+		text = mio_header_weapons
+		x = 8
+	}
+
+
+	initial_trait = {
+		name = generic_mio_refurbishment_repair_organization
+		limit_to_equipment_type = { capital_ship screen_ship ship_hull_submarine }
+		equipment_bonus = {
+			max_strength = 0.03
+		}
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.01
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_heavy_armored_hull
+		name = generic_mio_trait_heavy_armored_hull
+		icon = GFX_generic_mio_trait_icon_armor_value
+
+		position = { x=1 y=0 }
+		
+		equipment_bonus = {
+			armor_value = 0.03
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_isolated_firemains
+		name = generic_mio_trait_isolated_firemains
+		icon = GFX_generic_mio_trait_icon_naval_torpedo_damage_reduction_factor
+
+		position = { x=-1 y=2 }
+		relative_position_id = generic_mio_trait_heavy_armored_hull
+		
+		all_parents = { generic_mio_trait_heavy_armored_hull }
+		
+		equipment_bonus = {
+			naval_torpedo_damage_reduction_factor = 0.03
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_counter_flooding_system
+		name = generic_mio_trait_counter_flooding_system
+		icon = GFX_generic_mio_trait_icon_naval_torpedo_hit_chance_factor
+
+		position = { x=3 y=0 }
+		relative_position_id = generic_mio_trait_isolated_firemains
+		
+		all_parents = { generic_mio_trait_heavy_armored_hull }
+		
+		equipment_bonus = {
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_anti_torpedo_bulge
+		name = generic_mio_trait_anti_torpedo_bulge
+		icon = GFX_generic_mio_trait_icon_naval_torpedo_damage_reduction_factor
+
+		position = { x=1 y=2 }
+		relative_position_id = generic_mio_trait_isolated_firemains
+
+		all_parents = { generic_mio_trait_counter_flooding_system generic_mio_trait_isolated_firemains generic_mio_trait_high_powered_steering }
+		
+		equipment_bonus = {
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.08
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_foam_fire_extinguishers
+		name = generic_mio_trait_foam_fire_extinguishers
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=5 y=0 }
+		relative_position_id = generic_mio_trait_heavy_armored_hull
+		
+		equipment_bonus = {
+			reliability = 0.03
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_bulkhead_shoring_procedure
+		name = generic_mio_trait_bulkhead_shoring_procedure
+		icon = GFX_generic_mio_department_icon_ship_capital_screen_armor
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_foam_fire_extinguishers
+		
+		all_parents = { generic_mio_trait_foam_fire_extinguishers }
+		
+		equipment_bonus = {
+			reliability = 0.01
+			armor_value = 0.02
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_high_powered_steering
+		name = generic_mio_trait_high_powered_steering
+		icon = GFX_generic_mio_department_icon_ship_capital_screen_armor
+
+		position = { x=-1 y=1 }
+		relative_position_id = generic_mio_trait_bulkhead_shoring_procedure
+		
+		all_parents = { generic_mio_trait_bulkhead_shoring_procedure }
+		
+		equipment_bonus = {
+			reliability = 0.01
+			armor_value = 0.02
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_flooding_boundries
+		name = generic_mio_trait_flooding_boundries
+		icon = GFX_generic_mio_trait_icon_max_strength
+
+		position = { x=1 y=0 }
+		relative_position_id = generic_mio_trait_high_powered_steering
+		
+		all_parents = { generic_mio_trait_bulkhead_shoring_procedure }
+		
+		equipment_bonus = {
+			max_strength = 0.03
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_protected_pumps
+		name = generic_mio_trait_protected_pumps
+		icon = GFX_generic_mio_trait_icon_max_strength
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_flooding_boundries
+		
+		all_parents = { generic_mio_trait_flooding_boundries }
+		
+		equipment_bonus = {
+			max_strength = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_advanced_scanners
+		name = generic_mio_trait_advanced_scanners
+		icon = GFX_generic_mio_trait_icon_detection
+
+		position = { x=1 y=1 }
+		relative_position_id = generic_mio_trait_foam_fire_extinguishers
+		
+		all_parents = { generic_mio_trait_foam_fire_extinguishers }
+		
+		equipment_bonus = {
+			sub_detection = 0.05
+			surface_detection = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_high_velocity_guns
+		name = generic_mio_trait_high_velocity_guns
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_weapons
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_advanced_scanners
+
+		all_parents = { generic_mio_trait_advanced_scanners }
+		
+		limit_to_equipment_type = { capital_ship }
+
+		equipment_bonus = {
+			hg_armor_piercing = 0.03
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_capital_destroyer_shells
+		name = generic_mio_trait_capital_destroyer_shells
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_weapons		
+
+		position = { x=0 y=2 }
+		relative_position_id = generic_mio_trait_high_velocity_guns
+		
+		all_parents = { generic_mio_trait_high_velocity_guns }
+		
+		mutually_exclusive = { generic_mio_trait_deck_guns generic_mio_trait_naval_all_purpose_defense_systems }
+
+		limit_to_equipment_type = { capital_ship }
+		
+		equipment_bonus = {
+			hg_armor_piercing = 0.05
+			hg_attack = 0.1
+			naval_range = -0.15
+			maximum_speed = -0.08
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_deck_guns
+		name = generic_mio_trait_deck_guns
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+
+		position = { x=1 y=0 }
+		relative_position_id = generic_mio_trait_capital_destroyer_shells
+		
+		all_parents = { generic_mio_trait_high_velocity_guns }
+		
+		mutually_exclusive = { generic_mio_trait_capital_destroyer_shells generic_mio_trait_naval_all_purpose_defense_systems }
+
+		equipment_bonus = {
+			anti_air_attack = 0.06
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_naval_all_purpose_defense_systems
+		name = generic_mio_trait_naval_all_purpose_defense_systems
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_armor
+
+		position = { x=1 y=0 }
+		relative_position_id = generic_mio_trait_deck_guns
+		
+		all_parents = { generic_mio_trait_high_velocity_guns }
+		
+		mutually_exclusive = { generic_mio_trait_capital_destroyer_shells generic_mio_trait_deck_guns }
+
+		limit_to_equipment_type = { capital_ship }
+
+		equipment_bonus = {
+			anti_air_attack = 0.03
+			armor_value = 0.03
+			lg_attack = 0.03
+			naval_range = -0.05
+			maximum_speed = -0.04
+		}
+	}
+}
+
+X10_raid_org = {
+    include = generic_raider_ship_organization
+    icon = GFX_idea_generic_naval_manufacturer_1
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    }
+}
+
+X10_snubarine_org = {
+    include = generic_submarine_organization
+    icon = GFX_idea_generic_naval_manufacturer_3
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    }
+}
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+X10_fast_plane_org = {
+    include = generic_range_focused_aircraft_organization
+    icon = GFX_idea_generic_air_manufacturer_3
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    } 
+}
+
+X10_long_plane_org = {
+    include = generic_high_agility_fighter_aircraft_organization
+    icon = GFX_idea_generic_air_manufacturer_2
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    } 
+}
+
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+X10_cannon = {
+    include = generic_artillery_organization
+    icon = GFX_idea_generic_artillery_manufacturer_2
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    } 
+}
+
+X10_support_org = {
+    include = generic_support_equipment_organization
+    icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    } 
+}
+
+X10_armourcar_org = {
+    include = generic_armored_car_organization
+    icon = GFX_idea_generic_tank_manufacturer_1
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    } 
+}
+
+X10_motorpool_org = {
+    include = generic_motorized_mechanized_organization
+    icon = GFX_idea_generic_motorized_equipment_manufacturer_3
+    allowed = { 
+        tag = X10
+        has_dlc = "Arms Against Tyranny"
+    } 
+}
