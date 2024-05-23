@@ -1,0 +1,110 @@
+division_template = {
+	name = "División Carrodesant"
+	division_names_group = Imperial_Guard_Muraa
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		armored_car = { x = 1 y = 3 }
+
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Brigada Costera"
+	division_names_group = CS_Volk
+	priority = 0
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		
+		armored_car = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "División de Guardianes de la Montaña"
+	division_names_group = Summit_Division_Muraa
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Cuerpo de Avance"
+	division_names_group = Imperial_Guard_Muraa
+	regiments = {
+		Infantry = { x = 0 y = 0 }
+		Infantry = { x = 0 y = 1 }
+		Infantry = { x = 0 y = 2 }
+		Infantry = { x = 0 y = 3 }
+
+		Infantry = { x = 1 y = 0 }
+		Infantry = { x = 1 y = 1 }
+		Infantry = { x = 1 y = 2 }
+		Infantry = { x = 1 y = 3 }
+
+		Infantry = { x = 2 y = 0 }
+		Infantry = { x = 2 y = 1 }
+		Infantry = { x = 2 y = 2 }
+		Infantry = { x = 2 y = 3 }
+		
+		heavy_armor = { x = 3 y = 0 }
+		heavy_armor = { x = 3 y = 1 }
+
+		medium_sp_artillery_brigade = { x = 4 y = 0 }
+		medium_sp_artillery_brigade = { x = 4 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "División Fronterizos"
+	division_names_group = Summit_Division_Muraa
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+
+		light_armor = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
