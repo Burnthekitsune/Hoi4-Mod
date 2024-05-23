@@ -1,6 +1,6 @@
 division_template = {
 	name = "División Carrodesant"
-	division_names_group = Imperial_Guard_Muraa
+	division_names_group = Motor_Inf_Spain
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -23,7 +23,7 @@ division_template = {
 
 division_template = {
 	name = "Brigada Costera"
-	division_names_group = CS_Volk
+	division_names_group = Inf_Coast_Spain
 	priority = 0
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -39,7 +39,7 @@ division_template = {
 
 division_template = {
 	name = "División de Guardianes de la Montaña"
-	division_names_group = Summit_Division_Muraa
+	division_names_group = Spain_Mountaineers
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
@@ -57,7 +57,7 @@ division_template = {
 
 division_template = {
 	name = "Cuerpo de Avance"
-	division_names_group = Imperial_Guard_Muraa
+	division_names_group = Spain_Shock_Corps
 	regiments = {
 		Infantry = { x = 0 y = 0 }
 		Infantry = { x = 0 y = 1 }
@@ -89,7 +89,7 @@ division_template = {
 
 division_template = {
 	name = "División Fronterizos"
-	division_names_group = Summit_Division_Muraa
+	division_names_group = Frontier_Spain
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }

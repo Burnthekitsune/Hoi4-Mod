@@ -41,6 +41,7 @@ Naval_Infantry_Muraa =
 	can_use = { always = yes }
 	division_types = { "infantry" "marine" }
 	fallback_name = "%d. Thalassio Pezikou"
+	link_numbering_with = { Imperial_Guard_Muraa }
 		
 	ordered =
 		{
@@ -57,6 +58,7 @@ Special_Navy_Muraa =
 	can_use = { always = yes }
 	division_types = { "marine" }
 	fallback_name = "%d. Eidiko Thalassio Tritos"
+	link_numbering_with = { Imperial_Guard_Muraa }
 		
 	ordered =
 		{
@@ -74,6 +76,7 @@ Cavalry_Division_Muraa =
 	can_use = { always = yes }
 	division_types = { "cavalry" }
 	fallback_name = "%d. Stratos Dragoumanon"
+	link_numbering_with = { Imperial_Guard_Muraa }
 		
 	ordered =
 		{
@@ -91,6 +94,7 @@ Mixed_Division_Muraa =
 	can_use = { always = yes }
 	division_types = { "mechanized" "motorized" "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 	fallback_name = "%d. Taxiarchia Syndyasmeni"
+	link_numbering_with = { Imperial_Guard_Muraa }
 		
 	ordered =
 		{
@@ -107,6 +111,7 @@ Summit_Division_Muraa =
 	can_use = { always = yes }
 	division_types = { "mountaineers" }
 	fallback_name = "%d. Merarchia Koryfi Pezikou"
+	link_numbering_with = { Imperial_Guard_Muraa }
 		
 	ordered =
 		{
@@ -121,6 +126,7 @@ Plane_Division_Muraa =
 	can_use = { always = yes }
 	division_types = { "paratrooper" }
 	fallback_name = "%d. Merarchia Aeroplanodesant"
+	link_numbering_with = { Imperial_Guard_Muraa }
 		
 	ordered =
 		{

@@ -1,0 +1,48 @@
+﻿Motor_Inf_Spain =
+{
+	name = "Motorized Division"
+	for_countries = { X10 }
+	can_use = { always = yes }
+	division_types = { "mechanized" "motorized" "light_armor" "medium_armor" "heavy_armor" "modern_armor" "armored_car" }
+	fallback_name = "%s División Carrodesant"
+}
+
+Inf_Coast_Spain =
+{
+	name = "Coastal Militia"
+	for_countries = { X10 }
+	can_use = { always = yes }
+	division_types = { "infantry" "marine" }
+	fallback_name = "%s Brigada Costera"
+	link_numbering_with = { Motor_Inf_Spain }
+}
+
+Spain_Mountaineers =
+{
+	name = "División de Guardianes de la Montaña"
+	for_countries = { X10 }
+	can_use = { always = yes }
+	division_types = { "mountaineers" "infantry" }
+	fallback_name = "%s División de Guardianes de la Montaña"
+	link_numbering_with = { Motor_Inf_Spain }
+}
+
+Spain_Shock_Corps =
+{
+	name = "Assault Corps"
+	for_countries = { X10 }
+	can_use = { always = yes }
+	division_types = { "infantry" "mechanized" "motorized" "heavy_armor" "modern_armor" }
+	fallback_name = "%s Cuerpo de Avance"
+	link_numbering_with = { Motor_Inf_Spain }
+}
+
+Frontier_Spain =
+{
+	name = "Frontier Division"
+	for_countries = { X10 }
+	can_use = { always = yes }
+	division_types = { "infantry" "motorized" "modern_armor" "light_armor" "armored_car" }
+	fallback_name = "%s División Fronterizos"
+	link_numbering_with = { Motor_Inf_Spain }
+}
