@@ -119,11 +119,8 @@ if = {
 	set_technology = {
 		aa_lmg = 1
 		aircraft_construction = 1
-		basic_medium_airframe = 1
-		basic_small_airframe = 1
 		early_bombs = 1
 		engines_1 = 1
-		engines_2 = 1
 		iw_large_airframe = 1
 		iw_medium_airframe = 1
 		iw_small_airframe = 1
@@ -142,7 +139,6 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_cruiser_armor_scheme = 1
-		basic_depth_charges = 1
 		basic_heavy_armor_scheme = 1
 		basic_heavy_battery = 1
 		basic_light_battery = 1
@@ -156,11 +152,9 @@ if = {
 		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1
-		improved_airplane_launcher = 1
 		mtg_transport = 1
 		smoke_generator = 1
 		sonar = 1
-		submarine_mine_laying = 1
 	}
 }
 
@@ -169,9 +163,7 @@ if = {
 	set_technology = {
 		basic_heavy_tank_chassis = 1
 		basic_light_tank_chassis = 1
-		basic_medium_tank_chassis = 1
 		gwtank_chassis = 1
-		improved_light_tank_chassis = 1
 	}
 }
 
