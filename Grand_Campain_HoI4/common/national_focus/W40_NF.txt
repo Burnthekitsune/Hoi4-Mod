@@ -838,6 +838,18 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			every_country = {
+				limit = {
+					is_ai = no
+					NOT = {
+						tag = W40
+					}
+				}
+				country_event = W40_events.1
+			}
+		}
 	}
 	focus = {
 		id = Connecting_the_Railways
@@ -850,6 +862,57 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				fallback = yes
+				start_province = 13255
+				target_province = 3988
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				fallback = yes
+				start_province = 13255
+				target_province = 9833
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				fallback = yes
+				start_province = 3988
+				target_province = 9833
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				fallback = yes
+				start_province = 9833
+				target_province = 9324 #Murom?
+			}
+			105 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			113 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			187 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = End_the_Special_Category
@@ -862,6 +925,20 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = # I Don't know the full list of Fairas States, put their IDs here
+					}
+				}
+				remove_dynamic_modifier = { modifier = autonomous_state }
+			}
+			add_timed_idea = {
+				idea = W40_privileges_removed
+				days = 720
+			}
+		}
 	}
 	focus = {
 		id = Industrialize_the_Periphery
@@ -874,6 +951,80 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					OR = {
+						state = # I Don't know the full list of Fairas States, put their IDs here
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					OR = {
+						state = # I Don't know the full list of Fairas States, put their IDs here
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					OR = {
+						state = # I Don't know the full list of Fairas States, put their IDs here
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					OR = {
+						state = # I Don't know the full list of Fairas States, put their IDs here
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Suzerainty_of_Fairas
@@ -888,6 +1039,35 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = Industrialize_the_Periphery
+					has_completed_focus = Association_of_Loyal_Imperial_Citizens_of_the_South
+					# I am guessing based on the titles what is absolutist
+				}
+				add_country_leader_trait = sha_of_fairas
+			}
+			else = {
+				add_country_leader_trait = mountain_warlord
+			}
+			187 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			105 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Divide_and_Conquer
@@ -901,6 +1081,14 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_ideas = W40_greco_fairas_regionalism
+			add_ideas = {
+				W40_greek_irredentism
+				W40_fairas_opposition
+			}
+			army_experience = 20
+		}
 	}
 	focus = {
 		id = Ban_Greek_Nationalist_Organizations
@@ -913,6 +1101,13 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_ideas = W40_greek_irredentism
+			add_timed_idea = {
+				idea = W40_outrage_in_greece
+				days = 360
+			}
+		}
 	}
 	focus = {
 		id = Placate_the_Epirotes
@@ -925,6 +1120,13 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_ideas = W40_fairas_opposition
+			add_timed_idea = {
+				idea = W40_epirote_compromise
+				days = 360
+			}
+		}
 	}
 	focus = {
 		id = Association_of_Loyal_Imperial_Citizens_of_the_South
@@ -939,6 +1141,26 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			# Left blank for adding characters
+			# No clue what ALIC desiners are
+			187 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			105 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Pardon_the_Defectors
@@ -952,6 +1174,10 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			# IDK your characters
+			add_war_support = 0.05
+		}
 	}
 	focus = {
 		id = The_Olive_Branch
@@ -965,6 +1191,13 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_ideas = W40_greco_fairas_regionalism
+			add_timed_idea = {
+				idea = W40_epirote_compromise
+				days = 720
+			}
+		}
 	}
 	focus = {
 		id = Amnesty_for_Southern_Bandits
@@ -977,6 +1210,10 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			# Character stuff again
+			add_manpower = 10000
+		}
 	}
 	focus = {
 		id = Goodwill_Mission
@@ -990,6 +1227,10 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 200
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = United_in_Fear
@@ -1003,6 +1244,33 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_war_support = 0.05
+			army_experience = 10
+			navy_experience = 10
+			air_experience = 10
+			105 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			187 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			113 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Positive_Regionalism
@@ -1016,6 +1284,12 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = W40_positive_regionalism
+			add_political_power = 100
+			# Characters 
+			# High command
+		}
 	}
 	focus = {
 		id = Devolution
@@ -1028,5 +1302,20 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = # I Don't know the full list of Fairas States, put their IDs here
+					}
+				}
+				remove_dynamic_modifier = { modifier = autonomous_state }
+			}
+			swap_ideas = {
+				remove_idea = W40_positive_regionalism
+				add_idea = W40_positive_regionalism_2
+			}
+			# create_unit = # IDK how to make the unit you exactly want
+		}
 	}
 }

@@ -10641,7 +10641,7 @@ JUNO_emergency_powers = {
 		}
 	}
 	
-surveyor = { 
+	surveyor = { 
 		sprite = 5
 		army_speed_factor = 0.1
 		initiative_factor = 0.08
@@ -10671,5 +10671,15 @@ surveyor = {
 	defensive_advisors = {
 		max_dig_in = 5
 		dig_in_speed_factor = 0.25
+	}
+	
+	sha_of_fairas = {
+		random = no
+		
+	}
+	
+	mountain_warlord = {
+		random = no
+		
 	}
 }

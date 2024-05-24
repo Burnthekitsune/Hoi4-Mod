@@ -1,0 +1,161 @@
+ideas = {
+	country = {
+		W40_greco_fairas_regionalism = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		
+		W40_privileges_removed = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		
+		W40_greek_irredentism = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		
+		W40_outrage_in_greece = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.025
+			}
+		}
+		
+		W40_fairas_opposition = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.05
+			}
+		}
+		
+		W40_epirote_compromise = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.025
+			}
+		}
+		
+		W40_southern_deadlock = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		
+		W40_positive_regionalism = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				recruitable_population_factor = 0.02
+			}
+		}
+		
+		W40_positive_regionalism_2 = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				recruitable_population_factor = 0.02
+				consumer_goods_factor = -0.01
+				army_core_defence_factor = 0.05
+			}
+		}
+	}
+}
