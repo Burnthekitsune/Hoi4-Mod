@@ -7,6 +7,7 @@ random_decisions = {
 			tag = V23
 			tag = W88
 			tag = W30
+			tag = X19
 		}
 	}
 }

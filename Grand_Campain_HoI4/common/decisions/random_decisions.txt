@@ -195,5 +195,89 @@ random_decisions = {
 		}
 	}
 	
+	end_neutrality_bur = {
+		cost = 0
+		fire_only_once = yes
+		allowed = {
+			tag = X19
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				has_country_flag = ended_neutrality
+			}
+		}
+		available = {
+			has_defensive_war = yes
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_country_flag = ended_neutrality
+			set_rule = {
+				can_join_factions = yes
+				can_not_declare_war = no
+			}
+			X10 = {
+				add_to_faction = X19
+			}
+		}
+	}
+	
+	global_threat_to_communism = {
+		cost = 0
+		fire_only_once = yes
+		allowed = {
+			tag = X19
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			NOT = {
+				has_country_flag = ended_neutrality
+			}
+		}
+		available = {
+			OR = {
+				144 = {
+					is_controlled_by = V27
+				}
+				104 = {
+					is_controlled_by = V27
+				}
+				197 = {
+					is_controlled_by = V27
+				}
+				161 = {
+					is_controlled_by = V27
+				}
+				7 = {
+					is_controlled_by = V27
+				}
+				205 = {
+					is_controlled_by = V27
+				}
+				63 = {
+					is_controlled_by = V27
+				}
+				215 = {
+					is_controlled_by = V27
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_country_flag = ended_neutrality
+			set_rule = {
+				can_join_factions = yes
+				can_not_declare_war = no
+			}
+			X10 = {
+				add_to_faction = X19
+			}
+		}
+	}
 	
 }

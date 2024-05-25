@@ -31,6 +31,11 @@ set_popularities = {
 	neutrality = 2
 }
 
+set_rule = {
+	can_not_declare_war = yes
+	can_join_factions = no
+}
+
 add_ideas = {
 	civilian_economy
 	export_focus
