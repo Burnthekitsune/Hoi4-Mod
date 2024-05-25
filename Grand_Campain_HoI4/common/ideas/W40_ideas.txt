@@ -390,5 +390,172 @@ ideas = {
 				# Idea cut off
 			}
 		}
+		
+		W40_rocketry_pioneers = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				# Unsure how to give bonus to 1 tech type in modifier
+				experience_gain_rocket_artillery_training_factor = 0.1
+			}
+		}
+		
+		W40_gas_leak_disaster = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.2
+			}
+		}
+		
+		W40_corruption_scandal = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		
+		W40_grand_army_of_muraa = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.2
+			}
+		}
+		
+		W40_grand_army_of_muraa_deluge = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.2
+				recruitable_population = 0.01
+				recruitable_population_factor = 0.1
+			}
+		}
+		
+		W40_grand_army_of_muraa_deluge_blue = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.2
+				recruitable_population = 0.01
+				recruitable_population_factor = 0.1
+				breakthrough_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+		
+		W40_grand_army_of_muraa_1650 = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.2
+				army_defence_factor = 0.1
+				# Idea cut off
+			}
+		}
+		
+		W40_grand_army_of_muraa_1650_blue = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.2
+				army_defence_factor = 0.1
+				# Idea cut off
+				breakthrough_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+		
+		W40_revised_budget = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+			}
+		}
 	}
 }

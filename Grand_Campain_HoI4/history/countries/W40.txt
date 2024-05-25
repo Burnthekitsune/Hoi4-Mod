@@ -34,6 +34,8 @@ add_ideas = {
 	W40_greco_fairas_regionalism
 	W40_labour_agitation
 	W40_bimetalic_sukhe
+	W40_rocketry_pioneers
+	W40_gas_leak_disaster
 }
 set_stability = 0.5
 set_war_support = 0.10

@@ -585,6 +585,24 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 1
+				category = # Small Arms
+			}
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 1
+				category = support_tech
+			}
+		}
 	}
 	focus = {
 		id = Greasing_the_Wheels_of_Industry
@@ -597,6 +615,33 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_timed_idea = {
+				idea = W40_corruption_scandal
+				days = 180
+			}
+		}
 	}
 	focus = {
 		id = Student_Visa_Scheme
@@ -609,6 +654,13 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			set_rule = {
+				can_send_volunteers = yes
+			}
+			# Unsure how to remove world tension block on volunteers
+			# Unsure how to spawn units
+		}
 	}
 	focus = {
 		id = Breaking_the_Cartel
@@ -621,6 +673,39 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			# Just picked 4 states around the black sea
+			17 = {
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+			}
+			192 = {
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+			}
+			162 = {
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+			}
+			198 = {
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+			}
+			# Removing black sea cartel thing
+			# Enabling Bureau of the army
+		}
 	}
 	focus = {
 		id = Shutter_Gas_Facilities
@@ -633,6 +718,9 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_ideas = W40_gas_leak_disaster
+		}
 	}
 	focus = {
 		id = Army_Manouvers
@@ -645,6 +733,23 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 2
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				technology = tech_recon
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = tech_logistics_company
+			}
+		}
 	}
 	focus = {
 		id = Fortify_the_Capitals
@@ -657,6 +762,24 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			5 = {
+				add_building_construction = {
+					type = bunker
+					province = 372
+					level = 8
+					instant_build = yes
+				}
+			}
+			105 = {
+				add_building_construction = {
+					type = bunker
+					province = 13255
+					level = 8
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Grand_Army_of_the_Empire
@@ -669,6 +792,9 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = W40_grand_army_of_muraa
+		}
 	}
 	focus = {
 		id = Doctrine_of_the_Deluge
@@ -682,6 +808,12 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = W40_grand_army_of_muraa
+				add_idea = W40_grand_army_of_muraa_deluge
+			}
+		}
 	}
 	focus = {
 		id = Doctrine_of_1650
@@ -695,6 +827,12 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = W40_grand_army_of_muraa
+				add_idea = W40_grand_army_of_muraa_1650
+			}
+		}
 	}
 	focus = {
 		id = The_Blue_Army
@@ -707,6 +845,23 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = Doctrine_of_1650
+				}
+				swap_ideas = {
+					remove_idea = W40_grand_army_of_muraa_1650
+					add_idea = W40_grand_army_of_muraa_1650_blue
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = W40_grand_army_of_muraa_deluge
+					add_idea = W40_grand_army_of_muraa_deluge_blue
+				}
+			}
+		}
 	}
 	focus = {
 		id = Vastness_of_Muraa
@@ -719,6 +874,44 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			air_experience = 10
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = The_Army_Fleet
@@ -732,6 +925,9 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			# Unit Spawns
+		}
 	}
 	focus = {
 		id = Army_Air_Service
@@ -744,6 +940,15 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			air_experience = 10
+			army_experience = 10
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 1
+				category = light_air
+			}
+		}
 	}
 	focus = {
 		id = Budget_Review
@@ -756,6 +961,26 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_timed_idea = {
+				idea = W40_revised_budget
+				days = 140
+			}
+		}
 	}
 	focus = {
 		id = The_Ten_Ten_Plan
