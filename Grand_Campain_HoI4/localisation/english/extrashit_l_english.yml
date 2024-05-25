@@ -184,6 +184,11 @@
  W40_events.1.t: "A Defector Approaches Us"
  W40_events.1.d: "TODO"
  W40_events.1.a: "FooBar"
+ sha_of_fairas: "Sha of Fairas"
+ mountain_warlord: "Mountain Warlord"
+ secluded_autocrat: "Secluded Autocrat"
+ weary_reformer: "Weary Reformer"
+ beloved_miat: "Beloved Miat"
  # Alshamali Content
  X10_refurb_org:0 "Qutamid Sayaarat"
  X10_cannon:0 "Annecy Forgeworks"
@@ -236,5 +241,3 @@
  X10_mechanized_equipment_3_short:0 "Transporteblindado"
  Carro Blindado Pesado:0 "Carro Blindado Pesado" # Heavy Armoured Car
  Carro Ciempiés:0 "Carro Ciempiés" # Centipede Car
- sha_of_fairas: "Sha of Fairas"
- mountain_warlord: "Mountain Warlord"

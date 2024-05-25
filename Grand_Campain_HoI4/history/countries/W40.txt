@@ -32,6 +32,8 @@ add_ideas = {
 	free_trade
 	disarmed_nation
 	W40_greco_fairas_regionalism
+	W40_labour_agitation
+	W40_bimetalic_sukhe
 }
 set_stability = 0.5
 set_war_support = 0.10

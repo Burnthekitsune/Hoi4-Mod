@@ -217,6 +217,30 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				fallback = yes
+				start_province = 9833
+				target_province = 9324 #Murom?
+			}
+			8 = { # Murmon State?
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			113 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			### IDK what cities count as in heavy bomber range
+		}
 	}
 	focus = {
 		id = Tour_the_Empire
@@ -228,6 +252,10 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 200
+			swap_ruler_traits = { remove = secluded_autocrat add = weary_reformer } 
+		}
 	}
 	focus = {
 		id = Organize_the_Labour_Board
@@ -239,6 +267,14 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
 	}
 	focus = {
 		id = Standardization
@@ -250,6 +286,18 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 2
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		}
 	}
 	focus = {
 		id = Primary_Agreement
@@ -261,6 +309,12 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = W40_labour_agitation
+				add_idea = W40_Land_of_a_Myriad_Unions
+			}
+		}
 	}
 	focus = {
 		id = Spring_the_Trap
@@ -272,6 +326,12 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = W40_Land_of_a_Myriad_Unions
+				add_idea = W40_imperial_labour_organization
+			}
+		}
 	}
 	focus = {
 		id = A_New_Dawn
@@ -285,6 +345,10 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 100
+			swap_ruler_traits = { remove = weary_reformer add = beloved_miat } 
+		}
 	}
 	focus = {
 		id = Bureau_of_Public_Awareness
@@ -296,6 +360,9 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			# Propagana Unlock Goes Here
+		}
 	}
 	focus = {
 		id = Propaganda_on_Parade
@@ -307,6 +374,11 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = industrial_complex level = 3 }
+			add_ideas = W40_this_man_is_your_friend
+		}
 	}
 	focus = {
 		id = Abolish_the_Bimetallic_Sukhe
@@ -318,6 +390,13 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_ideas = W40_bimetalic_sukhe
+			add_timed_idea = {
+				idea = W40_abandoning_the_bimetalic_standard
+				days = 360
+			}
+		}
 	}
 	focus = {
 		id = Gold_Sukhe
@@ -330,6 +409,12 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_timed_idea = {
+				idea = W40_gold_sukhe
+				days = 360
+			}
+		}
 	}
 	focus = {
 		id = Devalue_the_Sukhe
@@ -341,6 +426,9 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = W40_competetive_sukhe
+		}
 	}
 	focus = {
 		id = Expand_the_Arsenals
@@ -352,6 +440,37 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = National_Champions
+				}
+				swap_ideas = {
+					remove_idea = W40_market_dynamism_3
+					add_idea = W40_market_dynamism_4
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = W40_market_dynamism
+					add_idea = W40_market_dynamism_2
+				}
+			}
+		}
 	}
 	focus = {
 		id = Silver_Sukhe
@@ -364,6 +483,12 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_timed_idea = {
+				idea = W40_silver_sukhe
+				days = 360
+			}
+		}
 	}
 	focus = {
 		id = Higher_Education_Reform
@@ -375,6 +500,10 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_research_slot = 1
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = Market_Guarantees
@@ -386,6 +515,9 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = W40_market_dynamism
+		}
 	}
 	focus = {
 		id = National_Champions
@@ -397,6 +529,51 @@ focus_tree = {
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = Expand_the_Arsenals
+				}
+				swap_ideas = {
+					remove_idea = W40_market_dynamism_2
+					add_idea = W40_market_dynamism_4
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = W40_market_dynamism
+					add_idea = W40_market_dynamism_3
+				}
+			}
+		}
 	}
 	focus = {
 		id = Reinvigorate_the_Army

@@ -10682,4 +10682,25 @@ JUNO_emergency_powers = {
 		random = no
 		
 	}
+	
+	secluded_autocrat = {
+		random = no
+		war_support_factor = -0.1
+		unaligned_drift = -0.03
+	}
+	
+	weary_reformer = {
+		random = no
+		stability_factor = 0.05
+		unaligned_drift = 0.01
+		consumer_goods_factor = 0.02
+	}
+	
+	beloved_miat = {
+		random = no
+		
+		war_support_factor = -.05
+		stability_factor = 0.1
+		unaligned_drift = 0.05
+	}
 }

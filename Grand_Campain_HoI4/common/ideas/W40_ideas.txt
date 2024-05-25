@@ -157,5 +157,238 @@ ideas = {
 				army_core_defence_factor = 0.05
 			}
 		}
+		
+		W40_labour_agitation = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				communism_drift = 0.05
+			}
+		}
+		
+		W40_Land_of_a_Myriad_Unions = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				communism_drift = 0.03
+				consumer_goods_factor = 0.03
+				# Cut off idea modifier
+			}
+		}
+		
+		W40_imperial_labour_organization = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				communism_drift = 0.01
+				consumer_goods_factor = 0.01
+			}
+		}
+		
+		W40_bimetalic_sukhe = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				consumer_goods_factor = 0.05
+				democratic_drift = 0.03
+			}
+		}
+		
+		W40_abandoning_the_bimetalic_standard = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		W40_gold_sukhe = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+			}
+		}
+		
+		W40_silver_sukhe = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		W40_competetive_sukhe = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		W40_this_man_is_your_friend = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.5 # My guess based on this being the only one
+			}
+		}
+		
+		W40_market_dynamism = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				# Idea cut off 
+			}
+		}
+		
+		W40_market_dynamism_2 = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				# Idea cut off
+			}
+		}
+		
+		W40_market_dynamism_3 = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				# Idea cut off
+			}
+		}
+		
+		W40_market_dynamism_4 = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				# Idea cut off
+			}
+		}
 	}
 }
