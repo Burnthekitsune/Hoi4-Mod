@@ -557,5 +557,78 @@ ideas = {
 				consumer_goods_factor = 0.03
 			}
 		}
+		
+		W40_rocketry_pioneers_2 = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				# Unsure how to give bonus to 1 tech type in modifier
+				experience_gain_rocket_artillery_training_factor = 0.1
+				navy_anti_air_attack_factor = 0.03
+			}
+		}
+		
+		W40_rocketry_pioneers_3 = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				# Unsure how to give bonus to 1 tech type in modifier
+				experience_gain_rocket_artillery_training_factor = 0.1
+				navy_anti_air_attack_factor = 0.03
+				# Unsure how to give naval CAS bonuses
+			}
+		}
+		
+		W40_naval_infantry = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				# Bonus cut off
+			}
+		}
+		
+		W40_naval_infantry_2 = {
+			picture = 
+			allowed = {
+				original_tag = W40
+			}
+			
+			allowed_civil_war = {
+				original_tag = W40
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				# Bonus cut off
+			}
+		}
 	}
 }
