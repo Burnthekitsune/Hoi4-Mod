@@ -1,7 +1,7 @@
 capital = 167
 
 oob = "GER_1936"
-set_research_slots = 3
+set_research_slots = 4
 set_convoys = 8
 
 recruit_character = GER_117443374
