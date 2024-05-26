@@ -34,6 +34,7 @@ division_template = {
 	support = {
 		engineer = { x = 0 y = 0 }
 		artillery = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
 	}
 }
 
@@ -107,4 +108,346 @@ division_template = {
 	support = {
 		artillery = { x = 0 y = 0 }
 	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4139
+		division_template = "Cuerpo de Avance"
+		start_experience_factor = 0.79
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 1040 }
+			medium_tank_artillery_chassis_0 = { owner = X10 amount = 82 version_name = "Portador de Obús" }
+			heavy_tank_chassis_0 = { owner = X10 amount = 51 version_name = "Fortaleza" }
+			motorized_equipment_0 = { owner = X10 amount = 20 }
+			support_equipment_1 = { owner = X10 amount = 4 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7132
+		division_template = "Cuerpo de Avance"
+		start_experience_factor = 0.65
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 9130 }
+			medium_tank_artillery_chassis_0 = { owner = X10 amount = 45 version_name = "Portador de Obús" }
+			heavy_tank_chassis_0 = { owner = X10 amount = 7 version_name = "Fortaleza" }
+			motorized_equipment_0 = { owner = X10 amount = 12 }
+			support_equipment_1 = { owner = X10 amount = 5 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1128
+		division_template = "Cuerpo de Avance"
+		start_experience_factor = 0.78
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 1180 }
+			medium_tank_artillery_chassis_0 = { owner = X10 amount = 90 version_name = "Portador de Obús" }
+			heavy_tank_chassis_0 = { owner = X10 amount = 25 version_name = "Fortaleza" }
+			motorized_equipment_0 = { owner = X10 amount = 19 }
+			support_equipment_1 = { owner = X10 amount = 7 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7183
+		division_template = "Cuerpo de Avance"
+		start_experience_factor = 0.82
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 1240 }
+			medium_tank_artillery_chassis_0 = { owner = X10 amount = 100 version_name = "Portador de Obús" }
+			heavy_tank_chassis_0 = { owner = X10 amount = 80 version_name = "Fortaleza" }
+			motorized_equipment_0 = { owner = X10 amount = 20 }
+			support_equipment_1 = { owner = X10 amount = 10 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1058
+		division_template = "División Fronterizos"
+		start_experience_factor = 0.3
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 550 }
+			light_tank_chassis_0 = { owner = X10 amount = 50 version_name = "Contracarro" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1141
+		division_template = "División Fronterizos"
+		start_experience_factor = 0.28
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 580 }
+			light_tank_chassis_0 = { owner = X10 amount = 58 version_name = "Contracarro" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9943
+		division_template = "División Fronterizos"
+		start_experience_factor = 0.22
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 595 }
+			light_tank_chassis_0 = { owner = X10 amount = 54 version_name = "Contracarro" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 5046
+		division_template = "División Fronterizos"
+		start_experience_factor = 0.3
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 540 }
+			light_tank_chassis_0 = { owner = X10 amount = 36 version_name = "Contracarro" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3764
+		division_template = "División Fronterizos"
+		start_experience_factor = 0.32
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 465 }
+			light_tank_chassis_0 = { owner = X10 amount = 41 version_name = "Contracarro" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 6613
+		division_template = "División Fronterizos"
+		start_experience_factor = 0.28
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 600 }
+			light_tank_chassis_0 = { owner = X10 amount = 25 version_name = "Contracarro" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 629
+		division_template = "División Fronterizos"
+		start_experience_factor = 0.28
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 590 }
+			light_tank_chassis_0 = { owner = X10 amount = 12 version_name = "Contracarro" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 12034
+		division_template = "División de Guardianes de la Montaña"
+		start_experience_factor = 0.57
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 600 }
+			light_tank_chassis_0 = { owner = X10 amount = 54 version_name = "Carro Ciempiés" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 11004
+		division_template = "División de Guardianes de la Montaña"
+		start_experience_factor = 0.82
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 600 }
+			light_tank_chassis_0 = { owner = X10 amount = 58 version_name = "Carro Ciempiés" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 9882
+		division_template = "División de Guardianes de la Montaña"
+		start_experience_factor = 0.53
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 420 }
+			light_tank_chassis_0 = { owner = X10 amount = 27 version_name = "Carro Ciempiés" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 9853
+		division_template = "Brigada Costera"
+		start_experience_factor = 0.07
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 205 }
+			gw_armored_car_equipment = { owner = X10 amount = 55 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 11834
+		division_template = "Brigada Costera"
+		start_experience_factor = 0.09
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 200 }
+			gw_armored_car_equipment = { owner = X10 amount = 50 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 91145
+		division_template = "Brigada Costera"
+		start_experience_factor = 0.05
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 180 }
+			gw_armored_car_equipment = { owner = X10 amount = 30 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 4468
+		division_template = "Brigada Costera"
+		start_experience_factor = 0.03
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 200 }
+			gw_armored_car_equipment = { owner = X10 amount = 30 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 7614
+		division_template = "Brigada Costera"
+		start_experience_factor = 0.071
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 190 }
+			gw_armored_car_equipment = { owner = X10 amount = 10 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 1286
+		division_template = "División Carrodesant"
+		start_experience_factor = 0.4
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 320 }
+			gw_armored_car_equipment = { owner = X10 amount = 36 }
+			light_tank_chassis_0 = { owner = X10 amount = 27 version_name = "Carro Blindado Pesado" }
+			motorized_equipment_0 = { owner = X10 amount = 170 }
+			support_equipment_1 = { owner = X10 amount = 8 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 1145
+		division_template = "División Carrodesant"
+		start_experience_factor = 0.35
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 480 }
+			gw_armored_car_equipment = { owner = X10 amount = 90 }
+			light_tank_chassis_0 = { owner = X10 amount = 102 version_name = "Carro Blindado Pesado" }
+			motorized_equipment_0 = { owner = X10 amount = 190 }
+			support_equipment_1 = { owner = X10 amount = 9 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 10013
+		division_template = "División Carrodesant"
+		start_experience_factor = 0.45
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 540 }
+			gw_armored_car_equipment = { owner = X10 amount = 100 }
+			light_tank_chassis_0 = { owner = X10 amount = 118 version_name = "Carro Blindado Pesado" }
+			motorized_equipment_0 = { owner = X10 amount = 210 }
+			support_equipment_1 = { owner = X10 amount = 6 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 9945
+		division_template = "División Carrodesant"
+		start_experience_factor = 0.6
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = X10 amount = 610 }
+			gw_armored_car_equipment = { owner = X10 amount = 90 }
+			light_tank_chassis_0 = { owner = X10 amount = 105 version_name = "Carro Blindado Pesado" }
+			motorized_equipment_0 = { owner = X10 amount = 190 }
+			support_equipment_1 = { owner = X10 amount = 7 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 7183
+		division_template = "División Carrodesant"
+		start_experience_factor = 0.9
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = X10 amount = 340 }
+			gw_armored_car_equipment = { owner = X10 amount = 120 }
+			light_tank_chassis_1 = { owner = X10 amount = 80 version_name = "Carruaje P4" }
+			motorized_equipment_1 = { owner = X10 amount = 200 }
+			support_equipment_1 = { owner = X10 amount = 10 }
+			}
+		}
 }
