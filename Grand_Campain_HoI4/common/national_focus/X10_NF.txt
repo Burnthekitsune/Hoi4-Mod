@@ -857,9 +857,20 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			modify_tech_sharing_bonus = {
-				id = communist_front_tech_group
-				bonus = 0.25
+			if = {
+				limit = {
+					has_completed_focus = invite_researchers_from_abroad
+				}
+				modify_tech_sharing_bonus = {
+					id = communist_front_tech_group
+					bonus = 0.35
+				}
+			}
+			else = {
+				modify_tech_sharing_bonus = {
+					id = communist_front_tech_group
+					bonus = 0.25
+				}
 			}
 			hidden_effect = {
 				set_global_flag = UCF
@@ -1385,6 +1396,81 @@
 					level = 1
 					instant_build = yes
 				}
+			}
+		}
+	}
+	focus = {
+		id = office_of_technology
+		icon = GFX_focus_NORDIC_com_capstone_research
+		cost = 5
+		x = 0
+		y = 8
+		prerequisite = { focus = office_of_internal_affairs }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			if = {
+				limit = {
+					OR = {
+						has_country_flag = qasim_win
+						has_country_flag = basir_win
+					}
+				}
+				add_research_slot = 1
+			}
+			if = {
+				limit = {
+					has_country_flag = abdul_win
+				}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 3
+					category = electronics
+				}
+			}
+			188 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = Madrid_Labs
+		}
+	}
+	focus = {
+		id = invite_researchers_from_abroad
+		icon = GFX_focus_generic_socialist_science
+		cost = 5
+		x = 0
+		y = 9
+		prerequisite = { focus = office_of_technology }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = unified_communist_front
+				}
+				modify_tech_sharing_bonus = {
+					id = communist_front_tech_group
+					bonus = 0.35
+				}
+			}
+			else = {
+				modify_tech_sharing_bonus = {
+					id = communist_front_tech_group
+					bonus = 0.25
+				}
+			}
+			swap_ideas = {
+				remove_idea = Madrid_Labs
+				add_idea = Madrid_Labs_2
+			}
+			hidden_effect = {
+				set_global_flag = ASH_invites_researchers
 			}
 		}
 	}

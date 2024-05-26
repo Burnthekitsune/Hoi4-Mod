@@ -275,5 +275,32 @@ ideas = {
 				air_defence_factor = 0.1
 			}
 		}
+		Madrid_Labs = {
+			picture = generic_research_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		Madrid_Labs_2 = {
+			picture = generic_research_bonus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
 	}
 }

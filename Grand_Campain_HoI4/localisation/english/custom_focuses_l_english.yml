@@ -226,6 +226,12 @@
  improved_spies: "Improved Spies"
  improved_spies_desc: "We have to build an extensive spy network in order to win the information war."
  improved_spies_focus_tt: ""
+ office_of_technology: "Office of Technology"
+ office_of_technology_desc: "We need to enocurage the best and brightest minds. A brand new office will be set up in Madrid for them."
+ office_of_technology_focus_tt: ""
+ invite_researchers_from_abroad: "Invite Researchers from Abroad"
+ invite_researchers_from_abroad_desc: "Now that Madrid is full of the best and the brightest in our nation, it is time that we invited the scientests of other like-minded countries to join in our research."
+ invite_researchers_from_abroad_focus_tt: ""
  
  abdul_win: "Abdul-Hakam Quaramid Won"
  qasim_win: "Qasim Ari Won"
@@ -334,6 +340,10 @@
  ASH_air_2_desc: "We are investing in our airforce to improve combat and improve missions."
  ASH_modern_mil: "Modern Military"
  ASH_modern_mil_desc: "Our military is ready for anything that can be thrown at us"
+ Madrid_Labs: "Madrid Labs"
+ Madrid_Labs_2: "Madrid Labs"
+ Madrid_Labs_desc: "A modern lab with all of the newest technology and the brightest minds from around the Ashmali Union."
+ Madrid_Labs_2_desc: "A modern lab with all of the newest technology and the brightest minds from around the World!"
  
  #---------------------------------------------------------
  # Romagna Focus
