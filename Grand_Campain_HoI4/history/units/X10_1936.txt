@@ -385,6 +385,14 @@ units = {
 			motorized_equipment_0 = { owner = X10 amount = 170 }
 			support_equipment_1 = { owner = X10 amount = 8 }
 			}
+		officer = {
+			name = Bismarck_Officer
+			portraits = {
+				army = {
+					large = GFX_portrait_europe_generic_navy_13
+				}
+			}
+		}
 		}
 	division = {
 		division_name = {

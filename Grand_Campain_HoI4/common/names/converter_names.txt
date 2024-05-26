@@ -2909,7 +2909,7 @@ W40 = {
 			"Sterghios" "Stratis" "Stratos" "Stylianos" "Tasos" "Tassos" "Tataki" "Thaddaios" "Thanasios" "Thanasis" "Thanos" "Themestoclis" 
 			"Theodore" "Theodoros" "Theodosios" "Theofanis" "Theologos" "Theophanis" "Thrasyvoulos" "Timotheos" "Titos" "Triandafillos" "Tzannas" "Vaggelis" 
 			"Vaios" "Valerios" "Vangelis" "Vardis" "Vasileios" "Vasilios" "Vasilis" "Vassilios" "Vassilis" "Xenophon" "Yannas" "Yanni" 
-			"Yannis" "Yiannis" "Yiannos" "Yiorgos" "Yioryios" "Zacharias" "Zaharias" "Zenon" 
+			"Yannis" "Yiannis" "Yiannos" "Yiorgos" "Yioryios" "Zacharias" "Zaharias" "Zenon" "Assar"
 		}
 	}
 	female = {
@@ -3336,7 +3336,8 @@ X10 = {
 			"Lupo" "Ma'n" "Malik" "Mansur" "Moses" "Mubashir" "Muhammad" "Mundir" "Musa" "Mustafa" "Muyahid" "Najib" 
 			"Nasr" "Qasim" "Qusay" "Raf" "Ragnarr" "Rahim" "Rashîd" "Rasiq" "Rognvaldr" "Sa'd" "Safi" "Sakhr" 
 			"Samir" "Sancho" "Sanyo" "Siddray" "Solomon" "Sorkvir" "Suleyman" "Tariq" "Tifilwit" "Umar" "Utman" "Vasco" 
-			"Wahid" "Wannaqo" "Ya'far" "Yahaff" "Yahya" "Yûsuf" "Zahir" "al-Karim" 
+			"Wahid" "Wannaqo" "Ya'far" "Yahaff" "Yahya" "Yûsuf" "Zahir" "al-Karim" "Muhammad Abbad" "Muhammad Khaldun"
+			"Muhammad Dinar" "Muhammad Umair" "Muhammad Osman" "Muhammad Agnar" "Muhammad Hjalmar" "Muhammad Toke" "Assar"
 		}
 	}
 	female = {
@@ -3349,7 +3350,9 @@ X10 = {
 		}
 	}
 	surnames = {
-			"Ari" "Elfael" "Haesteining" "Hammelburg" "Qutamid" "Snjalli" 
+			"Ari" "Elfael" "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "ibn Ma'n" "Assarid" "Geirid" "ibn Reidar"
+			"al-Din" "al-Dawla" "al-Mulk" "al-Islam" "al-Nuras" "Halldorid" "ibn Stian" "ibn Vidar" "ibn Ask" "ibn Odd"
+			"Hrothr" "Rihi" "Dagfinnid" "Torgny" "ibn Abdel-Massih" "ibn Butrus" "al-Amsah"
 	}
 }
 X14 = {
