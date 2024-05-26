@@ -4,7 +4,6 @@ country_event = {
 	id = W40_events.1
 	title = W40_events.1.t
 	desc = W40_events.1.d
-	picture = 
 	
 	is_triggered_only = yes
 	
