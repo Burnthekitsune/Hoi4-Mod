@@ -964,6 +964,22 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			if = {
+				limit = {
+					V23 = {
+						has_subject = X72
+					}
+				}
+				release_puppet = X72
+			}
+			if = {
+				limit = {
+					V23 = {
+						has_subject = MLT
+					}
+				}
+				release_puppet = MLT
+			}
 			SPM = {
 				V23 = {
 					hidden_effect = {
