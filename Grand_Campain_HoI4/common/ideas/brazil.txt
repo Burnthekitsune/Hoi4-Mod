@@ -1,0 +1,70 @@
+ideas = {
+	country = {
+		BRA_buildup_1 = {
+			picture = generic_production_bonus
+			allowed = {
+				original_tag = BRA
+			}
+			
+			allowed_civil_war = {
+				original_tag = BRA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		BRA_buildup_2 = {
+			picture = generic_production_bonus
+			allowed = {
+				original_tag = BRA
+			}
+			
+			allowed_civil_war = {
+				original_tag = BRA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.25
+			}
+		}
+		BRA_buildup_3 = {
+			picture = generic_production_bonus
+			allowed = {
+				original_tag = BRA
+			}
+			
+			allowed_civil_war = {
+				original_tag = BRA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.2
+				production_speed_dockyard_factor = 0.2
+				production_speed_air_base_factor = 0.2
+			}
+		}
+		BRA_raw_resources = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				original_tag = BRA
+			}
+			
+			allowed_civil_war = {
+				original_tag = BRA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.1
+			}
+		}
+	}
+}

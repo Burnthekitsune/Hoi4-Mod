@@ -19,4 +19,98 @@ focus_tree = {
 	shared_focus = industrial_effort
 	shared_focus = political_effort
 
+	focus = {
+		id = Begin_the_Buildup
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		x = 24
+		y = 0
+		prerequisite = {  }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = BRA_buildup_1
+			set_variable = {
+				var = BRA_industry_points
+				value = 5
+			}
+			custom_effect_tooltip = add_5_ind_points
+		}
+	}
+	
+	focus = {
+		id = Expand_Industry
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		x = 24
+		y = 1
+		prerequisite = { focus = Begin_the_Buildup }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BRA_buildup_1
+				add_idea = BRA_buildup_2
+			}
+			add_to_variable = {
+				var = BRA_industry_points
+				value = 5
+			}
+			custom_effect_tooltip = add_5_ind_points
+		}
+	}
+	
+	focus = {
+		id = Hunt_for_More
+		icon = GFX_focus_generic_resource_extraction
+		cost = 10
+		x = 26
+		y = 1
+		prerequisite = { focus = Begin_the_Buildup }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			set_flag = BRA_prospecting
+			custom_effect_tooltip = enables_prospecting
+		}
+	}
+	
+	focus = {
+		id = War_Buildup
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		x = 24
+		y = 2
+		available = {
+			is_in_faction = yes
+		}
+		prerequisite = { focus = Expand_Industry }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BRA_buildup_2
+				add_idea = BRA_buildup_3
+			}
+		}
+	}
+	
+	focus = {
+		id = Oil_and_Rubber
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10
+		x = 26
+		y = 2
+		prerequisite = { focus = Hunt_for_More }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = BRA_raw_resources
+		}
+	}
 }

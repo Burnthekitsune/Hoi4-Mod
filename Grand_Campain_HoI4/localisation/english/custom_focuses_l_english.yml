@@ -233,9 +233,9 @@
  invite_researchers_from_abroad_desc: "Now that Madrid is full of the best and the brightest in our nation, it is time that we invited the scientests of other like-minded countries to join in our research."
  invite_researchers_from_abroad_focus_tt: ""
  
- abdul_win: "Abdul-Hakam Quaramid Won"
- qasim_win: "Qasim Ari Won"
- basir_win: "Basir Elfael Won"
+ abdul_win: "§tAbdul-Hakam Quaramid§! Won"
+ qasim_win: "§OQasim Ari§! Won"
+ basir_win: "§BBasir Elfael§! Won"
  moving_forward: "Moving Forward Together"
  grand_alliance: "The Grand Alliance"
  communist_liberation: "Missions of Liberation"
@@ -442,3 +442,35 @@
  rom_force_desc: "Italy has been united by force into a new regional power."
  rom_peace: "Italy United"
  rom_peace_desc: "Italy has been establed as a new, safe, neutral state between the various Great Powers of the world."
+ 
+ #---------------------------------------------------------
+ # Brazil Focus
+ #---------------------------------------------------------
+ Begin_the_Buildup: "Begin the Buildup"
+ Expand_Industry: "Expand Industry"
+ Hunt_for_More: "Hunt for More"
+ War_Buildup: "War Buildup"
+ Oil_and_Rubber: "Oil and Rubber"
+ Begin_the_Buildup_desc: "Our nation is rich in people and resources, but not industry. It is time we change this."
+ Expand_Industry_desc: "We have started to build factories, but it is not enough, we need to build more."
+ Hunt_for_More_desc: "Our growing industry demand more resources. It is time we exploited the untapped resources."
+ War_Buildup_desc: "War is looming, it is time we shifted focus."
+ Oil_and_Rubber_desc: "Oil and Rubber, the backbone of our inudstry. It is time we increased our productivity!"
+ Begin_the_Buildup_focus_tt: ""
+ Expand_Industry_focus_tt: ""
+ Hunt_for_More_focus_tt: ""
+ War_Buildup_focus_tt: ""
+ Oil_and_Rubber_focus_tt: ""
+ 
+ BRA_buildup_1: "Industrial Buildup"
+ BRA_buildup_2: "Industrial Buildup"
+ BRA_buildup_3: "Industrial Buildup"
+ BRA_raw_resources: "Expanded Resource Production."
+ BRA_buildup_1_desc: "We are comitted to building factories everywhere we can."
+ BRA_buildup_2_desc: "We are comitted to building many factories everywhere we can."
+ BRA_buildup_3_desc: "We are comitted to building military facilities everywhere we can."
+ BRA_raw_resources_desc: "The production of raw resources are our top priority!"
+ 
+ BRA_industry_points: "Industry Points"
+ add_5_ind_points: "Adds §G5§! Industry Points"
+ enables_prospecting: "§GEnables Prospecting"
