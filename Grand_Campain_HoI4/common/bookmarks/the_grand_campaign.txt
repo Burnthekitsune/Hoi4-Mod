@@ -8,15 +8,19 @@ bookmarks = {
 		default = yes
 		PER= {
 			history = PER_hist
+			ideology = communism
 		}
 		UPU= {
 			history = UPU_hist
+			ideology = democratic
 		}
 		V27= {
 			history = V27_hist
+			ideology = communism
 		}
 		W40= {
 			history = W40_hist
+			ideology = democratic
 		}
 		X10= {
 			history = X10_hist
@@ -28,34 +32,42 @@ bookmarks = {
 		ENG = {
 			minor = yes
 			history = ENG_hist
+			ideology = communism
 		}
-		FRA = {
+		V23 = {
 			minor = yes
-			history = FRA_hist
+			history = V23_hist
+			ideology = neutrality
 		}
 		GER = {
 			minor = yes
 			history = GER_hist
+			ideology = democratic
 		}
 		SCA = {
 			minor = yes
 			history = SCA_hist
+			ideology = neutrality
 		}
 		Z03 = {
 			minor = yes
 			history = Z03_hist
+			ideology = communism
 		}
 		BRA = {
 			minor = yes
 			history = BRA_hist
+			ideology = communism
 		}
 		X42 = {
 			minor = yes
 			history = X42_hist
+			ideology = democratic
 		}
 		X81 = {
 			minor = yes
 			history = X81_hist
+			ideology = communism
 		}
 		effect = {
 			randomize_weather = 22345 # <-Obligatory in every bookmark !
