@@ -1,0 +1,293 @@
+X10_fighter = {
+	category = air
+
+	blocked_for = { }
+
+	available_for = { X10 }
+
+	roles = {
+		air_fighter
+	}
+
+	priority = {
+		factor = 100
+	}
+
+	great_war_fighter_default = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Potoo 1B2"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_0
+			
+			modules = {
+				fixed_main_weapon_slot = aircraft_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty	
+			}
+		}
+
+		allowed_modules = {
+			engine_2_1x
+			aircraft_cannon_1_1x
+		}
+	}
+	basic_fighter_default = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_main_weapon_slot = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_1 = light_mg_4x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = empty	
+				special_type_slot_2 = empty	
+			}
+		}
+		name = "Potoo 2"
+		allowed_modules = {
+			light_mg_4x
+			aircraft_cannon_1_2x
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+		}
+	}
+	basic_fighter_improved = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_main_weapon_slot = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = empty	
+				special_type_slot_2 = empty	
+			}
+		}
+		name = "Chotacabras"
+		allowed_modules = {
+			aircraft_cannon_1_1x
+			heavy_mg_2x
+			light_mg_4x
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+		}
+	}
+	improved_fighter_default = {
+		priority = {
+			factor = 200
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Fam Aldafdae"
+		target_variant = {
+			match_value = 3000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_main_weapon_slot = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_1 = light_mg_4x
+				fixed_auxiliary_weapon_slot_2 > light_mg_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small	
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			light_mg_4x
+			engine_3_1x
+			engine_2_1x
+			armor_plate_small
+			light_mg_2x
+		}
+	}
+	improved_fighter_panic = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_war = yes 
+				factor = 4
+			}
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Frailecillo"
+		target_variant = {
+			match_value = 3000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_main_weapon_slot = aircraft_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = light_mg_4x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_1x
+			light_mg_4x
+			engine_3_1x
+			engine_2_1x
+			non_strategic_materials_small
+			light_mg_2x
+		}
+	}
+	advanced_fighter_default = {
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 4000
+			type = small_plane_airframe_3
+			modules = {
+				fixed_main_weapon_slot = large_aircraft_cannon_2x
+				fixed_auxiliary_weapon_slot_1 = light_mg_4x
+				fixed_auxiliary_weapon_slot_2 = light_mg_4x
+				engine_type_slot = engine_4_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = drop_tanks
+				special_type_slot_4 = self_sealing_fuel_tanks_small	
+			}
+		}
+		name = "Colibrí"
+		allowed_modules = { 
+			large_aircraft_cannon_2x
+			drop_tanks
+			heavy_mg_4x
+			engine_4_1x
+			armor_plate_small
+			self_sealing_fuel_tanks_small
+		}
+	}
+	advanced_fighter_improved = {
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 4000
+			type = small_plane_airframe_3
+			modules = {
+				fixed_main_weapon_slot = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+				fixed_auxiliary_weapon_slot_2 = light_mg_4x
+				engine_type_slot = engine_4_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+				special_type_slot_3 = non_strategic_materials_small
+			}
+		}
+		name = "Tayir Alzayt"
+		allowed_modules = { 
+			self_sealing_fuel_tanks_small
+			aircraft_cannon_2_2x
+			drop_tanks
+			aircraft_cannon_1_2x
+			heavy_mg_4x
+			engine_4_1x
+			armor_plate_small
+			non_strategic_materials_small
+			light_mg_4x
+		}
+	}
+	jet_fighter_default = {
+		priority = {
+			factor = 10
+		}
+		name = "Sarie"
+		target_variant = {
+			match_value = 4000
+			type = small_plane_airframe_4
+			modules = {
+				fixed_main_weapon_slot = aircraft_cannon_2_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = jet_engine_1x
+				special_type_slot_1 = air_air_radar_1
+				special_type_slot_2 = self_sealing_fuel_tanks_small	
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_1x
+			heavy_mg_2x
+			jet_engine_1x
+			self_sealing_fuel_tanks_small
+			air_air_radar_1
+		}
+	}
+}
+
+X10_heavy_fighter = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {X10}
+
+	roles = {
+		air_heavy_fighter
+	}
+
+	priority = {
+		factor = 75
+		
+	}
+	heavy_fighter_1 = {
+		priority = {
+			factor = 100
+		}
+		
+
+		target_variant = {
+			match_value = 1000
+			type = medium_plane_fighter_airframe_1
+			modules = {
+				fixed_main_weapon_slot = heavy_mg_4x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_2 = empty
+				engine_type_slot = engine_1_4x
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty	
+			}
+			
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			aircraft_cannon_1_2x
+			engine_2_2x
+		}
+	}

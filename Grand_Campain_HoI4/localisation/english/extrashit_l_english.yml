@@ -217,8 +217,8 @@
  X10_support_org:1 "VB" #Vila Baleira
  X10_armourcar_org:0 "Ari"
  X10_motorpool_org:0 "Sayraat Hammelburg"
- X10_fast_plane_org:0 "Buma Aero-Engines"
- X10_long_plane_org:0 "Zaragoza Design Plant"
+ X10_fast_plane_org:0 "Buma Aero-Engines" # This is actually range, I mixed them up
+ X10_long_plane_org:0 "Zaragoza Design Plant" # This is actually agility, I fucked up
  X10_raid_org:0 "Braga Shipyards"
  X10_snubarine_org:0 "Elfael"
  X10_infantry_org:0 "Mundir-Vasco"
