@@ -1,8 +1,9 @@
 
 air_wings = {
 	189 = {
-		medium_plane_fighter_airframe_0 =  { owner = "X10" amount = 90 creator = "X10" version_name = "Libélula"}
+		medium_plane_fighter_airframe_0 =  { owner = "X10" amount = 90 creator = "X10" version_name = "Libelula"}
 		medium_plane_fighter_airframe_0 =  { owner = "X10" amount = 40 creator = "X10" version_name = "Zancudo" }
+		medium_plane_airframe_0 =  { owner = "X10" amount = 65 creator = "X10" version_name = "Yuraea"}
 		small_plane_airframe_0 =  { owner = "X10" amount = 80 creator = "X10" version_name = "Potoo 1A" }
 		small_plane_airframe_0 = { owner = "X10" amount = 30 creator = "X10" version_name = "Potoo 1B1"}
 		small_plane_airframe_0 = { owner = "X10" amount = 50 creator = "X10" version_name = "Potoo 1C"}

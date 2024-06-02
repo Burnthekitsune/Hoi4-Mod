@@ -234,7 +234,7 @@ if = {
 			engine_type_slot = engine_1_2x
 		}
 		obsolete = no
-		name = "Libélula"
+		name = "Libelula"
 	}
 	create_equipment_variant = {
 		type = medium_plane_fighter_airframe_0
@@ -249,6 +249,19 @@ if = {
 			special_type_slot_1 = non_strategic_materials_medium
 		}
 		name = "Zancudo"
+	}
+}
+	create_equipment_variant = {
+		type = medium_plane_airframe_0
+		design_team = mio:X10_fast_plane_org
+		obsolete = no
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = lmg_defense_turret_2x
+			special_type_slot_2 = lmg_defense_turret_2x
+		}
+		name = "Yuraea" # Firefly
 	}
 }
 
