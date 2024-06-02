@@ -1,0 +1,15 @@
+BRA_industralization_category = {
+	icon = GFX_decision_category_generic_industry
+	visible = {
+		tag = BRA
+		has_completed_focus = Begin_the_Buildup
+	}
+}
+
+BRA_prospecting_category = {
+	icon = GFX_decision_category_generic_prospect_for_resources
+	visible = {
+		tag = BRA
+		has_completed_focus = Hunt_for_More
+	}
+}
