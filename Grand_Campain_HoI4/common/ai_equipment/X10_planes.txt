@@ -628,5 +628,231 @@ X10_cv_naval_bomber = {
 			factor = 0
 		}
 	}
+	basic_carrier_nav = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Potoo 3"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_naval_bomber_airframe_1
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						torpedo_mounting_2 
+						torpedo_mounting
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						engine_2_1x
+						engine_1_2x
+					} 
+				}
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = lmg_defense_turret
+			}
+		}
 
+		allowed_modules = {
+			engine_2_1x
+			torpedo_mounting_2
+			torpedo_mounting
+			lmg_defense_turret
+			non_strategic_materials_small
+			engine_1_2x
+		}
+	}
+	improved_carrier_nav = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = advanced_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Potoo 4"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_naval_bomber_airframe_2
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						torpedo_mounting_2 
+						torpedo_mounting
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						engine_3_1x
+						engine_2_1x
+						engine_1_2x
+					} 
+				}
+				special_type_slot_1 = {  
+					any_of = {
+						self_sealing_fuel_tanks_small
+						armor_plate_small
+						none
+					} 
+				}
+				special_type_slot_2 = { 
+					any_of = {  
+						hmg_defense_turret
+						lmg_defense_turret
+					} 
+				}
+				special_type_slot_3 = { 
+					any_of = {  
+						radio_navigation_2
+						radio_navigation_1
+						none
+					} 
+				}
+			}
+		}
+
+		allowed_modules = {
+			engine_3_1x
+			radio_navigation_2
+			hmg_defense_turret
+			engine_2_1x
+			torpedo_mounting_2
+			torpedo_mounting
+			self_sealing_fuel_tanks_small
+			lmg_defense_turret
+			non_strategic_materials_small
+			armor_plate_small
+			radio_navigation_1
+			engine_1_2x
+		}
+	}
+	improved_carrier_nav = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = modern_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Atun II"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_naval_bomber_airframe_3
+			
+			modules = {
+				fixed_main_weapon_slot = {
+					any_of = {
+						torpedo_mounting_3 
+						torpedo_mounting_2
+					}
+				}
+				engine_type_slot = {
+					any_of = {
+						engine_4_1x
+						engine_3_1x
+					}
+				}
+				special_type_slot_1 = {
+					any_of = {
+						radio_navigation_2
+						radio_navigation_1
+					}
+				}
+				special_type_slot_2 = {
+					any_of = {
+						cannon_defense_turret
+						hmg_defense_turret
+					}
+				}
+				special_type_slot_3 = {
+					any_of = {
+						air_ground_radar_2
+						air_ground_radar_1
+						none
+					}
+				}
+			}
+		allowed_modules = {
+			engine_4_1x
+			radio_navigation_2
+			cannon_defense_turret
+			air_ground_radar_2
+			engine_3_1x
+			torpedo_mounting_3
+			torpedo_mounting_2
+			self_sealing_fuel_tanks_small
+			hmg_defense_turret
+			non_strategic_materials_small
+			armor_plate_small
+			radio_navigation_1
+			air_ground_radar_1
+		}
+	}
+}
+	advanced_carrier_nav = {
+		priority = {
+			factor = 1
+		}
+		name = "Aguja"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_naval_bomber_airframe_4
+			
+			modules = {
+				fixed_main_weapon_slot = {
+					any_of = {
+						torpedo_mounting_3
+						guided_anti_ship_missile
+						torpedo_mounting_2
+					}
+				}
+				engine_type_slot = {
+					any_of = {
+						jet_engine_2x
+						engine_3_2x
+					}
+				}
+				special_type_slot_1 = {
+					any_of = {
+						radio_navigation_2
+						radio_navigation_1
+					}
+				}
+				special_type_slot_2 = {
+					any_of = {
+						hmg_defense_turret
+						lmg_defense_turret
+					}
+				}
+				special_type_slot_3 = {
+					any_of = {
+						air_ground_radar_2
+						air_ground_radar_1
+					}
+				}
+			}
+		allowed_modules = {
+			jet_engine_2x
+			radio_navigation_2
+			hmg_defense_turret
+			air_ground_radar_2
+			engine_3_2x
+			torpedo_mounting_3
+			guided_anti_ship_missile
+			torpedo_mounting_2
+			self_sealing_fuel_tanks_small
+			lmg_defense_turret
+			non_strategic_materials_small
+			armor_plate_small
+			radio_navigation_1
+			air_ground_radar_1
+		}
+	}
 }
