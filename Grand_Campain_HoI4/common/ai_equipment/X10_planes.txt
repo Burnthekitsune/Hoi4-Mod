@@ -562,7 +562,7 @@ X10_cas = {
 
 	
 
-	available_for = {ENG}
+	available_for = {X10}
 
 	roles = {
 		air_cas
@@ -575,8 +575,191 @@ X10_cas = {
 				factor = 1.5
 		}
 	}
+	basic_cas = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Mudamir"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_1
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						heavy_bomb_locks 
+						bomb_locks
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						engine_2_1x
+						engine_1_2x
+					} 
+				}
+				special_type_slot_1 = lmg_defense_turret
+			}
+		}
 
+		allowed_modules = {
+			engine_2_1x
+			heavy_bomb_locks
+			bomb_locks
+			lmg_defense_turret
+			non_strategic_materials_small
+			engine_1_2x
+		}
+	}
+	improved_cas = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = advanced_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Mudamir"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_2
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						heavy_bomb_locks 
+						bomb_locks
+					} 
+				}
+				fixed_auxiliary_weapon_slot_1 = { 
+					any_of = {  
+						armor_piercing_bomb_locks
+						bomb_locks
+					} 
+				}
+				fixed_auxiliary_weapon_slot_2 = { 
+					any_of = {  
+						rocket_rails
+						bomb_locks
+						none
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						engine_3_1x
+					} 
+				}
+				special_type_slot_1 = lmg_defense_turret
+			}
+		}
 
+		allowed_modules = {
+			engine_3_1x
+			heavy_bomb_locks
+			bomb_locks
+			lmg_defense_turret
+			rocket_rails
+			non_strategic_materials_small
+			engine_3_2x
+		}
+	}
+	advanced_cas = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = modern_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Mudamir 2"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_3
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						heavy_bomb_locks 
+						bomb_locks
+					} 
+				}
+				fixed_auxiliary_weapon_slot_1 = { 
+					any_of = {  
+						armor_piercing_bomb_locks
+						bomb_locks
+					} 
+				}
+				fixed_auxiliary_weapon_slot_2 = { 
+					any_of = {  
+						tank_buster_1
+						heavy_bomb_locks
+						bomb_locks
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						engine_4_1x
+					} 
+				}
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			engine_4_1x
+			tank_buster_1
+			heavy_bomb_locks
+			armor_piercing_bomb_locks
+			bomb_locks
+			self_sealing_fuel_tanks_small
+			rocket_rails
+			non_strategic_materials_small
+			engine_3_2x
+		}
+	}
+	modern_cas = {
+		priority = {
+			factor = 1
+		}
+		name = "Matamoscas"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_4
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						tank_buster_2
+						tank_buster_1
+					} 
+				}
+				fixed_auxiliary_weapon_slot_1 = rocket_rails
+				fixed_auxiliary_weapon_slot_2 = rocket_rails
+				engine_type_slot = { 
+					any_of = {  
+						jet_engine_1x
+					} 
+				}
+				special_type_slot_1 = none
+			}
+		}
+
+		allowed_modules = {
+			jet_engine_1x
+			tank_buster_2
+			tank_buster_1
+			heavy_bomb_locks
+			armor_piercing_bomb_locks
+			bomb_locks
+			self_sealing_fuel_tanks_small
+			rocket_rails
+			non_strategic_materials_small
+			engine_4_2x
+		}
+	}
 }
 
 X10_cv_fighter = {
