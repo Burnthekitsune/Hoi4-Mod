@@ -787,7 +787,194 @@ X10_cv_fighter = {
 			factor = 0.5
 		}
 	}
+	basic_cas = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Potoo del Mar"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_airframe_1
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						heavy_mg_4x
+						light_mg_4x
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						engine_2_1x
+						engine_1_1x
+					} 
+				}
+				special_type_slot_1 = none
+			}
+		}
 
+		allowed_modules = {
+			engine_2_1x
+			heavy_mg_4x
+			light_mg_4x
+			lmg_defense_turret
+			non_strategic_materials_small
+			engine_1_1x
+		}
+	}
+	improved_cas = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = advanced_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Saltieun"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_airframe_2
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						heavy_mg_4x
+						light_mg_4x
+					} 
+				}
+				fixed_auxiliary_weapon_slot_1 = { 
+					any_of = {  
+						heavy_mg_4x
+						light_mg_4x
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						engine_3_1x
+						engine_2_1x
+					} 
+				}
+				special_type_slot_1 = none
+			}
+		}
+
+		allowed_modules = {
+			engine_3_1x
+			heavy_mg_4x
+			light_mg_4x
+			lmg_defense_turret
+			non_strategic_materials_small
+			engine_2_1x
+		}
+	}
+	advanced_cas = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = modern_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Alnuwras"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_airframe_3
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						aircraft_cannon_1_1x
+						heavy_mg_4x
+					} 
+				}
+				fixed_auxiliary_weapon_slot_1 = { 
+					any_of = {  
+						heavy_mg_4x
+						light_mg_4x
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						engine_4_1x
+						engine_3_1x
+					} 
+				}
+				special_type_slot_1 = { 
+					any_of = {  
+						radio_navigation_2
+						radio_navigation_1
+						none
+					} 
+				}
+			}
+		}
+
+		allowed_modules = {
+			engine_4_1x
+			aircraft_cannon_1_1x
+			heavy_mg_4x
+			radio_navigation_2
+			light_mg_4x
+			lmg_defense_turret
+			radio_navigation_1
+			non_strategic_materials_small
+			engine_3_1x
+		}
+	}
+	jet_cas = {
+		priority = {
+			factor = 1
+		}
+		name = "Saqr"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_airframe_4
+			
+			modules = {
+				fixed_main_weapon_slot = { 
+					any_of = {  
+						aircraft_cannon_2_1x
+						heavy_mg_4x
+					} 
+				}
+				fixed_auxiliary_weapon_slot_1 = { 
+					any_of = {  
+						heavy_mg_4x
+						light_mg_4x
+					} 
+				}
+				engine_type_slot = { 
+					any_of = {  
+						jet_engine_1x
+						engine_4_1x
+					} 
+				}
+				special_type_slot_1 = { 
+					any_of = {  
+						radio_navigation_2
+						radio_navigation_1
+						none
+					} 
+				}
+			}
+		}
+
+		allowed_modules = {
+			jet_engine_1x
+			aircraft_cannon_2_1x
+			heavy_mg_4x
+			radio_navigation_2
+			light_mg_4x
+			lmg_defense_turret
+			radio_navigation_1
+			non_strategic_materials_small
+			engine_4_1x
+		}
+	}
 }
 
 X10_cv_naval_bomber = {
