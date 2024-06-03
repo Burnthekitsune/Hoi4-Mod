@@ -8,5 +8,7 @@ air_wings = {
 		small_plane_airframe_0 = { owner = "X10" amount = 30 creator = "X10" version_name = "Potoo 1B1"}
 		small_plane_airframe_0 = { owner = "X10" amount = 50 creator = "X10" version_name = "Potoo 1C"}
 		small_plane_cas_airframe_0 = { owner = "X10" amount = 60 creator = "X10" version_name = "MDKh"}
+		cv_small_plane_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Alrueb" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
 	}
 }

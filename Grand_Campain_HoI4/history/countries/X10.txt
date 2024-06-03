@@ -274,6 +274,28 @@ if = {
 		}
 		name = "MDKh" # Light Tank Attacker
 	}
+	create_equipment_variant = {
+		type = cv_small_plane_airframe_0
+		design_team = mio:X10_long_plane_org
+		obsolete = no
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		name = "Alrueb"
+	}
+	create_equipment_variant = {
+		type = cv_small_plane_naval_bomber_airframe_0
+		design_team = mio:X10_long_plane_org
+		obsolete = no
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		name = "Atun"
+	}
 }
 
 # TANKS
