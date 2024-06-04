@@ -1199,7 +1199,95 @@ X10_light_tank_artillery = {
 		}
 	}
 }
+X10_super_heavy_tanks = {
+	category = land
 
+	#blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_super_heavy_tank
+	}
+
+	priority = {
+		factor = 1
+		modifier = {
+			num_of_factories < 150
+			factor = 0
+		}
+	}
+	super_heavy_tank_default = {
+		name = "Iberia"
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 1000
+			type = super_heavy_tank_chassis
+			modules = {
+				main_armament_slot = {
+					any_of = {
+						tank_heavy_cannon_3 
+						tank_high_velocity_cannon_3
+					}
+				}
+				turret_type_slot = tank_super_heavy_three_man_tank_turret
+				suspension_type_slot = tank_interleaved_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_module
+				special_type_slot_2 = sloped_armor
+				special_type_slot_3 = easy_maintenance
+				special_type_slot_4 = wet_ammo_storage
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = {
+					base = 0
+					modifier = {
+						any_enemy_country = {
+							is_major = yes
+						}
+						add = 10
+					}
+				}
+				tank_nsb_armor_upgrade = {
+					base = 3
+					modifier = {
+						add = 5
+						has_war = yes
+					}
+					modifier = {
+						any_enemy_country = {
+							is_major = yes
+						}
+						add = 5
+					}
+				}
+			}
+		}
+		allowed_modules = {
+			tank_high_velocity_cannon_2 
+			tank_high_velocity_cannon_3 
+			tank_heavy_cannon 
+			tank_heavy_cannon_2 
+			tank_heavy_cannon_3 
+			tank_super_heavy_cannon
+			tank_super_heavy_four_man_tank_turret
+			tank_bogie_suspension
+			tank_interleaved_suspension
+			tank_welded_armor
+			tank_cast_armor
+			tank_petrol_electric_engine
+			tank_radio_3
+			tank_radio_2
+			tank_radio_1
+			armor_skirts
+			secondary_turret_hmg
+			sloped_armor
+		}
+	}
+}
 X10_medium_tanks = {
 	category = land
 
@@ -1338,26 +1426,7 @@ X10_heavy_tank_destroyer = {
 
 }
 
-X10_super_heavy_tanks = {
-	category = land
 
-	#blocked_for = {}
-
-	available_for = { X10 }
-
-	roles = {
-		land_super_heavy_tank
-	}
-
-	priority = {
-		factor = 1
-		modifier = {
-			num_of_factories < 150
-			factor = 0
-		}
-	}
-
-}
 
 X10_modern_tanks = {
 	category = land
