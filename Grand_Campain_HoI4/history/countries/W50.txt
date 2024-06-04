@@ -51,7 +51,7 @@ add_ideas = {
 	W50_Aziz_Bendahara
 	civilian_economy
 	export_focus
-	volunteer_only
+	extensive_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60

@@ -50,7 +50,7 @@ set_popularities = {
 add_ideas = {
 	civilian_economy
 	export_focus
-	volunteer_only
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60
