@@ -10,7 +10,7 @@ X10_light_tanks = {
 	}
 
 	priority = {
-		factor = 1000
+		factor = 15
 	}
 
 	great_war_tank_default = { # improved armoured car, do not use
@@ -273,4 +273,288 @@ X10_light_tanks = {
 				tank_nsb_armor_upgrade = 2
 			}
 		}
+}
+X10_light_tank_destroyers = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_light_tank_destroyer
+	}
+
+	priority = {
+		factor = 5
+		modifier = {
+			NOT = { has_tech = improved_medium_tank_chassis } 
+			any_enemy_country = {
+				has_tech = basic_medium_tank_chassis
+			}
+			factor = 10
+		}
+		modifier = {
+			has_tech = antitank5
+			factor = 0
+		}
+	}
+
+}
+
+X10_light_tank_artillery = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = {X10}
+
+	roles = {
+		land_light_tank_artillery
+	}
+
+	priority = {
+		factor = 2
+		modifier = {
+			NOT = { has_tech = improved_medium_tank_chassis }
+			any_enemy_country = {
+				NOT = { has_tech = armor_tech_2 }
+			}
+			factor = 5
+		}
+		modifier = {
+			has_tech = rocket_artillery
+			factor = 0.5
+		}
+	}
+
+}
+
+X10_light_tank_anti_air = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = {X10}
+
+	roles = {
+		land_light_tank_anti_air
+	}
+
+	priority = {
+		factor = 1
+		modifier = {
+			NOT = { has_tech = improved_small_airframe } #we should probably do something about that air superiority...
+			any_enemy_country = {
+				has_tech = basic_small_airframe
+			}
+			factor = 10
+		}
+		modifier = {
+			NOT = { has_tech = basic_small_airframe }
+			factor = 20
+		}
+		modifier = {
+			has_tech = antiair5
+			factor = 0
+		}
+	}
+
+}
+
+X10_medium_tanks = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_medium_tank
+	}
+
+	priority = {
+		factor = 20
+	}
+
+}
+
+X10_medium_tank_destroyer = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_medium_tank_destroyer
+	}
+
+	priority = {
+		factor = 5
+		modifier = {
+			NOT = { has_tech = improved_heavy_tank_chassis } 
+			any_enemy_country = {
+				has_tech = basic_heavy_tank_chassis
+			}
+			factor = 3
+		}
+	}
+
+}
+
+X10_medium_tank_artillery = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_medium_tank_artillery
+	}
+
+	priority = {
+		factor = 3
+	}
+	
+}
+
+X10_medium_tank_anti_air = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_medium_tank_anti_air
+	}
+
+	priority = {
+		factor = 1
+		modifier = {
+			NOT = { has_tech = advanced_small_airframe } #we should probably do something about that air superiority...
+			any_enemy_country = {
+				has_tech = improved_small_airframe
+			}
+			factor = 10
+		}
+	}
+
+}
+
+X10_heavy_tanks = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_heavy_tank
+	}
+
+	priority = {
+		factor = 10
+		modifier = {
+			num_of_factories < 50
+			factor = 0.5
+		}
+		modifier = {
+			num_of_factories < 30
+			factor = 0
+		}
+	}
+
+}
+
+X10_heavy_tank_destroyer = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_heavy_tank_destroyer
+	}
+
+	priority = {
+		factor = 3
+		modifier = {
+			any_enemy_country = {
+				has_tech = advanced_heavy_tank_chassis
+			}
+			factor = 5
+		}
+		modifier = {
+			num_of_factories < 80
+			factor = 0.5
+		}
+		modifier = {
+			num_of_factories < 50
+			factor = 0
+		}
+	}
+
+}
+
+X10_super_heavy_tanks = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_super_heavy_tank
+	}
+
+	priority = {
+		factor = 1
+		modifier = {
+			num_of_factories < 150
+			factor = 0
+		}
+	}
+
+}
+
+X10_modern_tanks = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_modern_tank
+	}
+
+	priority = {
+		factor = 50
+		modifier = {
+			num_of_factories < 100
+			factor = 0
+		}
+	}
+
+}
+
+X10_amphibious_tanks = {
+	category = land
+
+	blocked_for = {}
+
+	available_for = { X10 }
+
+	roles = {
+		land_amphibious_tank
+	}
+
+	priority = {
+		factor = 1
+	}
+
 }
