@@ -658,3 +658,178 @@ BRA_industralization_category = {
 		}
 	}
 }
+
+BRA_prospecting_category = {
+	BRA_amazonian_rubber = {
+		cost = 15
+		allowed = {
+			tag = BRA
+		}
+		icon = GFX_decision_generic_industry
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = Hunt_for_More
+		}
+		available = {
+			NOT = {
+				has_country_flag = BRA_prospecting
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		complete_effect = {
+			set_country_flag = BRA_prospecting
+		}
+		remove_effect = {
+			clr_country_flag = BRA_prospecting
+			add_resource = {
+				type = rubber
+				amount = 15
+				state = 781
+			}
+			add_resource = {
+				type = rubber
+				amount = 5
+				state = 784
+			}
+			add_resource = {
+				type = rubber
+				amount = 5
+				state = 787
+			}
+		}
+	}
+	
+	BRA_southern_resources = {
+		cost = 15
+		allowed = {
+			tag = BRA
+		}
+		icon = GFX_decision_generic_industry
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = Hunt_for_More
+		}
+		available = {
+			NOT = {
+				has_country_flag = BRA_prospecting
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		complete_effect = {
+			set_country_flag = BRA_prospecting
+		}
+		remove_effect = {
+			clr_country_flag = BRA_prospecting
+			add_resource = {
+				type = oil
+				amount = 3
+				state = 799
+			}
+			add_resource = {
+				type = oil
+				amount = 2
+				state = 601
+			}
+			add_resource = {
+				type = aluminium
+				amount = 15
+				state = 548
+			}
+		}
+	}
+	
+	BRA_hunt_for_more_chromium = {
+		cost = 15
+		allowed = {
+			tag = BRA
+		}
+		icon = GFX_decision_generic_industry
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = Hunt_for_More
+		}
+		available = {
+			NOT = {
+				has_country_flag = BRA_prospecting
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		complete_effect = {
+			set_country_flag = BRA_prospecting
+		}
+		remove_effect = {
+			clr_country_flag = BRA_prospecting
+			add_resource = {
+				type = chromium
+				amount = 5
+				state = 719
+			}
+			add_resource = {
+				type = chromium
+				amount = 5
+				state = 681
+			}
+			add_resource = {
+				type = chromium
+				amount = 5
+				state = 724
+			}
+		}
+	}
+	
+	BRA_hunt_for_more_tungsten = {
+		cost = 15
+		allowed = {
+			tag = BRA
+		}
+		icon = GFX_decision_generic_industry
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = Hunt_for_More
+		}
+		available = {
+			NOT = {
+				has_country_flag = BRA_prospecting
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		days_remove = 60
+		complete_effect = {
+			set_country_flag = BRA_prospecting
+		}
+		remove_effect = {
+			clr_country_flag = BRA_prospecting
+			add_resource = {
+				type = tungsten
+				amount = 5
+				state = 661
+			}
+			add_resource = {
+				type = tungsten
+				amount = 5
+				state = 537
+			}
+			add_resource = {
+				type = tungsten
+				amount = 5
+				state = 711
+			}
+			add_resource = {
+				type = tungsten
+				amount = 5
+				state = 677
+			}
+		}
+	}
+}

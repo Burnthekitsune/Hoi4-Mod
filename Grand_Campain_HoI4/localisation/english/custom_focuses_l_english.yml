@@ -475,8 +475,10 @@
  add_5_ind_points: "Adds §G5§! Industry Points"
  enables_prospecting: "§GEnables Prospecting"
  BRA_currently_building: "Currently Building"
+ BRA_prospecting: "Currently Prospecting"
  
  BRA_industralization_category: "Industral Buildup"
+ BRA_prospecting_category: "Hunt for more Resouces"
  
  BRA_buildup_the_north: "Buildup the North"
  BRA_buildup_the_capital: "Buildup the Capital"
@@ -498,3 +500,12 @@
  BRA_buildup_the_southeast_desc: "The East is our greatst population center, we must invest all across it, inclduing the south."
  BRA_buildup_the_east_desc: "The East is our greatst population center, we must invest all across it, especially the center of it."
  BRA_buildup_the_northeast_desc: "The East is our greatst population center, we must invest all across it, inclduing the north."
+ 
+ BRA_amazonian_rubber: "Amazonian Rubber"
+ BRA_southern_resources: "Southern Resources"
+ BRA_hunt_for_more_chromium: "Hunt for more Chromium"
+ BRA_hunt_for_more_tungsten: "Hunt for more Tungsten"
+ BRA_amazonian_rubber_desc: "The Amazon is the perfect place for us to grow and harvest rubber trees!"
+ BRA_southern_resources_desc: "The south has many untapped natural resources for us to exploit."
+ BRA_hunt_for_more_chromium_desc: "The west has a small amount of chromium, there is likely more!"
+ BRA_hunt_for_more_tungsten_desc: "The east has a small amount of tungsten, there is likely more!"
