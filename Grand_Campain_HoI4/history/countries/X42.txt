@@ -22,17 +22,17 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1935.6.19"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 30
-	democratic = 40
+	communism = 15
+	democratic = 30
 	fascism = 15
-	neutrality = 15
+	neutrality = 40
 }
 
 add_ideas = {
