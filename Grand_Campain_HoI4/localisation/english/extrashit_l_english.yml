@@ -262,5 +262,9 @@
  X10_amphibious_mechanized_equipment_2_short:0 "CME"
  X10_mechanized_equipment_2_short:0 "CIE"
  X10_mechanized_equipment_3_short:0 "Transporteblindado"
+ train_equipment_1:0 "9HB"
+ train_equipment_2:0 "S17K"
+ train_equipment_3:0 "SUHH810"
+ train_equipment_3_short:0 "SUHH810"
  Carro Blindado Pesado:0 "Carro Blindado Pesado" # Heavy Armoured Car
  Carro Ciempiés:0 "Carro Ciempiés" # Centipede Car
