@@ -37,7 +37,7 @@ X10_refurb_org = {
  
 #####################
 
-X10_refurb_org = {
+X10_navy_refurb_org = {
 	include = generic_refurbishment_repair_organization
 	icon = GFX_idea_generic_naval_manufacturer_2
 

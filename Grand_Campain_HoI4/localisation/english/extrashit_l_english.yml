@@ -220,6 +220,7 @@
  X10_fast_plane_org:0 "Buma Aero-Engines" # This is actually range, I mixed them up
  X10_long_plane_org:0 "Zaragoza Design Plant" # This is actually agility, I fucked up
  X10_raid_org:0 "Braga Shipyards"
+ X10_navy_refurb_org:0 "DSRA" # Alfeite Repair Drydock
  X10_snubarine_org:0 "Elfael"
  X10_infantry_org:0 "Mundir-Vasco"
  X10_infantry_equipment_0:0 "Mosquete del Sindicato Astra M1889/05"

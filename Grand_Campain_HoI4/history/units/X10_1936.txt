@@ -459,3 +459,158 @@ units = {
 			}
 		}
 }
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "X10"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 35
+		industrial_manufacturer = mio:X10_support_org
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "X10"
+		}
+		requested_factories = 6
+		progress = 0.9
+		efficiency = 50
+		industrial_manufacturer = mio:X10_support_org
+	}
+	
+		add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "X10" 
+		}
+		requested_factories = 8
+		progress = 0.3
+		efficiency = 45
+		industrial_manufacturer = mio:X10_refurb_org
+	}
+	
+		add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "X10" 
+		}
+		requested_factories = 5
+		progress = 0.4
+		efficiency = 30
+		industrial_manufacturer = mio:X10_motorpool_org
+	}
+	
+		add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_0
+			creator = "X10" 
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+		industrial_manufacturer = mio:X10_motorpool_org
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "X10" 
+		}
+		requested_factories = 4
+		progress = 0.4
+		efficiency = 50
+		industrial_manufacturer = mio:X10_cannon
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "X10" 
+		}
+		requested_factories = 2
+		progress = 0.6
+		efficiency = 50
+		industrial_manufacturer = mio:X10_cannon
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = gw_armored_car_equipment
+			creator = "X10" 
+		}
+		requested_factories = 4
+		progress = 0.9
+		efficiency = 50
+		industrial_manufacturer = mio:X10_armourcar_org
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_1
+			creator = "X10" 
+			version_name = "Carruaje P4"
+		}
+		requested_factories = 5
+		progress = 0.4
+		efficiency = 25
+		industrial_manufacturer = mio:X10_refurb_org
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = medium_tank_artillery_chassis_0
+			creator = "X10" 
+			version_name = "Portador de Obús"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 40
+		industrial_manufacturer = mio:X10_infantry_org
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = heavy_tank_chassis_0
+			creator = "X10" 
+			version_name = "Fortaleza"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+		industrial_manufacturer = mio:X10_infantry_org
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_0
+			creator = "X10" 
+			version_name = "Contracarro"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+		industrial_manufacturer = mio:X10_infantry_org
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_0
+			creator = "X10" 
+			version_name = "Carro Blindado Pesado"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+		industrial_manufacturer = mio:X10_refurb_org
+	}
+}
