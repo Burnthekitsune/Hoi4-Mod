@@ -128,20 +128,10 @@ ideologies = {
 	fascism = {
 
 		types = {
-
-			nazism = {
+			placeholder = {
 			}
 
-			gen_nazism = {
-			}
-
-			fascism_ideology = {
-			}
-
-			falangism = {
-			}
-
-			rexism = {
+			placeholder_2 = {
 			}
 		}
 
@@ -199,6 +189,21 @@ ideologies = {
 			}
 
 			centrism = {
+			}
+			
+			nazism = {
+			}
+
+			gen_nazism = {
+			}
+
+			fascism_ideology = {
+			}
+
+			falangism = {
+			}
+
+			rexism = {
 			}
 		}
 
