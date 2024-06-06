@@ -16,7 +16,7 @@ bookmarks = {
 		}
 		V27= {
 			history = V27_hist
-			ideology = communism
+			ideology = fascism
 		}
 		W40= {
 			history = W40_hist
