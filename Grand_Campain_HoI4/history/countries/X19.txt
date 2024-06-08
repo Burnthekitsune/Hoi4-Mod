@@ -40,6 +40,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
+	X19_armed_neutrality
 }
 set_stability = 0.6
 set_war_support = 0.60

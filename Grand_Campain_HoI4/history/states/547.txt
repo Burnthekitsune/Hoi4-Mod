@@ -6,7 +6,7 @@ state = {
 		steel = 1
 	}
 
-	state_category = town
+	state_category = city
 
 	history = {
 		owner = X19
@@ -15,8 +15,38 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 0
+			industrial_complex = 2
+			arms_factory = 2
+			658 = {
+				bunker = 5
+			}
+			661 = {
+				bunker = 5
+			}
+			663 = {
+				bunker = 5
+			}
+			3641 = {
+				bunker = 5
+			}
+			3660 = {
+				bunker = 5
+			}
+			3662 = {
+				bunker = 5
+			}
+			9600 = {
+				bunker = 5
+			}
+			11601 = {
+				bunker = 5
+			}
+			11604 = {
+				bunker = 5
+			}
+			11623 = {
+				bunker = 5
+			}
 		}
 		add_core_of = X19
 	}

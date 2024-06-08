@@ -219,6 +219,8 @@ random_decisions = {
 				can_join_factions = yes
 				can_not_declare_war = no
 			}
+			remove_ideas = X19_armed_neutrality
+			add_ideas = X19_defense_of_communism
 			X10 = {
 				add_to_faction = X19
 			}
@@ -274,6 +276,8 @@ random_decisions = {
 				can_join_factions = yes
 				can_not_declare_war = no
 			}
+			remove_ideas = X19_armed_neutrality
+			add_ideas = X19_defense_of_communism
 			X10 = {
 				add_to_faction = X19
 			}
