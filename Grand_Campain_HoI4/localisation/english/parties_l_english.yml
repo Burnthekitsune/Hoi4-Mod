@@ -1130,3 +1130,12 @@
  BRA_imperial_house_long: "The Imperial Restoration Movement"
  BRA_cangaco_party_long: "Movimento Cangaço"
  BRA_cangaco_party: "Cangaço"
+ 
+ new_socialism: "New Socialism"
+ new_socialism_noun: "New Socialist"
+ new_socialism_desc: "TODO"
+ new_socialism_1: "TODO New Soc 1"
+ new_socialism_1_desc: "TODO"
+ new_socialism_2: "TODO New Soc 2"
+ new_socialism_2_desc:  "TODO"
+ new_socialism_booster: "New Socialist Politician"

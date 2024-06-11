@@ -10703,4 +10703,14 @@ JUNO_emergency_powers = {
 		stability_factor = 0.1
 		unaligned_drift = 0.05
 	}
+	
+	new_socialism_booster = {
+		random = no
+		sprite = 13
+		new_socialism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

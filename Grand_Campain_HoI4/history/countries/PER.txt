@@ -34,7 +34,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = new_socialism
 	last_election = "1935.8.6"
 	election_frequency = 48
 	elections_allowed = yes

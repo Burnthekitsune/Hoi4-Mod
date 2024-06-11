@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		PER= {
 			history = PER_hist
-			ideology = communism
+			ideology = new_socialism
 		}
 		UPU= {
 			history = UPU_hist
