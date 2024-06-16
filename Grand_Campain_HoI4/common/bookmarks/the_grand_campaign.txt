@@ -52,7 +52,7 @@ bookmarks = {
 		Z03 = {
 			minor = yes
 			history = Z03_hist
-			ideology = communism
+			ideology = fascism
 		}
 		BRA = {
 			minor = yes
