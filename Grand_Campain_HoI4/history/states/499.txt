@@ -4,18 +4,22 @@ state = {
 	manpower = 1023365
 	resources = {
 		rubber = 1
-		tungsten = 0
+		tungsten = 1
 	}
 
 	state_category = town
 
 	history = {
-		owner = W40
+		owner = MEA
+		victory_points = {
+			13072 10
+		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
+			infrastructure = 3
+			industrial_complex = 2
 			arms_factory = 1
 		}
+		add_core_of = MEA
 		add_core_of = W40
 	}
 

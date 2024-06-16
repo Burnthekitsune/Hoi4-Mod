@@ -6,15 +6,16 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = W40
+		owner = MNO
 		victory_points = {
 			7669 1
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
 		}
+		add_core_of = MNO
 		add_core_of = AST
 	}
 
