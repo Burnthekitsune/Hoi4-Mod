@@ -26,6 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
+	MNO_pride
+	MNO_bordertension
 	low_economic_mobilisation
 	free_trade
 	limited_conscription

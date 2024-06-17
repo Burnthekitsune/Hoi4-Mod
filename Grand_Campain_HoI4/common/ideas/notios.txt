@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		MNO_pride = {
+			picture = SPR_torchbearers_of_tomorrow
+			allowed = {
+				original_tag = MNO
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				license_subject_master_purchase_cost = 0.5
+				autonomy_gain = 1
+				autonomy_gain_ll_to_overlord_factor = 1
+			}
+		}
+		MNO_bordertension = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = {
+				original_tag = MNO
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				send_volunteer_divisions_required = -0.9
+				send_volunteer_size = 1
+			}
+		}
+	}
+}

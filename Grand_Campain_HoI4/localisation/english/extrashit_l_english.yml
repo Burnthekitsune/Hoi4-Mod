@@ -357,3 +357,7 @@
  MEA_train_equipment_2:0 "DMA60 Strouthokamilos"
  MEA_train_equipment_3:0 "DMA62 Amaxa"
  MEA_train_equipment_3_short:0 "DMA62 Amaxa"
+ WEA_naturalisation: "Naturalisation Efforts"
+ WEA_agriculture: "Breadbasket of the Empire"
+ MNO_pride: "Proud to be Notios"
+ MNO_bordertension: "Frequent Border Skirmishes"

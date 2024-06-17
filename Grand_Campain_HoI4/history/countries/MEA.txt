@@ -29,6 +29,8 @@ add_ideas = {
 	low_economic_mobilisation
 	free_trade
 	limited_conscription
+	WEA_agriculture
+	WEA_naturalisation
 }
 set_stability = 0.4
 set_war_support = 0.3

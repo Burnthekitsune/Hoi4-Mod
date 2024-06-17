@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		WEA_agriculture = {
+			picture = LIT_invested_in_farms
+			allowed = {
+				original_tag = MEA
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.25
+				recruitable_population_factor = -0.1
+			}
+		}
+		WEA_naturalisation = {
+			picture = generic_manpower_bonus
+			allowed = {
+				original_tag = MEA
+			}
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.05
+				stability_factor = 0.05
+			}
+		}
+	}
+}
