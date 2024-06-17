@@ -1,0 +1,15 @@
+﻿Colony_Cops_MEA =
+{
+	name = "Administration Police"
+	for_countries = { MEA }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%d. Diokitiki Astynomia"
+		
+	ordered =
+		{
+			1 = { "%d. Apoikia Astynomia" }
+			2 = { "%d. Katoikia tis Ereinis Astynomia" }
+			3 = { "%d. Gitega Astynomia" }
+		}
+}

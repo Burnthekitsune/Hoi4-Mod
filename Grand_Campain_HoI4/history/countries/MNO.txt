@@ -1,6 +1,6 @@
 capital = 622
 
-oob = "W40_1936"
+oob = "MNO_1936"
 set_research_slots = 2
 set_convoys = 10
 

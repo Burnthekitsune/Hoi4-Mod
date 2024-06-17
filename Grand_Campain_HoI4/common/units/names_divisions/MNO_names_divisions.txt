@@ -1,0 +1,14 @@
+﻿Colony_Cops_MNO =
+{
+	name = "Colonial Police"
+	for_countries = { MNO }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%d. Kathestotiko Astynomiko Tagma"
+		
+	ordered =
+		{
+			1 = { "%d. Anatoliko Astynomiko Tagma" }
+			2 = { "%d. Dytiko Astynomiko Tagma" }
+		}
+}

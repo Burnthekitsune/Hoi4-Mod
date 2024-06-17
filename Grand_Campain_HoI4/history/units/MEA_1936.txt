@@ -1,0 +1,73 @@
+division_template = {
+	name = "Administration Police Battalion"
+	division_names_group = Colony_Cops_MEA
+	regiments = {
+		Infantry = { x = 0 y = 0 }
+		Infantry = { x = 0 y = 1 }
+		Infantry = { x = 0 y = 2 }
+		
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		armored_car = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13072
+		division_template = "Administration Police Battalion"
+		start_experience_factor = 0.65
+		start_equipment_factor = 0.95
+		start_manpower_factor = 0.95
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2196
+		division_template = "Administration Police Battalion"
+		start_experience_factor = 0.55
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2220
+		division_template = "Administration Police Battalion"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.6
+		start_manpower_factor = 0.45
+	}
+}
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MEA"
+		}
+		requested_factories = 1
+		progress = 0.8
+		efficiency = 35
+	}
+	add_equipment_production = {
+		equipment = {
+			type = gw_armored_car_equipment
+			creator = "MEA"
+		}
+		requested_factories = 1
+		progress = 0.8
+		efficiency = 3
+	}
+	
+}
