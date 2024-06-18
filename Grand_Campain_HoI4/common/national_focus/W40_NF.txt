@@ -590,7 +590,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.35
 				uses = 1
-				category = # Small Arms
+				category = infantry_weapons
 			}
 			add_tech_bonus = {
 				bonus = 0.35
@@ -1275,7 +1275,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.35
 				uses = 1
-				technology = #Unsure what AMTRACs are
+				technology = amphibious_mechanized_infantry
 			}
 		}
 	}
@@ -1285,13 +1285,22 @@ focus_tree = {
 		cost = 5
 		x = 0
 		y = 1
-		prerequisite = {  }
+		prerequisite = { focus = Mobile_Shingles }
 		relative_position_id = Mobile_Shingles
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-		
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = amphibious_tank_chassis
+			}
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 1
+				technology = amphibious_drive
+			}
 		}
 	}
 	focus = {
@@ -1343,7 +1352,7 @@ focus_tree = {
 		cost = 5
 		x = 7
 		y = 8
-		prerequisite = {  }
+		prerequisite = { focus = Bolster_the_Imperial_Guard }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1357,7 +1366,7 @@ focus_tree = {
 		cost = 5
 		x = 9
 		y = 8
-		prerequisite = {  }
+		prerequisite = { focus = Bolster_the_Imperial_Guard }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no

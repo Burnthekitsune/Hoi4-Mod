@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		W40_greco_fairas_regionalism = {
-			picture = 
+			picture = bul_zveno
 			allowed = {
 				original_tag = W40
 			}
@@ -19,7 +19,7 @@ ideas = {
 		}
 		
 		W40_privileges_removed = {
-			picture = 
+			picture = tur_sectarian_woes
 			allowed = {
 				original_tag = W40
 			}
@@ -36,7 +36,7 @@ ideas = {
 		}
 		
 		W40_greek_irredentism = {
-			picture = 
+			picture = gre_martyrs_of_the_anatolian_catastrophe
 			allowed = {
 				original_tag = W40
 			}
@@ -53,7 +53,7 @@ ideas = {
 		}
 		
 		W40_outrage_in_greece = {
-			picture = 
+			picture = tur_sectarian_troubles_fundamentalism
 			allowed = {
 				original_tag = W40
 			}
@@ -70,7 +70,7 @@ ideas = {
 		}
 		
 		W40_fairas_opposition = {
-			picture = 
+			picture = citizen_militia_2
 			allowed = {
 				original_tag = W40
 			}
@@ -87,7 +87,7 @@ ideas = {
 		}
 		
 		W40_epirote_compromise = {
-			picture = 
+			picture = SWE_all_cards_on_deck
 			allowed = {
 				original_tag = W40
 			}
@@ -104,7 +104,7 @@ ideas = {
 		}
 		
 		W40_southern_deadlock = {
-			picture = 
+			picture = NOR_contested_leadership_ns
 			allowed = {
 				original_tag = W40
 			}
@@ -121,7 +121,7 @@ ideas = {
 		}
 		
 		W40_positive_regionalism = {
-			picture = 
+			picture = SOV_fascist_womens_movement
 			allowed = {
 				original_tag = W40
 			}
@@ -139,7 +139,7 @@ ideas = {
 		}
 		
 		W40_positive_regionalism_2 = {
-			picture = 
+			picture = generic_reserve_divisions
 			allowed = {
 				original_tag = W40
 			}
@@ -159,7 +159,7 @@ ideas = {
 		}
 		
 		W40_labour_agitation = {
-			picture = 
+			picture = ICE_general_strike
 			allowed = {
 				original_tag = W40
 			}
@@ -172,12 +172,13 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.1
+				fascism_drift = 0.05
 				communism_drift = 0.05
 			}
 		}
 		
 		W40_Land_of_a_Myriad_Unions = {
-			picture = 
+			picture = new_economic_policy
 			allowed = {
 				original_tag = W40
 			}
@@ -192,12 +193,11 @@ ideas = {
 				stability_factor = -0.05
 				communism_drift = 0.03
 				consumer_goods_factor = 0.03
-				# Cut off idea modifier
 			}
 		}
 		
 		W40_imperial_labour_organization = {
-			picture = 
+			picture = SOV_fourth_five_year_plan
 			allowed = {
 				original_tag = W40
 			}
@@ -216,7 +216,7 @@ ideas = {
 		}
 		
 		W40_bimetalic_sukhe = {
-			picture = 
+			picture = usa_great_depression
 			allowed = {
 				original_tag = W40
 			}
@@ -236,7 +236,7 @@ ideas = {
 		}
 		
 		W40_abandoning_the_bimetalic_standard = {
-			picture = 
+			picture = can_wartime_prices_and_trade_board
 			allowed = {
 				original_tag = W40
 			}
@@ -254,7 +254,7 @@ ideas = {
 		}
 		
 		W40_gold_sukhe = {
-			picture = 
+			picture = hol_aloof_neutrality
 			allowed = {
 				original_tag = W40
 			}
@@ -267,11 +267,13 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.03
+				stability_factor = 0.05
+				democracy_drift = 0.02
 			}
 		}
 		
 		W40_silver_sukhe = {
-			picture = 
+			picture = generic_goods_red_bonus
 			allowed = {
 				original_tag = W40
 			}
@@ -284,11 +286,12 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.03
+				stability_factor = -0.1
 			}
 		}
 		
 		W40_competetive_sukhe = {
-			picture = 
+			picture = generic_economic_increase
 			allowed = {
 				original_tag = W40
 			}
@@ -301,11 +304,12 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.05
+				emocracy_drift = 0.01
 			}
 		}
 		
 		W40_this_man_is_your_friend = {
-			picture = 
+			picture = tur_disorganised_armed_forces
 			allowed = {
 				original_tag = W40
 			}
@@ -317,12 +321,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				improve_relations_maintain_cost_factor = -0.5 # My guess based on this being the only one
+				improve_relations_maintain_cost_factor = -0.5
+				puppet_cost_factor = -0.2
 			}
 		}
 		
 		W40_market_dynamism = {
-			picture = 
+			picture = generic_flexible_foreign_policy
 			allowed = {
 				original_tag = W40
 			}
@@ -334,12 +339,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				# Idea cut off 
+				political_power_gain = 0.1
+				production_factory_max_efficiency_factor = 0.05
 			}
 		}
 		
 		W40_market_dynamism_2 = {
-			picture = 
+			picture = generic_flexible_foreign_policy
 			allowed = {
 				original_tag = W40
 			}
@@ -352,12 +358,14 @@ ideas = {
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
-				# Idea cut off
+				production_factory_efficiency_gain_factor = 0.05
+				political_power_gain = 0.1
+				production_factory_max_efficiency_factor = 0.05
 			}
 		}
 		
 		W40_market_dynamism_3 = {
-			picture = 
+			picture = generic_flexible_foreign_policy
 			allowed = {
 				original_tag = W40
 			}
@@ -369,12 +377,15 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				# Idea cut off
+				political_power_gain = 0.1
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.02
 			}
 		}
 		
 		W40_market_dynamism_4 = {
-			picture = 
+			picture = FRA_market_dynamism
 			allowed = {
 				original_tag = W40
 			}
@@ -387,12 +398,16 @@ ideas = {
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
-				# Idea cut off
+				production_factory_efficiency_gain_factor = 0.05
+				political_power_gain = 0.1
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.02
 			}
 		}
 		
 		W40_rocketry_pioneers = {
-			picture = 
+			picture = SPA_fet_y_de_las_jons
 			allowed = {
 				original_tag = W40
 			}
@@ -404,13 +419,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				# Unsure how to give bonus to 1 tech type in modifier
-				experience_gain_rocket_artillery_training_factor = 0.1
 			}
 		}
 		
 		W40_gas_leak_disaster = {
-			picture = 
+			picture = ENG_the_war_to_end_all_wars
 			allowed = {
 				original_tag = W40
 			}
@@ -428,7 +441,7 @@ ideas = {
 		}
 		
 		W40_corruption_scandal = {
-			picture = 
+			picture = FIN_maan_turva
 			allowed = {
 				original_tag = W40
 			}
@@ -445,7 +458,7 @@ ideas = {
 		}
 		
 		W40_grand_army_of_muraa = {
-			picture = 
+			picture = MEX_politicised_army
 			allowed = {
 				original_tag = W40
 			}
@@ -458,11 +471,12 @@ ideas = {
 			
 			modifier = {
 				mobilization_speed = 0.2
+				recruitable_population_factor = 0.05
 			}
 		}
 		
 		W40_grand_army_of_muraa_deluge = {
-			picture = 
+			picture = MEX_politicised_army
 			allowed = {
 				original_tag = W40
 			}
@@ -476,12 +490,12 @@ ideas = {
 			modifier = {
 				mobilization_speed = 0.2
 				recruitable_population = 0.01
-				recruitable_population_factor = 0.1
+				recruitable_population_factor = 0.15
 			}
 		}
 		
 		W40_grand_army_of_muraa_deluge_blue = {
-			picture = 
+			picture = MEX_politicised_army
 			allowed = {
 				original_tag = W40
 			}
@@ -495,14 +509,14 @@ ideas = {
 			modifier = {
 				mobilization_speed = 0.2
 				recruitable_population = 0.01
-				recruitable_population_factor = 0.1
+				recruitable_population_factor = 0.15
 				breakthrough_factor = 0.1
 				army_attack_factor = 0.1
 			}
 		}
 		
 		W40_grand_army_of_muraa_1650 = {
-			picture = 
+			picture = MEX_politicised_army
 			allowed = {
 				original_tag = W40
 			}
@@ -515,13 +529,14 @@ ideas = {
 			
 			modifier = {
 				mobilization_speed = 0.2
+				recruitable_population_factor = 0.05
 				army_defence_factor = 0.1
-				# Idea cut off
+				max_dig_in = 5
 			}
 		}
 		
 		W40_grand_army_of_muraa_1650_blue = {
-			picture = 
+			picture = MEX_politicised_army
 			allowed = {
 				original_tag = W40
 			}
@@ -534,15 +549,16 @@ ideas = {
 			
 			modifier = {
 				mobilization_speed = 0.2
+				recruitable_population_factor = 0.05
 				army_defence_factor = 0.1
-				# Idea cut off
+				max_dig_in = 5
 				breakthrough_factor = 0.1
 				army_attack_factor = 0.1
 			}
 		}
 		
 		W40_revised_budget = {
-			picture = 
+			picture = MEX_callistas
 			allowed = {
 				original_tag = W40
 			}
@@ -559,7 +575,7 @@ ideas = {
 		}
 		
 		W40_rocketry_pioneers_2 = {
-			picture = 
+			picture = SPA_fet_y_de_las_jons
 			allowed = {
 				original_tag = W40
 			}
@@ -571,14 +587,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				# Unsure how to give bonus to 1 tech type in modifier
-				experience_gain_rocket_artillery_training_factor = 0.1
 				navy_anti_air_attack_factor = 0.03
 			}
 		}
 		
 		W40_rocketry_pioneers_3 = {
-			picture = 
+			picture = SPA_fet_y_de_las_jons
 			allowed = {
 				original_tag = W40
 			}
@@ -590,15 +604,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				# Unsure how to give bonus to 1 tech type in modifier
-				experience_gain_rocket_artillery_training_factor = 0.1
 				navy_anti_air_attack_factor = 0.03
-				# Unsure how to give naval CAS bonuses
+				navy_carrier_air_targetting_factor = 0.2
 			}
 		}
 		
 		W40_naval_infantry = {
-			picture = 
+			picture = eng_preparing_the_second_front
 			allowed = {
 				original_tag = W40
 			}
@@ -610,12 +622,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				# Bonus cut off
+				naval_invasion_capacity = 5
+				naval_invasion_planning_bonus_speed = 0.1
 			}
 		}
 		
 		W40_naval_infantry_2 = {
-			picture = 
+			picture = eng_preparing_the_second_front
 			allowed = {
 				original_tag = W40
 			}
@@ -627,7 +640,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				# Bonus cut off
+				naval_invasion_capacity = 10
+				naval_invasion_planning_bonus_speed = 0.1
 			}
 		}
 	}
