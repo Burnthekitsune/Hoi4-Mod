@@ -1139,3 +1139,12 @@
  new_socialism_2: "TODO New Soc 2"
  new_socialism_2_desc:  "TODO"
  new_socialism_booster: "New Socialist Politician"
+ 
+ V27_fascism_party: "CSCR"
+ V27_fascism_party_long: "Comrades for the Second Communist Revolution"
+ V27_communism_party: "CPA"
+ V27_communism_party_long: "Communist Party of Africa"
+ V27_democratic_party: "EFDF"
+ V27_democratic_party_long: "Economic Freedom and Development Front"
+ V27_neutrality_party: "PFJSAL"
+ V27_neutrality_party_long: "Peasants' Front of the JSAL"
