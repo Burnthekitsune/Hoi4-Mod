@@ -51,7 +51,7 @@ characters = {
 		}
 		country_leader = {
 			traits = { stalin_heart_of_steel empire_builder }
-			ideology = socialism
+			ideology = conservatism
 		}
 	}
 	W40_miat_khasavako = {
