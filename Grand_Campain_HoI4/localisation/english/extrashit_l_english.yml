@@ -606,3 +606,8 @@
  casting_bulb_of_tulip:0 "Bulbous Cast Turrets"
  casting_fully_cast:0 "Fully Cast Body"
  casting_mastery:0 "Mastery of Casting"
+ emb_antimagnets:0 "Antimagnetic Paste"
+ emb_batteries:0 "Battery Advancements"
+ emb_advanced_belt:0 "Advanced Torpedo Belt"
+ emb_superspec:0 "Engineered Above Spec"
+ emb_floatplae:0 "Floatplane Carrier"

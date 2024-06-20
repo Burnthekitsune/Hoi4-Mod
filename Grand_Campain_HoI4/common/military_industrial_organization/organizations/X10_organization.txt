@@ -14,7 +14,25 @@ X10_infantry_org = {
     allowed = { 
         tag = X10
         has_dlc = "Arms Against Tyranny"
-    } 
+    }
+	
+	add_trait = {
+		token = emb_antimagnets
+		name = emb_antimagnets
+		icon = GFX_generic_mio_department_icon_tank_general_line_efficiency
+		special_trait_background = yes
+		
+		position = { x=4 y=3 }
+		
+		equipment_bonus = {
+			reliability = 0.1
+			hardness = 0.05
+		}
+		
+		production_bonus = {
+			production_efficiency_gain_factor = -0.05
+		}
+	}
 }
 
 X10_refurb_org = {
@@ -23,7 +41,21 @@ X10_refurb_org = {
     allowed = { 
         tag = X10
         has_dlc = "Arms Against Tyranny"
-    } 
+    }
+	
+	add_trait = {
+		token = emb_batteries
+		name = emb_batteries
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		special_trait_background = yes
+		
+		position = { x=0 y=4 }
+		
+		equipment_bonus = {
+			reliability = 0.05
+			fuel_consumption = -0.15
+		}
+	}
 }
 
 
@@ -86,6 +118,20 @@ X10_navy_refurb_org = {
 		
 		equipment_bonus = {
 			armor_value = 0.03
+		}
+	}
+	
+	add_trait = {
+		token = emb_advanced_belt
+		name = emb_advanced_belt
+		icon = GFX_generic_mio_trait_icon_naval_torpedo_damage_reduction_factor
+		special_trait_background = yes
+		
+		position = { x=4 y=4 }
+		
+		equipment_bonus = {
+			naval_torpedo_damage_reduction_factor = 0.05
+			armor_value = 0.05
 		}
 	}
 
@@ -313,6 +359,28 @@ X10_raid_org = {
         tag = X10
         has_dlc = "Arms Against Tyranny"
     }
+
+	add_trait = {
+		token = emb_superspec
+		name = emb_superspec
+		icon = GFX_generic_mio_trait_icon_max_strength
+		special_trait_background = yes
+		
+		position = { x=4 y=4 }
+		
+		equipment_bonus = {
+			surface_visibility = -0.05
+			sub_visibility = -0.05
+			armor_value = 0.05
+			naval_range = 0.05
+			naval_speed = 0.05
+		}
+		
+		production_bonus = {
+			production_capacity_factor = -0.05
+			production_cost_factor = 0.05
+		}
+	}
 }
 
 X10_snubarine_org = {
@@ -322,6 +390,20 @@ X10_snubarine_org = {
         tag = X10
         has_dlc = "Arms Against Tyranny"
     }
+
+	add_trait = {
+		token = emb_floatplae
+		name = emb_floatplae
+		icon = GFX_generic_mio_trait_icon_surface_detection
+		special_trait_background = yes
+		
+		position = { x=0 y=4 }
+		
+		equipment_bonus = {
+			surface_detection = 0.1
+			surface_visibility = 0.05
+		}
+	}
 }
 
 ###########################
