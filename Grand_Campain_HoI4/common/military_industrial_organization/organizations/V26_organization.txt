@@ -1,0 +1,396 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+# CASTING MANUFACTURER - Based on my GearCity Company
+casting_engine_organization = {
+	icon = GFX_idea_LAT_neopaganism_2
+	
+	allowed = {
+		OR = {
+			tag = V26
+			tag = UPU
+		}
+	}
+		
+	equipment_type = { armored_car_equipment motorized_equipment motorized_rocket_equipment }
+	research_categories = { cat_armored_cars motorized_equipment }
+		
+	tree_header_text = {
+			text = c_mio_header_trucks
+			x = 1
+	}
+		
+	tree_header_text = {
+			text = c_mio_header_engines
+			x = 4
+	}
+		
+	tree_header_text = {
+			text = c_mio_header_ac
+			x = 7
+	}
+		
+	initial_trait = {
+		name = V26_mio_trait_casting_champs
+			
+		limit_to_equipment_type = { armored_car_equipment motorized_equipment motorized_rocket_equipment }
+			
+		equipment_bonus = {
+				hardness = 0.03
+				armor_value = 0.05
+				build_cost_ic = 0.05
+		}
+			
+		organization_modifier = {
+				military_industrial_organization_research_bonus = 0.05
+		}
+	}
+	
+	trait = {
+		token = casting_soft_bed
+		name = casting_soft_bed
+		icon = GFX_generic_mio_department_icon_motorized_production
+		
+		position = { x=0 y =0 }
+		
+		mutually_exclusive = { casting_open_bed casting_hard_bed }
+		
+		limit_to_equipment_type = { motorized_equipment }
+		
+		equipment_bonus = {
+			breakthrough = 0.01
+			reliability = 0.02
+		}
+	}
+	
+		trait = {
+		token = casting_open_bed
+		name = casting_open_bed
+		icon = GFX_generic_mio_trait_icon_reliability
+		
+		position = { x=1 y =0 }
+		
+		mutually_exclusive = { casting_soft_bed casting_hard_bed }
+		
+		limit_to_equipment_type = { motorized_equipment }
+		
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			fuel_consumption = -0.02
+		}
+	}
+	
+		trait = {
+		token = casting_hard_bed
+		name = casting_hard_bed
+		icon = GFX_generic_mio_trait_icon_armor_value
+		
+		position = { x=2 y =0 }
+		
+		mutually_exclusive = { casting_open_bed casting_soft_bed }
+		
+		limit_to_equipment_type = { motorized_equipment }
+		
+		equipment_bonus = {
+			breakthrough = 0.05
+			hardness = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+	
+		trait = {
+		token = casting_simple_tools
+		name = casting_simple_tools
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		
+		position = { x=1 y =2 }
+		
+		any_parent = { casting_open_bed casting_soft_bed casting_hard_bed }
+		
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+		
+		production_bonus = {
+			production_efficiency_cap_factor = 0.15
+		}
+	}
+	
+		trait = {
+		token = casting_aux_engine
+		name = casting_aux_engine
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		
+		position = { x=0 y =4 }
+		
+		any_parent = { casting_simple_tools }
+		mutually_exclusive = { casting_turbosupercharger }
+		
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+		
+		production_bonus = {
+			production_resource_need_factor = 0.1
+			production_resource_penalty_factor = 0.2
+		}
+		
+		equipment_bonus = {
+			reliability = 0.1
+			breakthrough = 0.1
+			build_cost_ic = 0.1
+		}
+	}
+	
+		trait = {
+		token = casting_turbosupercharger
+		name = casting_turbosupercharger
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		
+		position = { x=2 y =4 }
+		
+		any_parent = { casting_simple_tools }
+		mutually_exclusive = { casting_aux_engine }
+		
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+		
+		production_bonus = {
+			production_conversion_speed_factor = 0.35
+		}
+		
+		equipment_bonus = {
+			breakthrough = 0.05
+			maximum_speed = 0.2
+			build_cost_ic = 0.05
+			fuel_consumption = 0.1
+		}
+	}
+	
+	trait = {
+		token = casting_unibody
+		name = casting_unibody
+		icon = GFX_generic_mio_trait_icon_reliability
+		
+		position = { x=3 y =0 }
+		
+		mutually_exclusive = { casting_superleggera }
+		
+		limit_to_equipment_type = { motorized_equipment armored_car_equipment motorized_rocket_equipment }
+		
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			reliability = 0.05
+		}
+	}
+	
+	trait = {
+		token = casting_superleggera
+		name = casting_superleggera
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		
+		position = { x=5 y =0 }
+		
+		mutually_exclusive = { casting_unibody }
+		
+		limit_to_equipment_type = { motorized_equipment armored_car_equipment motorized_rocket_equipment }
+		
+		equipment_bonus = {
+			maximum_speed = 0.15
+			build_cost_ic = -0.1
+			reliability = -0.1
+		}
+	}
+	
+		trait = {
+		token = casting_bulletwind
+		name = casting_sbulletwind
+		icon = GFX_generic_mio_trait_icon_armor_value
+		
+		position = { x=4 y =2 }
+		
+		any_parent = { casting_superleggera casting_unibody }
+		
+		limit_to_equipment_type = { motorized_equipment armored_car_equipment motorized_rocket_equipment }
+		
+		equipment_bonus = {
+			hardness = 0.05
+		}
+	}
+	
+		trait = {
+		token = casting_I6
+		name = casting_I6
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		
+		position = { x=3 y =4 }
+		
+		any_parent = { casting_bulletwind }
+		mutually_exclusive = { casting_V8 casting_W9 }
+		
+		limit_to_equipment_type = { motorized_equipment armored_car_equipment motorized_rocket_equipment }
+		
+		production_bonus = {
+			production_efficiency_cap_factor = 0.1
+		}
+		
+		equipment_bonus = {
+			reliability = 0.05
+			build_cost_ic = -0.05
+		}
+	}
+	
+		trait = {
+		token = casting_W9
+		name = casting_W9
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		
+		position = { x=4 y =4 }
+		
+		any_parent = { casting_bulletwind }
+		mutually_exclusive = { casting_V8 casting_I6 }
+		
+		limit_to_equipment_type = { motorized_equipment armored_car_equipment motorized_rocket_equipment }
+		
+		production_bonus = {
+			production_efficiency_gain_factor = -0.05
+		}
+		
+		equipment_bonus = {
+			breakthrough = 0.1
+			maximum_speed = 0.1
+			build_cost_ic = 0.05
+			fuel_consumption = 0.1
+			build_cost_ic = 0.1
+		}
+	}
+	
+		trait = {
+		token = casting_V8
+		name = casting_V8
+		icon = GFX_generic_mio_department_icon_motorized_production
+		
+		position = { x=5 y =4 }
+		
+		any_parent = { casting_bulletwind }
+		mutually_exclusive = { casting_W9 casting_I6 }
+		
+		limit_to_equipment_type = { motorized_equipment armored_car_equipment motorized_rocket_equipment }
+		
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+		
+		equipment_bonus = {
+			breakthrough = 0.05
+			maximum_speed = 0.05
+		}
+	}
+	
+		trait = {
+		token = casting_fine_tools
+		name = casting_fine_tools
+		icon = GFX_generic_mio_department_icon_armored_car_technology
+		
+		position = { x=6 y =0 }
+		
+		
+		limit_to_equipment_type = { armored_car_equipment }
+		
+		production_bonus = {
+			production_efficiency_cap_factor = 0.1
+			production_efficiency_gain_factor = 0.05
+			production_resource_penalty_factor = 0.2
+		}
+	}
+	
+		trait = {
+		token = casting_bulb_of_tulip
+		name = casting_bulb_of_tulip
+		icon = GFX_generic_mio_trait_icon_defense
+		
+		position = { x=8 y =0 }
+		
+		
+		limit_to_equipment_type = { armored_car_equipment }
+		
+		equipment_bonus = {
+			armor_value = 0.05
+			hardness = 0.01
+		}
+	}
+	
+	trait = {
+		token = casting_fully_cast
+		name = casting_fully_cast
+		icon = GFX_generic_mio_department_icon_armored_car_line_efficiency
+		
+		position = { x=7 y =2 }
+		
+		all_parents = { casting_bulb_of_tulip casting_fine_tools }
+		
+		limit_to_equipment_type = { armored_car_equipment }
+		
+		production_bonus = {
+			production_cost_factor = -0.05
+			production_efficiency_gain_factor = 0.1
+		}
+	}
+	
+	trait = {
+		token = casting_mastery
+		name = casting_mastery
+		icon = GFX_generic_mio_department_icon_armored_car_technology
+		
+		position = { x=7 y =4 }
+		
+		all_parents = { casting_fully_cast }
+		
+		limit_to_equipment_type = { armored_car_equipment }
+		
+		production_bonus = {
+			production_cost_factor = -0.1
+			production_capacity_factor = 0.05
+			production_efficiency_cap_factor = 0.05
+		}
+	}
+}
