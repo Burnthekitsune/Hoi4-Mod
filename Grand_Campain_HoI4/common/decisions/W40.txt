@@ -1,0 +1,48 @@
+W40_eastern_overtures_category = {
+	W40_mongolian_mission = {
+		availible = {
+			original_tag = W40
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = W40
+			any_country_with_original_tag = {
+				original_tag_to_check = X82
+				OR = {
+					is_subject_of = W40
+					has_opinion = {
+						target = W40
+						value > 60
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			X82 = {
+				add_state_core = 640
+				add_state_core = 344
+				set_capital = {
+					state = 538
+					remember_old_capital = yes
+				}
+				transfer_state = 640
+				transfer_state = 344
+			}
+			set_province_name = { id = 10563 name = "Tsenkherkhurem" }
+			640 = { set_state_name = "Arkhangai" }
+			538 = { set_state_name = "Khangai" }
+			468 = { set_state_name = "Khentii" }
+			W40 = {
+				puppet = X82
+			}
+		}
+	}
+}

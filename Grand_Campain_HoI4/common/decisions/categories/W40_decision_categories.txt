@@ -1,0 +1,7 @@
+W40_eastern_overtures_category = {
+	icon = GFX_decision_category_military_operation
+
+	visible = {
+		tag = W40
+	}
+}
