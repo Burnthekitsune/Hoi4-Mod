@@ -145,5 +145,7 @@ if = {
 		mtg_transport = 1
 		smoke_generator = 1
 		sonar = 1
+		cruiser_submarines = 1
+		panzerschiffe = 1
 	}
 }

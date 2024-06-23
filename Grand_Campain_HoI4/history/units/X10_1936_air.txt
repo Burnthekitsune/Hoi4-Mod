@@ -11,6 +11,30 @@ air_wings = {
 		cv_small_plane_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Alrueb" }
 		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
 	}
+	"Ahshamali" = {
+		cv_small_plane_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Alrueb" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
+	}
+	"Oran" = {
+		cv_small_plane_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Alrueb" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
+	}
+	"Papua" = {
+		cv_small_plane_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Alrueb" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
+	}
+	"Union" = {
+		cv_small_plane_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Alrueb" }
+		cv_small_plane_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Alrueb" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
+	}
+	"Algiers" = {
+		cv_small_plane_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Alrueb" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "X10" amount = 10 creator = "X10" version_name = "Atun" }
+	}
 }
 
 #########################

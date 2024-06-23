@@ -1,1 +1,553 @@
 # Naval OOB
+units = {
+	fleet = {
+		name = "Flota Atlántica"
+		naval_base = 1048
+		task_force = {
+			name = "Flota Local Occindental"
+			location = 1048
+			ship = { name = "Braga" definition = battle_cruiser start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Iberia Class" } } }
+			ship = { name = "Ahshamali" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_conversion_ca = {  amount = 1  owner = X10  version_name = "Ahshamali Class" } } }
+			ship = { name = "Fuerte" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Firme" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Sólido" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Intenso" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Madrid" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Valencia" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Alentejo" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Estremaduro" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Beira" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Galicia" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Asturias" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Navarra" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Destructor co. 29" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 30" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 31" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 32" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 33" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 34" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 35" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 36" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 37" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 38" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 89" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 90" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 91" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 92" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			
+		}
+		task_force = {
+			name = "Flota Morocco"
+			location = 7069
+			ship = { name = "Morocco" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.9 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Morocco Class" } } }
+			ship = { name = "Iberia" definition = battle_cruiser start_experience_factor = 0.75 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Iberia Class" } } }
+			ship = { name = "Union" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_conversion_bb = {  amount = 1  owner = X10  version_name = "Union Class" } } }
+			ship = { name = "Algiers" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_conversion_bb = {  amount = 1  owner = X10  version_name = "Union Class" } } }
+			ship = { name = "Panama" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Vigoroso" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Marcado" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Duro" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Zaragoza" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Badajoz" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Évora" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "al Rif" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Fez" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Marrakech" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Tlemcen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Mzab" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Destructor co. 39" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 40" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 41" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 42" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 43" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 44" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 45" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 46" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 47" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 48" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 93" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 94" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 95" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 96" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 97" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 98" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 99" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 100" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+		}
+		task_force = {
+			name = "Flotilla Escucha"
+			location = 3118
+			ship = { name = "Canal Grande" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Colon" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Caribbean" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Azores" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Delgada" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Destructor co. 49" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 50" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 51" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 52" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 53" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 54" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 55" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 56" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 57" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 58" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 101" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 102" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 103" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 104" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 105" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 106" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 107" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 108" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 109" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 110" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+		}
+		task_force = {
+			name = "Escuadrón Minera Atlántica"
+			location = 3790
+			ship = { name = "M-1" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-2" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-3" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-4" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-5" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-6" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+		}
+		task_force = {
+			name = "Escuadrón Cacería"
+			location = 1751
+			ship = { name = "Submarino co. 013" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 014" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 015" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 016" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 017" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 018" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 019" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 020" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Flota Mediterránea"
+		naval_base = 9793
+		task_force = {
+			name = "Flota Local Oriental"
+			location = 9793
+			ship = { name = "Ibiza" definition = battle_cruiser start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Iberia Class" } } }
+			ship = { name = "Oran" definition = carrier start_experience_factor = 0.55 equipment = { ship_hull_carrier_conversion_ca = {  amount = 1  owner = X10  version_name = "Ahshamali Class" } } }
+			ship = { name = "Respaldado" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Acorazad" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Protegido" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Grandisimo" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Panama Class" } } }
+			ship = { name = "Lisboa" definition = heavy_cruiser start_experience_factor = 0.55 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Pamplona" definition = heavy_cruiser start_experience_factor = 0.55 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Catalonia" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Toledo" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Castile" definition = light_cruiser start_experience_factor = 0.8 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Savoy" definition = light_cruiser start_experience_factor = 0.8 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Picardy" definition = light_cruiser start_experience_factor = 0.8 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Destructor co. 59" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 60" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 61" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 62" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 63" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 64" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 65" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 66" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 67" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 68" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 69" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 70" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 71" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 72" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 73" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 74" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 75" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 76" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 77" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 78" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 111" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 112" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 113" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 114" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 115" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 116" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 117" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 118" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 119" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 120" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+		}
+		task_force = {
+			name = "Flotilla Supervisión"
+			location = 10024
+			ship = { name = "Vila Baleira" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Santa Cruz de Tenerife" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Lourdes" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Blois" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Destructor co. 79" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 80" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 81" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 82" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 83" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 84" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 85" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 86" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 87" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 88" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 121" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 122" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 123" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 124" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 125" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 126" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 127" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 128" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 129" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+			ship = { name = "Destructor co. 130" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = {  amount = 1  owner = X10  version_name = "Ghabat Eazima Class" } } }
+		}
+		task_force = {
+			name = "Flotilla Minera Mediterránea"
+			location = 6812
+			ship = { name = "M-7" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-8" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-9" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-10" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-11" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-12" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-13" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-14" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-15" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-16" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-17" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-18" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-19" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-20" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-21" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-22" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-23" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "M-24" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+		}
+		task_force = {
+			name = "Flotilla Cacería"
+			location = 7132
+			ship = { name = "Submarino co. 021" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 022" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 023" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 024" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 025" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 026" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 027" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 028" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Flota del Indopacífico"
+		naval_base = 7614
+		task_force = {
+			name = "Flota Colonial"
+			location = 7614
+			ship = { name = "Niugini" definition = battle_cruiser start_experience_factor = 0.45 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Iberia Class" } } }
+			ship = { name = "Irian" definition = battle_cruiser start_experience_factor = 0.65 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = X10  version_name = "Iberia Class" } } }
+			ship = { name = "Papua" definition = carrier start_experience_factor = 0.55 equipment = { ship_hull_carrier_conversion_ca = {  amount = 1  owner = X10  version_name = "Ahshamali Class" } } }
+			ship = { name = "Mar de Coral" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Montauban" definition = light_cruiser start_experience_factor = 0.8 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Fakfak" definition = light_cruiser start_experience_factor = 0.7 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Manus" definition = light_cruiser start_experience_factor = 0.5 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Destructor co. 1" definition = destroyer start_experience_factor = 0.43 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 2" definition = destroyer start_experience_factor = 0.46 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 3" definition = destroyer start_experience_factor = 0.48 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 4" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 5" definition = destroyer start_experience_factor = 0.26 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 6" definition = destroyer start_experience_factor = 0.6 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 7" definition = destroyer start_experience_factor = 0.95 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 8" definition = destroyer start_experience_factor = 0.41 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 9" definition = destroyer start_experience_factor = 0.46 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 10" definition = destroyer start_experience_factor = 0.33 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 11" definition = destroyer start_experience_factor = 0.13 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 12" definition = destroyer start_experience_factor = 0.73 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 13" definition = destroyer start_experience_factor = 0.53 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 14" definition = destroyer start_experience_factor = 0.57 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 15" definition = destroyer start_experience_factor = 0.38 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 16" definition = destroyer start_experience_factor = 0.81 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 17" definition = destroyer start_experience_factor = 0.72 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 18" definition = destroyer start_experience_factor = 0.12 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 19" definition = destroyer start_experience_factor = 0.03 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 20" definition = destroyer start_experience_factor = 0.4 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+		}
+		task_force = {
+			name = "Flotilla de Exploración"
+			location = 7339
+			ship = { name = "Seville" definition = heavy_cruiser start_experience_factor = 0.55 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Nueva Bayona" definition = heavy_cruiser start_experience_factor = 0.4 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Seville Class" } } }
+			ship = { name = "Bayonne" definition = light_cruiser start_experience_factor = 0.17 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = X10  version_name = "Bayonne Class" } } }
+			ship = { name = "Maestro" definition = light_cruiser start_experience_factor = 0.8 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = X10  version_name = "Montauban Class" } } }
+			ship = { name = "Destructor co. 21" definition = destroyer start_experience_factor = 0.32 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 22" definition = destroyer start_experience_factor = 0.44 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 23" definition = destroyer start_experience_factor = 0.41 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 24" definition = destroyer start_experience_factor = 0.26 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 25" definition = destroyer start_experience_factor = 0.49 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 26" definition = destroyer start_experience_factor = 0.54 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 27" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+			ship = { name = "Destructor co. 28" definition = destroyer start_experience_factor = 0.43 equipment = { ship_hull_light_1 = {  amount = 1  owner = X10  version_name = "Likland Class" } } }
+		}
+		task_force = {
+			name = "Flotilla Minera"
+			location = 4468
+			ship = { name = "Furtivo" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "Espanto" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "Lanzador" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+			ship = { name = "Tímido" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = X10 version_name = "Mediterránea Class" } } }
+		}
+		task_force = {
+			name = "Manada de Lobos"
+			location = 12159
+			ship = { name = "Submarino co. 001" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 002" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 003" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 004" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 005" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 006" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 007" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 008" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 009" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 010" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 011" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+			ship = { name = "Submarino co. 012" definition = submarine start_experience_factor = 0.75 equipment = { ship_hull_submarine_2 = { amount = 1 owner = X10 version_name = "Mar Mundial Class" } } }
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X10" 
+			version_name = "Iberia Class"
+		}
+		name = "Irlanda"
+		requested_factories = 1
+		progress = 0.9
+		amount = 1
+		industrial_manufacturer = mio:X10_navy_refurb_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "X10" 
+			version_name = "Seville Class"
+		}
+		name = "Islas Bermudas"
+		requested_factories = 5
+		progress = 0.5
+		amount = 3
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_conversion_bb
+			creator = "X10" 
+			version_name = "Union Class"
+		}
+		name = "Cork"
+		requested_factories = 5
+		progress = 0.8
+		amount = 2
+		industrial_manufacturer = mio:X10_navy_refurb_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_conversion_ca
+			creator = "X10" 
+			version_name = "Ahshamali Class"
+		}
+		name = "Galway"
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X10" 
+			version_name = "Morocco Class"
+		}
+		name = "Dublin"
+		requested_factories = 2
+		progress = 0.3
+		amount = 1
+		industrial_manufacturer = mio:X10_navy_refurb_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X10" 
+			version_name = "Morocco Class"
+		}
+		name = "Munster"
+		requested_factories = 2
+		progress = 0.7
+		amount = 2
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X10" 
+			version_name = "Morocco Class"
+		}
+		name = "Connaught"
+		requested_factories = 2
+		progress = 0.5
+		amount = 2
+		industrial_manufacturer = mio:X10_navy_refurb_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X10" 
+			version_name = "Morocco Class"
+		}
+		name = "Leinster"
+		requested_factories = 2
+		progress = 0.3
+		amount = 2
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X10" 
+			version_name = "Panama Class"
+		}
+		name = "Países Bajos"
+		requested_factories = 1
+		progress = 0.78
+		amount = 1
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "X10" 
+			version_name = "Montauban Class"
+		}
+		name = "Amsterdam"
+		requested_factories = 1
+		progress = 0.85
+		amount = 1
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "X10" 
+			version_name = "Bayonne Class"
+		}
+		name = "Groningen"
+		requested_factories = 3
+		progress = 0.4
+		amount = 4
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "X10" 
+			version_name = "Bayonne Class"
+		}
+		name = "Friesland"
+		requested_factories = 3
+		progress = 0.32
+		amount = 4
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "X10" 
+			version_name = "Bayonne Class"
+		}
+		name = "Gelre"
+		requested_factories = 3
+		progress = 0.13
+		amount = 4
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "X10" 
+			version_name = "Bayonne Class"
+		}
+		name = "Eindhoven"
+		requested_factories = 5
+		progress = 0.5
+		amount = 2
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X10" 
+			version_name = "Likland Class"
+		}
+		name = "Destructor co. 131"
+		requested_factories = 5
+		progress = 0.45
+		amount = 12
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X10" 
+			version_name = "Likland Class"
+		}
+		name = "Destructor co. 132"
+		requested_factories = 5
+		progress = 0.25
+		amount = 12
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X10" 
+			version_name = "Ghabat Eazima Class"
+		}
+		name = "Destructor co. 133"
+		requested_factories = 3
+		progress = 0.15
+		amount = 4
+		industrial_manufacturer = mio:X10_raid_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "X10" 
+			version_name = "Mediterránea Class"
+		}
+		name = "A-1"
+		requested_factories = 2
+		progress = 0.9
+		amount = 6
+		industrial_manufacturer = mio:X10_snubarine_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_2
+			creator = "X10" 
+			version_name = "Mar Mundial Class"
+		}
+		name = "B-1"
+		requested_factories = 2
+		progress = 0.5
+		amount = 18
+		industrial_manufacturer = mio:X10_snubarine_org
+	}
+}
