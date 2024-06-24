@@ -1,0 +1,67 @@
+add_namespace = cc_events
+
+country_event = { # Be annexed
+	id = cc_events.1
+	title = cc_events.1.t
+	desc = cc_events.1.d
+	picture = x
+	
+	trigger = {
+		tag = V26
+		date > 1937.01.01
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = { # Annexd
+		name = cc_events.1.a
+		UKR = {
+			set_state_owner = 662
+			country_event = cc_events.2
+		}
+		UPU = {
+			annex_country = {
+				target = V26
+			}
+			country_event = cc_events.3
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { # UKR Evenet
+	id = cc_events.2
+	title = cc_events.2.t
+	desc = cc_events.2.d
+	picture = x
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cc_events.2.a
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { # UPU Event
+	id = cc_events.3
+	title = cc_events.3.t
+	desc = cc_events.3.d
+	picture = x
+	
+	is_triggered_only = yes
+	
+	option = { # Annexd
+		name = cc_events.3.a
+		set_country_flag = simist
+		ai_chance = {
+			base = 1
+		}
+	}
+}

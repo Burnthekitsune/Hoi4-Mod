@@ -611,3 +611,15 @@
  emb_advanced_belt:0 "Advanced Torpedo Belt"
  emb_superspec:0 "Engineered Above Spec"
  emb_floatplae:0 "Floatplane Carrier"
+ 
+ cc_events.1.t: "Annexed"
+ cc_events.1.d: "We are gone"
+ cc_events.1.a: "RIP"
+ cc_events.2.t: "New Land"
+ cc_events.2.d: "We got new land"
+ cc_events.2.a: "Cool"
+ cc_events.3.t: "Annexed Cherven Cities"
+ cc_events.3.d: "We got new land"
+ cc_events.3.a: "Cool"
+ simist: "Inherited Simist Engineworks"
+ 
