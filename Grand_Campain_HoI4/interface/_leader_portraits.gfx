@@ -8384,5 +8384,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BRA/portrait_BRA_mascarenhas_de_morais_1.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_ETH_mulugeta_yeggazu"
+		texturefile = "gfx/leaders/ETH/portrait_ETH_mulugeta_yeggazu.dds"
+		
+	spriteType = {
+		name = "GFX_Portrait_bela_kun"
+		texturefile = "gfx/leaders/HUN/Portrait_bela_kun.dds"
 
 }

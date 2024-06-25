@@ -1,13 +1,13 @@
 characters = {
 	W42_1043 = {
-		name = The_Council
+		name = Vilombo_Mbande
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ETH_alemework_beyene
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = milkarimism
 			traits = {  }
 		}
 	}
@@ -43,8 +43,8 @@ characters = {
 		name = Vilombo_Mbande
 		portraits = {
 			army = {
-				large = GFX_Portrait_Africa_Generic_land_4
-				small = GFX_Portrait_Africa_Generic_land_4_small
+				large = GFX_portrait_ETH_alemework_beyene
+				small = GFX_portrait_ETH_alemework_beyene_small
 			}
 		}
 		corps_commander = {

@@ -1,13 +1,13 @@
 characters = {
 	X74_1056 = {
-		name = The_Council
+		name = Xasan_Doreh
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ITA_ibrahim_farag_mohammed
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = milkarimism
 			traits = {  }
 		}
 	}
@@ -29,7 +29,7 @@ characters = {
 		name = Aamir_Gobroon
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_portrait_ITA_ibrahim_farag_mohammed_small
 			}
 		}
 		advisor = {

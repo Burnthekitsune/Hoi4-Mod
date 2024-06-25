@@ -1,13 +1,13 @@
 characters = {
 	W37_1037 = {
-		name = The_Council
+		name = Aren_Tembo
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ETH_mulugeta_yeggazu
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = milkarimism
 			traits = {  }
 		}
 	}
@@ -29,8 +29,8 @@ characters = {
 		name = Aren_Tembo
 		portraits = {
 			army = {
-				large = GFX_Portrait_Africa_Generic_land_2
-				small = GFX_Portrait_Africa_Generic_land_2_small
+				large = GFX_portrait_ETH_mulugeta_yeggazu
+				small = GFX_portrait_ETH_mulugeta_yeggazu_small
 			}
 		}
 		corps_commander = {

@@ -37,17 +37,18 @@ V27 = {
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.6.29"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 26
-	fascism = 32
-	neutrality = 42
+	communism = 16
+	democratic = 10
+	fascism = 47
+	neutrality = 7
+	new_socialism = 20
 }
 
 add_ideas = {

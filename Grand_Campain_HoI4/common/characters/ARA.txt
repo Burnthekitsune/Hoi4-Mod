@@ -1,18 +1,18 @@
 characters = {
 	ARA_1003 = {
-		name = The_Council
+		name = aladeen_tukachevsky
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Arabia_Generic_navy_3
 			}
 		}
 		country_leader = {
-			ideology = falangism
+			ideology = orthkarimism
 			traits = {  }
 		}
 	}
 	ARA_33555452 = {
-		name = Ali_al-Zaydani
+		name = aladeen_tukachevsky
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Arabia_Generic_navy_3

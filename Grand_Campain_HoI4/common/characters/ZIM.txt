@@ -1,13 +1,13 @@
 characters = {
 	ZIM_1036 = {
-		name = The_Council
+		name = Matodzi_Mbano
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ETH_generic_female_2
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = orthkarimism
 			traits = {  }
 		}
 	}
@@ -30,7 +30,7 @@ characters = {
 		gender = female
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_portrait_ETH_generic_female_2_small
 			}
 		}
 		advisor = {
