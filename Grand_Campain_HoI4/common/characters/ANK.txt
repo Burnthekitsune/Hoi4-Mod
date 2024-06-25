@@ -1,13 +1,13 @@
 characters = {
 	ANK_1038 = {
-		name = The_Council
+		name = Khalila_Mnywasele
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ETH_generic_female_1
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = milkarimism
 			traits = {  }
 		}
 	}
@@ -33,7 +33,8 @@ characters = {
 		gender = female
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				large = GFX_portrait_ETH_generic_female_1
+				small = GFX_portrait_ETH_generic_female_1_small
 			}
 		}
 		advisor = {
