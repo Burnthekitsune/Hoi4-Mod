@@ -1,13 +1,13 @@
 characters = {
 	YUE_1029 = {
-		name = The_Council
+		name = Deng_Nie
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Deng_Nie
 			}
 		}
 		country_leader = {
-			ideology = anarchist_communism
+			ideology = minguo
 			traits = {  }
 		}
 	}
@@ -15,7 +15,7 @@ characters = {
 		name = Deng_Nie
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_Deng_Nie
 			}
 		}
 		advisor = {

@@ -8391,5 +8391,8 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_bela_kun"
 		texturefile = "gfx/leaders/HUN/Portrait_bela_kun.dds"
-
+		
+	spriteType = {
+		name = "GFX_Deng_Nie"
+		texturefile = "Hearts of Iron IV\mod\Grand_Campain_HoI4\gfx\leaders\China\Deng_Nie.dds"
 }

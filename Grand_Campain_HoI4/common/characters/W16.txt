@@ -1,13 +1,13 @@
 characters = {
 	W16_1062 = {
-		name = The_Council
+		name = Liao_Li
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_chi_wang_jingwei
 			}
 		}
 		country_leader = {
-			ideology = anarchist_communism
+			ideology = bingwu
 			traits = {  }
 		}
 	}
@@ -15,7 +15,7 @@ characters = {
 		name = Liao_Li
 		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
+				small = GFX_portrait_chi_wang_jingwei_small
 			}
 		}
 		advisor = {
