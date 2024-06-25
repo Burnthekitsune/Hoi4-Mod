@@ -13,6 +13,8 @@ if = {
 }
 
 create_faction = MEKaiD
+W40 = { add_to_faction = W27 }
+
 if = {
 		limit = {
 			has_dlc = "Together for Victory"
