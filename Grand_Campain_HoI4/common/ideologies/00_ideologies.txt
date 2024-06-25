@@ -128,10 +128,19 @@ ideologies = {
 	fascism = {
 
 		types = {
-			placeholder = {
+			karimism = {
 			}
 
-			placeholder_2 = {
+			milkarimism = {
+			}
+			
+			orthkarimism = {
+			}
+			
+			minguo = {
+			}
+			
+			bingwu = {
 			}
 		}
 
