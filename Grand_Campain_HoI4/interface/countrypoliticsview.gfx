@@ -485,6 +485,21 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_orthkarimism"
+		texturefile = "gfx/interface/ideologies/orthkarimism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_minguo"
+		texturefile = "gfx/interface/ideologies/minguo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_bingwu"
+		texturefile = "gfx/interface/ideologies/bingwu.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_democratic_group"
 		texturefile = "gfx/interface/ideologies/democratic_group.dds"
 	}

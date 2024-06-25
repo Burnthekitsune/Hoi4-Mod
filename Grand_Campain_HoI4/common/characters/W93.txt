@@ -1,13 +1,13 @@
 characters = {
 	W93_1015 = {
-		name = The_Council
+		name = kelemen_foldesi
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_SOV_lavrenty_beriya
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = orthkarimism
 			traits = {  }
 		}
 	}

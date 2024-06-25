@@ -57,7 +57,7 @@
  milkarimism:0 "Militarist Karimism"
  milkarimism_desc:0 "Militarist Karimism is a variant of Karimism that lays an increased emphasis on the participation of soldier's councils in the revolution. In reality it often means that the military gains control over the revolutionary state in an effort to integrate with the JSAL directly or diplomatically."
  orthkarimism:0 "Orthodox Karimism"
- orthkarimism_desc:0 "Orthodox Karimism, unlike the official line of the JSAL does not discard Karim's original emphasis on the leading role of the party in world revolution. It holds that in order to defeat the forces of revisionism and reaction the Communist Party must take lead over the council apparatus for the period of global war."
+ orthkarimism_desc:0 "Orthodox Karimism, unlike the official line of the JSAL, does not discard Karim's original emphasis on the leading role of the party in world revolution. It holds that in order to defeat the forces of revisionism and reaction the Communist Party must take lead over the council apparatus for the period of global war."
  
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
@@ -1239,3 +1239,14 @@
  MAD_neutrality_party_long: "Madagascar Sovereign Development Movement"
  MAD_new_socialism_party: "MSDP"
  MAD_new_socialism_party_long: "Madagascar Social Democratic Party"
+ 
+ W93_fascism_party: "CPSA(K)"
+ W93_fascism_party_long: "Communist Party in South Afrika (Karimists)"
+ W93_communism_party: "CPSA(H)"
+ W93_communism_party_long: "Communist Party in South Afrika (Hammelburgist)"
+ W93_democratic_party: "Right Socialist-Democrats"
+ W93_democratic_party_long: "Socialist-Democratic Party for the South Afrikan Republic (Right Faction)"
+ W93_neutrality_party: "MSSAP"
+ W93_neutrality_party_long: "Movement for the Sovereignty of South Afrika's Peoples"
+ W93_new_socialism_party: "Left Socialist-Democrats"
+ W93_new_socialism_party_long: "Socialist-Democratic Party for the South Afrikan Republic (Left Faction)"
