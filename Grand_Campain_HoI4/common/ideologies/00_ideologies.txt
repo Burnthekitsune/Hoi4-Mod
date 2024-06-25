@@ -133,13 +133,13 @@ ideologies = {
 
 			milkarimism = {
 			}
-			
+
 			orthkarimism = {
 			}
-			
+
 			minguo = {
 			}
-			
+
 			bingwu = {
 			}
 		}
