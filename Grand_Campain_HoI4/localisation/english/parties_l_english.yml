@@ -1175,7 +1175,7 @@
  W40_new_socialism_party_long: "New All-Union Tiki Society"
  
  DLA_fascism_party: "CSCR(ChCl)"
- DLA_fascism_party_long: "Comrades for the Second communist Revolution (Chinje's Clique)"
+ DLA_fascism_party_long: "Comrades for the Second Communist Revolution (Chinje's Clique)"
  DLA_communism_party: "CPD"
  DLA_communism_party_long: "Communist Party of Duala"
  DLA_democratic_party: "DIFL"
@@ -1184,3 +1184,14 @@
  DLA_neutrality_party_long: "Socialist Autarkic Development Front (Right)"
  DLA_new_socialism_party: "SADF(L)"
  DLA_new_socialism_party_long: "Socialist Autarkic Development Front (Left)"
+ 
+ ZND_fascism_party: "Karim Boys"
+ ZND_fascism_party_long: "International Revolutionary Volunteer Corps"
+ ZND_communism_party: "CPA"
+ ZND_communism_party_long: "Communist Party of Azande"
+ ZND_democratic_party: "ASDPP"
+ ZND_democratic_party_long: "Azande Social Democratic People's Party"
+ ZND_neutrality_party: "Duwaadeist Rebels"
+ ZND_neutrality_party_long: "African People's Liberation Front in Azande"
+ ZND_new_socialism_party: "ASPP"
+ ZND_new_socialism_party_long: "Azande Socialist People's Party"

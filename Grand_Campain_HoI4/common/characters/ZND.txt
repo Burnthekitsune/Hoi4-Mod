@@ -1,13 +1,13 @@
 characters = {
 	ZND_1039 = {
-		name = The_Council
+		name = Oscar_Zini
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_FIN_eyolf_mattsson
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = milkarimism
 			traits = {  }
 		}
 	}
@@ -41,11 +41,11 @@ characters = {
 		}
 	}
 	ZND_16778901 = {
-		name = Birhenjira_Younga
+		name = Oscar_Zini
 		portraits = {
 			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic
-				small = GFX_Portrait_South_Africa_Army_Generic_small
+				large = GFX_portrait_FIN_eyolf_mattsson
+				small = GFX_portrait_FIN_eyolf_mattsson_small
 			}
 		}
 		corps_commander = {
