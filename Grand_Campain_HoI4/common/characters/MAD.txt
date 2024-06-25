@@ -1,13 +1,14 @@
 characters = {
 	MAD_1035 = {
-		name = The_Council
+		name = Ratsimivila_Hova
+		gender = female
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ETH_generic_naval_female_1
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = milkarimism
 			traits = {  }
 		}
 	}
@@ -27,10 +28,11 @@ characters = {
 	}
 	MAD_67110441 = {
 		name = Ratsimivila_Hova
+		gender = female
 		portraits = {
 			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_2
-				small = GFX_Portrait_Asia_Generic_navy_2_small
+				large = GFX_portrait_ETH_generic_naval_female_1
+				small = GFX_portrait_ETH_generic_naval_female_1
 			}
 		}
 		navy_leader = {

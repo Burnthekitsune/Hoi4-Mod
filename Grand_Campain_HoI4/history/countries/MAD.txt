@@ -20,17 +20,18 @@ if = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1935.4.18"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 47
-	democratic = 37
-	fascism = 15
-	neutrality = 1
+	communism = 5
+	democratic = 5
+	fascism = 80
+	neutrality = 5
+	new_socialism = 5
 }
 
 add_ideas = {
