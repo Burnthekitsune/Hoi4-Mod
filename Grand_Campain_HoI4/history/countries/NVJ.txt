@@ -37,8 +37,8 @@ add_ai_strategy = {
 set_popularities = {
 	communism = 0
 	democratic = 10
-	fascism = 36
-	neutrality = 54
+	fascism = 0
+	neutrality = 90
 }
 
 add_ideas = {
