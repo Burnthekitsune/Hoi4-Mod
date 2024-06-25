@@ -58,6 +58,8 @@
  milkarimism_desc:0 "Militarist Karimism is a variant of Karimism that lays an increased emphasis on the participation of soldier's councils in the revolution. In reality it often means that the military gains control over the revolutionary state in an effort to integrate with the JSAL directly or diplomatically."
  orthkarimism:0 "Orthodox Karimism"
  orthkarimism_desc:0 "Orthodox Karimism, unlike the official line of the JSAL, does not discard Karim's original emphasis on the leading role of the party in world revolution. It holds that in order to defeat the forces of revisionism and reaction the Communist Party must take lead over the council apparatus for the period of global war."
+ likland:0 "Likland Karimism"
+ likland_desc:0 "TODO"
  
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"

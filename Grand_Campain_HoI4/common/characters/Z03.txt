@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = placeholder_2
+			ideology = likland
 			traits = {  }
 		}
 	}

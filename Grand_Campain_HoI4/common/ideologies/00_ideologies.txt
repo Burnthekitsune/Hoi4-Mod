@@ -142,6 +142,9 @@ ideologies = {
 
 			bingwu = {
 			}
+			
+			likland = {
+			}
 		}
 
 		dynamic_faction_names = {
