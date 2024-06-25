@@ -27,6 +27,18 @@ ZIM = {
 	}
 }
 
+create_faction = World_Revolutionary_Communist_League
+add_to_faction = X75
+add_to_faction = COG
+add_to_faction = ANK
+add_to_faction = ZND
+add_to_faction = DLA
+add_to_faction = ZIM
+add_to_faction = X74
+add_to_faction = W42
+add_to_faction = W37
+add_to_faction = MAD
+
 set_convoys = 365
 
 recruit_character = V27_1010

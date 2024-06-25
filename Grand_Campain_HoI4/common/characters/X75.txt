@@ -1,13 +1,13 @@
 characters = {
 	X75_1020 = {
-		name = The_Council
+		name = Tilahun_Dinagde
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ETH_generic_male_1
 			}
 		}
 		country_leader = {
-			ideology = falangism
+			ideology = Milkarimism
 			traits = {  }
 		}
 	}
