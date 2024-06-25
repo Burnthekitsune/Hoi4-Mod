@@ -1,13 +1,13 @@
 characters = {
 	DLA_1040 = {
-		name = The_Council
+		name = Ndengue_Chinje
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ETH_generic_male_3
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = milkarimism
 			traits = {  }
 		}
 	}
@@ -15,8 +15,8 @@ characters = {
 		name = Ndengue_Chinje
 		portraits = {
 			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic_2
-				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+				large = GFX_portrait_ETH_generic_male_3
+				small = GFX_portrait_ETH_generic_male_3_small
 			}
 		}
 		corps_commander = {
