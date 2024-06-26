@@ -38,9 +38,10 @@ set_politics = {
 
 set_popularities = {
 	communism = 75
-	democratic = 15
+	democratic = 8
 	fascism = 10
 	neutrality = 0
+	new_socialism = 7
 }
 
 if = {
