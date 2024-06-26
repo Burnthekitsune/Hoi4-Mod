@@ -123,15 +123,19 @@ ideologies = {
 			}
 
 			leninism = {
+				color = { 224 20 20 }
 			}
 
 			stalinism = {
+				color = { 173 2 2 }
 			}
 
 			anti_revisionism = {
+				color = { 250 56 2 }
 			}
 
 			anarchist_communism = {
+				color = { 110 0 0 }
 			}
 		}
 
