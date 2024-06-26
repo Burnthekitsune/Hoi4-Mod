@@ -172,3 +172,14 @@
  X19_armed_neutrality_desc: "We must work hard to defend what we have achieved and protect the workers of our nation."
  X19_defense_of_communism: "Defense of Communism"
  X19_defense_of_communism: "The Cause of Communism is under threat, it is important that we pick up our guns and fight to the last for the workers of the world!"
+ 
+ V27_class_for_itself: "A Class For Itself"
+ V27_harmonious_jamahiriya: "Harmonious Jamahiriya"
+ V27_chaotic_military_structure: "Chaotic Military Structure"
+ V27_camelry_expertise: "Camelry Experts"
+ 
+ V27_class_for_itself_desc: "In the JSAL the working class has effectively abolished all other classes - although not itself. A fully proletarianised society free to provide its own needs and set its own goals through the council system moves and acts together, as one."
+ V27_harmonious_jamahiriya_desc: "For decades the Jamahiriya has been prospering, with ardent support from the workers and led by the Comrades for a Second Communist Revolution as little more than an administrative organ. The principles of Karimism as espoused by Ishaq Benaissa are accepted and respected by all."
+ V27_chaotic_military_structure_desc: "Although it has served the revolution well so far, it has become evident in recent wars that the currently existing system of soldiers' councils and officer elections needs an overhaul. Once the pride of the JSAL, the Red Army is now something to be ashamed of - especially after the debacle of our SVB in the Likland Revolution."
+ V27_camelry_expertise_desc: "The Red Army's mounted units have tended to prefer camels over horses for a long time now. This has led to increased proficiency when fighting on camelback, but means that it is unusual and strange for a cavalry soldier to ride a horse (WIP)"
+ 

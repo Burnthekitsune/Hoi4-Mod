@@ -1,0 +1,89 @@
+ideas = {
+	country = {
+		V27_class_for_itself = {
+			picture = FIN_finnish_federation_of_trade_unions
+			allowed = {
+				original_tag = V27
+			}
+			
+			allowed_civil_war = {
+				original_tag = V27
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		V27_harmonious_jamahiriya = {
+			picture = ITA_il_sol_dell_avvenire_ns
+			allowed = {
+				original_tag = V27
+			}
+			
+			allowed_civil_war = {
+				original_tag = V27
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = -0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.02
+			}
+		}
+		
+		V27_chaotic_military_structure = {
+			picture = por_colonial_army
+			allowed = {
+				original_tag = V27
+			}
+			
+			allowed_civil_war = {
+				original_tag = V27
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.15
+				experience_gain_army_factor = -0.1
+				experience_gain_air_factor = -0.1
+				experience_gain_navy_factor = -0.1
+				air_superiority_bonus_in_combat = -0.2
+				army_org_factor = -0.1
+				army_org_regain = -0.2
+				experience_gain_army_unit_factor = -0.2
+			}
+		}
+		
+		V27_camelry_expertise = {
+			picture = ETH_scavenging_tactics
+			allowed = {
+				original_tag = V27
+			}
+			
+			allowed_civil_war = {
+				original_tag = V27
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				camelry_attack_factor = 0.05
+				camelry_defence_factor = 0.05
+				camelry_speed_factor = 0.05
+				camelry_org_factor = 0.05
+				cavalry_attack_factor = -0.05
+				cavalry_defence_factor = -0.05
+				cavalry_speed_factor= -0.05
+				cavalry_org_factor= -0.05
+			}
+		}
