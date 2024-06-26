@@ -34,17 +34,19 @@ PER = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = new_socialism
 	last_election = "1935.5.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 15
-	fascism = 0
-	neutrality = 85
+	communism = 5
+	democratic = 11
+	fascism = 3
+	neutrality = 5
+	new_socialism = 76
+
 }
 
 add_ideas = {

@@ -7,10 +7,9 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = new_socialism_1
 			traits = {  }
 		}
-	}
 	V25_50334073 = {
 		name = Ahmad_Zahedi
 		portraits = {

@@ -3,6 +3,13 @@ capital = 1
 oob = "PER_1936"
 set_research_slots = 4
 
+create_faction = Socialist_Iranian_Defence_Alliance
+add_to_faction = V25
+add_to_faction = X66
+add_to_faction = A18
+add_to_faction = JAB
+add_to_faction = V46
+
 set_convoys = 543
 
 recruit_character = PER_1007
@@ -41,11 +48,11 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 20
-	democratic = 7
-	fascism = 20
+	communism = 22
+	democratic = 5
+	fascism = 14
 	neutrality = 3
-	new_socialism = 50
+	new_socialism = 56
 }
 
 add_ideas = {
