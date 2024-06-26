@@ -8,5 +8,10 @@ spriteTypes = {
 		name = GFX_Nunavut_Paul_Okalik_small
 		texturefile = "gfx/interface/ideas/idea_unknown.dds"
 	}
+	
+	spriteType = {
+		name = GFX_portrait_IR_supreme_coun
+		texturefile = "gfx/leaders/Iran/portrait_IR_supreme_coun.dds"
+	}
 
 }
