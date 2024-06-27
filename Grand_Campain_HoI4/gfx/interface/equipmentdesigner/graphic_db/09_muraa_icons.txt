@@ -6,6 +6,11 @@ W40 = {
 				GFX_gwtank_medium #French Renault (former generic GW Light tank)
 				GFX_FRA_basic_light_tank_medium
 			}
+			models = {
+				"FRA_light_armor_entity"
+				"FRA_light_armor_2_entity"
+				"FRA_light_armor_0_entity"
+			}
 		}
 	}
 
