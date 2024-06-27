@@ -4,6 +4,7 @@ W40 = {
 			weight = 2
 			icons = { 
 				GFX_gwtank_medium #French Renault (former generic GW Light tank)
+				GFX_FRA_basic_light_tank_medium
 			}
 		}
 	}
@@ -28,10 +29,16 @@ W40 = {
  				GFX_FRA_light_ACB_camo
  				GFX_FRA_light_ACC
  				GFX_FRA_light_ACC_camo
+				GFX_FRA_improved_light_td_medium
+				GFX_FRA_basic_medium_td_medium
 			}
 			models = {
 				"FRA_light_armor_entity"
-				
+				"FRA_light_armor_2_entity"
+				"FRA_light_armor_0_entity"
+				"FRA_light_sp_artillery_brigade_2_entity"
+				"FRA_light_tank_destroyer_brigade_2_entity"
+				"FRA_light_tank_destroyer_brigade_1_entity"
 				
 			}
 
@@ -58,9 +65,16 @@ W40 = {
  				GFX_FRA_light_BCB_camo
  				GFX_FRA_light_BCC
  				GFX_FRA_light_BCC_camo
+				GFX_FRA_improved_light_td_medium
+				GFX_FRA_basic_medium_td_medium
 			}
 			models = {
 				"FRA_light_armor_entity"
+				"FRA_light_armor_2_entity"
+				"FRA_light_armor_0_entity"
+				"FRA_light_sp_artillery_brigade_2_entity"
+				"FRA_light_tank_destroyer_brigade_2_entity"
+				"FRA_light_tank_destroyer_brigade_1_entity"
 			}
 		}
 	}
@@ -85,9 +99,16 @@ W40 = {
  				GFX_FRA_light_CCB_camo
  				GFX_FRA_light_CAA
  				GFX_FRA_light_CAA_camo
+				GFX_FRA_improved_light_td_medium
+				GFX_FRA_basic_medium_td_medium
 			}
 			models = {
-				"FRA_light_armor_2_entity"	
+				"FRA_light_armor_2_entity"
+				"FRA_light_armor_2_entity"
+				"FRA_light_armor_0_entity"
+				"FRA_light_sp_artillery_brigade_2_entity"
+				"FRA_light_tank_destroyer_brigade_2_entity"
+				"FRA_light_tank_destroyer_brigade_1_entity"
 			}
 		}
 	}
@@ -114,6 +135,12 @@ W40 = {
 			}
 			models = {
 				"FRA_medium_armor_entity"
+				"FRA_medium_armor_2_entity"
+				"FRA_medium_armor_1_entity"
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+				"FRA_medium_tank_destroyer_brigade_1_entity"
+				"FRA_medium_sp_artillery_brigade_0_entity"
+				"FRA_medium_sp_artillery_brigade_1_entity"
 			}
 		}
 	}
@@ -140,7 +167,12 @@ W40 = {
 			}
 			models = {
 				"FRA_medium_armor_entity"
-				
+				"FRA_medium_armor_2_entity"
+				"FRA_medium_armor_1_entity"
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+				"FRA_medium_tank_destroyer_brigade_1_entity"
+				"FRA_medium_sp_artillery_brigade_0_entity"
+				"FRA_medium_sp_artillery_brigade_1_entity"
 				
 			}
 		}
@@ -169,6 +201,12 @@ W40 = {
 			}
 			models = {
 				"FRA_medium_armor_entity"
+				"FRA_medium_armor_2_entity"
+				"FRA_medium_armor_1_entity"
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+				"FRA_medium_tank_destroyer_brigade_1_entity"
+				"FRA_medium_sp_artillery_brigade_0_entity"
+				"FRA_medium_sp_artillery_brigade_1_entity"
 			}
 		}
 	}
@@ -196,7 +234,12 @@ W40 = {
 			}
 			models = {
 				"FRA_medium_armor_entity"
-				
+				"FRA_medium_armor_2_entity"
+				"FRA_medium_armor_1_entity"
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+				"FRA_medium_tank_destroyer_brigade_1_entity"
+				"FRA_medium_sp_artillery_brigade_0_entity"
+				"FRA_medium_sp_artillery_brigade_1_entity"
 				
 			}
 		}
@@ -225,8 +268,9 @@ W40 = {
 			}
 			models = {
 				"FRA_heavy_armor_entity"
-				
-				
+				"FRA_heavy_armor_2_entity"
+				"FRA_heavy_armor_1_entity"
+				"FRA_heavy_sp_artillery_brigade_0_entity"
 			}
 		}
 	}
@@ -254,6 +298,9 @@ W40 = {
 			}
 			models = {
 				"FRA_heavy_armor_entity"
+				"FRA_heavy_armor_2_entity"
+				"FRA_heavy_armor_1_entity"
+				"FRA_heavy_sp_artillery_brigade_0_entity"
 			}
 		}
 	}
@@ -281,6 +328,9 @@ W40 = {
 			}
 			models = {
 				"FRA_heavy_armor_entity"
+				"FRA_heavy_armor_2_entity"
+				"FRA_heavy_armor_1_entity"
+				"FRA_heavy_sp_artillery_brigade_0_entity"
 			}
 		}
 	}
@@ -308,8 +358,9 @@ W40 = {
 			}
 			models = {
 				"FRA_heavy_armor_entity"
-				
-				
+				"FRA_heavy_armor_2_entity"
+				"FRA_heavy_armor_1_entity"
+				"FRA_heavy_sp_artillery_brigade_0_entity"
 			}
 		}
 	}
@@ -326,6 +377,117 @@ W40 = {
 		pool = {
 			icons = { 
 				GFX_FRA_main_battle_tank_medium
+			}
+		}
+	}
+	small_plane_airframe = {
+		pool = {
+			icons = {
+				GFX_FRA_light_jet_plane_medium
+				GFX_FRA_CAS3_medium
+				GFX_FRA_naval_bomber3_medium
+				GFX_FRA_modern_small_airframe_medium
+				GFX_FRA_fighter3_medium
+				GFX_FRA_naval_bomber2_medium
+				GFX_FRA_CAS2_medium
+				GFX_FRA_fighter2_medium
+				GFX_FRA_light_plane_2_medium
+				GFX_FRA_fighter1_medium
+				GFX_FRA_light_plane_1_medium
+				GFX_FRA_CAS1_medium
+				GFX_FRA_naval_bomber1_medium
+				GFX_FRA_early_fighter_medium
+				
+				
+			}
+			models = {
+				FRA_light_plane_entity
+				FRA_light_plane_1_entity
+				FRA_light_plane_2_entity
+				FRA_light_plane_3_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			icons = {
+				GFX_FRA_light_jet_plane_medium
+				GFX_FRA_light_plane_2_medium
+				GFX_FRA_CAS3_medium
+				GFX_FRA_modern_small_airframe_medium
+				GFX_FRA_naval_bomber3_medium
+				GFX_FRA_light_plane_1_medium
+				GFX_FRA_fighter3_medium
+				GFX_FRA_naval_bomber2_medium
+				GFX_FRA_CAS2_medium
+				GFX_FRA_fighter2_medium
+				GFX_FRA_fighter1_medium
+				GFX_FRA_CAS1_medium
+				GFX_FRA_naval_bomber1_medium
+				GFX_FRA_early_fighter_medium
+				
+			}
+			models = {
+				FRA_light_plane_entity
+				FRA_light_plane_1_entity
+				FRA_light_plane_2_entity
+				FRA_light_plane_3_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			icons = {
+				GFX_FRA_tactical_bomber3_medium
+				GFX_FRA_modern_medium_airframe_medium
+				GFX_FRA_heavy_fighter3_medium
+				GFX_FRA_tactical_bomber2_medium
+				GFX_FRA_heavy_fighter2_medium
+				GFX_FRA_medium_plane_1_medium
+				GFX_FRA_tactical_bomber1_medium
+				GFX_FRA_heavy_fighter1_medium
+				GFX_FRA_early_bomber_medium
+				GFX_FRA_medium_jet_plane_medium
+			}
+			models = {
+				FRA_medium_plane_entity
+				FRA_medium_plane_1_entity
+				FRA_medium_plane_2_entity
+			}
+		}
+		pool = {
+			limit = { has_dlc = "La Resistance"}
+			icons = {
+				GFX_FRA_scout_plane1_medium
+				GFX_FRA_scout_plane2_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			icons = {
+				GFX_FRA_heavy_plane_1_medium
+				GFX_FRA_heavy_plane_2_medium
+				GFX_FRA_heavy_plane_3_medium
+				GFX_FRA_strategic_bomber3_medium
+				GFX_FRA_strategic_bomber2_medium
+				GFX_FRA_modern_large_airframe_medium
+				GFX_FRA_iw_large_airframe_medium
+				GFX_FRA_strategic_bomber1_medium
+			}
+			models = {
+				FRA_heavy_plane_entity
+			}
+		}
+	}
+	medium_plane_scout_plane_airframe = {
+		pool = {
+			weight = 1.1
+			icons = {
+				
+			}
+			models= {
+				"FRA_scout_plane_entity"
 			}
 		}
 	}
