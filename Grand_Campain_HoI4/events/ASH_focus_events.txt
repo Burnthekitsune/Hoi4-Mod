@@ -328,3 +328,50 @@ country_event = { # Railway Buildup - Europe
 		}
 	}
 }
+
+country_event = { # Puppeted by Anti
+	id = ASH_focus.8
+	title = ASH_focus.8.t
+	desc = ASH_focus.8.d
+	picture = GFX_report_event_german_troops_paris
+	
+	trigger = {
+		tag = X10
+		has_government = fascism
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	option = {
+		name = ASH_focus.8.a
+		remove_ideas = {
+			ASH_unified_communist_front
+			ASH_global_liberation
+			ASH_grand_alliance
+			ASH_market
+		}
+		if = {
+			limit = {
+				has_idea = ASH_social_welfare
+			}
+			swap_ideas = {
+				remove_idea = ASH_social_welfare
+				add_idea = ASH_social_welfare_2
+			}
+		}
+		clr_country_flag = ASH_dir_inv
+		hidden_effect = {
+			uncomplete_national_focus = {
+			  focus = Office_of_Foreign_relations
+			  uncomplete_children = yes
+			  refund_political_power = no
+			}
+		}
+		load_focus_tree = X10_karimist
+		ai_chance = {
+			base = 1
+		}
+	}
+}

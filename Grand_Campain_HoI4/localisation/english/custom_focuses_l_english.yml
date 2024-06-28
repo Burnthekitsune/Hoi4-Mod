@@ -316,6 +316,9 @@
  ASH_grand_alliance_desc: "We must band together to save communism from threats"
  ASH_expanded_welfare: "Expanded Social Welfare"
  ASH_social_welfare: "Expanded Social Welfare"
+ ASH_social_welfare_desc: "A common system of social welfare helps keep our population health and happy"
+ ASH_social_welfare_2: "Expanded Social Welfare"
+ ASH_social_welfare_2_desc: "A common system of social welfare helps keep our population health and happy"
  ASH_market: "The Common Communist Market"
  ASH_market_desc: "A common market between countries has been causing some positive rewards."
  ASH_unified_communist_front: "Unified Communist Front"
@@ -344,6 +347,13 @@
  Madrid_Labs_2: "Madrid Labs"
  Madrid_Labs_desc: "A modern lab with all of the newest technology and the brightest minds from around the Ashmali Union."
  Madrid_Labs_2_desc: "A modern lab with all of the newest technology and the brightest minds from around the World!"
+ 
+ ASH_focus.8.t: "Karimists sieze Power"
+ ASH_focus.8.d: "After our defeat in the Great War, the JSAL as proven victorious and a new government has taken hold."
+ ASH_focus.8.a: "The 2nd Revolution has finally arrived!"
+ 
+ ASH_focus: "Communist Ashamali"
+ X10_karimist: "Karimist Ashamali"
  
  #---------------------------------------------------------
  # Romagna Focus
