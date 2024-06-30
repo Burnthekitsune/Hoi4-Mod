@@ -4,5 +4,9 @@ focus_tree = {
 		factor = 0
 	}
 	default = no
+	shared_focus = Revamp_armed_forces
+	shared_focus = office_of_internal_affairs
+	
+	continuous_focus_position = { x = 50 y = 1800 }
 	
 }

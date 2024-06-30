@@ -346,6 +346,14 @@ country_event = { # Puppeted by Anti
 	
 	option = {
 		name = ASH_focus.8.a
+		add_country_leader_role = {
+			character = X10_rev_council
+			country_leader = {
+				ideology = karimism
+				traits = { }
+			}
+			promote_leader = yes
+		}
 		remove_ideas = {
 			ASH_unified_communist_front
 			ASH_global_liberation

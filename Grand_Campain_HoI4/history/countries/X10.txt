@@ -25,6 +25,7 @@ recruit_character = X10_134218419
 recruit_character = X10_134218928
 recruit_character = X10_150995014
 recruit_character = X_10_Council
+recruit_character = X10_rev_council
 if = {
 	limit = { has_dlc = "La Resistance" }
 }

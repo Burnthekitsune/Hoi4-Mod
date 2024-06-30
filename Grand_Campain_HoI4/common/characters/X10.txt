@@ -421,4 +421,12 @@ characters = {
 			traits = { navy_chief_maneuver_3 navy_naval_air_defense_3 }
 		}
 	}
+	X10_rev_council = {
+		name = ash_rev_council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_supreme_soviet
+			}
+		}
+	}
 }
