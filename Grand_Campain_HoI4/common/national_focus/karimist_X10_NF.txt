@@ -9,4 +9,116 @@ focus_tree = {
 	
 	continuous_focus_position = { x = 50 y = 1800 }
 	
+	focus = {
+		id = the_new_government
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 2
+		y = 0
+		prerequisite = {  }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = settle_the_masses
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = { focus = the_new_government }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = request_northern_claims
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 2
+		y = 1
+		prerequisite = { focus = the_new_government }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = establish_new_research_pact
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 4
+		y = 1
+		prerequisite = { focus = the_new_government }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = tests_of_loyalty
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 0
+		y = 2
+		prerequisite = { focus = settle_the_masses }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = the_new_council
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 0
+		y = 3
+		prerequisite = { focus = tests_of_loyalty }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = solidify_control_of_france
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 2
+		y = 2
+		prerequisite = { focus = request_northern_claims }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = fortify_the_front
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 2
+		y = 3
+		prerequisite = { focus = solidify_control_of_france }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = redouble_tech_investments
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 4
+		y = 3
+		prerequisite = { focus = establish_new_research_pact }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
+	focus = {
+		id = the_new_ashmali_state
+		icon = mission_build_up_to_force_limit
+		cost = 0
+		x = 2
+		y = 4
+		prerequisite = { focus = the_new_council }
+		prerequisite = { focus = fortify_the_front }
+		prerequisite = { focus = redouble_tech_investments }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+	}
 }

@@ -355,6 +355,38 @@
  ASH_focus: "Communist Ashamali"
  X10_karimist: "Karimist Ashamali"
  
+ the_new_ashmali_state: "The New Ashmali State"
+ the_new_ashmali_state_desc: ""
+ the_new_ashmali_state_focus_tt: ""
+ redouble_tech_investments: "Redouble Tech Investments"
+ redouble_tech_investments_desc: ""
+ redouble_tech_investments_focus_tt: ""
+ fortify_the_front: "Fortify The Front"
+ fortify_the_front_desc: ""
+ fortify_the_front_focus_tt: ""
+ solidify_control_of_france: "Solidify Control Of France"
+ solidify_control_of_france_desc: ""
+ solidify_control_of_france_focus_tt: ""
+ the_new_council: "The New Council"
+ the_new_council_desc: ""
+ the_new_council_focus_tt: ""
+ tests_of_loyalty: "Tests Of Loyalty"
+ tests_of_loyalty_desc: ""
+ tests_of_loyalty_focus_tt: ""
+ establish_new_research_pact: "Establish New Research Pact"
+ establish_new_research_pact_desc: ""
+ establish_new_research_pact_focus_tt: ""
+ request_northern_claims: "Request Northern Claims"
+ request_northern_claims_desc: ""
+ request_northern_claims_focus_tt: ""
+ settle_the_masses: "Settle The Masses"
+ settle_the_masses_desc: ""
+ settle_the_masses_focus_tt: ""
+ the_new_government: "The New Government"
+ the_new_government_desc: ""
+ the_new_government_focus_tt: ""
+
+ 
  #---------------------------------------------------------
  # Romagna Focus
  #---------------------------------------------------------
