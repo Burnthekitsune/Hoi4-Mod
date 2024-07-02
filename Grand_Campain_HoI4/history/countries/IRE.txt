@@ -44,6 +44,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	limited_conscription
+	IRE_spy_network
 }
 set_stability = 0.6
 set_war_support = 0.60
@@ -58,6 +59,13 @@ set_technology = {
 	interwar_artillery = 1
 	tech_support = 1
 }
+
+create_intelligence_agency = {
+    name = "I.C.N."
+    icon = GFX_intelligence_agency_logo_BRA_communist
+}
+
+upgrade_intelligence_agency = upgrade_psycho_warfare
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

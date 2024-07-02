@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		IRE_spy_network = {
+			picture = generic_spy_coup
+			allowed = {
+				original_tag = IRE
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = IRE
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				agency_upgrade_time = -0.1
+				civilian_intel_factor = 0.2
+				operative_slot = 1
+				boost_ideology_mission_factor = 0.2
+				boost_resistance_factor = 0.2
+			}
+		}
+	}
+}

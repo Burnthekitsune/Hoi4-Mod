@@ -178,6 +178,11 @@ if = {
 	}
 }
 
+create_intelligence_agency = {
+    name = "The 5th Branch"
+    icon = GFX_intelligence_agency_logo_sov
+}
+
 # OLD NAVY
 
 if = {
