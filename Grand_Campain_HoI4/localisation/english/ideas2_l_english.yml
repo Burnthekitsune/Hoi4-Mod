@@ -171,7 +171,9 @@
  X19_armed_neutrality: "Armed Neutrality"
  X19_armed_neutrality_desc: "We must work hard to defend what we have achieved and protect the workers of our nation."
  X19_defense_of_communism: "Defense of Communism"
- X19_defense_of_communism: "The Cause of Communism is under threat, it is important that we pick up our guns and fight to the last for the workers of the world!"
+ X19_defense_of_communism_desc: "The Cause of Communism is under threat, it is important that we pick up our guns and fight to the last for the workers of the world!"
+ IRE_spy_network: "Irish Intelligence"
+ IRE_spy_network_desc: "Formed originally as part of the plans to obtain Ulster again, the Irish Convert Network has grown into a robust spy opperation with many promising agents in their employ."
  
  V27_class_for_itself: "A Class For Itself"
  V27_harmonious_jamahiriya: "Harmonious Jamahiriya"
