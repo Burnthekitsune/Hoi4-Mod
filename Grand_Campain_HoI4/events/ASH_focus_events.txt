@@ -350,15 +350,20 @@ country_event = { # Puppeted by Anti
 			character = X10_rev_council
 			country_leader = {
 				ideology = karimism
-				traits = { }
+				traits = { council_confusion karimist_council }
 			}
 			promote_leader = yes
+		}
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
 		}
 		remove_ideas = {
 			ASH_unified_communist_front
 			ASH_global_liberation
 			ASH_grand_alliance
 			ASH_market
+			birthplace_of_communism
 		}
 		if = {
 			limit = {
@@ -380,6 +385,110 @@ country_event = { # Puppeted by Anti
 		load_focus_tree = X10_karimist
 		ai_chance = {
 			base = 1
+		}
+	}
+}
+
+country_event = { # Ash for France
+	id = ASH_focus.9
+	title = ASH_focus.9.t
+	desc = ASH_focus.9.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = ASH_focus.9.a
+		X10 = {
+			annex_country = {
+				target = FRA
+				transfer_troops = yes
+			}
+			124 = {
+				remove_core_of = X10
+			}
+			197 = {
+				remove_core_of = X10
+			}
+			104 = {
+				remove_core_of = X10
+			}
+			144 = {
+				remove_core_of = X10
+			}
+			161 = {
+				remove_core_of = X10
+			}
+			77 = {
+				remove_core_of = X10
+			}
+			189 = {
+				remove_core_of = X10
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = { # NO
+		name = ASH_focus.9.b
+		set_global_flag = no_ash_france
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Ash for France
+	id = ASH_focus.10
+	title = ASH_focus.10.t
+	desc = ASH_focus.10.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = ASH_focus.10.a
+		X10 = {
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				add_claim_by = X10
+			}
+			124 = {
+				remove_core_of = X10
+			}
+			197 = {
+				remove_core_of = X10
+			}
+			104 = {
+				remove_core_of = X10
+			}
+			144 = {
+				remove_core_of = X10
+			}
+			161 = {
+				remove_core_of = X10
+			}
+			77 = {
+				remove_core_of = X10
+			}
+			189 = {
+				remove_core_of = X10
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = { # NO
+		name = ASH_focus.10.b
+		set_global_flag = no_ash_france
+		ai_chance = {
+			base = 0
 		}
 	}
 }

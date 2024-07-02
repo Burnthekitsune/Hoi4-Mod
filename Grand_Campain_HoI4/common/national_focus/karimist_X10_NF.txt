@@ -11,114 +11,245 @@ focus_tree = {
 	
 	focus = {
 		id = the_new_government
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5
 		x = 2
 		y = 0
 		prerequisite = {  }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			remove_trait = {
+				character = X10_rev_council
+				ideology = karimism
+				trait = council_confusion
+			}
+			add_trait = {
+				character = X10_rev_council
+				ideology = karimism
+				trait = european_beacon_of_revolution
+			}
+		}
 	}
 	focus = {
 		id = settle_the_masses
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5
 		x = 0
 		y = 1
 		prerequisite = { focus = the_new_government }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.20
+		}
 	}
 	focus = {
 		id = request_northern_claims
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_attack_france
+		cost = 5
 		x = 2
 		y = 1
 		prerequisite = { focus = the_new_government }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		bypass = {
+			NOT = { country_exists = FRA }
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					FRA = {
+						is_subject_of = V27
+					}
+				}
+				V27 = {
+					country_event = ASH_focus.9
+				}
+			}
+			else = {
+				V27 = {
+					country_event = ASH_focus.10
+				}
+			}
+		}
 	}
 	focus = {
 		id = establish_new_research_pact
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_NORDIC_com_research
+		cost = 5
 		x = 4
 		y = 1
 		prerequisite = { focus = the_new_government }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 5
+				category = industry
+			}
+		}
 	}
 	focus = {
 		id = tests_of_loyalty
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_NORDIC_com_capstone_materiel
+		cost = 5
 		x = 0
 		y = 2
 		prerequisite = { focus = settle_the_masses }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			retire_ideology_leader = communism
+			retire_ideology_leader = neutrality
+			retire_ideology_leader = democratic
+			retire_ideology_leader = new_socialism
+		}
 	}
 	focus = {
 		id = the_new_council
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_ITA_communist_leadership
+		cost = 5
 		x = 0
 		y = 3
 		prerequisite = { focus = tests_of_loyalty }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			swap_ruler_traits = { remove = karimist_council add = karimist_council_2 }
+		}
 	}
 	focus = {
 		id = solidify_control_of_france
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_chi_reach_out_to_france
+		cost = 5
 		x = 2
 		y = 2
 		prerequisite = { focus = request_northern_claims }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		available = {
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				is_owned_by = X10
+			}
+		}
+		bypass = {
+			OR = {
+				has_global_flag = no_ash_france
+				NOT = { country_exists = FRA }
+			}
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				add_core_of = X10
+				remove_core_of = FRA
+			}
+		}
 	}
 	focus = {
 		id = fortify_the_front
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_SWI_fortify_border_with_france
+		cost = 5
 		x = 2
 		y = 3
 		prerequisite = { focus = solidify_control_of_france }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		available = {
+			549 = {
+				is_owned_by = X10
+			}
+		}
+		completion_reward = {
+			130 = {
+				add_building_construction = {
+					type = bunker
+					province = 678
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6529
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9503
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 549
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3629
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11502
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9559
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = redouble_tech_investments
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 5
 		x = 4
 		y = 3
 		prerequisite = { focus = establish_new_research_pact }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	focus = {
 		id = the_new_ashmali_state
-		icon = mission_build_up_to_force_limit
-		cost = 0
+		icon = GFX_focus_generic_join_comintern
+		cost = 5
 		x = 2
 		y = 4
 		prerequisite = { focus = the_new_council }
-		prerequisite = { focus = fortify_the_front }
 		prerequisite = { focus = redouble_tech_investments }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = european_branch_of_revolution
+		}
 	}
 }

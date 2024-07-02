@@ -10713,4 +10713,27 @@ JUNO_emergency_powers = {
 			factor = 0
 		}
 	}
+	
+	council_confusion = {
+		random = no
+		
+		stability_factor = -0.2
+	}
+	
+	karimist_council = {
+		random = no
+		
+		fascism_drift = 0.1
+	}
+	karimist_council_2 = {
+		random = no
+		
+		fascism_drift = 0.1
+		political_power_gain = 0.1
+	}
+	european_beacon_of_revolution = {
+		random = no
+		
+		recruitable_population_factor = 0.05
+	}
 }

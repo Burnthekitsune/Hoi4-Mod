@@ -284,4 +284,45 @@ random_decisions = {
 		}
 	}
 	
+	core_france = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			has_government = fascism
+			NOT = {
+				OR = {
+					has_country_flag = cored_france
+					236 = {
+						is_core_of = X10
+					}
+				}
+			}
+		}
+		available = {
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				is_owned_by = X10
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_country_flag = cored_france
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				add_core_of = X10
+				remove_core_of = FRA
+			}
+		}
+	}
+	
 }
