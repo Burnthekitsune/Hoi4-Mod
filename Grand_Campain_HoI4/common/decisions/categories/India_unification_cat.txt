@@ -1,0 +1,9 @@
+indian_unification_war = {
+	icon = GFX_decision_category_border_war
+	visible = {
+		OR = {
+			tag = BHT
+			tag = RAJ
+		}
+	}
+}

@@ -3,7 +3,7 @@ characters = {
 		name = The_Council
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_SOV_supreme_soviet
 			}
 		}
 		country_leader = {

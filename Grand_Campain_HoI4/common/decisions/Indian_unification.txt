@@ -1,0 +1,760 @@
+indian_unification_war = {
+	invite_orissa = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = ORI
+			NOT = {
+				has_global_flag = ORI_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = ORI
+			OR = {
+				AND = {
+					tag = BHT
+					ORI = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					ORI = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = ORI_annexed
+			annex_country = {
+				target = ORI
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = SIK
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = BUN
+				transfer_troops = yes
+			}
+		}
+	}
+	invite_madurai = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = W21
+			NOT = {
+				has_global_flag = W21_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = W21
+			OR = {
+				AND = {
+					tag = BHT
+					W21 = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					W21 = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = W21_annexed
+			annex_country = {
+				target = W21
+				transfer_troops = yes
+			}
+		}
+	}
+	invite_yantuoman = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = Y00
+			NOT = {
+				has_global_flag = Y00_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = Y00
+			OR = {
+				AND = {
+					tag = BHT
+					Y00 = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					Y00 = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = Y00_annexed
+			annex_country = {
+				target = Y00
+				transfer_troops = yes
+			}
+		}
+	}
+	invite_hyderabad = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = HYD
+			NOT = {
+				has_global_flag = HYD_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = HYD
+			OR = {
+				AND = {
+					tag = BHT
+					HYD = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					HYD = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = HYD_annexed
+			annex_country = {
+				target = HYD
+				transfer_troops = yes
+			}
+		}
+	}
+	invite_gondwana = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = X56
+			NOT = {
+				has_global_flag = X56_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = X56
+			OR = {
+				AND = {
+					tag = BHT
+					X56 = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					X56 = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = X56_annexed
+			annex_country = {
+				target = X56
+				transfer_troops = yes
+			}
+		}
+	}
+	invite_yangwaroks = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = X44
+			NOT = {
+				has_global_flag = X44_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = X44
+			OR = {
+				AND = {
+					tag = BHT
+					X44 = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					X44 = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = X44_annexed
+			annex_country = {
+				target = X44
+				transfer_troops = yes
+			}
+		}
+	}
+	invite_nepal = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = NEP
+			NOT = {
+				has_global_flag = NEP_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = NEP
+			OR = {
+				AND = {
+					tag = BHT
+					NEP = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					NEP = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = NEP_annexed
+			annex_country = {
+				target = NEP
+				transfer_troops = yes
+			}
+		}
+	}
+	invite_bikaner = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = BIK
+			NOT = {
+				has_global_flag = BIK_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = BIK
+			OR = {
+				AND = {
+					tag = BHT
+					BIK = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					BIK = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = BIK_annexed
+			annex_country = {
+				target = BIK
+				transfer_troops = yes
+			}
+		}
+	}
+	invite_gujarat = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			country_exists = X60
+			NOT = {
+				has_global_flag = X60_annexed
+			}
+		}
+		available = {
+			is_neighbor_of = X60
+			OR = {
+				AND = {
+					tag = BHT
+					X60 = {
+						NOT = {
+							has_government = fascism
+							has_government = communism
+						}
+					}
+				}
+				AND = {
+					tag = RAJ
+					X60 = {
+						NOT = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = X60_annexed
+			annex_country = {
+				target = X60
+				transfer_troops = yes
+			}
+		}
+	}
+	
+	petition_for_kurnool = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_generic_decision
+		visible = {
+			160 = {
+				NOT = {
+					is_owned_by = RAJ
+					is_owned_by = BHT
+				}
+			}
+			NOT = {
+				has_global_flag = kurnool_petition
+			}
+		}
+		available = {
+			any_neighbor_country = {
+				owns_state = 160
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = kurnool_petition
+			160 = {
+				owner = {
+					country_event = india_unification.1
+				}
+			}
+		}
+	}
+	petition_for_south_bengal = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_generic_decision
+		visible = {
+			38 = {
+				NOT = {
+					is_owned_by = RAJ
+					is_owned_by = BHT
+				}
+			}
+			NOT = {
+				has_global_flag = south_bengal_petition
+			}
+		}
+		available = {
+			any_neighbor_country = {
+				owns_state = 38
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = south_bengal_petition
+			38 = {
+				owner = {
+					country_event = india_unification.2
+				}
+			}
+		}
+	}
+	petition_for_sindh = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_generic_decision
+		visible = {
+			129 = {
+				NOT = {
+					is_owned_by = RAJ
+					is_owned_by = BHT
+				}
+			}
+			NOT = {
+				has_global_flag = sindh_petition
+			}
+		}
+		available = {
+			any_neighbor_country = {
+				owns_state = 129
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = sindh_petition
+			129 = {
+				owner = {
+					country_event = india_unification.3
+				}
+			}
+		}
+	}
+	petition_for_north_punjab = {
+		cost = 15
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_generic_decision
+		visible = {
+			678 = {
+				NOT = {
+					is_owned_by = RAJ
+					is_owned_by = BHT
+				}
+			}
+			NOT = {
+				has_global_flag = north_punjab_petition
+			}
+		}
+		available = {
+			any_neighbor_country = {
+				owns_state = 678
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = north_punjab_petition
+			678 = {
+				owner = {
+					country_event = india_unification.4
+				}
+			}
+		}
+	}
+	marry_bengal = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = BHT
+		}
+		icon = GFX_decision_eng_abdication_crisis
+		visible = {
+			NOT = {
+				has_global_flag = married_bengal
+			}
+		}
+		available = {
+			is_neighbor_of = X14
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_global_flag = married_bengal
+			create_faction = INDIAN_UNION
+			add_to_faction = X14
+			X14 = {
+				remove_state_core = 597
+				remove_state_core = 38
+				remove_state_core = 194
+				add_ai_strategy = {
+					type = alliance
+					id = BHT
+					value = 200
+				}
+			}
+			BHT = {
+				add_ai_strategy = {
+					type = alliance
+					id = X14
+					value = 200
+				}
+			}
+		}
+	}
+	war_for_india = {
+		cost = 75
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_generic_ignite_civil_war
+		visible = {
+			has_global_flag = ORI_annexed
+			has_global_flag = W21_annexed
+			has_global_flag = Y00_annexed
+			has_global_flag = HYD_annexed
+			has_global_flag = X56_annexed
+			has_global_flag = X44_annexed
+			has_global_flag = NEP_annexed
+			has_global_flag = BIK_annexed
+			has_global_flag = X60_annexed
+			has_global_flag = kurnool_petition
+			has_global_flag = south_bengal_petition
+			has_global_flag = sindh_petition
+			has_global_flag = north_punjab_petition
+			NOT = {
+				has_global_flag = india_war
+			}
+		}
+		available = {
+			has_war = no
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					tag = RAJ
+				}
+				declare_war_on = {
+					target = BHT
+					type = annex_everything
+				}
+			}
+			else = {
+				declare_war_on = {
+					target = RAJ
+					type = annex_everything
+				}
+			}
+			
+		}
+	}
+	last_india_standing = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = BHT
+				tag = RAJ
+			}
+		}
+		icon = GFX_decision_eng_propaganda_campaigns
+		visible = {
+			OR = {
+				NOT = {
+					country_exists = BHT
+				}
+				NOT = {
+					country_exists = RAJ
+				}
+			}
+		}
+		available = {
+			has_war = no
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					tag = RAJ
+				}
+				BHT = {
+					every_core_state = {
+						remove_core_of = BHT
+					}
+				}
+			}
+			else = {
+				RAJ = {
+					every_core_state = {
+						remove_core_of = RAJ
+					}
+				}
+			}
+			last_india_standing = 0.2
+			every_owned_state = {
+				limit = {
+					is_core_of = THIS
+				}
+				cancel_resistance = yes
+			}
+		}
+	}
+}

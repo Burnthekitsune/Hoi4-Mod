@@ -3,7 +3,7 @@ characters = {
 		name = bo_Jampa_dyn_bo_Depa_Tonpo
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_india_generic_land_4
 			}
 		}
 		country_leader = {

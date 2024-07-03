@@ -3,7 +3,7 @@ characters = {
 		name = ne_Puru_Yangwarok
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_asia_generic_land_14
 			}
 		}
 		country_leader = {

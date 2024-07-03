@@ -23,6 +23,7 @@ state = {
 		}
 		add_core_of = ORI
 		add_core_of = X14
+		add_core_of = RAJ
 		add_core_of = BHT
 	}
 

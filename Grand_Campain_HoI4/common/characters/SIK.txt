@@ -3,7 +3,7 @@ characters = {
 		name = ne_Nirav_dyn_ne_Siwakoti
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Sinkiang_Sheng_Shicai
 			}
 		}
 		country_leader = {

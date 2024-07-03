@@ -1,0 +1,209 @@
+add_namespace = india_unification
+
+country_event = { # Kurnool
+	id = india_unification.1
+	title = india_unification.1.t
+	desc = india_unification.1.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = { # Communist
+		name = india_unification.1.a
+		remove_state_core = 160
+		RAJ = {
+			transfer_state = 160
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 10
+				has_government = communism
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+		}
+	}
+	option = { # Monarchist
+		remove_state_core = 160
+		BHT = {
+			transfer_state = 160
+		}
+		name = india_unification.1.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 10
+				has_government = neutrality
+			}
+			modifier = {
+				factor = 5
+				has_government = democratic
+			}
+		}
+	}
+	option = { # Keep
+		name = india_unification.1.c
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # South Bengal
+	id = india_unification.2
+	title = india_unification.2.t
+	desc = india_unification.2.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = { # Communist
+		name = india_unification.2.a
+		remove_state_core = 38
+		RAJ = {
+			transfer_state = 38
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 10
+				has_government = communism
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+		}
+	}
+	option = { # Monarchist
+		remove_state_core = 38
+		BHT = {
+			transfer_state = 38
+		}
+		name = india_unification.2.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 10
+				has_government = neutrality
+			}
+			modifier = {
+				factor = 5
+				has_government = democratic
+			}
+		}
+	}
+	option = { # Keep
+		name = india_unification.2.c
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Sinhd
+	id = india_unification.3
+	title = india_unification.3.t
+	desc = india_unification.3.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = { # Communist
+		name = india_unification.3.a
+		remove_state_core = 129
+		RAJ = {
+			transfer_state = 129
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 10
+				has_government = communism
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+		}
+	}
+	option = { # Monarchist
+		remove_state_core = 129
+		BHT = {
+			transfer_state = 129
+		}
+		name = india_unification.3.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 10
+				has_government = neutrality
+			}
+			modifier = {
+				factor = 5
+				has_government = democratic
+			}
+		}
+	}
+	option = { # Keep
+		name = india_unification.3.c
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # North Punjab
+	id = india_unification.4
+	title = india_unification.4.t
+	desc = india_unification.4.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = { # Communist
+		name = india_unification.4.a
+		remove_state_core = 678
+		RAJ = {
+			transfer_state = 678
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 10
+				has_government = communism
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+		}
+	}
+	option = { # Monarchist
+		remove_state_core = 678
+		BHT = {
+			transfer_state = 678
+		}
+		name = india_unification.4.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 10
+				has_government = neutrality
+			}
+			modifier = {
+				factor = 5
+				has_government = democratic
+			}
+		}
+	}
+	option = { # Keep
+		name = india_unification.4.c
+		ai_chance = {
+			base = 0
+		}
+	}
+}

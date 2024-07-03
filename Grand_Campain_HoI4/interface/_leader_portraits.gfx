@@ -17,7 +17,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 
-
 	### GER
 
 	spriteType = {
@@ -738,6 +737,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_RAJ_douglas_gracey_small"
 		texturefile = "gfx/interface/ideas/idea_ENG_generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Subhas_Chandra_Bose"
+		texturefile = "gfx/leaders/converter/Portrait_The_Raj_Subhas_Chandra_Bose.dds"
 	}
 
 

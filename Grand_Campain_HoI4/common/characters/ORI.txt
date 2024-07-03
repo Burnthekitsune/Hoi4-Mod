@@ -3,7 +3,7 @@ characters = {
 		name = Dibvyasimhadeva_Sankara
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_india_generic_land_3
 			}
 		}
 		country_leader = {
