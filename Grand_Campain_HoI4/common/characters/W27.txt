@@ -1,14 +1,14 @@
 characters = {
 	W27_83886505 = {
-		name = Iskandar_Abdullahid
+		name = "Salim al-Atassi"
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_PAL_generic_navy_2
 			}
 		}
 		country_leader = {
 			ideology = falangism
-			traits = {  }
+			traits = { education_reformer }
 		}
 	}
 	W27_50333128 = {
