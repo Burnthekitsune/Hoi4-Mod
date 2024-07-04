@@ -3,12 +3,12 @@ characters = {
 		name = Romualdo_de_Launay
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Europe_Generic_3
+				large = GFX_portrait_italy_italo_balbo
 			}
 		}
 		country_leader = {
 			ideology = stalinism
-			traits = {  }
+			traits = { communist_orator indomitable_perseverance }
 		}
 	}
 	SPM_50332982 = {

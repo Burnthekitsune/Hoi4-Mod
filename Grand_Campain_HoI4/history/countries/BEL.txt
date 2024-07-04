@@ -1,4 +1,4 @@
-capital = 217
+`capital = 217
 
 oob = "BEL_1936"
 set_research_slots = 3
@@ -16,7 +16,6 @@ recruit_character = BEL_100664656
 recruit_character = BEL_100669322
 recruit_character = BEL_134224015
 recruit_character = BEL_150997984
-recruit_character = BEL_167772418
 if = {
 	limit = { has_dlc = "La Resistance" }
 }

@@ -3,12 +3,12 @@ characters = {
 		name = li_Arturas_Hvide
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Denmark_Erik_Scavenius
 			}
 		}
 		country_leader = {
 			ideology = despotism
-			traits = {  }
+			traits = { SWE_the_great }
 		}
 	}
 	SCA_33554970 = {

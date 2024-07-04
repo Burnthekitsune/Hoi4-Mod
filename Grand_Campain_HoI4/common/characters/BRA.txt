@@ -1,14 +1,14 @@
 characters = {
 	BRA_1005 = {
-		name = The_Council
+		name = eu4_Umar_eu4_Qutamid
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_BRA_mascarenhas_de_morais_1
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { marxist_academic industry_reformer }
 		}
 	}
 	BRA_33554954 = {
@@ -205,20 +205,6 @@ characters = {
 			traits = { genial_anti_revolutionary }
 			slot = political_advisor
 			idea_token = i_100669604
-			cost = 150
-		}
-	}
-	BRA_117441394 = {
-		name = eu4_Umar_eu4_Qutamid
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_117441394
 			cost = 150
 		}
 	}

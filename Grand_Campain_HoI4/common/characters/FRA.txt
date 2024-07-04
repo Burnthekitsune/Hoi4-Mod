@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = conservatism
-			traits = {  }
+			traits = { unpopular_monarch }
 		}
 	}
 	FRA_33555182 = {

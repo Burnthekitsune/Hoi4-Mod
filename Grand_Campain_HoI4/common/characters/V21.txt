@@ -3,7 +3,7 @@ characters = {
 		name = Ferencz_Unruochinger-Tolna
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Greece_Markos_Vafiadis
 			}
 		}
 		country_leader = {

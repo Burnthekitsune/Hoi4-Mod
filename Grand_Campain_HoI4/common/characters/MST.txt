@@ -1,9 +1,9 @@
 characters = {
 	MST_1044 = {
-		name = The_Council
+		name = Lukas_Leistikow
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Germany_Wilhelm_List
 			}
 		}
 		country_leader = {
@@ -103,20 +103,6 @@ characters = {
 			traits = { political_dancer }
 			slot = political_advisor
 			idea_token = i_100664030
-			cost = 150
-		}
-	}
-	MST_100664164 = {
-		name = Lukas_Leistikow
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_100664164
 			cost = 150
 		}
 	}

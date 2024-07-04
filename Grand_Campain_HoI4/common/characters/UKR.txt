@@ -3,7 +3,7 @@ characters = {
 		name = Mullanur_Isskalvia
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Soviet_Konstantin_Rodzaevsky
 			}
 		}
 		country_leader = {

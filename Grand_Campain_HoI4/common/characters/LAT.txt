@@ -3,7 +3,7 @@ characters = {
 		name = Martins_Plavins
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_lit_antanas_smetona
 			}
 		}
 		country_leader = {

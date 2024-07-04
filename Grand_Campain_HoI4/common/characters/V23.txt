@@ -3,12 +3,12 @@ characters = {
 		name = eu4_Ali_di_Avula
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ITA_ferdinando_adalberto
 			}
 		}
 		country_leader = {
 			ideology = centrism
-			traits = {  }
+			traits = { staunch_monarchist }
 		}
 	}
 	V23_16778744 = {

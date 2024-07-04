@@ -1,14 +1,14 @@
 characters = {
 	HOL_1071 = {
-		name = The_Council
+		name = Stefan_Coops
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_hol_hendrikus_colijn
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { retired_officer naval_theorist }
 		}
 	}
 	HOL_33556547 = {
@@ -124,20 +124,6 @@ characters = {
 			traits = { conservative_grandee }
 			slot = political_advisor
 			idea_token = i_117440794
-			cost = 150
-		}
-	}
-	HOL_134217781 = {
-		name = Stefan_Coops
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_134217781
 			cost = 150
 		}
 	}

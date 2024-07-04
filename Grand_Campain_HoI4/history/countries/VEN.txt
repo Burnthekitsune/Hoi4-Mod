@@ -13,9 +13,6 @@ recruit_character = VEN_83887310
 recruit_character = VEN_83892039
 recruit_character = VEN_117445001
 recruit_character = VEN_151000811
-if = {
-	limit = { has_dlc = "La Resistance" }
-}
 
 set_politics = {
 	ruling_party = neutrality
@@ -27,8 +24,8 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	democratic = 16
-	fascism = 36
-	neutrality = 48
+	fascism = 0
+	neutrality = 84
 }
 
 add_ideas = {
@@ -161,7 +158,6 @@ if = {
 		mid_1_custom_slot = ship_depth_charge_1
 		rear_1_custom_slot = empty
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Early Heavy Cruiser"
@@ -179,7 +175,6 @@ if = {
 		mid_2_custom_slot = ship_medium_battery_1
 		rear_1_custom_slot = empty
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Early Light Cruiser"
@@ -197,7 +192,6 @@ if = {
 		mid_2_custom_slot = ship_light_battery_1
 		rear_1_custom_slot = empty
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Early Submarine"
@@ -261,7 +255,6 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = empty
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier Fighter"
@@ -272,7 +265,6 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = empty
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Interwar CAS"
@@ -282,7 +274,6 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier CAS"
@@ -292,7 +283,6 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Interwar Naval Bomber"
@@ -302,7 +292,6 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier Naval Bomber"
@@ -312,7 +301,6 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Interwar Tactical Bomber"
@@ -323,7 +311,6 @@ if = {
 		special_type_slot_1 = lmg_defense_turret
 		special_type_slot_2 = lmg_defense_turret
 	}
-		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Interwar Strategic Bomber"
@@ -334,9 +321,5 @@ if = {
 		special_type_slot_1 = lmg_defense_turret
 		special_type_slot_2 = lmg_defense_turret
 	}
-		obsolete = no
 	}
-}
-if = {
-	limit = { has_dlc = "No Step Back" }
 }

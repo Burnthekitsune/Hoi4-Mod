@@ -1,9 +1,9 @@
 characters = {
 	BEL_1057 = {
-		name = The_Council
+		name = Albert_Goubau
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Belgium_Hubert_Pierlot
 			}
 		}
 		country_leader = {
@@ -174,20 +174,6 @@ characters = {
 			traits = { smooth_talking_charmer }
 			slot = political_advisor
 			idea_token = i_150997984
-			cost = 150
-		}
-	}
-	BEL_167772418 = {
-		name = Albert_Goubau
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_167772418
 			cost = 150
 		}
 	}

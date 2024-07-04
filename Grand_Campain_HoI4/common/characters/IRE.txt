@@ -1,14 +1,14 @@
 characters = {
 	IRE_1053 = {
-		name = The_Council
+		name = eu4_Domnall_eu4_Darcy
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Ireland_Eamon_de_Valera
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { leftist_intellectual head_of_intelligence }
 		}
 	}
 	IRE_33559252 = {
@@ -70,20 +70,6 @@ characters = {
 			traits = { backroom_backstabber }
 			slot = political_advisor
 			idea_token = i_67111898
-			cost = 150
-		}
-	}
-	IRE_83886392 = {
-		name = eu4_Domnall_eu4_Darcy
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_83886392
 			cost = 150
 		}
 	}

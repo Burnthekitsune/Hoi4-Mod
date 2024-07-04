@@ -3,7 +3,7 @@ characters = {
 		name = Abd_al-Malik_al-Zaydani
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Greece_Ioannis_Metaxas
 			}
 		}
 		country_leader = {

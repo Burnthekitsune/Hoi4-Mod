@@ -8399,3 +8399,4 @@ spriteTypes = {
 		name = "GFX_Deng_Nie"
 		texturefile = "gfx/leaders/China/Deng_Nie.dds"
 	}
+}

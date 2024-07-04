@@ -12,4 +12,48 @@ spriteTypes = {
 		name = "GFX_portrait_erik_scavenius"
 		texturefile = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
 	}
+
+	spriteType = {
+		name = "GFX_Portrait_Ireland_Eamon_de_Valera"
+		texturefile = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Britain_Henry_Pownall"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Henry_Pownall.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Konstantin_Rodzaevsky"
+		texturefile = "gfx/leaders/SOV/Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Greece_Markos_Vafiadis"
+		texturefile = "gfx/leaders/GRE/Portrait_Greece_Markos_Vafiadis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_hol_hendrikus_colijn"
+		texturefile = "gfx/leaders/HOL/portrait_hol_hendrikus_colijn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_italy_italo_balbo"
+		texturefile = "gfx/leaders/ITA/portrait_italy_italo_balbo.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_3"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Greece_Ioannis_Metaxas"
+		texturefile = "gfx/leaders/GRE/Portrait_Greece_Ioannis_Metaxas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Belgium_Hubert_Pierlot"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
+	}
 }
