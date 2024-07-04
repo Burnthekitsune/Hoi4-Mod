@@ -1,14 +1,14 @@
 characters = {
 	X81_1023 = {
-		name = The_Council
+		name = eu4_Tariq_eu4_Snjalli
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Japan_Generic_3
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { communist_orator unbreakable }
 		}
 	}
 	X81_33557884 = {
@@ -158,20 +158,6 @@ characters = {
 			traits = { political_dancer }
 			slot = political_advisor
 			idea_token = i_134217827
-			cost = 150
-		}
-	}
-	X81_184549376 = {
-		name = eu4_Tariq_eu4_Snjalli
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_184549376
 			cost = 150
 		}
 	}

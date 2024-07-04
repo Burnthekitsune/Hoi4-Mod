@@ -1,14 +1,14 @@
 characters = {
 	W91_1013 = {
-		name = The_Council
+		name = eu4_Garcia_eu4_Elfael
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Asia_Generic_navy_3
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { great_architect }
 		}
 	}
 	W91_33558035 = {
@@ -22,20 +22,6 @@ characters = {
 			traits = { education_reformer }
 			slot = political_advisor
 			idea_token = i_33558035
-			cost = 150
-		}
-	}
-	W91_50332164 = {
-		name = eu4_Garcia_eu4_Elfael
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_50332164
 			cost = 150
 		}
 	}

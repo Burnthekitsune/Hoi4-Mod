@@ -3,7 +3,7 @@ characters = {
 		name = ne_Rabin_Yangwarok
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_China_weng_wenhao
 			}
 		}
 		country_leader = {

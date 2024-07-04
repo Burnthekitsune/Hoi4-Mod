@@ -6,7 +6,6 @@ set_convoys = 5
 
 recruit_character = W91_1013
 recruit_character = W91_33558035
-recruit_character = W91_50332164
 recruit_character = W91_50332924
 recruit_character = W91_50334393
 recruit_character = W91_50337886

@@ -1,14 +1,14 @@
 characters = {
 	X77_1021 = {
-		name = The_Council
+		name = Yi_Mok
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Asia_Generic_land_3
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { tenacious_negotiator }
 		}
 	}
 	X77_33557953 = {
@@ -130,20 +130,6 @@ characters = {
 			traits = { headstrong }
 			slot = political_advisor
 			idea_token = i_100663484
-			cost = 150
-		}
-	}
-	X77_100664688 = {
-		name = Yi_Mok
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_100664688
 			cost = 150
 		}
 	}

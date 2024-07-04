@@ -3,7 +3,7 @@ characters = {
 		name = Tsepon_Ngapoi
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Tibet_Jamphel_Yeshe_Gyaltsen
 			}
 		}
 		country_leader = {

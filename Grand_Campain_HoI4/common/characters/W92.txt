@@ -1,14 +1,14 @@
 characters = {
 	W92_1014 = {
-		name = The_Council
+		name = eu4_Sancho_eu4_Snjalli
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_europe_generic_land_19
 			}
 		}
 		country_leader = {
 			ideology = anarchist_communism
-			traits = {  }
+			traits = { the_spider }
 		}
 	}
 	W92_50331889 = {
@@ -65,20 +65,6 @@ characters = {
 			traits = { political_dancer }
 			slot = political_advisor
 			idea_token = i_67110175
-			cost = 150
-		}
-	}
-	W92_67113561 = {
-		name = eu4_Sancho_eu4_Snjalli
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_67113561
 			cost = 150
 		}
 	}

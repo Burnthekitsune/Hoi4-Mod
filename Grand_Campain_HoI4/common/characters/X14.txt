@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = despotism
-			traits = {  }
+			traits = { constitutional_monarch }
 		}
 	}
 	X14_33555392 = {

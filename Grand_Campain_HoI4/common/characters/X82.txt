@@ -1,14 +1,14 @@
 characters = {
 	X82_1024 = {
-		name = The_Council
+		name = Dambyan_Togs-Ochiryn
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_mon_anandyn_amar
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { communist_theorist }
 		}
 	}
 	X82_67109566 = {
@@ -64,20 +64,6 @@ characters = {
 			traits = { headstrong }
 			slot = political_advisor
 			idea_token = i_83886639
-			cost = 150
-		}
-	}
-	X82_83886982 = {
-		name = Dambyan_Togs-Ochiryn
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_83886982
 			cost = 150
 		}
 	}

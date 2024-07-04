@@ -14,7 +14,6 @@ recruit_character = X78_117442305
 recruit_character = X78_117443171
 recruit_character = X78_117445467
 recruit_character = X78_117446846
-recruit_character = X78_167772219
 if = {
 	limit = { has_dlc = "La Resistance" }
 }

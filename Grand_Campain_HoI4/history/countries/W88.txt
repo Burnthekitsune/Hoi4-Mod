@@ -15,7 +15,6 @@ recruit_character = W88_117440808
 recruit_character = W88_117446368
 recruit_character = W88_134217886
 recruit_character = W88_134218987
-recruit_character = W88_150996571
 if = {
 	limit = { has_dlc = "La Resistance" }
 }

@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = oligarchism
-			traits = {  }
+			traits = { staunch_monarchist industry_magnate }
 		}
 	}
 	BHT_83887107 = {

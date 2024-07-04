@@ -1,7 +1,7 @@
 capital = 424
 
 oob = "X77_1936"
-set_research_slots = 2
+set_research_slots = 3
 set_convoys = 5
 
 recruit_character = X77_1021
@@ -13,7 +13,6 @@ recruit_character = X77_67113486
 recruit_character = X77_83889197
 recruit_character = X77_83890287
 recruit_character = X77_100663484
-recruit_character = X77_100664688
 recruit_character = X77_134219219
 recruit_character = X77_184549525
 if = {

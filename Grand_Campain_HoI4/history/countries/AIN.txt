@@ -9,7 +9,6 @@ recruit_character = AIN_50332040
 recruit_character = AIN_67109182
 recruit_character = AIN_67109549
 recruit_character = AIN_83887188
-recruit_character = AIN_83891128
 recruit_character = AIN_100663622
 recruit_character = AIN_100667043
 recruit_character = AIN_117444315

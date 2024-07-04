@@ -320,7 +320,7 @@ country_event = { # Results
 			character = X10_117441588
 			country_leader = {
 				ideology = marxism
-				traits = { economic_reformer captain_of_industry }
+				traits = { marxist_philosopher captain_of_industry }
 			}
 			promote_leader = yes
 		}

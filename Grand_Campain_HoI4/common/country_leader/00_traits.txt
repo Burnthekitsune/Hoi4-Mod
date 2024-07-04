@@ -10736,4 +10736,12 @@ JUNO_emergency_powers = {
 		
 		recruitable_population_factor = 0.05
 	}
+	florida_man = {
+		random = no
+		
+		army_core_defence_factor = 0.2
+		army_core_attack_factor = 0.2
+		army_morale_factor = 0.2
+		recruitable_population_factor = 0.1
+	}
 }

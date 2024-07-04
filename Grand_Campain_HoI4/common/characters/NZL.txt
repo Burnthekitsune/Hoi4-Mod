@@ -3,7 +3,7 @@ characters = {
 		name = James_Drake-Brockman
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_NewZealand_Peter_Fraser
 			}
 		}
 		country_leader = {

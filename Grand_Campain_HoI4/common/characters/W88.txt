@@ -1,14 +1,14 @@
 characters = {
 	W88_1011 = {
-		name = The_Council
+		name = eu4_Abdul-Razzaq_eu4_Snjalli
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_indonesia_at_van_starkenborgh
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { headstrong }
 		}
 	}
 	W88_50332747 = {
@@ -168,20 +168,6 @@ characters = {
 			traits = { headstrong }
 			slot = political_advisor
 			idea_token = i_134218987
-			cost = 150
-		}
-	}
-	W88_150996571 = {
-		name = eu4_Abdul-Razzaq_eu4_Snjalli
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_150996571
 			cost = 150
 		}
 	}

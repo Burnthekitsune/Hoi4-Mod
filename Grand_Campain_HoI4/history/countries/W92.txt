@@ -9,7 +9,6 @@ recruit_character = W92_50331889
 recruit_character = W92_50332570
 recruit_character = W92_67109576
 recruit_character = W92_67110175
-recruit_character = W92_67113561
 recruit_character = W92_83886343
 recruit_character = W92_83887208
 recruit_character = W92_100666712

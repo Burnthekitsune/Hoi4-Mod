@@ -3,12 +3,12 @@ characters = {
 		name = Huang_Li
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_man_henry_pu_yi
 			}
 		}
 		country_leader = {
 			ideology = despotism
-			traits = {  }
+			traits = { disgraced_monarch }
 		}
 	}
 	W34_50333741 = {

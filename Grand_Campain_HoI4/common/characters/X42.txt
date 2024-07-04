@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = moderatism
-			traits = {  }
+			traits = { economic_reformer }
 		}
 	}
 	X42_50331783 = {

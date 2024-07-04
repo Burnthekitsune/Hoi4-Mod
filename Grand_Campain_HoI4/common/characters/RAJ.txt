@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = leninism
-			traits = {  }
+			traits = { devoted_marxist leftist_independent }
 		}
 	}
 	RAJ_50331945 = {

@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = liberalism
-			traits = {  }
+			traits = { florida_man }
 		}
 	}
 	X51_16778688 = {

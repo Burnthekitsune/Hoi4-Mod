@@ -1,14 +1,14 @@
 characters = {
 	X78_1022 = {
-		name = The_Council
+		name = eu4_Mubashir_eu4_Elfael
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_man_aisin_gioro_xiqia
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { red_army_organizer }
 		}
 	}
 	X78_50336551 = {
@@ -141,20 +141,6 @@ characters = {
 			traits = { agricultural_capitalist }
 			slot = political_advisor
 			idea_token = i_117446846
-			cost = 150
-		}
-	}
-	X78_167772219 = {
-		name = eu4_Mubashir_eu4_Elfael
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_167772219
 			cost = 150
 		}
 	}

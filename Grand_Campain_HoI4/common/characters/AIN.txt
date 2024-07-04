@@ -1,14 +1,14 @@
 characters = {
 	AIN_1002 = {
-		name = The_Council
+		name = Shinriki_Nakamura
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Japan_Generic_land_8
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { lucky }
 		}
 	}
 	AIN_50332040 = {
@@ -67,20 +67,6 @@ characters = {
 			traits = { grand_fleet_proponent }
 			slot = political_advisor
 			idea_token = i_83887188
-			cost = 150
-		}
-	}
-	AIN_83891128 = {
-		name = Shinriki_Nakamura
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_83891128
 			cost = 150
 		}
 	}

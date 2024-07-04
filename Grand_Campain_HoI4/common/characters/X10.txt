@@ -9,7 +9,7 @@ characters = {
 		country_leader = {
 			ideology = leninism
 			traits = { 
-				veteran_communist
+				veteran_communist economic_reformer
 			}
 		}
 	}

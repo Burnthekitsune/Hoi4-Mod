@@ -1,14 +1,14 @@
 characters = {
 	W89_1012 = {
-		name = The_Council
+		name = eu4_al-Karim_eu4_Ari
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Asia_Generic_navy_1
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { stout_defender }
 		}
 	}
 	W89_50332774 = {
@@ -134,20 +134,6 @@ characters = {
 			traits = { smooth_talking_charmer }
 			slot = political_advisor
 			idea_token = i_134222308
-			cost = 150
-		}
-	}
-	W89_134223019 = {
-		name = eu4_al-Karim_eu4_Ari
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_134223019
 			cost = 150
 		}
 	}

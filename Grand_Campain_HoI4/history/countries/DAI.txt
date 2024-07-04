@@ -9,7 +9,6 @@ recruit_character = DAI_50337441
 recruit_character = DAI_67110225
 recruit_character = DAI_83889717
 recruit_character = DAI_100663678
-recruit_character = DAI_100664236
 recruit_character = DAI_100664398
 recruit_character = DAI_100664863
 recruit_character = DAI_117440660

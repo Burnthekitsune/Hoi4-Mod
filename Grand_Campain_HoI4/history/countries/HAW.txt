@@ -11,7 +11,6 @@ recruit_character = HAW_67109054
 recruit_character = HAW_67110774
 recruit_character = HAW_83886289
 recruit_character = HAW_83887017
-recruit_character = HAW_83890599
 recruit_character = HAW_83891567
 recruit_character = HAW_117441789
 recruit_character = HAW_184553902

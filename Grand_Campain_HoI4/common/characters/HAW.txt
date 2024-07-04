@@ -1,14 +1,14 @@
 characters = {
 	HAW_1060 = {
-		name = The_Council
+		name = Kekelaokalani_Ho_opi_i
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_South_America_Generic_navy_1
 			}
 		}
 		country_leader = {
 			ideology = anarchist_communism
-			traits = {  }
+			traits = { naval_theorist }
 		}
 	}
 	HAW_33555132 = {
@@ -98,21 +98,6 @@ characters = {
 			traits = { adventurous_daredevil }
 			slot = political_advisor
 			idea_token = i_83887017
-			cost = 150
-		}
-	}
-	HAW_83890599 = {
-		name = Kekelaokalani_Ho_opi_i
-		gender = female
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_83890599
 			cost = 150
 		}
 	}

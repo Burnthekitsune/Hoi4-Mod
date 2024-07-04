@@ -9,7 +9,6 @@ recruit_character = X82_67109566
 recruit_character = X82_67111298
 recruit_character = X82_67114414
 recruit_character = X82_83886639
-recruit_character = X82_83886982
 recruit_character = X82_83888612
 recruit_character = X82_83891860
 recruit_character = X82_117441299

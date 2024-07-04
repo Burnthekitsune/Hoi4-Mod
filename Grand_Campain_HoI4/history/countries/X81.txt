@@ -1,7 +1,7 @@
 capital = 466
 
 oob = "X81_1936"
-set_research_slots = 2
+set_research_slots = 3
 set_convoys = 8
 
 recruit_character = X81_1023
@@ -15,7 +15,6 @@ recruit_character = X81_100663346
 recruit_character = X81_100664713
 recruit_character = X81_117440557
 recruit_character = X81_134217827
-recruit_character = X81_184549376
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
