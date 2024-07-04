@@ -1,14 +1,14 @@
 characters = {
 	W28_1047 = {
-		name = The_Council
+		name = Chen_Nai-siong
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_chi_wang_yaowu
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { hardened_officer }
 		}
 	}
 	W28_33557489 = {
@@ -53,20 +53,6 @@ characters = {
 			traits = { backroom_windbag }
 			slot = political_advisor
 			idea_token = i_67109822
-			cost = 150
-		}
-	}
-	W28_67111909 = {
-		name = Chen_Nai-siong
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { socialite_connections }
-			slot = political_advisor
-			idea_token = i_67111909
 			cost = 150
 		}
 	}

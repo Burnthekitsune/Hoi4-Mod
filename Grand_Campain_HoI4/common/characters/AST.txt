@@ -4,7 +4,7 @@ characters = {
 		gender = female
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Austria_Kurt_Schuschnigg
+				large = GFX_portrait_AUS_kurt_schuschnigg
 			}
 		}
 		country_leader = {

@@ -1,14 +1,14 @@
 characters = {
 	FRS_1068 = {
-		name = The_Council
+		name = Lika_Feletoa
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Asia_Generic_navy_2
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { ideological_groupie fortification_armchair_general }
 		}
 	}
 	FRS_50332426 = {
@@ -36,20 +36,6 @@ characters = {
 			traits = { resistance_banker }
 			slot = political_advisor
 			idea_token = i_50334477
-			cost = 150
-		}
-	}
-	FRS_67110556 = {
-		name = Lika_Feletoa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_67110556
 			cost = 150
 		}
 	}

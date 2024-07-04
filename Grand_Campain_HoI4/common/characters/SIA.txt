@@ -1,14 +1,14 @@
 characters = {
 	SIA_1008 = {
-		name = The_Council
+		name = Mahidol_Devahastin
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_Phraya_Phahon
 			}
 		}
 		country_leader = {
 			ideology = leninism
-			traits = {  }
+			traits = { triumphant_revolutionary }
 		}
 	}
 	SIA_50332484 = {
@@ -64,20 +64,6 @@ characters = {
 			traits = { adventurous_daredevil }
 			slot = political_advisor
 			idea_token = i_67109001
-			cost = 150
-		}
-	}
-	SIA_67114307 = {
-		name = Mahidol_Devahastin
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_67114307
 			cost = 150
 		}
 	}

@@ -1,14 +1,14 @@
 characters = {
 	V13_1046 = {
-		name = The_Council
+		name = eu4_Ragnarr_eu4_Snjalli
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Asia_Generic_warlord1
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { red_army_organizer }
 		}
 	}
 	V13_16778758 = {
@@ -134,20 +134,6 @@ characters = {
 			traits = { genial_anti_revolutionary }
 			slot = political_advisor
 			idea_token = i_134218540
-			cost = 150
-		}
-	}
-	V13_134223789 = {
-		name = eu4_Ragnarr_eu4_Snjalli
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_134223789
 			cost = 150
 		}
 	}

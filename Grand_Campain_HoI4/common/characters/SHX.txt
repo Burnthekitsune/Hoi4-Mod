@@ -1,14 +1,14 @@
 characters = {
 	SHX_1042 = {
-		name = The_Council
+		name = Wang_Peng
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_prc_mao_zedong
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { international_communist freedom_fighter }
 		}
 	}
 	SHX_16778968 = {
@@ -22,20 +22,6 @@ characters = {
 			traits = { great_architect }
 			slot = political_advisor
 			idea_token = i_16778968
-			cost = 150
-		}
-	}
-	SHX_16778969 = {
-		name = Wang_Peng
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_16778969
 			cost = 150
 		}
 	}

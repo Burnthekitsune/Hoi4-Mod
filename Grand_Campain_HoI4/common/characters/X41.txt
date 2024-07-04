@@ -1,14 +1,14 @@
 characters = {
 	X41_1027 = {
-		name = The_Council
+		name = Kwong_Ting
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_Phan_Boi_Chau
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { socialist_novelist }
 		}
 	}
 	X41_33556015 = {
@@ -22,20 +22,6 @@ characters = {
 			traits = { conservative_grandee }
 			slot = political_advisor
 			idea_token = i_33556015
-			cost = 150
-		}
-	}
-	X41_67110363 = {
-		name = Kwong_Ting
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_67110363
 			cost = 150
 		}
 	}

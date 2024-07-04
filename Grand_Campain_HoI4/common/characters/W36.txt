@@ -3,7 +3,7 @@ characters = {
 		name = Manthaturath_Luang_Phrabang
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Asia_Generic_3
+				large = GFX_Portrait_Asia_Generic_2
 			}
 		}
 		country_leader = {

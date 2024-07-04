@@ -1,14 +1,14 @@
 characters = {
 	SHA_1048 = {
-		name = The_Council
+		name = Yang_Peng
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Asia_Generic_navy_1
 			}
 		}
 		country_leader = {
 			ideology = anarchist_communism
-			traits = {  }
+			traits = { communist_orator }
 		}
 	}
 	SHA_67109133 = {
@@ -103,20 +103,6 @@ characters = {
 			traits = { mobile_warfare_expert }
 			slot = political_advisor
 			idea_token = i_83890153
-			cost = 150
-		}
-	}
-	SHA_100664701 = {
-		name = Yang_Peng
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_100664701
 			cost = 150
 		}
 	}

@@ -8459,4 +8459,8 @@ spriteTypes = {
 		name = "GFX_Portrait_South_America_Generic_navy_1"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	}
+	spriteType = {
+		name = GFX_Portrait_Asia_Generic_warlord1
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+	}
 }

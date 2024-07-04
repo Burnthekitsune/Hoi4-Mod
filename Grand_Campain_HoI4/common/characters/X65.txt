@@ -1,14 +1,14 @@
 characters = {
 	X65_1054 = {
-		name = The_Council
+		name = Tan_Fang
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_chi_hu_zongnan
 			}
 		}
 		country_leader = {
 			ideology = marxism
-			traits = {  }
+			traits = { war_industrialist }
 		}
 	}
 	X65_50333698 = {
@@ -54,20 +54,6 @@ characters = {
 			defense_skill = 3
 			maneuvering_skill = 4
 			coordination_skill = 2
-		}
-	}
-	X65_67110030 = {
-		name = Tan_Fang
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_67110030
-			cost = 150
 		}
 	}
 	X65_67113362 = {
