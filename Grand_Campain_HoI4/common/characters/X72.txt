@@ -3,12 +3,12 @@ characters = {
 		name = el_Iakovos_Philokales
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = "GFX_CAN_adrien_arcand"
 			}
 		}
 		country_leader = {
-			ideology = falangism
-			traits = {  }
+			traits = { inexperienced_imperialist }
+			ideology = rexism
 		}
 	}
 	X72_50332296 = {
