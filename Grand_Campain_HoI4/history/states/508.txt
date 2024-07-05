@@ -3,7 +3,7 @@ state = {
 	name = "STATE_508"
 	manpower = 2213115
 
-	state_category = town
+	state_category = city
 
 	history = {
 		owner = HOL
@@ -12,11 +12,12 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 0
+			industrial_complex = 2
+			arms_factory = 1
 			3211 = {
 				naval_base = 1
 			}
+			dockyard = 3
 			air_base = 5
 		}
 		add_core_of = HOL
