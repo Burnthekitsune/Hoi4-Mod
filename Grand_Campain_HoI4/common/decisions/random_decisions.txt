@@ -303,10 +303,19 @@ random_decisions = {
 			}
 		}
 		available = {
-			every_state = {
-				limit = {
-					is_core_of = FRA
-				}
+			236 = {
+				is_owned_by = X10
+			}
+			130 = {
+				is_owned_by = X10
+			}
+			381 = {
+				is_owned_by = X10
+			}
+			79 = {
+				is_owned_by = X10
+			}
+			85 = {
 				is_owned_by = X10
 			}
 		}
