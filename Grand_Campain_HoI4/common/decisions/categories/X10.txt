@@ -29,3 +29,14 @@ X10_prospecting_category = {
 		has_country_flag = ash_digging
 	}
 }
+
+X10_research_pact = {
+	icon = GFX_decision_category_generic
+	visible = {
+		has_government = communism
+		is_in_faction_with = X10
+		X10 = {
+			has_government = communism
+		}
+	}
+}
