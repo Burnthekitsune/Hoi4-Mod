@@ -25,6 +25,14 @@ bookmarks = {
 		X10= {
 			history = X10_hist
 			ideology = communism
+			ideas = {
+				birthplace_of_communism
+			}
+			focuses = {
+				Reformist_Ideals
+				Stay_the_Course
+				Return_to_Glory
+			}
 		}
 		"---"= {
 			history = "OTHER_GRAND_CAMPAIGN_DESC"
