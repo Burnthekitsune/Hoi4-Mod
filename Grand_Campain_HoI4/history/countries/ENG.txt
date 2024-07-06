@@ -48,6 +48,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
+	terror_of_the_skies
 }
 set_stability = 0.6
 set_war_support = 0.60

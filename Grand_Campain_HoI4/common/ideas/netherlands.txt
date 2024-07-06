@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		improved_dockyards = {
+			picture = generic_coastal_defense_ships
+			allowed = {
+				original_tag = HOL
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = HOL
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.2
+				production_speed_dockyard_factor = 0.2
+				repair_speed_dockyard_factor = 0.2
+			}
+		}
+	}
+}

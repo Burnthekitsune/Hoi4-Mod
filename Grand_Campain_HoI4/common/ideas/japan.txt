@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		the_pacific_fleet = {
+			picture = liberty_ships_focus
+			allowed = {
+				original_tag = X81
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = X81
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				naval_morale_factor = 0.2
+				naval_speed_factor = 0.2
+				experience_gain_navy_factor = 0.2
+			}
+		}
+	}
+}

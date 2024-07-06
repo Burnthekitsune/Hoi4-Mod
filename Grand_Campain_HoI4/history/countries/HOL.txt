@@ -43,6 +43,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	limited_conscription
+	improved_dockyards
 }
 set_stability = 0.6
 set_war_support = 0.60
