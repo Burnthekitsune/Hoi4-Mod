@@ -335,7 +335,7 @@ focus_tree = {
 	}
 	focus = {
 		id = A_New_Dawn
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_mex_privatisation
 		cost = 10
 		x = 2
 		y = 7
@@ -432,7 +432,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_the_Arsenals
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_DEN_heavy_regulations
 		cost = 10
 		x = 7
 		y = 6
@@ -507,7 +507,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Market_Guarantees
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ITA_devaluate_the_lire
 		cost = 10
 		x = 7
 		y = 5
@@ -521,7 +521,7 @@ focus_tree = {
 	}
 	focus = {
 		id = National_Champions
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_the_giant_wakes
 		cost = 10
 		x = 5
 		y = 6
@@ -577,7 +577,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Reinvigorate_the_Army
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_military_mission
 		cost = 5
 		x = 11
 		y = 1
@@ -606,7 +606,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Greasing_the_Wheels_of_Industry
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_major_alliance
 		cost = 10
 		x = 0
 		y = 1
@@ -645,7 +645,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Student_Visa_Scheme
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_military_deal
 		cost = 5
 		x = -2
 		y = 1
@@ -664,7 +664,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Breaking_the_Cartel
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_anti_fascist_diplomacy
 		cost = 10
 		x = 0
 		y = 1
@@ -709,7 +709,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Shutter_Gas_Facilities
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		cost = 10
 		x = -2
 		y = 1
@@ -724,7 +724,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Army_Manouvers
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_tank_production
 		cost = 10
 		x = 0
 		y = 1
@@ -753,7 +753,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Fortify_the_Capitals
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_construct_military
 		cost = 5
 		x = -2
 		y = 1
@@ -783,7 +783,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Grand_Army_of_the_Empire
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_little_entente
 		cost = 10
 		x = 0
 		y = 1
@@ -798,7 +798,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Doctrine_of_the_Deluge
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		cost = 10
 		x = -2
 		y = 1
@@ -817,7 +817,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Doctrine_of_1650
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_fortify_city
 		cost = 10
 		x = 2
 		y = 1
@@ -836,7 +836,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Blue_Army
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_little_entente
 		cost = 10
 		x = 0
 		y = 2
@@ -865,7 +865,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Vastness_of_Muraa
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_usa_escort_fighters
 		cost = 10
 		x = 0
 		y = 1
@@ -915,7 +915,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Army_Fleet
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_navy_submarine
 		cost = 10
 		x = 0
 		y = 1
@@ -931,7 +931,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Army_Air_Service
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_air_fighter
 		cost = 5
 		x = 2
 		y = 1
@@ -952,7 +952,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Budget_Review
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_neutrality_focus
 		cost = 10
 		x = 2
 		y = 1
@@ -984,7 +984,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Ten_Ten_Plan
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 5
 		x = 6
 		y = 0
@@ -1014,7 +1014,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Revise_the_Projections
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_cruiser2
 		cost = 10
 		x = 0
 		y = 1
@@ -1031,7 +1031,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Pacific_Naval_Institute
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_navy_battleship2
 		cost = 10
 		x = 2
 		y = 1
@@ -1070,7 +1070,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Navy_Air_Service
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_navy_carrier
 		cost = 5
 		x = -2
 		y = 1
@@ -1091,7 +1091,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Restore_the_Pocket_Carriers
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_air_fighter2
 		cost = 10
 		x = 0
 		y = 1
@@ -1112,7 +1112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Establish_the_Bureau_of_the_Air_Corps
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_air_doctrine
 		cost = 10
 		x = 0
 		y = 1
@@ -1129,7 +1129,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Sky_was_Made_for_Us
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_CAS
 		cost = 10
 		x = 0
 		y = 1
@@ -1163,7 +1163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Naval_Flak_Rockets
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_air_defense
 		cost = 5
 		x = 0
 		y = 1
@@ -1181,7 +1181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Radar_Experiments
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_radar
 		cost = 10
 		x = 0
 		y = 1
@@ -1200,7 +1200,7 @@ focus_tree = {
 	}
 	focus = {
 		id = A_New_Era
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_secret_weapon
 		cost = 10
 		x = 0
 		y = 1
@@ -1220,7 +1220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Guided_Bombs
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_air_naval_bomber
 		cost = 10
 		x = 2
 		y = 1
@@ -1238,7 +1238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Establish_the_Naval_Infantry
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_amphibious_assault
 		cost = 10
 		x = 0
 		y = 1
@@ -1258,7 +1258,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Mobile_Shingles
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_NZL_bob_semple_tank
 		cost = 5
 		x = 0
 		y = 1
@@ -1281,7 +1281,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Landships
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_army_tanks2
 		cost = 5
 		x = 0
 		y = 1
@@ -1305,7 +1305,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Air_Corps_Fleet
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_chi_flying_tigers
 		cost = 10
 		x = 0
 		y = 1
@@ -1320,7 +1320,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Mint_Commemorative_Platinum_Sukhe
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_fra_devalue_the_franc
 		cost = 10
 		x = 4
 		y = 2
@@ -1334,7 +1334,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Bolster_the_Imperial_Guard
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_secret_rearmament
 		cost = 10
 		x = 8
 		y = 7
@@ -1348,7 +1348,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Guardians_of_the_Fortress_Cities
-		icon = mission_build_up_to_force_limit
+		icon = GFX_goal_generic_fortify_city
 		cost = 5
 		x = 7
 		y = 8
@@ -1362,7 +1362,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Heralds_of_the_Thunder_King
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
 		cost = 5
 		x = 9
 		y = 8
@@ -1376,7 +1376,7 @@ focus_tree = {
 	}
 	focus = {
 		id = With_Storm_and_Flash
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_POL_riot_of_37
 		cost = 5
 		x = 9
 		y = 9
@@ -1390,7 +1390,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Army_of_the_Imperial_Guard
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SOV_restore_cossack_units
 		cost = 10
 		x = 7
 		y = 9
@@ -1405,7 +1405,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Tackle_Southern_Unrest
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SOV_military_purge
 		cost = 5
 		x = 23
 		y = 1
@@ -1429,7 +1429,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Connecting_the_Railways
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SOV_south_manchuria_railway
 		cost = 5
 		x = -2
 		y = 1
@@ -1492,7 +1492,7 @@ focus_tree = {
 	}
 	focus = {
 		id = End_the_Special_Category
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		cost = 10
 		x = 0
 		y = 1
@@ -1518,7 +1518,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Industrialize_the_Periphery
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SOV_merge_plants
 		cost = 10
 		x = 0
 		y = 1
@@ -1604,7 +1604,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Suzerainty_of_Fairas
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SOV_the_true_tsars
 		cost = 5
 		x = 2
 		y = 2
@@ -1647,7 +1647,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Divide_and_Conquer
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
 		cost = 10
 		x = 2
 		y = 1
@@ -1668,7 +1668,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Ban_Greek_Nationalist_Organizations
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_GRE_resurrecting_the_megali_idea
 		cost = 5
 		x = 0
 		y = 1
@@ -1687,7 +1687,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Placate_the_Epirotes
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SOV_breadbasket_of_the_union
 		cost = 5
 		x = -2
 		y = 1
@@ -1706,7 +1706,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Association_of_Loyal_Imperial_Citizens_of_the_South
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ITA_subdue_the_sentinels
 		cost = 5
 		x = 0
 		y = 1
@@ -1740,7 +1740,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Pardon_the_Defectors
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ITA_banda_carita
 		cost = 5
 		x = 4
 		y = 0
@@ -1757,7 +1757,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Olive_Branch
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ETH_ecole_militaire_haile_selassie_1er
 		cost = 10
 		x = 0
 		y = 1
@@ -1777,7 +1777,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Amnesty_for_Southern_Bandits
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_conspiracy
 		cost = 5
 		x = 2
 		y = 1
@@ -1793,7 +1793,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Goodwill_Mission
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_SWE_Vasa_II
 		cost = 10
 		x = 0
 		y = 1
@@ -1810,7 +1810,7 @@ focus_tree = {
 	}
 	focus = {
 		id = United_in_Fear
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_ETH_amedeos_feast_of_maskal
 		cost = 10
 		x = 2
 		y = 1
@@ -1850,7 +1850,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Positive_Regionalism
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_DEN_civilian_preparations
 		cost = 10
 		x = 0
 		y = 1
@@ -1869,7 +1869,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Devolution
-		icon = mission_build_up_to_force_limit
+		icon = GFX_focus_generic_industrialists
 		cost = 10
 		x = 0
 		y = 1
