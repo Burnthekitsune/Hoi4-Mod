@@ -21,6 +21,16 @@ bookmarks = {
 		W40= {
 			history = W40_hist
 			ideology = democratic
+			ideas = {
+				W40_greco_fairas_regionalism
+				W40_labour_agitation
+				W40_gas_leak_disaster
+			}
+			focuses = {
+				The_Blue_Army
+				A_New_Dawn
+				Army_of_the_Imperial_Guard
+			}
 		}
 		X10= {
 			history = X10_hist
