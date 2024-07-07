@@ -68,6 +68,7 @@ add_ideas = {
 	W40_bimetalic_sukhe
 	W40_rocketry_pioneers
 	W40_gas_leak_disaster
+	MTG_naval_treaty_adherent
 }
 set_stability = 0.5
 set_war_support = 0.10
