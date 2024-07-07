@@ -140,3 +140,447 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 	}
 }
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12518
+		division_template = "Special Navy Brigade"
+		start_experience_factor = 0.75
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 560 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12518
+		division_template = "Special Navy Brigade"
+		start_experience_factor = 0.75
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 540 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 13204
+		division_template = "Special Navy Brigade"
+		start_experience_factor = 0.75
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 500 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 372
+		division_template = "Imperial Guard Division"
+		start_experience_factor = 0.9
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 850 }
+			motorized_equipment_0 = { owner = W40 amount = 15 }
+			support_equipment_1 = { owner = W40 amount = 30 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9875
+		division_template = "Imperial Guard Division"
+		start_experience_factor = 0.9
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 900 }
+			motorized_equipment_0 = { owner = W40 amount = 18 }
+			support_equipment_1 = { owner = W40 amount = 30 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 949
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 1000 }
+			support_equipment_1 = { owner = W40 amount = 30 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 7302
+		division_template = "Special Navy Brigade"
+		start_experience_factor = 0.75
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 450 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 4286
+		division_template = "Naval Infantry Division"
+		start_experience_factor = 0.3
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 650 }
+			support_equipment_1 = { owner = W40 amount = 20 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 13072
+		division_template = "Naval Infantry Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 900 }
+			support_equipment_1 = { owner = W40 amount = 20 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 9833
+		division_template = "Imperial Guard Division"
+		start_experience_factor = 0.9
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 700 }
+			motorized_equipment_0 = { owner = W40 amount = 20 }
+			support_equipment_1 = { owner = W40 amount = 25 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 12148
+		division_template = "Naval Infantry Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 800 }
+			support_equipment_1 = { owner = W40 amount = 20 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 372
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 900 }
+			support_equipment_1 = { owner = W40 amount = 20 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 7878
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 700 }
+			support_equipment_1 = { owner = W40 amount = 10 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 12536
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 800 }
+			support_equipment_1 = { owner = W40 amount = 15 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 10188
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 850 }
+			support_equipment_1 = { owner = W40 amount = 17 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 9271
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 910 }
+			support_equipment_1 = { owner = W40 amount = 25 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 10601
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 910 }
+			support_equipment_1 = { owner = W40 amount = 25 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 4719
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 1400 }
+			support_equipment_1 = { owner = W40 amount = 30 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 1399
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 1300 }
+			support_equipment_1 = { owner = W40 amount = 30 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11984
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 1200 }
+			support_equipment_1 = { owner = W40 amount = 30 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 4170
+		division_template = "Mixed Division"
+		start_experience_factor = 0.75
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 460 }
+			motorized_equipment_0 = { owner = W40 amount = 55 }
+			heavy_tank_chassis_0 = { owner = W40 amount = 40 version_name = "K-57" }
+			light_tank_chassis_0 = { owner = W40 amount = 60 version_name = "K-51" }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 11609
+		division_template = "Summit Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = W40 amount = 200 }
+			}
+		}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 12971
+		division_template = "Mixed Division"
+		start_experience_factor = 0.9
+		force_equipment_variants = { 
+			infantry_equipment_0 = { owner = W40 amount = 460 }
+			motorized_equipment_0 = { owner = W40 amount = 55 }
+			heavy_tank_chassis_0 = { owner = W40 amount = 40 version_name = "K-57" }
+			light_tank_chassis_0 = { owner = W40 amount = 60 version_name = "K-51" }
+			}
+		}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "W40"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 35
+		industrial_manufacturer = mio:W40_cks_rifle
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "W40"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 3
+		industrial_manufacturer = mio:W40_support_org
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "W40"
+		}
+		requested_factories = 20
+		progress = 0.9
+		efficiency = 52
+		industrial_manufacturer = mio:W40_cks_rifle
+	}
+
+		add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "W40" 
+		}
+		requested_factories = 15
+		progress = 0.3
+		efficiency = 35
+		industrial_manufacturer = mio:W40_support_org
+	}
+
+		add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "W40" 
+		}
+		requested_factories = 10
+		progress = 0.4
+		efficiency = 30
+		industrial_manufacturer = mio:W40_igney
+	}
+	
+		add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_0
+			creator = "W40" 
+		}
+		requested_factories = 5
+		progress = 0.8
+		efficiency = 50
+		industrial_manufacturer = mio:W40_igney
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "W40" 
+		}
+		requested_factories = 5
+		progress = 0.4
+		efficiency = 50
+		industrial_manufacturer = mio:W40_cks_cannon
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = "W40" 
+		}
+		requested_factories = 5
+		progress = 0.9
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "W40" 
+		}
+		requested_factories = 3
+		progress = 0.6
+		efficiency = 40
+		industrial_manufacturer = mio:W40_cks_cannon
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = gw_armored_car_equipment
+			creator = "W40" 
+		}
+		requested_factories = 2
+		progress = 0.9
+		efficiency = 50
+		industrial_manufacturer = mio:W40_kolymvis
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_0
+			creator = "W40" 
+			version_name = "K-51"
+		}
+		requested_factories = 10
+		progress = 0.4
+		efficiency = 53
+		industrial_manufacturer = mio:W40_standardtank_org
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = heavy_tank_chassis_1
+			creator = "W40" 
+			version_name = "K-57"
+		}
+		requested_factories = 15
+		progress = 0.4
+		efficiency = 38
+		industrial_manufacturer = mio:W40_heavytank_org
+	}
+}

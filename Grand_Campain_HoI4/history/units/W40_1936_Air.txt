@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_0
+			creator = "W40" 
+			version_name = "MKA-1"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 53
+		industrial_manufacturer = mio:W40_agi_plane_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_0
+			creator = "W40" 
+			version_name = "A-2"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 45
+		industrial_manufacturer = mio:W40_agi_plane_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = cv_small_plane_airframe_0
+			creator = "W40" 
+			version_name = "K-1"
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 40
+		industrial_manufacturer = mio:W40_agi_plane_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_cas_airframe_0
+			creator = "W40" 
+			version_name = "MKV-3"
+		}
+		requested_factories = 5
+		progress = 0.15
+		efficiency = 53
+		industrial_manufacturer = mio:W40_agi_plane_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = medium_plane_airframe_0
+			creator = "W40" 
+			version_name = "VGC-3"
+		}
+		requested_factories = 10
+		progress = 0.15
+		efficiency = 45
+		industrial_manufacturer = mio:W40_medium_plane_org
+	}
+}

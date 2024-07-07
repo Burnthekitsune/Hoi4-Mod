@@ -1,68 +1,5 @@
 division_template = {
-	name = "Armored Division"
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		light_armor = { x = 1 y = 2 }
-
-		motorized = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "Mechanized Division"
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-
-		motorized = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "Motorized Division"
-	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-
-		motorized = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "Assault Division"
+	name = "Division of Border Guards"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -71,98 +8,12 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-
-		artillery_brigade = { x = 3 y = 0 }
-		artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
-
-		light_armor = { x = 4 y = 0 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "Assault Brigade"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-
-		artillery_brigade = { x = 1 y = 0 }
-
-		light_armor = { x = 2 y = 0 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "Infantry Division"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-
-		artillery_brigade = { x = 3 y = 0 }
-		artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
 	}
 	priority = 1
 }
 
 division_template = {
-	name = "Infantry Brigade"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-
-		artillery_brigade = { x = 1 y = 0 }
-	}
-	priority = 1
-}
-
-division_template = {
-	name = "Light Infantry Division"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	priority = 0
-}
-
-division_template = {
-	name = "Light Infantry Brigade"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-	priority = 0
-}
-
-division_template = {
-	name = "Cavalry Division"
+	name = "Rural Gendarmerie Division"
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -171,20 +22,36 @@ division_template = {
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 1 y = 2 }
-
-		cavalry = { x = 2 y = 0 }
-		cavalry = { x = 2 y = 1 }
-		cavalry = { x = 2 y = 2 }
 	}
 	priority = 2
 }
 
-division_template = {
-	name = "Cavalry Brigade"
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-	}
-	priority = 2
+units = {
+	division = {
+		name = "Protectors of the Divine Nation"
+		location = 12971
+		division_template = "Division of Border Guards"
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.9
+		start_experience_factor = 0.4
+		}
+	division = {
+		name = "Most Holy Gendarmerie"
+		location = 12971
+		division_template = "Rural Gendarmerie Division"
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.8
+		start_experience_factor = 0.2
+		}
 }
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CC1"
+		}
+		requested_factories = 4
+		progress = 0.9
+		efficiency = 50
+	}

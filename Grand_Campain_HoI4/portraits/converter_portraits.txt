@@ -7885,3 +7885,129 @@ ZND = {
 	female = {
 	}
 }
+MEA = {
+	army = {
+		male = {
+			GFX_Portrait_Europe_Generic_land_1
+			GFX_Portrait_Europe_Generic_land_2
+			GFX_Portrait_Europe_Generic_land_3
+			GFX_Portrait_Europe_Generic_land_4
+			GFX_Portrait_Europe_Generic_land_5
+			GFX_portrait_europe_generic_land_13
+			GFX_portrait_FIN_carl_mannerheim
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Europe_Generic_navy_1
+			GFX_Portrait_Europe_Generic_navy_2
+			GFX_Portrait_Europe_Generic_navy_3
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				
+				
+				GFX_portrait_SWE_per_albin_hansson
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				
+				
+				GFX_portrait_Johan_Nygaardsvold
+				GFX_portrait_Thorvald_Stauning
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				
+				
+				GFX_portrait_erik_scavenius
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				
+				
+				GFX_portrait_FIN_kyosti_kallio
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_operative_unknown
+		}
+		female = {
+			GFX_operative_unknown
+		}
+	}
+}
+MNO = {
+	army = {
+		male = {
+			GFX_Portrait_Europe_Generic_land_1
+			GFX_Portrait_Europe_Generic_land_2
+			GFX_Portrait_Europe_Generic_land_3
+			GFX_Portrait_Europe_Generic_land_4
+			GFX_Portrait_Europe_Generic_land_5
+			GFX_portrait_europe_generic_land_13
+			GFX_portrait_FIN_carl_mannerheim
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Europe_Generic_navy_1
+			GFX_Portrait_Europe_Generic_navy_2
+			GFX_Portrait_Europe_Generic_navy_3
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				
+				
+				GFX_portrait_SWE_per_albin_hansson
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				
+				
+				GFX_portrait_Johan_Nygaardsvold
+				GFX_portrait_Thorvald_Stauning
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				
+				
+				GFX_portrait_erik_scavenius
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				
+				
+				GFX_portrait_FIN_kyosti_kallio
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_operative_unknown
+		}
+		female = {
+			GFX_operative_unknown
+		}
+	}
+}
