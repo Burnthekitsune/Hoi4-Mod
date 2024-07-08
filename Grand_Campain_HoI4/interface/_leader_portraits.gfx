@@ -2011,6 +2011,11 @@ spriteTypes = {
 		name = "GFX_portrait_MEX_calles_military"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_2"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_MEX_plutarco_calles"
@@ -2029,6 +2034,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_gildardo_magana"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_3"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	}
 

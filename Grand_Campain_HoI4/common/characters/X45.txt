@@ -3,7 +3,7 @@ characters = {
 		name = Aziz_Bendahara
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_Asia_Generic_navy_3
 			}
 		}
 		country_leader = {

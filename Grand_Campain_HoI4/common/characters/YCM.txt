@@ -3,7 +3,7 @@ characters = {
 		name = Pacal_Xiu
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_Portrait_South_America_Generic_land_3
 			}
 		}
 		country_leader = {
