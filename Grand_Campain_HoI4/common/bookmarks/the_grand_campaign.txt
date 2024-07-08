@@ -51,11 +51,20 @@ bookmarks = {
 			minor = yes
 			history = ENG_hist
 			ideology = communism
+			ideas = {
+				terror_of_the_skies
+			}
 		}
 		V23 = {
 			minor = yes
 			history = V23_hist
 			ideology = neutrality
+			ideas = {
+				V23_eu4_Ali_di_Avula
+			}
+			focuses = {
+				Italian_conference
+			}
 		}
 		GER = {
 			minor = yes
@@ -76,6 +85,15 @@ bookmarks = {
 			minor = yes
 			history = BRA_hist
 			ideology = communism
+			ideas = {
+				BRA_buildup_1
+				BRA_raw_resources
+			}
+			focuses = {
+				Begin_the_Buildup
+				Expand_Industry
+				Hunt_for_More
+			}
 		}
 		X42 = {
 			minor = yes
@@ -86,6 +104,9 @@ bookmarks = {
 			minor = yes
 			history = X81_hist
 			ideology = communism
+			ideas = {
+				the_pacific_fleet
+			}
 		}
 		effect = {
 			randomize_weather = 22345 # <-Obligatory in every bookmark !
