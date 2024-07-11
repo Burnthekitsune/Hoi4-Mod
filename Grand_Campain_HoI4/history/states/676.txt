@@ -16,6 +16,7 @@ state = {
 			arms_factory = 0
 		}
 		add_core_of = X82
+		add_core_of = W34
 	}
 
 	provinces = {

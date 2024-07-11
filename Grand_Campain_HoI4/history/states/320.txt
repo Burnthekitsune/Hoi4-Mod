@@ -25,6 +25,7 @@ state = {
 			air_base = 5
 		}
 		add_core_of = SHA
+		add_core_of = CZ3
 	}
 
 	provinces = {

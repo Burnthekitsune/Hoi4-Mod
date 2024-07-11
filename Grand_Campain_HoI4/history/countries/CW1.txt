@@ -35,9 +35,19 @@ set_popularities = {
 add_ideas = {
 	CW1_ug_Ehmet_dyn_ug_Hisamudin
 	civilian_economy
-	export_focus
-	volunteer_only
+	free_trade
+	disarmed_nation
+	luminous_religion
+	veneration_of_bones
+	cycles_of_starvation
+	shun_king_ehmet_hisamudin
 }
+add_ai_strategy = {
+    type = alliance
+    id = "W34"
+    value = 200
+}
+
 set_stability = 0.6
 set_war_support = 0.60
 

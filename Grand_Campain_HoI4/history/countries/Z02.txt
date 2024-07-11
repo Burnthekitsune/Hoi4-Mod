@@ -38,8 +38,14 @@ add_ideas = {
 	Z02_Jamphel_Ngapoi
 	civilian_economy
 	export_focus
-	limited_conscription
+	low_economic_mobilisation
 }
+add_ai_strategy = {
+    type = alliance
+    id = "W34"
+    value = 200
+}
+
 set_stability = 0.6
 set_war_support = 0.60
 

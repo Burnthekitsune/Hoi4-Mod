@@ -23,6 +23,7 @@ state = {
 			}
 		}
 		add_core_of = V13
+		add_core_of = CZ3
 	}
 
 	provinces = {

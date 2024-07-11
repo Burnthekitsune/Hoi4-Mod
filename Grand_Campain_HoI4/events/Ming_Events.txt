@@ -1,0 +1,75 @@
+add_namespace = Ming_events
+
+country_event = { # Goes to war
+	id = Ming_events.1
+	title = Ming_events.1.t
+	desc = Ming_events.1.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+	
+	trigger = {
+		tag = W34
+		has_war = yes
+		NOT = {
+			has_country_flag = china_war
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Ming_events.1.a
+		add_ideas = {
+			west_wind_unrelenting
+			long_swords_dance
+		}
+		set_country_flag = china_war
+	}
+}
+
+country_event = { # Peace
+	id = Ming_events.2
+	title = Ming_events.2.t
+	desc = Ming_events.2.d
+	picture = GFX_report_event_DEN_celebration
+	
+	trigger = {
+		tag = W34
+		has_war = no
+		owns_state = 327
+		owns_state = 39
+		owns_state = 364
+		NOT = {
+			has_country_flag = china_peace
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Ming_events.2.a
+		remove_ideas = {
+			west_wind_unrelenting
+			long_swords_dance
+			wild_goose
+			heavens_trial
+			vast_lands_1
+			pain_unforgotten
+		}
+		add_ideas = {
+			seasons_change
+			way_of_perfection
+			vast_lands_2
+			yang_of_industry
+		}
+		CW1 = {
+			remove_ideas = {
+				cycles_of_starvation
+			}
+		}
+		set_country_flag = china_peace
+	}
+}

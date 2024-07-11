@@ -1,0 +1,297 @@
+ideas = {
+	country = {
+		wild_goose = {
+			picture = generic_communism_banned
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_acceptance = -15
+				war_support_factor = 0.1
+				command_power_gain_mult = 0.5
+				ai_focus_aggressive_factor = 0.5
+			}
+		}
+		heavens_trial = {
+			picture = chi_army_corruption3
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_morale_factor = 0.05
+			}
+		}
+		vast_lands_1 = {
+			picture = prc_low_popular_support3
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				recruitable_population_factor = 0.01
+			}
+		}
+		pain_unforgotten = {
+			picture = jap_intervene_in_china
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.03
+				stability_factor = -0.05
+			}
+		}
+		li_huang = {
+			picture = generic_monarchist_uprising
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05`
+				political_power_gain = 0.02
+			}
+		}
+		seasons_change = { # Peace & Owns Cities
+			picture = generic_victors_of_ww1
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		way_of_perfection = { # Peace & Owns Cities
+			picture = generic_morale_bonus
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				join_faction_tension = 0.75
+			}
+		}
+		vast_lands_2 = { # Peace & Owns Cities
+			picture = prc_low_popular_support3
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				recruitable_population_factor = 0.015
+			}
+		}
+		yang_of_industry = { # Peace & Owns Cities
+			picture = generic_industrial_concern_1
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.03
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		west_wind_unrelenting = { # On War
+			picture = chi_war_of_resistance3
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.1
+				training_time_factor = -0.1
+				army_org_regain = 0.05
+			}
+		}
+		
+		long_swords_dance = { # On War
+			picture = MEX_politicised_army_2
+			allowed = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = W34
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				land_reinforce_rate = -0.1
+				experience_loss_factor = -0.2
+				army_speed_factor = 0.1
+			}
+		}
+		luminous_religion = {
+			picture = SOV_new_old_church
+			allowed = {
+				original_tag = CW1
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = CW1
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.15
+				mobilization_speed = -0.5
+				recruitable_population_factor = -0.3
+			}
+		}
+		veneration_of_bones = {
+			picture = ENG_the_war_to_end_all_wars
+			allowed = {
+				original_tag = CW1
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = CW1
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		cycles_of_starvation = {
+			picture = raj_risk_of_famine
+			allowed = {
+				original_tag = CW1
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = CW1
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		shun_king_ehmet_hisamudin = {
+			picture = generic_monarchist_uprising
+			allowed = {
+				original_tag = CW1
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = CW1
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = -0.1
+				experience_gain_army_factor = -0.2
+			}
+		}
+	}
+}

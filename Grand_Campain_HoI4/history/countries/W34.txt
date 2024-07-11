@@ -36,10 +36,38 @@ set_popularities = {
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
-	volunteer_only
+	partial_economic_mobilisation
+	limited_exports
+	limited_conscription
+	wild_goose
+	heavens_trial
+	vast_lands_1
+	pain_unforgotten
+	li_huang
 }
+create_faction = CHINA_COMMONWEALTH
+add_to_faction = CZ3
+add_to_faction = Z02
+add_to_faction = CW1
+
+add_ai_strategy = {
+    type = alliance
+    id = "CZ3"
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = "Z02"
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = "CW1"
+    value = 200
+}
+
 set_stability = 0.6
 set_war_support = 0.60
 

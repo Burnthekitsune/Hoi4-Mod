@@ -36,6 +36,12 @@ add_ideas = {
 	export_focus
 	volunteer_only
 }
+
+add_ai_strategy = {
+    type = alliance
+    id = "W34"
+    value = 200
+}
 set_stability = 0.6
 set_war_support = 0.60
 
