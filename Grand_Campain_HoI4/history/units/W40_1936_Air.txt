@@ -1,5 +1,14 @@
 
-
+air_wings = {
+	5 = {
+		small_plane_airframe_0 = { owner = "W40" amount = 30 creator = "W40" version_name = "MKA-1"}
+		small_plane_airframe_0 = { owner = "W40" amount = 50 creator = "W40" version_name = "A-2"}
+		small_plane_cas_airframe_0 = { owner = "W40" amount = 60 creator = "W40" version_name = "MKV-3"}
+		cv_small_plane_airframe_0 =  { owner = "W40" amount = 10 creator = "W40" version_name = "K-1" }
+		medium_plane_airframe_0 =  { owner = "W40" amount = 65 creator = "W40" version_name = "VGC-3"}
+		medium_plane_airframe_0 =  { owner = "W40" amount = 65 creator = "W40" version_name = "VGC-3"}
+	}
+}
 
 
 

@@ -1,1 +1,127 @@
 # Naval OOB
+units = {
+	fleet = {
+		name = "Ülkenstólos"
+		naval_base = 13255
+		task_force = {
+			name = "Üystolos"
+			location = 13255
+			ship = { name = "Gioukatán" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = W40  version_name = "Gioukatán Class" } } }
+			ship = { name = "Admiral Matzaris" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = W40  version_name = "Gioukatán Class" } } }
+			ship = { name = "Admiral Awo" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = W40  version_name = "Gioukatán Class" } } }
+			ship = { name = "Dousgedzar" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = W40  version_name = "Gioukatán Class" } } }
+			ship = { name = "Kypros" definition = battle_cruiser start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = W40  version_name = "Kypros Class" } } }
+			ship = { name = "Admiral Anabid" definition = battle_cruiser start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = {  amount = 1  owner = W40  version_name = "Kypros Class" } } }
+			ship = { name = "Zangari" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = W40  version_name = "Zangari Class" } } }
+			ship = { name = "Sinopis" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = W40  version_name = "Sinopis Class" } } }
+			ship = { name = "Admiral Neleykonyu" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = W40  version_name = "Sinopis Class" } } }
+			ship = { name = "Admiral Cosmatos" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = W40  version_name = "Sinopis Class" } } }
+			ship = { name = "Qorgawsi sani 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 7" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 9" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 10" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 11" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 12" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 13" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 14" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 15" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+		}
+		task_force = {
+			name = "Barlawsistolos"
+			location = 4170
+			ship = { name = "Negapsoi" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {  amount = 1  owner = W40  version_name = "Zangari Class" } } }
+			ship = { name = "Aru Nisí" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {  amount = 1  owner = W40  version_name = "Sinopis Class" } } }
+			ship = { name = "Qorgawsi sani 16" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 17" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 18" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 19" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 20" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 21" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 22" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 23" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 24" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+			ship = { name = "Qorgawsi sani 25" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {  amount = 1  owner = W40  version_name = "Nayzagay Class" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "W40" 
+			version_name = "Gioukatán Class"
+		}
+		name = "Marmara"
+		requested_factories = 5
+		progress = 0.6
+		amount = 2
+		industrial_manufacturer = mio:W40_battleline_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "W40" 
+			version_name = "Gioukatán Class"
+		}
+		name = "Admiral Mahan"
+		requested_factories = 5
+		progress = 0.4
+		amount = 2
+		industrial_manufacturer = mio:W40_battleline_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "W40" 
+			version_name = "Gioukatán Class"
+		}
+		name = "Venetia"
+		requested_factories = 5
+		progress = 0.2
+		amount = 2
+		industrial_manufacturer = mio:W40_battleline_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "W40" 
+			version_name = "Kypros Class"
+		}
+		name = "Admiral Nadeerid"
+		requested_factories = 3
+		progress = 0.5
+		amount = 1
+		industrial_manufacturer = mio:W40_battleline_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "W40" 
+			version_name = "Kypros Class"
+		}
+		name = "Admiral Sevtyanyu"
+		requested_factories = 4
+		progress = 0.35
+		amount = 1
+		industrial_manufacturer = mio:W40_battleline_org
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "W40" 
+			version_name = "Nayzagay Class"
+		}
+		name = "Qorgawsi sani 26"
+		requested_factories = 6
+		progress = 0.45
+		amount = 18
+		industrial_manufacturer = mio:W40_escort_org
+	}
+}
