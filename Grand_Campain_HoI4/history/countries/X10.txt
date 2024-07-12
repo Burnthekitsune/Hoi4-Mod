@@ -64,7 +64,6 @@ add_ideas = {
 	export_focus
 	volunteer_only
 	birthplace_of_communism
-	MTG_naval_treaty_adherent
 }
 set_stability = 0.6
 set_war_support = 0.60

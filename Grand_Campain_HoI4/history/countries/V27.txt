@@ -98,7 +98,6 @@ add_ideas = {
 	V27_class_for_itself
 	V27_chaotic_military_structure
 	V27_camelry_expertise
-	MTG_naval_treaty_adherent
 }
 set_stability = 0.6
 set_war_support = 0.60
