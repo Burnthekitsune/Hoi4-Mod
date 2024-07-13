@@ -81,6 +81,12 @@ bookmarks = {
 			minor = yes
 			history = Z03_hist
 			ideology = fascism
+			ideas = {
+				insurrection_of_the_old_clergy
+				reconstruction_peroid
+				revolutionary_zeal
+				subsiding_social_chaos
+			}
 		}
 		BRA = {
 			minor = yes
@@ -117,6 +123,7 @@ bookmarks = {
 				social_chaos
 				proletarian_stronghold
 				army_of_many_councils
+				chinese_focus
 			}
 		}
 		effect = {
