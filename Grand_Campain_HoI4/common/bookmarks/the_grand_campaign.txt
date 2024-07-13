@@ -109,6 +109,16 @@ bookmarks = {
 				the_pacific_fleet
 			}
 		}
+		SHX = {
+			minor = yes
+			history = X81_hist
+			ideology = communism
+			ideas = {
+				social_chaos
+				proletarian_stronghold
+				army_of_many_councils
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <-Obligatory in every bookmark !
 			#123 = { rain_light = yes }

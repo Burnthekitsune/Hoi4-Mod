@@ -39,6 +39,9 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	limited_conscription
+	social_chaos
+	proletarian_stronghold
+	army_of_many_councils
 }
 set_stability = 0.6
 set_war_support = 0.60
