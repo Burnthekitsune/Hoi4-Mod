@@ -458,5 +458,23 @@ ideas = {
 				war_support_factor = 0.15
 			}
 		}
+		chinese_focus = {
+			picture = ICE_general_strike
+			allowed = {
+				original_tag = SHX
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = SHX
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				join_faction_tension = 1
+			}
+		}
 	}
 }
