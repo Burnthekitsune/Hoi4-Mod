@@ -37,6 +37,7 @@ bookmarks = {
 			ideology = communism
 			ideas = {
 				birthplace_of_communism
+				contentious_election
 			}
 			focuses = {
 				Reformist_Ideals

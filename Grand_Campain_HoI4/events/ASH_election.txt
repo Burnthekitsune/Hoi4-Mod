@@ -324,6 +324,12 @@ country_event = { # Results
 			}
 			promote_leader = yes
 		}
+		remove_ideas = {
+			contentious_election
+		}
+		add_ideas = {
+			reformist_victory
+		}
 	}
 	option = {
 		name = ASH_election.6.b # Qasim
@@ -331,6 +337,12 @@ country_event = { # Results
 			has_country_flag = qasim_win
 		}
 		add_country_leader_trait = fortification_engineer
+		remove_ideas = {
+			contentious_election
+		}
+		add_ideas = {
+			secured_power
+		}
 	}
 	option = {
 		name = ASH_election.6.c # Basir
@@ -344,6 +356,12 @@ country_event = { # Results
 				traits = { great_war_hero war_industrialist }
 			}
 			promote_leader = yes
+		}
+		remove_ideas = {
+			contentious_election
+		}
+		add_ideas = {
+			military_victory
 		}
 	}
 }

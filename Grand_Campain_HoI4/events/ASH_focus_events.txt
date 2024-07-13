@@ -364,6 +364,9 @@ country_event = { # Puppeted by Anti
 			ASH_grand_alliance
 			ASH_market
 			birthplace_of_communism
+			reformist_victory
+			secured_power
+			military_victory
 		}
 		if = {
 			limit = {

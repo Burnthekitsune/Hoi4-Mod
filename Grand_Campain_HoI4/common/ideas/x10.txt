@@ -173,6 +173,9 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				production_oil_factor = 0.25
+				army_fuel_capacity_factor = -0.1
+				air_fuel_consumption_factor = -0.1
+				navy_fuel_consumption_factor = -0.1
 			}
 		}
 		
@@ -336,6 +339,7 @@ ideas = {
 				communism_drift = 0.1
 				consumer_goods_factor = -0.1
 				army_core_defence_factor = 0.15
+				drift_defence_factor = 0.1
 			}
 		}
 		
@@ -353,6 +357,70 @@ ideas = {
 				consumer_goods_factor = -0.1
 				army_core_defence_factor = 0.15
 				political_power_gain = 0.1
+			}
+		}
+		
+		contentious_election = {
+			picture = SOV_factionalism_modifier
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+			}
+		}
+		
+		reformist_victory = {
+			picture = new_economic_policy
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.2
+				research_speed_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		secured_power = {
+			picture = ast_abandon_the_westminster_system_communism
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.2
+				recruitable_population_factor = 0.02
+				army_core_defence_factor = 0.2
+			}
+		}
+		
+		military_victory = {
+			picture = generic_communist_army
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.2
+				army_attack_factor = 0.2
+				naval_morale_factor = 0.2
+				send_volunteer_factor = 0.5
 			}
 		}
 	}
