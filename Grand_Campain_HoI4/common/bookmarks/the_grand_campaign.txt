@@ -87,6 +87,9 @@ bookmarks = {
 				revolutionary_zeal
 				subsiding_social_chaos
 			}
+			ideas = {
+				Finish_the_emergency_party_congress
+			}
 		}
 		BRA = {
 			minor = yes

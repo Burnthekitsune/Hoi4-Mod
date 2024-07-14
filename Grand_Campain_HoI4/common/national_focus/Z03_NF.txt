@@ -12,11 +12,673 @@ focus_tree = {
 	
 	default = no
 	reset_on_civilwar = no
+	
+	continuous_focus_position = { x = 50 y = 1800 }
 
-	shared_focus = army_effort
-	shared_focus = aviation_effort
-	shared_focus = naval_effort
-	shared_focus = industrial_effort
-	shared_focus = political_effort
+	focus = {
+		id = Finish_the_emergency_party_congress
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 0
+		prerequisite = { }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Against_the_Counter_Revolution
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = { focus = Finish_the_emergency_party_congress }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Form_Factory_Militias	
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 2.0000000000000004
+		y = 2
+		prerequisite = { focus = Against_the_Counter_Revolution }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Drive_them_from_the_Councils
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 2
+		y = 3
+		prerequisite = { focus = Form_Factory_Militias	 }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Drive_them_from_the_Councils_2
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 2
+		y = 4
+		prerequisite = { focus = Drive_them_from_the_Councils }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Against_Social_Anarchy
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 6
+		y = 1
+		prerequisite = { focus = Finish_the_emergency_party_congress }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Improve_Foor_Rationing
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 6
+		y = 2
+		prerequisite = { focus = Against_Social_Anarchy }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Standardised_Council_Elections
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 6
+		y = 3
+		prerequisite = { focus = Improve_Foor_Rationing }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Draft_the_Economic_Planning_Decree
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 6
+		y = 4
+		prerequisite = { focus = Standardised_Council_Elections }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = First_Reconstruction_Congress
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 5
+		prerequisite = { focus = Drive_them_from_the_Councils_2 }
+		prerequisite = { focus = Draft_the_Economic_Planning_Decree }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Folow_the_Afrikan_Line
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 6
+		prerequisite = { focus = First_Reconstruction_Congress }
+		mutually_exclusive = { focus = The_Crimson_Gang }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = The_Crimson_Gang
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 6
+		prerequisite = { focus = First_Reconstruction_Congress }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Form_a_New_Steering_Committee
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 7
+		prerequisite = { focus = Folow_the_Afrikan_Line }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Adress_the_Security_Issue
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 7
+		prerequisite = { focus = Folow_the_Afrikan_Line focus = The_Crimson_Gang }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Entrench_the_Steering_Committee
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 7
+		prerequisite = { focus = The_Crimson_Gang }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Formalize_Soldiers_Councils
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 0
+		y = 8
+		prerequisite = { focus = Form_a_New_Steering_Committee }
+		prerequisite = { focus = Adress_the_Security_Issue }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Uplift_the_Prairie
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 8
+		prerequisite = { focus = Adress_the_Security_Issue }
+		prerequisite = { focus = Form_a_New_Steering_Committee }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Reconstruction_Brigades
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 8
+		prerequisite = { focus = Adress_the_Security_Issue }
+		prerequisite = { focus = Form_a_New_Steering_Committee focus = Entrench_the_Steering_Committee }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Economic_Heartlands
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 8
+		prerequisite = { focus = Adress_the_Security_Issue }
+		prerequisite = { focus = Entrench_the_Steering_Committee }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Formalise_the_Crimson_Brigades
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 8
+		prerequisite = { focus = Adress_the_Security_Issue }
+		prerequisite = { focus = Entrench_the_Steering_Committee }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Native_Ecology_Experts
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 9
+		prerequisite = { focus = Reconstruction_Brigades }
+		prerequisite = { focus = Uplift_the_Prairie focus = Economic_Heartlands }
+		prerequisite = { focus = Formalize_Soldiers_Councils focus = Formalise_the_Crimson_Brigades }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Hub_in_the_South
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 10
+		prerequisite = { focus = Adress_the_Security_Issue }
+		prerequisite = { focus = Uplift_the_Prairie }
+		prerequisite = { focus = Formalize_Soldiers_Councils }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Building_for_World_Revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 10
+		prerequisite = { focus = Native_Ecology_Experts }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Expand_Rural_Production
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 10
+		prerequisite = { focus = Adress_the_Security_Issue }
+		prerequisite = { focus = Economic_Heartlands }
+		prerequisite = { focus = Formalise_the_Crimson_Brigades }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Academic_Revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 11
+		prerequisite = { focus = Building_for_World_Revolution }
+		prerequisite = { focus = Hub_in_the_South focus = Expand_Rural_Production }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Continental_Unification
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 12
+		prerequisite = { focus = Academic_Revolution }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Form_the_Revolutionary_Military_Council
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 0
+		available = {
+			has_completed_focus = Continental_Unification
+		}
+		prerequisite = { }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = A_New_Red_Army
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 9
+		y = 1
+		prerequisite = { focus = Form_the_Revolutionary_Military_Council }
+		mutually_exclusive = { focus = Elaborate_on_Militia_Doctrine }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Elaborate_on_Militia_Doctrine
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 11
+		y = 1
+		prerequisite = { focus = Form_the_Revolutionary_Military_Council }
+		mutually_exclusive = { focus = A_New_Red_Army }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Doctrine_of_Benaissa
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 9
+		y = 2
+		prerequisite = { focus = A_New_Red_Army }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Doctrine_of_the_Class_Army
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 11
+		y = 2
+		prerequisite = { focus = Elaborate_on_Militia_Doctrine }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Revolutionary_Design_Bureau
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 3
+		prerequisite = { focus = Doctrine_of_Benaissa focus = Doctrine_of_the_Class_Army }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Ghost_Riders_in_the_Sky
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 4
+		prerequisite = { focus = Revolutionary_Design_Bureau }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Expand_air_coverage
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 8
+		y = 5
+		prerequisite = { focus = Ghost_Riders_in_the_Sky }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Develop_Air_Defense_Infrastructure
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 6
+		prerequisite = { focus = Expand_air_coverage }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = JSAL_Training_Liaisons
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 4
+		prerequisite = { focus = Revolutionary_Design_Bureau }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Special_Volunteer_brigades
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 10
+		y = 5
+		prerequisite = { focus = JSAL_Training_Liaisons }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Modern_Warfare
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 10
+		y = 6
+		prerequisite = { focus = Special_Volunteer_brigades}
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Red_Banners_Above_the_Seas
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 12
+		y = 4
+		prerequisite = { focus = Revolutionary_Design_Bureau }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Expand_Naval_Infrastructure
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 12
+		y = 5
+		prerequisite = { focus = Red_Banners_Above_the_Seas }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Carrier_Effort
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 12
+		y = 6
+		prerequisite = { focus = Expand_Naval_Infrastructure }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Onto_the_World_Revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 7
+		prerequisite = { focus = Develop_Air_Defense_Infrastructure }
+		prerequisite = { focus = Modern_Warfare }
+		prerequisite = { focus = Carrier_Effort }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = The_Weapon_to_End_Warfare
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 10
+		y = 8
+		prerequisite = { focus = Onto_the_World_Revolution }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Strengthen_the_Revolution_at_Home
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 10
+		y = 9
+		prerequisite = { focus = The_Weapon_to_End_Warfare }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Uneasy_Truce
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 10
+		y = 10
+		prerequisite = { focus = Strengthen_the_Revolution_at_Home }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Expand_SVB
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 10
+		y = 11
+		prerequisite = { focus = Uneasy_Truce }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
 
 }
