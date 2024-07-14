@@ -340,6 +340,7 @@ ideas = {
 				consumer_goods_factor = -0.1
 				army_core_defence_factor = 0.15
 				drift_defence_factor = 0.1
+				political_power_gain = 0.5
 			}
 		}
 		
@@ -356,7 +357,7 @@ ideas = {
 				fascism_drift = 0.1
 				consumer_goods_factor = -0.1
 				army_core_defence_factor = 0.15
-				political_power_gain = 0.1
+				political_power_gain = 0.5
 			}
 		}
 		
@@ -371,7 +372,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.05
-				political_power_gain = -0.1
+				political_power_gain = -0.5
 			}
 		}
 		

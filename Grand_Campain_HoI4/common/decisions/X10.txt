@@ -2113,6 +2113,9 @@ X10_major_investment_category = {
 		}
 		available = {
 			tag = X10
+			SHX = {
+				is_in_faction_with = X10
+			}
 		}
 		ai_will_do = {
 			base = 100
