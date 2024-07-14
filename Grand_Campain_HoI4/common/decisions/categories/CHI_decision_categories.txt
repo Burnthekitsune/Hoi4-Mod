@@ -1,0 +1,10 @@
+China_Civil_war_influence = {
+	icon = GFX_decision_category_generic_communism
+	visible = {
+		OR = {
+			tag = X10
+			tag = V27
+			tag = SHX
+		}
+	}
+}

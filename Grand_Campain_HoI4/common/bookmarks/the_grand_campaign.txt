@@ -128,6 +128,9 @@ bookmarks = {
 				army_of_many_councils
 				chinese_focus
 			}
+			focuses = {
+				The_Beacon_of_Communism_in_China
+			}
 		}
 		effect = {
 			randomize_weather = 22345 # <-Obligatory in every bookmark !

@@ -34,6 +34,8 @@ set_popularities = {
 	fascism = 14
 	neutrality = 1
 }
+set_variable = { global.AHS_support = 0 }
+set_variable = { global.JSAL_support = 0 }
 
 add_ideas = {
 	civilian_economy

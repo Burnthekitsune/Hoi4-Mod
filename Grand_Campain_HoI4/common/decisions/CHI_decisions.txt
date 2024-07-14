@@ -1,0 +1,68 @@
+China_Civil_war_influence = {
+	AHS_current_influence = {
+		cost = 0
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = X10
+				tag = V27
+				tag = SHX
+			}
+		}
+		icon = GFX_decision_generic_decision
+		visible = {
+			SHX = {
+				OR = {
+					NOT = {
+						has_completed_focus = Primacy_of_the_Bureaucracy
+					}
+					NOT = {
+						has_completed_focus = Legacy_of_Bingwu
+					}
+				}
+			}
+		}
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			
+		}
+	}
+	JSAL_current_influence = {
+		cost = 0
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				tag = X10
+				tag = V27
+				tag = SHX
+			}
+		}
+		icon = GFX_decision_generic_decision
+		visible = {
+			SHX = {
+				OR = {
+					NOT = {
+						has_completed_focus = Primacy_of_the_Bureaucracy
+					}
+					NOT = {
+						has_completed_focus = Legacy_of_Bingwu
+					}
+				}
+			}
+		}
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			
+		}
+	}
+}

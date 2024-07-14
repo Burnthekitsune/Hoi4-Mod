@@ -12,11 +12,526 @@ focus_tree = {
 	
 	default = no
 	reset_on_civilwar = no
+	
+	continuous_focus_position = { x = 50 y = 1800 }
 
-	shared_focus = army_effort
-	shared_focus = aviation_effort
-	shared_focus = naval_effort
-	shared_focus = industrial_effort
-	shared_focus = political_effort
+	focus = {
+		id = The_Beacon_of_Communism_in_China
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 0
+		prerequisite = {  }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Reach_out_to_Communist_Parties
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 1
+		prerequisite = { focus = The_Beacon_of_Communism_in_China }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = form_the_CFUC
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 2
+		prerequisite = { focus = Reach_out_to_Communist_Parties }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Launch_the_Unification_War
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 3
+		prerequisite = { focus = form_the_CFUC }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = a_red_terror_against_opportunists
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 0
+		y = 4
+		prerequisite = { focus = Launch_the_Unification_War }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Mobilize_for_War
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 0
+		y = 5
+		prerequisite = { focus = a_red_terror_against_opportunists }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Hunt_Down_the_Last_Traitors
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 0
+		y = 6
+		prerequisite = { focus = Mobilize_for_War }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = International_Red_Liaison_Committee
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 4
+		prerequisite = { focus = Launch_the_Unification_War }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Support_from_Comradely_States
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 5
+		prerequisite = { focus = International_Red_Liaison_Committee }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Lessons_of_the_Unification_War
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 6
+		prerequisite = { focus = Support_from_Comradely_States }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = International_Development_aid
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 4
+		prerequisite = { focus = Launch_the_Unification_War }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Youth_Construction_Brigades
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 5
+		prerequisite = { focus = International_Development_aid }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Youth_Construction_Brigades_2
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 6
+		prerequisite = { focus = Youth_Construction_Brigades }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Proclaim_the_Council_Republic
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 7
+		prerequisite = { focus = Hunt_Down_the_Last_Traitors }
+		prerequisite = { focus = Lessons_of_the_Unification_War }
+		prerequisite = { focus = Youth_Construction_Brigades_2 }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Primacy_of_the_Bureaucracy
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 0
+		y = 8
+		available = {
+			has_country_flag = AHS_triumph
+		}
+		prerequisite = { focus = Proclaim_the_Council_Republic }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Purge_the_Adventurists
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 0
+		y = 9
+		prerequisite = { focus = Primacy_of_the_Bureaucracy }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = State_Development_Commission
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 0
+		y = 10
+		prerequisite = { focus = Purge_the_Adventurists }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Crush_Regionalism
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 8
+		prerequisite = { focus = Proclaim_the_Council_Republic }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Socialist_Model_City_of_Shanghai
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 9
+		prerequisite = { focus = Crush_Regionalism }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Stepping_Out_Campaign
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 10
+		prerequisite = { focus = Socialist_Model_City_of_Shanghai }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Legacy_of_Bingwu
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 8
+		available = {
+			has_country_flag = JSAL_triumph
+		}
+		prerequisite = { focus = Proclaim_the_Council_Republic }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = End_the_Gravediggers
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 9
+		prerequisite = { focus = Legacy_of_Bingwu }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Form_the_Economic_Planning_Committee
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 10
+		prerequisite = { focus = End_the_Gravediggers }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Abandon_Self_Isolation
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 2
+		y = 11
+		prerequisite = { focus = Stepping_Out_Campaign }
+		prerequisite = { focus = State_Development_Commission focus = Form_the_Economic_Planning_Committee }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Finish_Socialist_Construction
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 2
+		y = 12
+		prerequisite = { focus = Abandon_Self_Isolation }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = The_Army_of_the_Chinese_Proletariat
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 0
+		available = {
+			has_completed_focus = Proclaim_the_Council_Republic
+		}
+		prerequisite = {  }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Domestic_Firearms_Development
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 1
+		prerequisite = { focus = The_Army_of_the_Chinese_Proletariat }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Guanxi_Motorcade_Design_Bureau
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 2
+		prerequisite = { focus = Domestic_Firearms_Development }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Expand_Guanxi_Weapons_Development
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 3
+		prerequisite = { focus = Guanxi_Motorcade_Design_Bureau }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Armored_Experiments
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 1
+		prerequisite = { focus = The_Army_of_the_Chinese_Proletariat }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Air_Experiments
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 2
+		prerequisite = { focus = Armored_Experiments }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Secret_Experiments
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 3
+		prerequisite = { focus = Air_Experiments }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Shanghai_Military_School
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 1
+		prerequisite = { focus = The_Army_of_the_Chinese_Proletariat }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Communications_Revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 2
+		prerequisite = { focus = Shanghai_Military_School }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Swimming_Airfields
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 3
+		prerequisite = { focus = Communications_Revolution }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = The_Workers_Iron_Fist
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 4
+		prerequisite = { focus = Expand_Guanxi_Weapons_Development }
+		prerequisite = { focus = Secret_Experiments }
+		prerequisite = { focus = Swimming_Airfields }
+		available_if_capitulated = no
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
 
 }
