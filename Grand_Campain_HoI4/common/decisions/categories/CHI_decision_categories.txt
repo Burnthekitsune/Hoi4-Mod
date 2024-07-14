@@ -6,5 +6,17 @@ China_Civil_war_influence = {
 			tag = V27
 			tag = SHX
 		}
+		SHX = {
+			OR = {
+				NOT = {
+					has_completed_focus = Primacy_of_the_Bureaucracy
+				}
+				NOT = {
+					has_completed_focus = Legacy_of_Bingwu
+				}
+			}
+		}
 	}
+	scripted_gui = chi_influence_decision_ui
+	visible_when_empty = yes
 }

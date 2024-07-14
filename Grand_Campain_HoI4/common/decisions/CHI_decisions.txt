@@ -1,68 +1,565 @@
 China_Civil_war_influence = {
-	AHS_current_influence = {
-		cost = 0
-		fire_only_once = yes
+
+	Revolutionary_Agitation = {
+		cost = 25
+		days_re_enable = 50
 		allowed = {
 			OR = {
 				tag = X10
 				tag = V27
-				tag = SHX
 			}
 		}
-		icon = GFX_decision_generic_decision
+		icon = GFX_decision_eng_propaganda_campaigns
 		visible = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
 			SHX = {
-				OR = {
-					NOT = {
-						has_completed_focus = Primacy_of_the_Bureaucracy
-					}
-					NOT = {
-						has_completed_focus = Legacy_of_Bingwu
-					}
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
 				}
 			}
 		}
 		available = {
-			always = no
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
 		}
 		ai_will_do = {
 			base = 100
 		}
 		complete_effect = {
-			
+			SHX = {
+				add_stability = 0.02
+				add_war_support = 0.02
+			}
+			if = {
+				limit = {
+					tag = X10
+				}
+				add_to_variable = {
+					var = global.AHS_support
+					value = 1
+					tooltip = add_1_AHS
+				}
+			}
+			if = {
+				limit = {
+					tag = V27
+				}
+				add_to_variable = {
+					var = global.JSAL_support
+					value = 1
+					tooltip = add_1_JSAL
+				}
+			}
 		}
 	}
-	JSAL_current_influence = {
+	
+	Send_Small_Arms = {
 		cost = 0
-		fire_only_once = yes
+		days_re_enable = 50
 		allowed = {
 			OR = {
 				tag = X10
 				tag = V27
-				tag = SHX
 			}
 		}
-		icon = GFX_decision_generic_decision
+		icon = GFX_decision_generic_industry
 		visible = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
 			SHX = {
-				OR = {
-					NOT = {
-						has_completed_focus = Primacy_of_the_Bureaucracy
-					}
-					NOT = {
-						has_completed_focus = Legacy_of_Bingwu
-					}
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
 				}
 			}
 		}
 		available = {
-			always = no
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+			has_equipment = {
+			    infantry_equipment > 499
+			}
 		}
 		ai_will_do = {
 			base = 100
 		}
 		complete_effect = {
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+			if = {
+				limit = {
+					tag = X10
+				}
+				SHX = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 500
+						producer = X10
+					}
+				}
+				add_to_variable = {
+					var = global.AHS_support
+					value = 1
+					tooltip = add_1_AHS
+				}
+			}
+			if = {
+				limit = {
+					tag = V27
+				}
+				SHX = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 500
+						producer = V27
+					}
+				}
+				add_to_variable = {
+					var = global.JSAL_support
+					value = 1
+					tooltip = add_1_JSAL
+				}
+			}
+		}
+	}
+	
+	Send_Artillery = {
+		cost = 0
+		days_re_enable = 50
+		allowed = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+		}
+		available = {
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+			has_equipment = {
+			    artillery_equipment > 99
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = -100
+			}
+			if = {
+				limit = {
+					tag = X10
+				}
+				SHX = {
+					add_equipment_to_stockpile = {
+						type = artillery_equipment
+						amount = 100
+						producer = X10
+					}
+				}
+				add_to_variable = {
+					var = global.AHS_support
+					value = 2
+					tooltip = add_2_AHS
+				}
+			}
+			if = {
+				limit = {
+					tag = V27
+				}
+				SHX = {
+					add_equipment_to_stockpile = {
+						type = artillery_equipment
+						amount = 100
+						producer = V27
+					}
+				}
+				add_to_variable = {
+					var = global.JSAL_support
+					value = 2
+					tooltip = add_2_JSAL
+				}
+			}
+		}
+	}
+	
+	Send_Support_Equipment = {
+		cost = 0
+		days_re_enable = 50
+		allowed = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+		}
+		icon = GFX_decision_generic_industry
+		visible = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+		}
+		available = {
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+			has_equipment = {
+			    support_equipment > 99
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -100
+			}
+			if = {
+				limit = {
+					tag = X10
+				}
+				SHX = {
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						producer = X10
+					}
+				}
+				add_to_variable = {
+					var = global.AHS_support
+					value = 2
+					tooltip = add_2_AHS
+				}
+			}
+			if = {
+				limit = {
+					tag = V27
+				}
+				SHX = {
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						producer = V27
+					}
+				}
+				add_to_variable = {
+					var = global.JSAL_support
+					value = 2
+					tooltip = add_2_JSAL
+				}
+			}
+		}
+		
+	}
+	
+	Send_Military_Liaisons = {
+		cost = 0
+		days_re_enable = 50
+		allowed = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+		}
+		icon = GFX_decision_generic_army_support
+		visible = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+		}
+		available = {
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+			has_army_experience > 19.99
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			SHX = {
+				army_experience = 20
+			}
+			if = {
+				limit = {
+					tag = X10
+				}
+				add_to_variable = {
+					var = global.AHS_support
+					value = 1
+					tooltip = add_1_AHS
+				}
+			}
+			if = {
+				limit = {
+					tag = V27
+				}
+				add_to_variable = {
+					var = global.JSAL_support
+					value = 1
+					tooltip = add_1_JSAL
+				}
+			}
+		}
+	}
+	
+	Help_Develop_Military_Industry = {
+		cost = 0
+		days_re_enable = 100
+		allowed = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+		}
+		available = {
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+			num_of_available_civilian_factories > 1
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					tag = X10
+				}
+				add_to_variable = {
+					var = global.AHS_support
+					value = 2
+					tooltip = add_2_AHS
+				}
+			}
+			if = {
+				limit = {
+					tag = V27
+				}
+				add_to_variable = {
+					var = global.JSAL_support
+					value = 2
+					tooltip = add_2_JSAL
+				}
+			}
+		}
+		days_remove = 50
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			SHX = {
+				add_offsite_building = { type = arms_factory level = 1 }
+			}
+		}
+	}
+	
+	Help_Develop_Civilian_Industry = {
+		cost = 0
+		days_re_enable = 100
+		allowed = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+		}
+		icon = GFX_decision_generic_factory
+		visible = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+		}
+		available = {
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+			num_of_available_civilian_factories > 2
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					tag = X10
+				}
+				add_to_variable = {
+					var = global.AHS_support
+					value = 3
+					tooltip = add_3_AHS
+				}
+			}
+			if = {
+				limit = {
+					tag = V27
+				}
+				add_to_variable = {
+					var = global.JSAL_support
+					value = 3
+					tooltip = add_3_JSAL
+				}
+			}
+		}
+		days_remove = 50
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			SHX = {
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
+		}
+	}
+	
+	Train_Revolutionary_division = {
+		cost = 0
+		days_re_enable = 100
+		allowed = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+		}
+		icon = GFX_decision_generic_civil_support
+		visible = {
+			OR = {
+				tag = X10
+				tag = V27
+			}
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+		}
+		available = {
+			SHX = {
+				NOT = {
+					has_completed_focus = Proclaim_the_Council_Republic
+				}
+			}
+			has_equipment = {
+				infantry_equipment > 999
+			}
+			has_equipment = {
+				artillery_equipment > 9
+			}
+			has_equipment = {
+				support_equipment > 9
+			}
+			has_manpower > 9999
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = -10
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -10
+			}
+			add_manpower = -10000
+			SHX = {
+				capital_scope = {
+					create_unit = {
+						
+						owner = SHX
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = X10
+				}
+				add_to_variable = {
+					var = global.AHS_support
+					value = 3
+					tooltip = add_3_AHS
+				}
+			}
+			if = {
+				limit = {
+					tag = V27
+				}
+				add_to_variable = {
+					var = global.JSAL_support
+					value = 3
+					tooltip = add_3_JSAL
+				}
+			}
 		}
 	}
 }

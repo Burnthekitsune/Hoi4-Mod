@@ -9,5 +9,15 @@ spriteTypes = {
 		name = "GFX_idea_generic_monarchy"
 		texturefile = "gfx/interface/ideas/idea_generic_monarchist_uprising.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ASH_flag_icon"
+		texturefile = "gfx/interface/decisions/X10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_JSAL_flag_icon"
+		texturefile = "gfx/interface/decisions/V27.dds"
+	}
 
 }
