@@ -1,0 +1,9 @@
+scripted_gui = {
+
+	chi_influence_decision_ui = {
+		context_type = decision_category
+		window_name = "chi_influence_decision_ui_window"
+	}
+	
+}
+

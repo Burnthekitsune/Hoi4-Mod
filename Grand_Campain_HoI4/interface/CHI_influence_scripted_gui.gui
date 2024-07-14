@@ -1,0 +1,110 @@
+@FACTION_TEXT_X = 55
+@POPULARITY_TEXT_X = 380
+@FACTION_ICONS_X = 10
+@FACTION_NAMES_X = 55
+@HEADERS_Y = 0
+guiTypes = {
+
+	containerWindowType = {
+		name = "chi_influence_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 150 }
+
+		#ICONS
+		iconType = {
+			name ="ahs_flag"
+			spriteType = "GFX_ASH_flag_icon"
+			position = { x = @FACTION_ICONS_X y = 30 }
+		}
+
+		instantTextBoxType = {
+			name ="ahs_name_text"
+			position = { x = @FACTION_NAMES_X y = 40 }
+			font = "hoi_18mbs"
+			text = "ahs_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="ahs_tooltip"
+			position = { x = @FACTION_ICONS_X y = 30 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = ahs_info
+		}
+
+		iconType = {
+			name ="jsal_flag"
+			spriteType = "GFX_JSAL_flag_icon"
+			position = { x = @FACTION_ICONS_X y = 75 }
+		}
+
+		instantTextBoxType = {
+			name ="jsal_name_text"
+			position = { x = @FACTION_NAMES_X y = 85 }
+			font = "hoi_18mbs"
+			text = "jsal_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="jsal_tooltip"
+			position = { x = @FACTION_ICONS_X y = 75 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = jsal_info
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="bzns_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 120 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = BUL_BZNS_TOOLTIP
+		}
+
+		#POPULARITY
+		instantTextBoxType = {
+			name ="support_header"
+			position = { x = @POPULARITY_TEXT_X y = @HEADERS_Y }
+			font = "hoi_18mbs"
+			text = "chi_support_header"
+			format = center
+			maxHeight = 24
+			maxwidth = 120
+		}
+
+		instantTextBoxType = {
+			name ="ASH_Support"
+			position = { x = @POPULARITY_TEXT_X y = 40 }
+			font = "hoi_18mbs"
+			text = "AHS_current_influence"
+			format = center
+			maxwidth = 120
+		}
+
+		instantTextBoxType = {
+			name ="JSAL_Support"
+			position = { x = @POPULARITY_TEXT_X y = 85 }
+			font = "hoi_18mbs"
+			text = "JSAL_current_influence"
+			format = center
+			maxwidth = 120
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="support_tooltip"
+			position = { x = @POPULARITY_TEXT_X y = @HEADERS_Y }
+			format = center
+			maxwidth = 110
+			maxHeight = 205
+			pdx_tooltip = support_info
+		}
+	}
+}
