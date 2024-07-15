@@ -99,6 +99,22 @@ focus_tree = {
 				target = W16
 				transfer_troops = yes
 			}
+			annex_country = {
+				target = X41
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = HNA
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = KHN
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = GUI
+				transfer_troops = yes
+			}
 			set_cosmetic_tag = CFUC_tag
 			add_threat = 10
 			hidden_effect = {
@@ -121,42 +137,8 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = Declare_war_on_China
 			hidden_effect = {
-				W34 = {
-					declare_war_on = {
-						target = X41
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = HNA
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = GUI
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = KHN
-						type = annex_everything
-					}
-				}
 				declare_war_on = {
 					target = W34
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = X41
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = HNA
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = GUI
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = KHN
 					type = annex_everything
 				}
 			}
