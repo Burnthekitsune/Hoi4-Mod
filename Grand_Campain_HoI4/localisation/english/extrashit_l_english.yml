@@ -1008,3 +1008,5 @@
  Help_Develop_Civilian_Industry_desc: "China has a large population but little industry, let us aid them and build a new consumer factory."
  Train_Revolutionary_division: "Train Revolutionary Division"
  Train_Revolutionary_division_desc: "We will send some of our own over to help fight the war!"
+ Core_China: "§GGain Cores on all of China.§!"
+ Declare_war_on_China: "§RStart the Chinese Civil War!§!"

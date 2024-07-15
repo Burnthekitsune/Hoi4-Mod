@@ -26,7 +26,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_stability = 0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -40,7 +48,12 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_stability = 0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_political_power = 75
 		}
 	}
 	focus = {
@@ -54,7 +67,45 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			annex_country = {
+				target = X65
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = W28
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = YUE
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = AHU
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = SHA
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = V13
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = FRS
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = W16
+				transfer_troops = yes
+			}
+			set_cosmetic_tag = CFUC_tag
+			add_threat = 10
+			hidden_effect = {
+				320 = {
+					add_claim_by = GER
+				}
+			}
 		}
 	}
 	focus = {
@@ -68,7 +119,103 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			custom_effect_tooltip = Declare_war_on_China
+			hidden_effect = {
+				W34 = {
+					declare_war_on = {
+						target = X41
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = HNA
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = GUI
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = KHN
+						type = annex_everything
+					}
+				}
+				declare_war_on = {
+					target = W34
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = X41
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = HNA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = GUI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KHN
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					CW4 = {
+						is_subject = no
+					}
+					country_exists = CW4
+				}
+				hidden_effect = {
+					declare_war_on = {
+						target = CW4
+						type = annex_everything
+					}
+					add_state_core = 777
+				}
+			}
+			add_war_support = 0.3
+			create_unit = {
+				# Make Unit stuff
+			}
+			custom_effect_tooltip = Core_China
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 327
+							state = 428
+							state = 320
+							state = 382
+							state = 357
+							state = 315
+							state = 375
+							state = 407
+							state = 430
+							state = 302
+							state = 655
+							state = 115
+							state = 100
+							state = 326
+							state = 414
+							state = 413
+							state = 409
+							state = 26
+							state = 71
+							state = 352
+							state = 417
+							state = 348
+							state = 355
+							state = 364
+							state = 617
+							state = 793
+							state = 792
+						}
+					}
+					add_core_of = SHX
+				}
+			}
 		}
 	}
 	focus = {
@@ -82,7 +229,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			army_experience = 50
+			swap_ideas = {
+				remove_idea = social_chaos
+				add_idea = social_chaos_2
+			}
 		}
 	}
 	focus = {
@@ -96,7 +247,24 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_ideas = war_economy
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_war_support = 0.3
 		}
 	}
 	focus = {
@@ -110,7 +278,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_stability = 0.1
+			add_war_support = 0.1
+			remove_ideas = social_chaos_2
+			add_ideas = burgeoning_socialism
+			add_political_power = 75
 		}
 	}
 	focus = {
@@ -124,7 +296,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			army_experience = 50
+			swap_ideas = {
+				remove_idea = army_of_many_councils
+				add_idea = army_of_many_councils_2
+			}
 		}
 	}
 	focus = {
@@ -138,7 +314,20 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 750
+				producer = X10
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 750
+				producer = V27
+			}
+			add_offsite_building = { type = arms_factory level = 4 }
+			create_unit = {
+				# todo
+			}
 		}
 	}
 	focus = {
@@ -152,7 +341,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			army_experience = 50
+			swap_ideas = {
+				remove_idea = army_of_many_councils_2
+				add_idea = army_of_many_councils_3
+			}
+			swap_ideas = {
+				remove_idea = army_of_many_councils_3
+				add_idea = army_of_the_chinese_proletariat
+			}
 		}
 	}
 	focus = {
@@ -166,7 +363,47 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_offsite_building = { type = industrial_complex level = 5 }
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -180,11 +417,76 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_ideas = youth_construction_brigades
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
-		id = Youth_Construction_Brigades_2
+		id = Para_Bellum
 		icon = GFX_goal_unknown
 		cost = 10
 		x = 4
@@ -194,7 +496,71 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -205,12 +571,40 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = Hunt_Down_the_Last_Traitors }
 		prerequisite = { focus = Lessons_of_the_Unification_War }
-		prerequisite = { focus = Youth_Construction_Brigades_2 }
+		prerequisite = { focus = Para_Bellum }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			set_cosmetic_tag = SCRP_tag
+			swap_ideas = {
+				remove_idea = burgeoning_socialism
+				add_idea = burgeoning_socialism_2
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						global.AHS_support > global.JSAL_support
+					}
+					set_country_flag = AHS_triumph
+				}
+				else_if = {
+					limit = {
+						global.AHS_support < global.JSAL_support
+					}
+					set_country_flag = JSAL_triumph
+				}
+				else = { # in case of a tie
+					random_list  = {
+						1 = {
+							set_country_flag = AHS_triumph
+						}
+						1 = {
+							set_country_flag = JSAL_triumph
+						}
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -227,7 +621,19 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = communism 
+			}
+			add_stability = 0.1
+			add_ideas = self_isolation
+			remove_ideas = chinese_focus
+			set_rule = {
+				can_join_factions = no
+			}
 		}
 	}
 	focus = {
@@ -241,7 +647,17 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.2
+			}
+			add_war_support = -0.05
+			add_stability = 0.05
+			add_ideas = hammelburgist_dominance
 		}
 	}
 	focus = {
@@ -255,7 +671,18 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = new_socialism
+				popularity = 0.05
+			}
+			swap_ideas = {
+				remove_idea = hammelburgist_dominance
+				add_idea = hammelburgist_dominance_2
+			}
 		}
 	}
 	focus = {
@@ -269,7 +696,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_stability = -0.05
+			swap_ideas = {
+				remove_idea = burgeoning_socialism_2
+				add_idea = burgeoning_socialism_3
+			}
 		}
 	}
 	focus = {
@@ -283,7 +714,20 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_research_slot = 1
+			155 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -297,7 +741,71 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -314,7 +822,19 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+			}
+			set_politics = {
+				ruling_party = fascism 
+			}
+			add_stability = 0.1
+			add_ideas = self_isolation
+			remove_ideas = chinese_focus
+			set_rule = {
+				can_join_factions = no
+			}
 		}
 	}
 	focus = {
@@ -328,7 +848,17 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.2
+			}
+			add_war_support = 0.05
+			add_stability = -0.05
+			add_ideas = karimist_dominance
 		}
 	}
 	focus = {
@@ -342,7 +872,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
+			add_offsite_building = { type = industrial_complex level = 2 }
+			swap_ideas = {
+				remove_idea = karimist_dominance
+				add_idea = karimist_dominance_2
+			}
 		}
 	}
 	focus = {
@@ -357,7 +895,13 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			remove_ideas = self_isolation
+			add_war_support = 0.2
+			add_stability = 0.1
+			add_political_power = 100
+			set_rule = {
+				can_join_factions = yes
+			}
 		}
 	}
 	focus = {
@@ -371,6 +915,190 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = burgeoning_socialism_3
+				add_idea = a_socialist_china
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 			
 		}
 	}
