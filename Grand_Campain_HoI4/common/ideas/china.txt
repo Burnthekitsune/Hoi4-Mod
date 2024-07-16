@@ -543,6 +543,74 @@ ideas = {
 				army_defence_factor = 0.15
 			}
 		}
+		army_of_the_chinese_proletariat_2 = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = SHX
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = SHX
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.2
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_morale_factor = 0.05
+			}
+		}
+		army_of_the_chinese_proletariat_3 = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = SHX
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = SHX
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.2
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_morale_factor = 0.05
+				experience_gain_army = 0.1
+				
+			}
+		}
+		army_of_the_chinese_proletariat_4 = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = SHX
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = SHX
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.2
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_morale_factor = 0.05
+				experience_gain_army = 0.1
+				training_time_army_factor = 0.1
+				attrition = -0.1
+			}
+		}
 		a_socialist_china = {
 			picture = chi_chinese_unity
 			allowed = {
