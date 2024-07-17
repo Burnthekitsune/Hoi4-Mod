@@ -87,7 +87,7 @@ bookmarks = {
 				revolutionary_zeal
 				subsiding_social_chaos
 			}
-			ideas = {
+			focuses = {
 				Finish_the_emergency_party_congress
 			}
 		}

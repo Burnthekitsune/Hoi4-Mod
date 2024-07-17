@@ -413,4 +413,20 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	Afrikan_Line_Leader = {
+		name = Afrikan_Line_Leader_name
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown
+			}
+		}
+	}
+	Crimson_Gang_Leader = {
+		name = Crimson_Gang_Leader_name
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown
+			}
+		}
+	}
 }

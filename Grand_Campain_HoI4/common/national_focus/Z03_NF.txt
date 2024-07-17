@@ -26,7 +26,12 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_stability = 0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_political_power = 75
 		}
 	}
 	focus = {
@@ -40,21 +45,29 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_political_power = 25
+			swap_ideas = {
+				remove_idea = insurrection_of_the_old_clergy
+				add_idea = insurrection_of_the_old_clergy_2
+			}
 		}
 	}
 	focus = {
 		id = Form_Factory_Militias	
 		icon = GFX_goal_unknown
 		cost = 5
-		x = 2.0000000000000004
+		x = 2
 		y = 2
 		prerequisite = { focus = Against_the_Counter_Revolution }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_political_power = 25
+			swap_ideas = {
+				remove_idea = insurrection_of_the_old_clergy_2
+				add_idea = insurrection_of_the_old_clergy_3
+			}
 		}
 	}
 	focus = {
@@ -68,11 +81,16 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_political_power = 25
+			army_experience = 25
+			swap_ideas = {
+				remove_idea = insurrection_of_the_old_clergy_3
+				add_idea = insurrection_of_the_old_clergy_4
+			}
 		}
 	}
 	focus = {
-		id = Drive_them_from_the_Councils_2
+		id = Mobile_red_terror_brigades
 		icon = GFX_goal_unknown
 		cost = 5
 		x = 2
@@ -82,7 +100,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			remove_ideas = insurrection_of_the_old_clergy_4
+			add_stability = 0.1
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -96,11 +116,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = subsiding_social_chaos
+				add_idea = subsiding_social_chaos_2
+			}
+			add_political_power = 25
 		}
 	}
 	focus = {
-		id = Improve_Foor_Rationing
+		id = Improve_Food_Rationing
 		icon = GFX_goal_unknown
 		cost = 5
 		x = 6
@@ -110,7 +134,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = subsiding_social_chaos_2
+				add_idea = subsiding_social_chaos_3
+			}
+			add_political_power = 25
 		}
 	}
 	focus = {
@@ -119,12 +147,16 @@ focus_tree = {
 		cost = 5
 		x = 6
 		y = 3
-		prerequisite = { focus = Improve_Foor_Rationing }
+		prerequisite = { focus = Improve_Food_Rationing }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = subsiding_social_chaos_3
+				add_idea = subsiding_social_chaos_4
+			}
+			add_political_power = 25
 		}
 	}
 	focus = {
@@ -138,7 +170,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			remove_ideas = subsiding_social_chaos_4
+			add_political_power = 50
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_ideas = forming_the_reconstruction_committee
 		}
 	}
 	focus = {
@@ -147,13 +182,18 @@ focus_tree = {
 		cost = 10
 		x = 4
 		y = 5
-		prerequisite = { focus = Drive_them_from_the_Councils_2 }
+		prerequisite = { focus = Mobile_red_terror_brigades }
 		prerequisite = { focus = Draft_the_Economic_Planning_Decree }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			remove_ideas = revolutionary_zeal
+			add_ideas = impromptu_militia_organization
 		}
 	}
 	focus = {
@@ -168,7 +208,19 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			recruit_character = Afrikan_Line_Leader
+			add_country_leader_role = {
+				character = Afrikan_Line_Leader
+				promote_leader = yes
+				country_leader = {
+					ideology = karimism
+					traits = {  }
+				}
+				swap_ideas = {
+					remove_idea = forming_the_reconstruction_committee
+					add_idea = forming_the_reconstruction_committee_2
+				}
+			}
 		}
 	}
 	focus = {
@@ -182,7 +234,19 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			recruit_character = Crimson_Gang_Leader
+			add_country_leader_role = {
+				character = Crimson_Gang_Leader
+				promote_leader = yes
+				country_leader = {
+					ideology = likland
+					traits = {  }
+				}
+				swap_ideas = {
+					remove_idea = forming_the_reconstruction_committee
+					add_idea = forming_the_reconstruction_committee_2
+				}
+			}
 		}
 	}
 	focus = {
@@ -196,7 +260,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_ideas = moderate_steering_committee
+			add_stability = 0.1
+			add_war_support = 0.05
 		}
 	}
 	focus = {
@@ -210,7 +276,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			create_intelligence_agency = {
+				name = "LIKLAND_SPY_AGENCY"
+				icon = GFX_intelligence_agency_logo_agency
+			}
 		}
 	}
 	focus = {
@@ -224,7 +293,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_ideas = crimson_steering_commitee
+			add_stability = 0.05
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -239,7 +310,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas {
+				remove_idea = moderate_steering_committee
+				add_idea = moderate_steering_committee_2
+			}
 		}
 	}
 	focus = {
@@ -254,7 +328,58 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -269,7 +394,34 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = reconstruction_peroid
+				add_idea = reconstruction_peroid_2
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -284,7 +436,32 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			473 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			586 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -299,7 +476,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas {
+				remove_idea = crimson_steering_commitee
+				add_idea = crimson_steering_commitee_2
+			}
 		}
 	}
 	focus = {
@@ -315,7 +495,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = reconstruction_peroid_2
+				add_idea = reconstruction_peroid_3
+			}
 		}
 	}
 	focus = {
@@ -331,7 +514,23 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			715 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			swap_ideas = {
+				remove_idea = forming_the_reconstruction_committee_2
+				add_idea = forming_the_reconstruction_committee_south
+			}
 		}
 	}
 	focus = {
@@ -345,7 +544,34 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = reconstruction_peroid_3
+				add_idea = reconstruction_peroid_4
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -361,7 +587,26 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = forming_the_reconstruction_committee_2
+				add_idea = forming_the_reconstruction_committee_rural
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -376,7 +621,73 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_research_slot = 1
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -390,7 +701,18 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = X51
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = X08
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = A19
+			}
 		}
 	}
 	focus = {
