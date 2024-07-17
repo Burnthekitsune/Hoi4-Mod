@@ -97,7 +97,6 @@ add_ideas = {
 	V27_harmonious_jamahiriya
 	V27_class_for_itself
 	V27_chaotic_military_structure
-	V27_camelry_expertise
 }
 set_stability = 0.6
 set_war_support = 0.60

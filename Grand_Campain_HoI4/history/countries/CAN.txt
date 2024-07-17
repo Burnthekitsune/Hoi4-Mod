@@ -18,10 +18,10 @@ if = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1932.2.14"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -36,8 +36,8 @@ add_ideas = {
 	export_focus
 	volunteer_only
 }
-set_stability = 0.6
-set_war_support = 0.60
+set_stability = 0.5
+set_war_support = 0.50
 
 # Starting tech
 set_technology = {
