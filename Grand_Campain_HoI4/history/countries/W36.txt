@@ -1,6 +1,7 @@
 capital = 337
 
 oob = "W36_1936"
+set_air_oob = W36_1936_Air
 set_research_slots = 2
 set_convoys = 0
 

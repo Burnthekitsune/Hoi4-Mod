@@ -1,3 +1,193 @@
+division_template = {
+	name = "Longqibing Juntuan"
+	priority = 2
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Bubing Jun"
+	priority = 1
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Minbing Lu"
+	priority = 0
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "1 Minbing"
+		location = 12713
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "2 Minbing"
+		location = 5092
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "3 Minbing"
+		location = 7418
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "4 Minbing"
+		location = 7948
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "5 Minbing"
+		location = 10304
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "6 Minbing"
+		location = 4431
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "7 Minbing"
+		location = 11972
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "8 Minbing"
+		location = 12819
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "9 Minbing"
+		location = 10726
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "10 Minbing"
+		location = 12724
+		division_template = "Minbing Lu"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "1 Bubing"
+		location = 5007
+		division_template = "Bubing Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "2 Bubing"
+		location = 1575
+		division_template = "Bubing Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "3 Bubing"
+		location = 7948
+		division_template = "Bubing Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "4 Bubing"
+		location = 10822
+		division_template = "Bubing Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "5 Bubing"
+		location = 4141
+		division_template = "Bubing Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "1 Longqibing"
+		location = 4141
+		division_template = "Longqibing Juntuan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "2 Longqibing"
+		location = 4925
+		division_template = "Longqibing Juntuan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "3 Longqibing"
+		location = 1976
+		division_template = "Longqibing Juntuan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.85
+	}
+}
+
 #########################
 ## STARTING PRODUCTION ##
 #########################
@@ -10,6 +200,24 @@ instant_effect = {
 			creator = "W34"
 		}
 		requested_factories = 3
+		progress = 0.1
+		efficiency = 35
+	}
+		add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "W34"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 35
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "W34"
+		}
+		requested_factories = 1
 		progress = 0.1
 		efficiency = 35
 	}

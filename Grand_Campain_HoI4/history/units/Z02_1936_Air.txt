@@ -1,0 +1,6 @@
+air_wings = {
+	382 = {
+		small_plane_airframe_0 = { owner = "CZ3" amount = 50 creator = "W40" version_name = "MKA-1"}
+		medium_plane_airframe_0 =  { owner = "CZ3" amount = 20 creator = "W40" version_name = "VGC-3"}
+	}
+}

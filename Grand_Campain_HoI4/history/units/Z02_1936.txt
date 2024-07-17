@@ -1,3 +1,56 @@
+
+division_template = {
+	name = "Song Jun"
+	priority = 1
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1 Jun"
+		location = 2053
+		division_template = "Song Jun"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "2 Jun"
+		location = 11448
+		division_template = "Song Jun"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "3 Jun"
+		location = 1882
+		division_template = "Song Jun"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "4 Jun"
+		location = 8037
+		division_template = "Song Jun"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "5 Jun"
+		location = 10750
+		division_template = "Song Jun"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.2
+	}
+}
+
 #########################
 ## STARTING PRODUCTION ##
 #########################
