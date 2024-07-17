@@ -13,4 +13,18 @@ characters = {
 			expire = 1938.11.5
 		}
 	}
+	MNO_warlord = {
+		name = nowarlord
+		gender = male
+		portraits = {
+			civilian = {
+				large ="GFX_portrait_FIN_taavetti_laatikainen_small"
+			}
+		}
+		country_leader = {
+			traits = { dealbroker }
+			ideology = conservatism
+			expire = 1949.11.5
+		}
+	}
 }

@@ -13,4 +13,18 @@ characters = {
 			expire = 1938.11.5
 		}
 	}
+	MEA_warlord = {
+		name = eawarlord
+		gender = male
+		portraits = {
+			civilian = {
+				large ="GFX_portrait_DOM_rafael_trujillo"
+			}
+		}
+		country_leader = {
+			traits = { economist }
+			ideology = conservatism
+			expire = 1950.11.5
+		}
+	}
 }

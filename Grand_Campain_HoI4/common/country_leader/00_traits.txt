@@ -5656,6 +5656,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	war_miat = {
+		sprite = 13
+		stability_factor = 0.2
+		send_volunteer_size = 2
+		send_volunteers_tension = -0.4
+		lend_lease_tension = -0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	anti_communist_crusader = {
 		sprite = 13
 		stability_factor = 0.05

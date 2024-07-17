@@ -282,7 +282,7 @@ ideas = {
 
 			removal_cost = -1
 
-			traits = { popular_figurehead }
+			traits = { war_miat }
 		}
 		W50_Aziz_Bendahara = {
 			picture = generic_monarchy
