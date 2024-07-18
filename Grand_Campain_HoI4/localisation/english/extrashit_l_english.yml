@@ -759,7 +759,7 @@
  Special_Volunteer_brigades:0 "Special Volunteer Brigades"
  Special_Volunteer_brigades_desc:0 ""
  Special_Volunteer_brigades_focus_tt:0 ""
- JSAL_Training_Liaisons:0 "Jsal Training Liaisons"
+ JSAL_Training_Liaisons:0 "JSAL Training Liaisons"
  JSAL_Training_Liaisons_desc:0 ""
  JSAL_Training_Liaisons_focus_tt:0 ""
  Develop_Air_Defense_Infrastructure:0 "Develop Air Defense Infrastructure"
@@ -1018,4 +1018,6 @@
  Declare_war_on_China: "§RStart the Chinese Civil War!§!"
  CHINA_SPY: "Chinese Spy Agency" # Needs a name
  LIKLAND_SPY_AGENCY: "Liklandist Spy Agency" # Needs a name
+ join_wrcl: "Join the World Revolutionary Communist League"
+ join_wrcl_desc: ""
  war_miat:0 "Weary Miat"

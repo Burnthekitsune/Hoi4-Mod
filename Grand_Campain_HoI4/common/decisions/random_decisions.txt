@@ -333,5 +333,35 @@ random_decisions = {
 			}
 		}
 	}
-	
+	join_wrcl = {
+		cost = 0
+		fire_only_once = yes
+		allowed = {
+			tag = Z03
+		}
+		icon = GFX_decision_generic_decision
+		visible = {
+			is_subject = no
+			country_exists = Z03
+			country_exists = V27
+			has_completed_focus = Onto_the_World_Revolution
+		}
+		available = {
+			V27 = {
+				is_faction_leader = yes
+			}
+			NOT = {
+				has_country_flag = joined_WRCR
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_country_flag = joined_WRCR
+			V27 = {
+				add_to_faction = Z03
+			}
+		}
+	}
 }

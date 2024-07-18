@@ -395,8 +395,8 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = reconstruction_peroid
-				add_idea = reconstruction_peroid_2
+				remove_idea = reconstruction_period
+				add_idea = reconstruction_period_2
 			}
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 2
@@ -496,8 +496,8 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = reconstruction_peroid_2
-				add_idea = reconstruction_peroid_3
+				remove_idea = reconstruction_period_2
+				add_idea = reconstruction_period_3
 			}
 		}
 	}
@@ -545,8 +545,8 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = reconstruction_peroid_3
-				add_idea = reconstruction_peroid_4
+				remove_idea = reconstruction_period_3
+				add_idea = reconstruction_period_4
 			}
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 2
@@ -729,7 +729,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = impromptu_militia_organization
+				add_idea = military_reorganization
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			army_experience = 100
 		}
 	}
 	focus = {
@@ -744,7 +752,12 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 3
+				category = cat_superior_firepower
+			}
+			army_experience = 50
 		}
 	}
 	focus = {
@@ -759,7 +772,12 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 3
+				category = cat_mass_assault
+			}
+			army_experience = 50
 		}
 	}
 	focus = {
@@ -773,7 +791,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = military_reorganization
+				add_idea = military_reorganization_benaissa
+			}
 		}
 	}
 	focus = {
@@ -787,7 +808,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = military_reorganization
+				add_idea = military_reorganization_class
+			}
 		}
 	}
 	focus = {
@@ -801,7 +825,29 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = infantry_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = cat_anti_tank
+			}
+			473 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -815,7 +861,27 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = light_air
+			}
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = medium_air
+			}
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = heavy_air
+			}
+			air_experience = 100
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 3
+				category = air_doctrine
+			}
 		}
 	}
 	focus = {
@@ -829,7 +895,45 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			642 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			686 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			590 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -843,7 +947,91 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = electronics
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -857,7 +1045,21 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_idea = military_reorganization_benaissa
+				}
+				swap_ideas = {
+					remove_idea = military_reorganization_benaissa
+					add_idea = military_reorganization_benaissa_2
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = military_reorganization_class
+					add_idea = military_reorganization_class_2
+				}
+			}
 		}
 	}
 	focus = {
@@ -871,7 +1073,23 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_idea = military_reorganization_benaissa
+				}
+				swap_ideas = {
+					remove_idea = military_reorganization_benaissa_2
+					add_idea = military_reorganization_benaissa_3
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = military_reorganization_class_2
+					add_idea = military_reorganization_class_3
+				}
+			}
+			army_experience = 100
+			# idk special forces unlock
 		}
 	}
 	focus = {
@@ -885,7 +1103,22 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = mio_cat_tech_all_motorized_mechanized
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = mio_cat_tech_medium_armor_and_modules # there is not one for all tanks as far as I can tell
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+			army_experience = 50
 		}
 	}
 	focus = {
@@ -899,7 +1132,25 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 6
+				category = naval_equipment # Could not find tech group for navy as a whole
+			}
+			navy_experience = 100
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 3
+				category = naval_doctrine
+			}
+			379 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 5
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -913,7 +1164,27 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			556 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+			}
+			613 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 200
+			}
+			navy_experience = 100
 		}
 	}
 	focus = {
@@ -927,7 +1198,21 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 2
+				category = mio_cat_tech_all_carrier_and_modules
+			}
+			air_experience = 50
+			navy_experience = 100
+			481 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 5
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -943,7 +1228,30 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			set_rule = {
+				can_join_factions = yes
+			}
+			add_war_support = 0.2
+			create_wargoal = {
+				type = annex_everything
+				target = CAL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NVJ
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = X42
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = V50
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = YCM
+			}
 		}
 	}
 	focus = {
@@ -957,7 +1265,16 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_research_slot = 1
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = nuclear
+			}
+			swap_ideas = {
+				remove_idea = reconstruction_period_4
+				add_idea = reconstruction_period_5
+			}
 		}
 	}
 	focus = {
@@ -971,7 +1288,13 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_stability = 0.1
+			add_war_support = 0.1
+			add_political_power = 200
+			swap_ideas = {
+				remove_idea = reconstruction_period_5
+				add_idea = reconstruction_period_6
+			}
 		}
 	}
 	focus = {
@@ -985,7 +1308,26 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_opinion_modifier = {
+				target = BRA
+				modifier = huge_increase
+			}
+			add_offsite_building = { type = industrial_complex level = 5 }
+			add_offsite_building = { type = arms_factory level = 5 }
+			BRA = {
+				add_opinion_modifier = {
+					target = Z03
+					modifier = huge_increase
+				}
+				add_offsite_building = { type = industrial_complex level = 5 }
+				add_offsite_building = { type = arms_factory level = 5 }
+			}
+			712 = {
+				set_demilitarized_zone = yes
+			}
+			730 = { # bit of a gap
+				set_demilitarized_zone = yes
+			}
 		}
 	}
 	focus = {
@@ -999,7 +1341,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			# special forces again
+			army_experience = 50
+			navy_experience = 50
+			air_experience = 50
+			add_political_power = 50
 		}
 	}
 

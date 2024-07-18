@@ -79,7 +79,7 @@ ideas = {
 				war_support_factor = -0.1
 			}
 		}
-		reconstruction_peroid = {
+		reconstruction_period = {
 			picture = POL_disjointed_industry
 			allowed = {
 				original_tag = Z03
@@ -99,7 +99,7 @@ ideas = {
 				war_support_factor = -0.1
 			}
 		}
-		reconstruction_peroid_2 = {
+		reconstruction_period_2 = {
 			picture = POL_disjointed_industry
 			allowed = {
 				original_tag = Z03
@@ -120,7 +120,7 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-		reconstruction_peroid_3 = {
+		reconstruction_period_3 = {
 			picture = POL_disjointed_industry
 			allowed = {
 				original_tag = Z03
@@ -141,7 +141,7 @@ ideas = {
 				stability_factor = 0.1
 			}
 		}
-		reconstruction_peroid_4 = {
+		reconstruction_period_4 = {
 			picture = POL_disjointed_industry
 			allowed = {
 				original_tag = Z03
@@ -160,6 +160,52 @@ ideas = {
 				consumer_goods_factor = -0.15
 				war_support_factor = 0.05
 				stability_factor = 0.1
+			}
+		}
+		reconstruction_period_5 = {
+			picture = POL_disjointed_industry
+			allowed = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				consumer_goods_factor = -0.15
+				war_support_factor = 0.05
+				stability_factor = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+		reconstruction_period_6 = {
+			picture = POL_disjointed_industry
+			allowed = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+				consumer_goods_factor = -0.15
+				war_support_factor = 0.05
+				stability_factor = 0.1
+				research_speed_factor = 0.05
+				production_speed_rail_way_factor = 0.1
+				production_speed_supply_node_factor = 0.1
 			}
 		}
 		revolutionary_zeal = {
@@ -471,6 +517,147 @@ ideas = {
 				army_attack_factor = -0.15
 				army_speed_factor = 0.05
 				army_defence_factor = -0.15
+			}
+		}
+		military_reorganization_benaissa = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+				army_attack_factor = 0.05
+				army_speed_factor = 0.05
+				army_defence_factor = -0.05
+				army_morale_factor = 0.05
+			}
+		}
+		military_reorganization_benaissa_2 = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.05
+				army_speed_factor = 0.05
+				army_defence_factor = 0.05
+				army_morale_factor = 0.05
+				experience_gain_army_factor = 0.05
+				training_time_army_factor = -0.05
+			}
+		}
+		military_reorganization_benaissa_3 = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.05
+				army_speed_factor = 0.05
+				army_defence_factor = 0.05
+				army_morale_factor = 0.05
+				experience_gain_army_factor = 0.05
+				training_time_army_factor = -0.05
+				special_forces_cap = 0.1
+				send_volunteer_size = 5
+			}
+		}
+		military_reorganization_class = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+				army_attack_factor = 0.05
+				army_speed_factor = 0.1
+				army_defence_factor = -0.05
+			}
+		}
+		military_reorganization_class_2 = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.05
+				army_speed_factor = 0.1
+				army_defence_factor = 0.05
+				experience_gain_army_factor = 0.05
+				training_time_army_factor = -0.05
+			}
+		}
+		military_reorganization_class_3 = {
+			picture = generic_communist_army
+			allowed = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			allowed_civil_war = {
+				original_tag = Z03
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.05
+				army_speed_factor = 0.1
+				army_defence_factor = 0.05
+				experience_gain_army_factor = 0.05
+				training_time_army_factor = -0.05
+				special_forces_cap = 0.1
+				send_volunteer_size = 5
 			}
 		}
 	}
