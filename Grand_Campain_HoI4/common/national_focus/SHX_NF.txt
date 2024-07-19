@@ -121,6 +121,7 @@ focus_tree = {
 				320 = {
 					add_claim_by = GER
 				}
+				W34 = { add_to_faction = MCH }
 			}
 		}
 	}
