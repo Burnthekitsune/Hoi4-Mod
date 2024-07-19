@@ -65,7 +65,21 @@ add_ideas = {
 	volunteer_only
 	birthplace_of_communism
 	contentious_election
+	defensive_tactics
 }
+set_variable = {
+	var = qasim_vote
+	value = 0
+}
+set_variable = {
+	var = abdul_vote
+	value = 0
+}
+set_variable = {
+	var = basir_vote
+	value = 0
+}
+
 set_stability = 0.6
 set_war_support = 0.60
 

@@ -1,3 +1,25 @@
+X10_diplo_pressure = {
+	icon = GFX_decision_category_ger_military_buildup
+	visible = {
+		tag = X10
+		has_country_flag = lev_conn
+		has_government = communism
+	}
+}
+
+X10_election = {
+	icon = GFX_decision_category_ger_military_buildup
+	priority = {
+		base = 11
+	}
+	visible = {
+		tag = X10
+		has_idea = contentious_election
+	}
+	scripted_gui = x10_party_election_ui
+	visible_when_empty = yes
+}
+
 X10_fed_inv_category = {
 	icon = GFX_decision_category_spr_the_seeds_of_revolution
 	visible = {

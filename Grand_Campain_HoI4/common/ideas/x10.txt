@@ -308,7 +308,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				research_speed_factor = 0.05
+				research_speed_factor = 0.1
 			}
 		}
 		Madrid_Labs_2 = {
@@ -321,8 +321,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				research_speed_factor = 0.1
-				consumer_goods_factor = -0.05
+				research_speed_factor = 0.15
+				consumer_goods_factor = 0.05
 			}
 		}
 		
@@ -355,7 +355,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				fascism_drift = 0.1
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.15
 				army_core_defence_factor = 0.15
 				political_power_gain = 0.5
 			}
@@ -371,7 +371,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = -0.2
+				war_support_factor = -0.2
 				political_power_gain = -0.5
 			}
 		}
@@ -387,8 +388,9 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				stability_factor = 0.2
-				research_speed_factor = 0.05
+				research_speed_factor = 0.01
 				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor = 0.1
 			}
 		}
 		
@@ -404,7 +406,9 @@ ideas = {
 			modifier = {
 				stability_factor = 0.2
 				recruitable_population_factor = 0.02
-				army_core_defence_factor = 0.2
+				army_core_defence_factor = 0.3
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
 			}
 		}
 		
@@ -422,6 +426,27 @@ ideas = {
 				army_attack_factor = 0.2
 				naval_morale_factor = 0.2
 				send_volunteer_factor = 0.5
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		
+		defensive_tactics = {
+			picture = FRA_fortification_focus
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				dig_in_speed_factor = 0.2
+				max_dig_in_factor = 0.2
+				recon_factor_while_entrenched = 0.2
+				dont_lose_dig_in_on_attack = true
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+				army_attack_factor = -0.1
 			}
 		}
 	}

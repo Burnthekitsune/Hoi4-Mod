@@ -1,0 +1,9 @@
+scripted_gui = {
+
+	x10_party_election_ui = {
+		context_type = decision_category
+		window_name = "x10_party_election_ui_window"
+	}
+	
+}
+

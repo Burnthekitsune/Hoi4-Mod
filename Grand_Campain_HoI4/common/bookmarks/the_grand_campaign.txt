@@ -38,6 +38,7 @@ bookmarks = {
 			ideas = {
 				birthplace_of_communism
 				contentious_election
+				defensive_tactics
 			}
 			focuses = {
 				Reformist_Ideals
