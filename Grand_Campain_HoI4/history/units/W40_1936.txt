@@ -39,7 +39,7 @@ division_template = {
 		marine = { x = 1 y = 0 }
 		Infantry = { x = 1 y = 1 }
 		Infantry = { x = 1 y = 2 }
-		Infantry = { x = 0 y = 3 }
+		Infantry = { x = 1 y = 3 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
