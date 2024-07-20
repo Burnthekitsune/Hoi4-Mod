@@ -1016,8 +1016,11 @@
  Train_Revolutionary_division_desc: "We will send some of our own over to help fight the war!"
  Core_China: "§GGain Cores on all of China.§!"
  Declare_war_on_China: "§RStart the Chinese Civil War!§!"
- CHINA_SPY: "Chinese Spy Agency" # Needs a name
- LIKLAND_SPY_AGENCY: "Liklandist Spy Agency" # Needs a name
+ CHINA_SPY: "Commissariat of Revolutionary Defense"
+ LIKLAND_SPY_AGENCY: "Council for the Perpetuation of World Revolution" 
  join_wrcl: "Join the World Revolutionary Communist League"
  join_wrcl_desc: ""
  war_miat:0 "Weary Miat"
+ likland_crimson: "Trailblazer Revolutionary Theorist"
+ likland_simms: "The Old Head"
+ likland_afrika: "True Student of Karim and Benaissa"

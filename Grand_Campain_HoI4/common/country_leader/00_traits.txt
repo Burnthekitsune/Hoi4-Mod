@@ -10755,4 +10755,30 @@ JUNO_emergency_powers = {
 		army_morale_factor = 0.2
 		recruitable_population_factor = 0.1
 	}
+	likland_crimson = {
+		random = no
+		
+		fascism_drift = 0.1
+		war_support_factor = 0.15
+		stability_factor = 0.1
+		army_attack_factor = 0.05
+		consumer_goods_factor = -0.1
+	}
+	likland_simms = {
+		random = no
+		
+		fascism_drift = 0.05
+		war_support_factor = 0.1
+		stability_factor = 0.1
+		army_defence_factor = -0.05
+	}
+	likland_afrika = {
+		random = no
+		
+		fascism_drift = 0.05
+		war_support_factor = 0.10
+		stability_factor = 0.15
+		army_org_factor = 0.05
+		consumer_goods_factor = -0.1
+	}
 }

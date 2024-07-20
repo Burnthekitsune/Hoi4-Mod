@@ -1,14 +1,14 @@
 characters = {
 	Z03_1070 = {
-		name = The_Council
+		name = Jonathan_Simms
 		portraits = {
 			civilian = {
-				large = GFX_portrait_SOV_supreme_soviet
+				large = GFX_Portrait_arpad_szakasits
 			}
 		}
 		country_leader = {
 			ideology = likland
-			traits = {  }
+			traits = { likland_simms }
 		}
 	}
 	Z03_50336912 = {
@@ -417,16 +417,26 @@ characters = {
 		name = Afrikan_Line_Leader_name
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_ita_palmiro_togliatti
 			}
+		}
+	}
+	country_leader = {
+			ideology = karimism
+			traits = { likland_afrika }
 		}
 	}
 	Crimson_Gang_Leader = {
 		name = Crimson_Gang_Leader_name
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_portrait_GER_johannes_sigfried_becker
 			}
+		}
+	}
+	country_leader = {
+			ideology = likland
+			traits = { likland_crimson }
 		}
 	}
 }

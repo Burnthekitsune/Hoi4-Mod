@@ -8473,4 +8473,12 @@ spriteTypes = {
 		name = GFX_Portrait_Asia_Generic_warlord1
 		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 	}
+	spriteType = {
+		name = GFX_Portrait_arpad_szakasits
+		texturefile = "dlc/dlc020_death_or_dishonor/gfx/leaders/HUN/portrait_HUN_arpad_szakasits.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_GER_johannes_sigfried_becker
+		texturefile = "dlc/dlc028_la_resistance/gfx/leaders/HUN/portrait_HUN_arpad_szakasits.dds"
+	}
 }
