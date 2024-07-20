@@ -171,10 +171,244 @@ division_template = {
 
 units = {
 	division = {
-		name = "Jerusalem Defence Force"
-		location = 7107
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4163
 		division_template = "Red Army Militia"
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1046
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4061
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11935
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3987
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 8111
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4920
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1065
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 7170
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 7151
+		division_template = "Red Army Militia"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4163
+		division_template = "Red Army Infantry Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1046
+		division_template = "Red Army Infantry Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4061
+		division_template = "Red Army Infantry Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7176
+		division_template = "SVB Mountaineers"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7176
+		division_template = "SVB Mountaineers"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7176
+		division_template = "SVB Mountaineers"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1015
+		division_template = "SVB Mountaineers"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1015
+		division_template = "SVB Mountaineers"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11969
+		division_template = "Mobile Assault Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8038
+		division_template = "Mobile Assault Fighting Group"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1068
+		division_template = "Saharan Fighting Group"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1068
+		division_template = "Saharan Fighting Group"
+		start_experience_factor = 0.05
+		start_equipment_factor = 1
 	}
 }
