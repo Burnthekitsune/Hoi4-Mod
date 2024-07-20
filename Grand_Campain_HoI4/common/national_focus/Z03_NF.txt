@@ -611,7 +611,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Academic_Revolution
-		icon = GFX_focus_SWE_socialist_reforms
+		icon = GFX_focus_SWE_socialist_reformss
 		cost = 10
 		x = 4
 		y = 11
