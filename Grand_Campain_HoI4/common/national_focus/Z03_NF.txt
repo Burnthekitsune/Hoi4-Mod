@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = Finish_the_emergency_party_congress
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BUL_cooperate_with_the_zveno
 		cost = 10
 		x = 4
 		y = 0
@@ -36,7 +36,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Against_the_Counter_Revolution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_last_purge
 		cost = 5
 		x = 2
 		y = 1
@@ -54,7 +54,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Form_Factory_Militias	
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_union_representation_act
 		cost = 5
 		x = 2
 		y = 2
@@ -72,7 +72,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Drive_them_from_the_Councils
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SWE_bofors_fly_swatter
 		cost = 5
 		x = 2
 		y = 3
@@ -91,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Mobile_red_terror_brigades
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_road_of_life
 		cost = 5
 		x = 2
 		y = 4
@@ -107,7 +107,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Against_Social_Anarchy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ITA_corpo_volontari_della_liberta
 		cost = 5
 		x = 6
 		y = 1
@@ -125,7 +125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Improve_Food_Rationing
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_population_growth
 		cost = 5
 		x = 6
 		y = 2
@@ -143,7 +143,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Standardised_Council_Elections
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_supreme_soviet
 		cost = 5
 		x = 6
 		y = 3
@@ -161,7 +161,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Draft_the_Economic_Planning_Decree
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_comecon
 		cost = 5
 		x = 6
 		y = 4
@@ -178,7 +178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = First_Reconstruction_Congress
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ICE_embrace_the_workers_revolution
 		cost = 10
 		x = 4
 		y = 5
@@ -198,7 +198,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Folow_the_Afrikan_Line
-		icon = GFX_goal_unknown
+		icon = GFX_focus_CHL_union_of_hispanic_republics
 		cost = 10
 		x = 2
 		y = 6
@@ -225,7 +225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Crimson_Gang
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ITA_peasants_rise
 		cost = 10
 		x = 6
 		y = 6
@@ -251,7 +251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Form_a_New_Steering_Committee
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_complete_april_constitution
 		cost = 10
 		x = 2
 		y = 7
@@ -267,7 +267,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Adress_the_Security_Issue
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_service_agency
 		cost = 10
 		x = 4
 		y = 7
@@ -284,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Entrench_the_Steering_Committee
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ITA_communist_leadership
 		cost = 10
 		x = 6
 		y = 7
@@ -300,7 +300,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Formalize_Soldiers_Councils
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 10
 		x = 0
 		y = 8
@@ -318,7 +318,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Uplift_the_Prairie
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_breadbasket_of_the_union
 		cost = 10
 		x = 2
 		y = 8
@@ -384,7 +384,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Reconstruction_Brigades
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SWE_refuge_for_revolutionaries
 		cost = 10
 		x = 4
 		y = 8
@@ -426,7 +426,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Economic_Heartlands
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spa_the_spanish_miracle
 		cost = 10
 		x = 6
 		y = 8
@@ -466,7 +466,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Formalise_the_Crimson_Brigades
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_masters_of_our_own_fate
 		cost = 10
 		x = 8
 		y = 8
@@ -484,7 +484,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Native_Ecology_Experts
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BRA_rio_protocol
 		cost = 10
 		x = 4
 		y = 9
@@ -503,7 +503,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Hub_in_the_South
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10
 		x = 2
 		y = 10
@@ -535,7 +535,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Building_for_World_Revolution
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10
 		x = 4
 		y = 10
@@ -576,7 +576,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_Rural_Production
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_agricultural_subsidies
 		cost = 10
 		x = 6
 		y = 10
@@ -611,7 +611,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Academic_Revolution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SWE_socialist_reforms
 		cost = 10
 		x = 4
 		y = 11
@@ -692,7 +692,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Continental_Unification
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 10
 		x = 4
 		y = 12
@@ -717,7 +717,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Form_the_Revolutionary_Military_Council
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BUL_support_macedonian_organizations
 		cost = 10
 		x = 10
 		y = 0
@@ -742,7 +742,7 @@ focus_tree = {
 	}
 	focus = {
 		id = A_New_Red_Army
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
 		cost = 10
 		x = 9
 		y = 1
@@ -762,7 +762,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Elaborate_on_Militia_Doctrine
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ITA_comandante_diavolo
 		cost = 10
 		x = 11
 		y = 1
@@ -782,7 +782,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Doctrine_of_Benaissa
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_mobilization_plan
 		cost = 10
 		x = 9
 		y = 2
@@ -799,7 +799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Doctrine_of_the_Class_Army
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_restore_cossack_units
 		cost = 10
 		x = 11
 		y = 2
@@ -816,7 +816,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Revolutionary_Design_Bureau
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_organize_wreckers
 		cost = 10
 		x = 10
 		y = 3
@@ -852,7 +852,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Ghost_Riders_in_the_Sky
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_flying_clubs
 		cost = 10
 		x = 8
 		y = 4
@@ -886,7 +886,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_air_coverage
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_fighter2
 		cost = 20
 		x = 8
 		y = 5
@@ -938,7 +938,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Develop_Air_Defense_Infrastructure
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_production
 		cost = 10
 		x = 8
 		y = 6
@@ -1036,7 +1036,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JSAL_Training_Liaisons
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_academy
 		cost = 10
 		x = 10
 		y = 4
@@ -1064,7 +1064,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Special_Volunteer_brigades
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 10
 		y = 5
@@ -1094,7 +1094,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Modern_Warfare
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_motorized
 		cost = 5
 		x = 10
 		y = 6
@@ -1123,7 +1123,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Red_Banners_Above_the_Seas
-		icon = GFX_goal_unknown
+		icon = GFX_focus_prc_agrarian_socialism
 		cost = 10
 		x = 12
 		y = 4
@@ -1155,7 +1155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_Naval_Infrastructure
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_build_navy
 		cost = 20
 		x = 12
 		y = 5
@@ -1189,7 +1189,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Carrier_Effort
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_fighter
 		cost = 10
 		x = 12
 		y = 6
@@ -1217,7 +1217,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Onto_the_World_Revolution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_proclaim_soviet_hegemony
 		cost = 10
 		x = 10
 		y = 7
@@ -1256,7 +1256,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Weapon_to_End_Warfare
-		icon = GFX_goal_unknown
+		icon = GFX_focus_wonderweapons
 		cost = 20
 		x = 10
 		y = 8
@@ -1279,7 +1279,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Strengthen_the_Revolution_at_Home
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		cost = 20
 		x = 10
 		y = 9
@@ -1299,7 +1299,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Uneasy_Truce
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		cost = 20
 		x = 10
 		y = 10
@@ -1332,7 +1332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_SVB
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_special_forces
 		cost = 20
 		x = 10
 		y = 11
