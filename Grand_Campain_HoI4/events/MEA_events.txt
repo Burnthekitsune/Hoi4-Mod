@@ -1,0 +1,31 @@
+add_namespace = MEA_events
+
+country_event = {
+	id = MEA_events.1
+	title = MEA_events.1.t
+	desc = MEA_events.1.d
+	fire_only_once = yes
+	trigger = {
+		tag = MEA
+		has_war = yes
+	}
+	immediate = {
+		retire_country_leader = yes
+		add_country_leader_role = {
+			Character = MEA_warlord
+			Promote_leader = yes
+			Country_leader = {
+				ideology = conservatism
+				traits = {
+				economist
+				}
+			}
+		}
+    }
+	option = {
+		name = MEA_events.1.a
+	}
+}
+
+
+

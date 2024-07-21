@@ -18,7 +18,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large ="GFX_portrait_FIN_taavetti_laatikainen_small"
+				large ="GFX_portrait_FIN_taavetti_laatikainen"
 			}
 		}
 		country_leader = {

@@ -5,6 +5,7 @@ set_research_slots = 2
 set_convoys = 10
 
 recruit_character = MNO_superintendent_Apartia
+recruit_character = MNO_warlord
 if = {
 	limit = { has_dlc = "La Resistance" }
 }

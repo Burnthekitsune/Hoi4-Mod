@@ -1,4 +1,7 @@
 add_namespace = W40_events
+add_namespace = MNO_events
+add_namespace = MEA_events
+add_namespace = W40_leadership
 
 country_event = {
 	id = W40_events.1
@@ -10,5 +13,57 @@ country_event = {
 	option = {
 		name = W40_events.1.a
 		
+	}
+}
+
+country_event = {
+	id = MEA_events.1
+	title = MEA_events.1.t
+	desc = MEA_events.1.d
+	
+	trigger = {
+		tag = MEA
+		has_war = yes
+		fire_only_once = yes
+	}
+	
+	option = {
+		name = MEA_events.1.a
+		add_country_leader_role = {
+			Character = MNO_warlord
+			Promote_leader = yes
+			Country_leader = {
+				ideology = conservatism
+				traits = {
+				economist
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = MNO_events.1
+	title = MNO_events.1.t
+	desc = MNO_events.1.d
+	
+	trigger = {
+		tag = MNO
+		has_war = yes
+		fire_only_once = yes
+	}
+	
+	option = {
+		name = MNO_events.1.a
+		add_country_leader_role = {
+			Character = MNO_warlord
+			Promote_leader = yes
+			Country_leader = {
+				ideology = conservatism
+				traits = {
+				economist
+				}
+			}
+		}
 	}
 }

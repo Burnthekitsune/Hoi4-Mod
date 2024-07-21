@@ -5,6 +5,7 @@ set_research_slots = 2
 set_convoys = 10
 
 recruit_character = MEA_superintendent_orama
+recruit_character = MEA_warlord
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
