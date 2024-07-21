@@ -2674,3 +2674,326 @@ X10_research_pact = {
 		}
 	}
 }
+
+X10_diplo_pressure = {
+	direct_clf_control = {
+		cost = 10
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_decision
+		visible = {
+			tag = X10
+		}
+		available = {
+			has_government = communism
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			puppet = HOL
+			puppet = IRE
+			puppet = ICE
+			set_country_flag = dir_clf_cont
+		}
+	}
+	bring_france_under_heel = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+		}
+		available = {
+			has_government = communism
+			is_in_faction_with = FRA
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			puppet = FRA
+			set_country_flag = fra_puppet
+		}
+	}
+	
+	surround_belgium = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+		}
+		available = {
+			has_government = communism
+			FRA = {
+				is_subject_of = X10
+			}
+			HOL = {
+				is_subject_of = X10
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			puppet = BEL
+			set_country_flag = bel_puppet
+		}
+	}
+	
+	north_italian_rule = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+		}
+		available = {
+			has_government = communism
+			has_completed_focus = invite_italian_communists
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			puppet = SPM
+			puppet = LOM
+			set_country_flag = ita_push
+		}
+	}
+	
+	offer_burgindy_protection = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+		}
+		available = {
+			has_government = communism
+			has_country_flag = ita_push
+			has_country_flag = fra_puppet
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			puppet = X19
+			set_country_flag = prg_puppet
+		}
+	}
+	
+	heart_of_the_revolution = {
+		cost = 100
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_SOV_place_hq
+		visible = {
+			tag = X10
+		}
+		available = {
+			has_government = communism
+			has_completed_focus = unified_communist_front
+			FRA = {
+				is_subject_of = X10
+			}
+			BEL = {
+				is_subject_of = X10
+			}
+			HOL = {
+				is_subject_of = X10
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			FRA = { country_event = ASH_focus.11 }
+			BEL = { country_event = ASH_focus.11 }
+			HOL = { country_event = ASH_focus.11 }
+			set_cosmetic_tag = EU_Communist
+			set_country_flag = rev_heart
+		}
+	}
+	add_burgundy_as_a_member = {
+		cost = 25
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_SOV_place_hq
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+		}
+		available = {
+			has_government = communism
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			X19 = { country_event = ASH_focus.11 }
+			set_country_flag = prg_puppet
+		}
+	}
+	put_pressure_on_britania = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+		}
+		available = {
+			has_government = communism
+			has_completed_focus = buy_off_north_ireland
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			ENG = { country_event =  ASH_focus.12 }
+			set_country_flag = eng_puppet
+		}
+	}
+	
+	ECU_north = {
+		cost = 100
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_SOV_place_hq
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+		}
+		available = {
+			has_government = communism
+			ENG = {
+				is_subject_of = X10
+			}
+			IRE = {
+				is_subject_of = X10
+			}
+			ICE = {
+				is_subject_of = X10
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			ENG = { country_event = ASH_focus.11 }
+			IRE = { country_event = ASH_focus.11 }
+			ICE = { country_event = ASH_focus.11 }
+			set_country_flag = EUC_north
+		}
+	}
+	
+	invite_italy_to_ecu = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_SOV_place_hq
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+		}
+		available = {
+			has_government = communism
+			has_completed_focus = unite_italian_communists
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			SPM = { country_event = ASH_focus.11 }
+			set_country_flag = EUC_italy
+		}
+	}
+	
+	expand_ecu_east = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+			NOT = {
+				has_country_flag = EUC_germany
+			}
+		}
+		available = {
+			has_government = communism
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GER
+			}
+			set_country_flag = EUC_push_east
+		}
+	}
+	
+	add_germany_to_ecu = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_SOV_place_hq
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+			OR = {
+				has_country_flag = EUC_push_east
+				GER = {
+					is_subject_of = X10
+				}
+			}
+		}
+		available = {
+			has_government = communism
+			GER = {
+				is_subject_of = X10
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			GER = { country_event = ASH_focus.11 }
+			set_country_flag = EUC_germany
+		}
+	}
+}

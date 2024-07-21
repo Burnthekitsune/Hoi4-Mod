@@ -92,6 +92,7 @@
 			add_political_power = 25
 			add_command_power = 100
 			add_offsite_building = { type = arms_factory level = 1 }
+			set_faction_name = clf
 		}
 	}
 	focus = {
@@ -1028,11 +1029,14 @@
 					limit = {
 						LOM = {
 							OR = {
-								is_in_faction_with = X10
-								has_same_ideology = yes
-								communism > 0.5
+								is_subject_of = X10
+								OR = {
+									is_in_faction_with = X10
+									has_same_ideology = yes
+									communism > 0.5
+								}
+								is_subject = no
 							}
-							is_subject = no
 						}
 					}
 					LOM = {
@@ -1049,11 +1053,14 @@
 					limit = {
 						VEN = {
 							OR = {
-								is_in_faction_with = X10
-								has_same_ideology = yes
-								communism > 0.5
+								is_subject_of = X10
+								OR = {
+									is_in_faction_with = X10
+									has_same_ideology = yes
+									communism > 0.5
+								}
+								is_subject = no
 							}
-							is_subject = no
 						}
 					}
 					VEN = {
@@ -1072,13 +1079,14 @@
 					limit = {
 						X72 = {
 							OR = {
-								is_in_faction_with = X10
-								AND = {
+								is_subject_of = X10
+								OR = {
+									is_in_faction_with = X10
 									has_same_ideology = yes
 									communism > 0.75
 								}
+								is_subject = no
 							}
-							is_subject = no
 						}
 					}
 					X72 = {
@@ -1100,13 +1108,14 @@
 					limit = {
 						MLT = {
 							OR = {
-								is_in_faction_with = X10
-								AND = {
+								is_subject_of = X10
+								OR = {
+									is_in_faction_with = X10
 									has_same_ideology = yes
 									communism > 0.75
 								}
+								is_subject = no
 							}
-							is_subject = no
 						}
 					}
 					MLT = {
