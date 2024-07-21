@@ -22,6 +22,20 @@ mex_fed_decision_category = {
 				target = YCM
 				type = annex_everything
 			}
+			V50 = {
+				add_to_war = {
+					targeted_alliance = YCM
+					enemy = X42
+					hostility_reason = asked_to_join
+				}
+			}
+			NVJ = {
+				add_to_war = {
+					targeted_alliance = YCM
+					enemy = X42
+					hostility_reason = asked_to_join
+				}
+			}
 		}
 	}
 	seek_north_claims = {

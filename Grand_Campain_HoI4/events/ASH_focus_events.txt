@@ -443,7 +443,7 @@ country_event = { # Ash for France
 	}
 }
 
-country_event = { # Ash for France
+country_event = { # Ask for France
 	id = ASH_focus.10
 	title = ASH_focus.10.t
 	desc = ASH_focus.10.d
@@ -492,6 +492,82 @@ country_event = { # Ash for France
 		set_global_flag = no_ash_france
 		ai_chance = {
 			base = 0
+		}
+	}
+}
+
+country_event = { # Join the ECU
+	id = ASH_focus.11
+	title = ASH_focus.11.t
+	desc = ASH_focus.11.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = ASH_focus.11.a
+		every_state = {
+				limit = {
+				is_core_of = ROOT
+			}
+			add_core_of = X10
+		}
+		X10 = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = { # NO
+		name = ASH_focus.11.b
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Pressure from the ECU
+	id = ASH_focus.12
+	title = ASH_focus.12.t
+	desc = ASH_focus.12.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = ASH_focus.12.a
+		X10 = {
+			puppet = ENG
+		}
+		ai_chance = {
+			base = 3
+		}
+	}
+	
+	option = { # NO
+		name = ASH_focus.12.b
+		leave_faction = yes
+		add_opinion_modifier = {
+			target = X10
+			modifier = large_decrease
+		}
+		reverse_add_opinion_modifier = {
+			target = X10
+			modifier = large_decrease
+		}
+		X10 = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ROOT
+			}	
+		}
+		ai_chance = {
+			base = 1
 		}
 	}
 }
