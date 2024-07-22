@@ -546,6 +546,10 @@ country_event = { # Pressure from the ECU
 		}
 		ai_chance = {
 			base = 3
+			modifier = {
+				factor = 0
+				NOT = { is_in_faction_with = X10 }
+			}
 		}
 	}
 	

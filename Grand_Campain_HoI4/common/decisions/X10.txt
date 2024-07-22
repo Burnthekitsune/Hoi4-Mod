@@ -2996,4 +2996,355 @@ X10_diplo_pressure = {
 			set_country_flag = EUC_germany
 		}
 	}
+	
+	put_pressure_on_ghabat_eazima = {
+		cost = 100
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+		}
+		available = {
+			has_government = communism
+			has_completed_focus = offer_panama
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			BRA = { country_event =  ASH_focus.12 }
+			set_country_flag = BRA_puppet
+		}
+	}
+	
+	spread_influence_north_mex = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+			MEX = {
+				exists = yes
+			}
+			NOT = { has_country_flag = MEX_puppet }
+		}
+		available = {
+			has_government = communism
+			has_completed_focus = mexican_aid
+			BRA = {
+				is_puppet_of = X10
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			MEX = { country_event =  ASH_focus.12 }
+			set_country_flag = MEX_puppet
+		}
+	}
+	spread_influence_north_other = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+			MEX = {
+				exists = no
+			}
+			NOT = { has_country_flag = MEX_puppet }
+		}
+		available = {
+			has_government = communism
+			has_completed_focus = mexican_aid
+			BRA = {
+				is_puppet_of = X10
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			YCM = { country_event =  ASH_focus.12 }
+			V50 = { country_event =  ASH_focus.12 }
+			NVJ = { country_event =  ASH_focus.12 }
+			set_country_flag = MEX_puppet
+		}
+	}
+	
+	the_northern_lands = {
+		cost = 100
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+			has_country_flag = MEX_puppet
+		}
+		available = {
+			has_government = communism
+			has_completed_focus = look_west
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = X08
+				}
+				X08 = { country_event =  ASH_focus.12 }
+			}
+			if = {
+				limit = {
+					country_exists = A19
+				}
+				A19 = { country_event =  ASH_focus.12 }
+			}
+			if = {
+				limit = {
+					country_exists = CAL
+				}
+				CAL = { country_event =  ASH_focus.12 }
+			}
+			if = {
+				limit = {
+					country_exists = SG1
+				}
+				SG1 = { country_event =  ASH_focus.12 }
+			}
+			if = {
+				limit = {
+					country_exists = X51
+				}
+				X51 = { country_event =  ASH_focus.12 }
+			}
+			set_country_flag = na_puppeted
+		}
+	}
+	
+	new_world_puppet = {
+		cost = 100
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_generic_prepare_civil_war
+		visible = {
+			tag = X10
+			has_country_flag = na_puppeted
+		}
+		available = {
+			has_government = communism
+			X08 = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			CAL = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			A19 = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			SG1 = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			BRA = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			X51 = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			X42 = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			NVJ = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			YCM = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+			V50 = {
+				OR = {
+					exists = no
+					is_subject_of = X10
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			BRA = {
+				annex_country = {
+					target = X51
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = YCM
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = V50
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = X42
+					transfer_troops = yes
+				}annex_country = {
+					target = NVJ
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = CAL
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = A19
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = X08
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = SG1
+					transfer_troops = yes
+				}
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = X51
+						is_core_of = YCM
+						is_core_of = V50
+						is_core_of = X42
+						is_core_of = NVJ
+						is_core_of = CAL
+						is_core_of = A19
+						is_core_of = X08
+						is_core_of = SG1
+					}
+				}
+				add_core_of = BRA
+			}
+			BRA = {
+				set_cosmetic_tag = ACU_Communist
+			}
+			set_country_flag = formed_ACU
+		}
+	}
+	
+	deal_with_likland = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_border_war
+		visible = {
+			tag = X10
+			has_country_flag = formed_ACU
+			NOT = {
+				has_country_flag = likland_dealt
+			}
+		}
+		available = {
+			has_government = communism
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = Z03
+			}
+			set_country_flag = deal_with_lik
+		}
+	}
+	
+	add_likland_to_acu = {
+		cost = 50
+		fire_only_once = yes
+		allowed = {
+			tag = X10
+		}
+		icon = GFX_decision_SOV_place_hq
+		visible = {
+			tag = X10
+			has_country_flag = rev_heart
+			OR = {
+				has_country_flag = deal_with_lik
+				Z03 = {
+					is_subject_of = X10
+				}
+			}
+		}
+		available = {
+			has_government = communism
+			Z03 = {
+				is_subject_of = X10
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			BRA = {
+				annex_country = {
+					target = Z03
+					transfer_troops = yes
+				}
+				every_state = {
+					limit = {
+						is_core_of = Z03
+					}
+					add_core_of = BRA
+				}
+			}
+			set_country_flag = likland_dealt
+		}
+	}
 }
